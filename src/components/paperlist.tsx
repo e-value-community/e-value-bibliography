@@ -11,7 +11,7 @@ import {
 } from '@mui/material';
 import { Download, Clear } from '@mui/icons-material';
 import * as React from 'react';
-import { useMemo, useCallback } from 'react';
+import { useMemo, useCallback, useEffect, useRef, useState } from 'react';
 import { useTheme } from '@mui/material/styles';
 import type { Paper } from '@/types';
 import type { YearBasis } from '@/types';
@@ -32,6 +32,9 @@ interface PaperListProps {
   initialYear?: number | null;
   initialYearBasis?: YearBasis;
 }
+
+const INITIAL_PAPER_COUNT = 50;
+const PAPER_BATCH_SIZE = 50;
 
 const PaperList: React.FC<PaperListProps> = ({
   data,
@@ -60,6 +63,39 @@ const PaperList: React.FC<PaperListProps> = ({
     handleClearFilters,
     SPECIAL_LABELS,
   } = usePaperFilter(data, initialVenue, initialYear, initialYearBasis);
+
+  const [visibleCount, setVisibleCount] = useState(INITIAL_PAPER_COUNT);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    setVisibleCount(INITIAL_PAPER_COUNT);
+  }, [data, searchQuery, selLabels, selectedVenue, selectedYear, yearBasis]);
+
+  const visiblePapers = useMemo(
+    () => sortedData.slice(0, visibleCount),
+    [sortedData, visibleCount]
+  );
+  const hasMorePapers = visiblePapers.length < sortedData.length;
+
+  useEffect(() => {
+    const target = loadMoreRef.current;
+    if (!target || !hasMorePapers || !('IntersectionObserver' in window)) {
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        if (!entries[0]?.isIntersecting) return;
+        setVisibleCount(current =>
+          Math.min(current + PAPER_BATCH_SIZE, sortedData.length)
+        );
+      },
+      { rootMargin: '500px 0px' }
+    );
+
+    observer.observe(target);
+    return () => observer.disconnect();
+  }, [hasMorePapers, sortedData.length]);
 
   const updateUrlFilters = useCallback(
     (updates: {
@@ -236,7 +272,7 @@ const PaperList: React.FC<PaperListProps> = ({
                 <Typography variant="body2" color="text.secondary">
                   Showing{' '}
                   <strong>
-                    {sortedData.length} of {data?.length ?? 0}
+                    {visiblePapers.length} of {sortedData.length}
                   </strong>{' '}
                   papers
                   {hasActiveFilters && (
@@ -347,7 +383,7 @@ const PaperList: React.FC<PaperListProps> = ({
               />
             ) : (
               <Stack spacing={1}>
-                {sortedData.map((paper, index) => (
+                {visiblePapers.map((paper, index) => (
                   <Box
                     key={`${paper.title || 'untitled'}-${index}`}
                     sx={{
@@ -363,6 +399,13 @@ const PaperList: React.FC<PaperListProps> = ({
                     />
                   </Box>
                 ))}
+                {hasMorePapers && (
+                  <Box
+                    ref={loadMoreRef}
+                    aria-hidden="true"
+                    sx={{ height: 1 }}
+                  />
+                )}
               </Stack>
             )}
           </Box>

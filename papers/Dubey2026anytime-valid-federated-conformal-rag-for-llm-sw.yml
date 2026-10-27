@@ -31,8 +31,7 @@ labels:
 - e-values
 - e-processes
 publications:
-- name: Mathematical Foundations and Operational Integration of ML for Uncertainty-Aware Decision-Making
-    Poster
+- name: NeurIPS '26 workshop
   year: 2026
   url: https://openreview.net/forum?id=mMKrM44oJQ
 - name: arXiv
@@ -40,4 +39,4 @@ publications:
   url: https://arxiv.org/abs/2605.29139
   arxiv: '2605.29139'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-27'
