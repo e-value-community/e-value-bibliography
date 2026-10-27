@@ -11,7 +11,7 @@ The E-value Bibliography began as a fork of the [Algorithms with Predictions web
 
 ## The e-value community
 
-The bibliography grows through community contributions. Researchers suggest papers, share historical context, identify corrections, and help assess the scope of the collection. Suggestions can be submitted through the [paper submission page](/submit).
+The bibliography grows through community contributions. Researchers suggest papers, share historical context, identify corrections, and help assess the scope of the collection. Suggestions can be submitted through the [Contribute page](https://e-value-community.github.io/e-value-bibliography/submit).
 
 Workshops provide another place for the community to develop and share research on e-values, e-processes, testing by betting, and related sequential methods.
 
