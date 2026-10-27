@@ -180,7 +180,8 @@ const SubmitPage: React.FC = () => {
             candidates and update metadata. Some papers will still be missing,
             and some records may be incomplete or inaccurate. You can help by
             submitting papers or suggesting any correction or improvement to the
-            website.
+            website. To suggest a change to an individual paper, click the edit
+            button on that paper.
           </Typography>
         </div>
 
