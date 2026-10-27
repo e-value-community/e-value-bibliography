@@ -21,7 +21,6 @@ abstract_status: source_abstract
 abstract_source: https://arxiv.org/abs/2408.11307
 labels:
 - theory
-- applications
 - e-values
 - multiple testing
 - probability theory
@@ -35,4 +34,4 @@ publications:
     url: https://arxiv.org/abs/2408.11307
     arxiv: '2408.11307'
 database_added: '2026-10-20'
-database_updated: '2026-10-21'
+database_updated: '2026-10-26'
