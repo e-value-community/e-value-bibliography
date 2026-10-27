@@ -29,8 +29,6 @@ jobs:
       - name: Run website tests
         run: npm test
       - name: Build project
-        env:
-          VITE_GA_MEASUREMENT_ID: ${{ secrets.VITE_GA_MEASUREMENT_ID }}
         run: npm run build
       - name: Configure GitHub Pages
         if: github.event.repository.visibility == 'public'

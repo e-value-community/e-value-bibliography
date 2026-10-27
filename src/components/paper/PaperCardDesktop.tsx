@@ -118,7 +118,6 @@ const PaperCardDesktop: React.FC<PaperCardProps> = ({
                   label={label}
                   isSelected={selectedLabels.includes(label)}
                   onLabelClick={onLabelClick}
-                  paperTitle={paper.title}
                 />
               ))}
             </Stack>
@@ -138,18 +137,11 @@ const PaperCardDesktop: React.FC<PaperCardProps> = ({
             sx={{ flexShrink: 0 }}
           >
             {paper.publications?.map((pub, index: number) => (
-              <PublicationBadge
-                key={`pub-${index}`}
-                publication={pub}
-                paperTitle={paper.title}
-              />
+              <PublicationBadge key={`pub-${index}`} publication={pub} />
             ))}
 
             {showBibtex && (
-              <BibtexCopyButton
-                publications={paper.publications}
-                paperTitle={paper.title}
-              />
+              <BibtexCopyButton publications={paper.publications} />
             )}
           </Stack>
         </Stack>

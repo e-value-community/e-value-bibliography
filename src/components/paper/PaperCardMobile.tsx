@@ -123,17 +123,12 @@ const PaperCardMobile: React.FC<PaperCardProps> = ({
               label={label}
               isSelected={selectedLabels.includes(label)}
               onLabelClick={onLabelClick}
-              paperTitle={paper.title}
             />
           ))}
 
           {/* Publication badges inline with labels */}
           {paper.publications?.map((pub, index: number) => (
-            <PublicationBadge
-              key={`pub-${index}`}
-              publication={pub}
-              paperTitle={paper.title}
-            />
+            <PublicationBadge key={`pub-${index}`} publication={pub} />
           ))}
         </Stack>
         <SuggestEditButton paper={paper} />

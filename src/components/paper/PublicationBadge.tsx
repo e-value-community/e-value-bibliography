@@ -1,5 +1,4 @@
 import { Chip, Tooltip } from '@mui/material';
-import { trackEvent } from '../../utils/analytics';
 import { openInNewTab } from '../../utils/paperUtils';
 import {
   getVenueCanonicalName,
@@ -9,16 +8,12 @@ import type { Publication } from '@/types/paper';
 
 interface PublicationBadgeProps {
   publication: Publication;
-  paperTitle?: string | undefined;
 }
 
 /**
  * Publication badge chip with tooltip and click handling
  */
-const PublicationBadge: React.FC<PublicationBadgeProps> = ({
-  publication,
-  paperTitle = '',
-}) => {
+const PublicationBadge: React.FC<PublicationBadgeProps> = ({ publication }) => {
   const { name, year, url } = publication;
   const isArxiv = name === 'arXiv';
   const displayName = getVenueDisplayName(name);
@@ -29,12 +24,6 @@ const PublicationBadge: React.FC<PublicationBadgeProps> = ({
 
   const handleClick = () => {
     if (url) {
-      trackEvent('publication_link_click', {
-        category: 'paper_interaction',
-        label: paperTitle || 'Unknown paper',
-        custom_parameter_1: name,
-        custom_parameter_2: year?.toString(),
-      });
       openInNewTab(url);
     }
   };

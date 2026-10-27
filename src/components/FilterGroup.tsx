@@ -1,5 +1,4 @@
 import { Box, Typography, Stack, Chip } from '@mui/material';
-import { trackFilter } from '../utils/analytics.js';
 
 type ColorType =
   | 'labels'
@@ -14,7 +13,6 @@ interface FilterGroupProps {
   selectedLabels: string[];
   onLabelsChange: (labels: string[]) => void;
   colorType?: ColorType;
-  trackCategory?: string;
 }
 
 const FilterGroup: React.FC<FilterGroupProps> = ({
@@ -23,7 +21,6 @@ const FilterGroup: React.FC<FilterGroupProps> = ({
   selectedLabels,
   onLabelsChange,
   colorType = 'labels',
-  trackCategory = 'regular_label',
 }) => {
   if (!labels || labels.length === 0) return null;
 
@@ -83,10 +80,8 @@ const FilterGroup: React.FC<FilterGroupProps> = ({
                   onLabelsChange(
                     selectedLabels.filter((l: string) => l !== label)
                   );
-                  trackFilter(trackCategory, `remove_${label}`);
                 } else {
                   onLabelsChange([...selectedLabels, label]);
-                  trackFilter(trackCategory, `add_${label}`);
                 }
               }}
               sx={theme => {

@@ -1,22 +1,19 @@
 import { useState } from 'react';
 import { IconButton, Tooltip, Box } from '@mui/material';
 import { ContentCopy, Check } from '@mui/icons-material';
-import { trackEvent } from '../../utils/analytics';
-import { getBibtexEntries, getMainPublication } from '../../utils/paperUtils';
+import { getBibtexEntries } from '../../utils/paperUtils';
 import type { Publication } from '@/types/paper';
 
 interface BibtexCopyButtonProps {
   publications?: Publication[] | undefined;
-  paperTitle?: string | undefined;
   size?: 'small' | 'medium' | 'large';
 }
 
 /**
- * BibTeX copy button with analytics tracking and success animation
+ * BibTeX copy button with a success animation
  */
 const BibtexCopyButton: React.FC<BibtexCopyButtonProps> = ({
   publications = [],
-  paperTitle = '',
   size = 'small',
 }) => {
   const [copied, setCopied] = useState(false);
@@ -31,13 +28,6 @@ const BibtexCopyButton: React.FC<BibtexCopyButtonProps> = ({
     if (bibtexEntries) {
       void navigator.clipboard?.writeText(bibtexEntries).then(() => {
         setCopied(true);
-
-        const mainPublication = getMainPublication(publications);
-        trackEvent('bibtex_copy', {
-          category: 'paper_interaction',
-          label: paperTitle || 'Unknown paper',
-          custom_parameter_1: mainPublication?.name || 'unknown_venue',
-        });
 
         // Reset after 2 seconds
         setTimeout(() => setCopied(false), 2000);

@@ -1,12 +1,10 @@
 import { Chip, type ChipProps } from '@mui/material';
 import { getLabelColor } from '../../utils/labelUtils';
-import { trackEvent } from '../../utils/analytics';
 
 interface LabelChipProps {
   label: string;
   isSelected?: boolean;
   onLabelClick?: ((label: string) => void) | null;
-  paperTitle?: string | undefined;
 }
 
 type ExtendedChipColor = NonNullable<ChipProps['color']>;
@@ -18,17 +16,11 @@ const LabelChip: React.FC<LabelChipProps> = ({
   label,
   isSelected = false,
   onLabelClick = null,
-  paperTitle = '',
 }) => {
   const labelColor = getLabelColor(label);
 
   const handleClick = () => {
     if (onLabelClick) {
-      trackEvent('paper_label_click', {
-        category: 'paper_interaction',
-        label: label,
-        custom_parameter_1: paperTitle || 'Unknown paper',
-      });
       onLabelClick(label);
     }
   };

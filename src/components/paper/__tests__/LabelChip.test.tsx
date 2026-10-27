@@ -4,11 +4,6 @@ import '@testing-library/jest-dom';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import LabelChip from '../LabelChip';
 
-// Mock analytics
-vi.mock('../../../utils/analytics', () => ({
-  trackEvent: vi.fn(),
-}));
-
 const theme = createTheme({
   palette: {
     labels: {

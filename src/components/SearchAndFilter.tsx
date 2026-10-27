@@ -10,7 +10,6 @@ import {
   Alert,
 } from '@mui/material';
 import { Search, Clear, FilterList } from '@mui/icons-material';
-import { trackSearch } from '../utils/analytics.js';
 import FilterGroup from './FilterGroup';
 
 interface SearchAndFilterProps {
@@ -41,10 +40,6 @@ const SearchAndFilter: React.FC<SearchAndFilterProps> = ({
   // Handle input change with debouncing
   useEffect(() => {
     const timeoutId = setTimeout(() => {
-      if (localSearchQuery) {
-        // Track search without results count (will be tracked elsewhere)
-        trackSearch(localSearchQuery, 0);
-      }
       onSearchChange(localSearchQuery);
     }, 300);
 
@@ -183,7 +178,6 @@ const SearchAndFilter: React.FC<SearchAndFilterProps> = ({
                     colorType={label =>
                       label === 'related work' ? 'default' : 'typeLabels'
                     }
-                    trackCategory="special_label"
                   />
 
                   {/* Regular Labels Section */}
@@ -193,7 +187,6 @@ const SearchAndFilter: React.FC<SearchAndFilterProps> = ({
                     selectedLabels={selectedLabels}
                     onLabelsChange={onLabelsChange}
                     colorType="labels"
-                    trackCategory="regular_label"
                   />
                 </Stack>
 

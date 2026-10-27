@@ -1,4 +1,4 @@
-import { Container, Typography, Box, Button, Stack } from '@mui/material';
+import { Container, Typography, Box, Stack } from '@mui/material';
 
 const sectionSx = {
   pt: { xs: 3, md: 3.5 },
@@ -7,12 +7,6 @@ const sectionSx = {
 };
 
 const PrivacyPage: React.FC = () => {
-  const clearCookiePreferences = (): void => {
-    localStorage.removeItem('cookie_consent');
-    localStorage.removeItem('cookie_consent_date');
-    window.location.reload();
-  };
-
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
       <Stack spacing={{ xs: 3, md: 3.5 }}>
@@ -28,9 +22,9 @@ const PrivacyPage: React.FC = () => {
           </Typography>
 
           <Typography paragraph>
-            The E-value Bibliography may collect anonymous usage data to
-            understand how researchers navigate the collection and which
-            discovery features are useful.
+            The E-value Bibliography uses Cloudflare Web Analytics to collect
+            aggregate usage information. This helps us understand how the
+            bibliography is used without identifying individual visitors.
           </Typography>
         </Box>
 
@@ -39,11 +33,11 @@ const PrivacyPage: React.FC = () => {
             What We Collect
           </Typography>
           <Box component="ul" sx={{ pl: 2, my: 0 }}>
-            <li>Page views and navigation patterns</li>
-            <li>Search queries and filter usage</li>
-            <li>Geographic location (country/region level)</li>
-            <li>Device type and browser information</li>
-            <li>Paper interaction data (views, downloads)</li>
+            <li>Visits and page views</li>
+            <li>Pages visited and referring websites</li>
+            <li>Approximate location at the country level</li>
+            <li>Device, browser, and operating-system information</li>
+            <li>Basic page-performance measurements</li>
           </Box>
         </Box>
 
@@ -52,9 +46,9 @@ const PrivacyPage: React.FC = () => {
             What We Don&apos;t Collect
           </Typography>
           <Box component="ul" sx={{ pl: 2, my: 0 }}>
-            <li>Personal identifying information</li>
-            <li>Email addresses or names</li>
+            <li>Names or email addresses</li>
             <li>Precise location data</li>
+            <li>Cross-site browsing histories</li>
             <li>Data for advertising purposes</li>
           </Box>
         </Box>
@@ -64,20 +58,20 @@ const PrivacyPage: React.FC = () => {
             Cookies and Tracking
           </Typography>
           <Typography paragraph>
-            We use Google Analytics 4 with enhanced privacy settings. Cookies
-            are only set with your explicit consent. You can withdraw consent at
-            any time.
+            Cloudflare Web Analytics does not use cookies, local storage, or
+            fingerprinting to identify or follow visitors. The site therefore
+            does not display an analytics cookie banner.
           </Typography>
         </Box>
 
         <Box component="section" sx={sectionSx}>
           <Typography variant="h6" gutterBottom>
-            Data Retention
+            Contributions
           </Typography>
           <Typography paragraph>
-            Analytics data is automatically deleted after 14 months. We do not
-            retain personal data beyond what&apos;s necessary for understanding
-            website usage.
+            Text submitted through the Contribute page is stored for editorial
+            review. The forms do not ask for a name or email address. Please do
+            not include personal or confidential information in a submission.
           </Typography>
         </Box>
 
@@ -86,20 +80,10 @@ const PrivacyPage: React.FC = () => {
             Your Rights
           </Typography>
           <Typography paragraph>
-            You can opt out of tracking at any time by declining cookies or
-            changing your browser settings. For questions about data usage,
-            contact the site administrator.
+            Browser privacy tools and content blockers can prevent the analytics
+            beacon from loading. For questions about data use, contact the site
+            maintainers through the Contribute page.
           </Typography>
-        </Box>
-
-        <Box sx={{ ...sectionSx, textAlign: 'center' }}>
-          <Button
-            variant="outlined"
-            onClick={clearCookiePreferences}
-            sx={{ mr: 2 }}
-          >
-            Reset Cookie Preferences
-          </Button>
         </Box>
       </Stack>
     </Container>

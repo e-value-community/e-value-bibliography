@@ -1,8 +1,7 @@
-import { useEffect, useRef, memo } from 'react';
+import { memo } from 'react';
 import { useMediaQuery, useTheme } from '@mui/material';
 import PaperCardDesktop from './PaperCardDesktop';
 import PaperCardMobile from './PaperCardMobile';
-import { trackPaperView } from '../../utils/analytics';
 import type { Paper } from '@/types/paper';
 
 export interface PaperCardProps {
@@ -12,79 +11,20 @@ export interface PaperCardProps {
   layout?: 'desktop' | 'mobile';
 }
 
-interface TrackedPaperCardProps extends PaperCardProps {
-  isMobile: boolean;
-}
-
-/**
- * PaperCard wrapper with viewport tracking
- * Uses Intersection Observer to track only visible papers
- */
-const TrackedPaperCard: React.FC<TrackedPaperCardProps> = ({
+const RenderedPaperCard: React.FC<PaperCardProps & { isMobile: boolean }> = ({
   paper,
   selectedLabels = [],
   onLabelClick = null,
   isMobile,
 }) => {
-  // Refs for viewport tracking
-  const cardRef = useRef<HTMLDivElement>(null);
-  const hasTrackedRef = useRef(false);
-  const visibilityTimerRef = useRef<NodeJS.Timeout | null>(null);
-
-  // Track paper view only when it becomes visible in viewport
-  useEffect(() => {
-    if (!cardRef.current) return;
-
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting && !hasTrackedRef.current) {
-            // Wait 1 second before tracking to ensure user is actually viewing
-            // This filters out papers that are scrolled past quickly
-            visibilityTimerRef.current = setTimeout(() => {
-              if (!hasTrackedRef.current) {
-                trackPaperView(
-                  paper.title || 'Unknown paper',
-                  paper.labels?.join(', ') || 'no_category'
-                );
-                hasTrackedRef.current = true;
-              }
-            }, 1000);
-          } else {
-            // Clear timer if paper leaves viewport before 1 second
-            if (visibilityTimerRef.current) {
-              clearTimeout(visibilityTimerRef.current);
-              visibilityTimerRef.current = null;
-            }
-          }
-        });
-      },
-      {
-        threshold: 0.5, // 50% of card must be visible
-        rootMargin: '0px',
-      }
-    );
-
-    observer.observe(cardRef.current);
-
-    return () => {
-      observer.disconnect();
-      if (visibilityTimerRef.current) {
-        clearTimeout(visibilityTimerRef.current);
-      }
-    };
-  }, [paper.title, paper.labels]);
-
   const CardComponent = isMobile ? PaperCardMobile : PaperCardDesktop;
 
   return (
-    <div ref={cardRef}>
-      <CardComponent
-        paper={paper}
-        selectedLabels={selectedLabels}
-        onLabelClick={onLabelClick}
-      />
-    </div>
+    <CardComponent
+      paper={paper}
+      selectedLabels={selectedLabels}
+      onLabelClick={onLabelClick}
+    />
   );
 };
 
@@ -95,12 +35,14 @@ const ResponsivePaperCard: React.FC<PaperCardProps> = props => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
 
-  return <TrackedPaperCard {...props} isMobile={isMobile} />;
+  return <RenderedPaperCard {...props} isMobile={isMobile} />;
 };
 
 const PaperCard: React.FC<PaperCardProps> = props => {
   if (props.layout) {
-    return <TrackedPaperCard {...props} isMobile={props.layout === 'mobile'} />;
+    return (
+      <RenderedPaperCard {...props} isMobile={props.layout === 'mobile'} />
+    );
   }
 
   return <ResponsivePaperCard {...props} />;
