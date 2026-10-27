@@ -1,0 +1,33 @@
+title: Interval Localization for Multiple Change-points with Error Rate Control
+authors: Zijian Wei, Yajie Bao, Haojie Ren, Nan Chen
+year: 2026
+arxiv: '2610.10271'
+abstract: >-
+  Interval localization in multiple change-point detection aims to identify intervals containing
+  true change-points while controlling false discoveries. We formulate this task as a multiple
+  testing problem over detector-reported intervals and develop an algorithm-agnostic and
+  distribution-free framework that controls the interval-level FDR, the expected proportion of
+  retained intervals containing no true change-points. The proposed permutation-based
+  order-preserving interval selection (POIS) uses order-preserving sample splitting to separate
+  detection from permutation testing. To improve power, POIS+ reuses the detection-side evidence
+  and introduces detection-conditional $e$-values as unnormalized weights for permutation
+  $p$-values. Both procedures achieve finite-sample FDR control. Under the stated conditions, POIS
+  attains asymptotically full power while POIS+ has asymptotically no lower power than POIS.
+  Simulation results show that POIS maintains high power and POIS+ further improves power with
+  empirical FDR below the nominal level for both procedures. Two real data applications
+  demonstrate the practical effectiveness of the proposed methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.10271
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.10271
+  arxiv: '2610.10271'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

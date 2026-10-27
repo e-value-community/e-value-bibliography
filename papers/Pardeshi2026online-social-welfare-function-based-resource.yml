@@ -1,0 +1,36 @@
+title: Online Social Welfare Function-based Resource Allocation
+authors: Kanad Shrikar Pardeshi, Samsara Foubert, Aarti Singh
+year: 2026
+arxiv: '2602.01400'
+abstract: >-
+  In many real-world settings, a centralized decision-maker must repeatedly allocate finite
+  resources to a population over multiple time steps. Individuals who receive a resource derive
+  some stochastic utility; to characterize the population-level effects of an allocation, the
+  expected individual utilities are then aggregated using a social welfare function (SWF). We
+  formalize this setting and present a general confidence sequence framework for SWF-based online
+  learning and inference, valid for any monotonic, concave, and Lipschitz-continuous SWF. Our key
+  insight is that monotonicity alone suffices to lift confidence sequences from individual
+  utilities to anytime-valid bounds on optimal welfare. Building on this foundation, we propose
+  SWF-UCB, a SWF-agnostic online learning algorithm that achieves near-optimal
+  $\widetilde{\mathcal{O}}(n+\sqrt{nkT})$ regret for $k$ resources distributed among $n$
+  individuals at each of $T$ time steps. We instantiate our framework on three normatively
+  distinct SWF families: Weighted Power Mean, Kolm, and Gini, providing bespoke oracle algorithms
+  for each. Experiments confirm $\sqrt{T}$ scaling and reveal rich interactions between $k$ and
+  SWF parameters. This framework naturally supports inference applications such as sequential
+  hypothesis testing, optimal stopping, and policy evaluation.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v306/pardeshi26a.html
+labels:
+- applications
+- confidence sequences
+- online learning
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/pardeshi26a.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.01400
+  arxiv: '2602.01400'
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

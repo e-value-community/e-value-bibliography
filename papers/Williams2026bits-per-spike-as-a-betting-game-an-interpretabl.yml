@@ -1,0 +1,33 @@
+title: 'Bits per Spike as a Betting Game: An Interpretable Unit for Held-Out Log-Likelihood in Neural
+  Data Analysis'
+authors: Alex H. Williams
+year: 2026
+abstract: >-
+  Held-out log-likelihood is the standard currency for comparing statistical models of neural
+  spike trains, and is often reported as bits per spike relative to a homogeneous Poisson
+  baseline. The units of this metric are difficult to reason about: it is rarely obvious whether
+  an improvement of, say, $0.34$ bits per spike is a large effect or a negligible one. This note
+  develops an interpretation of held-out log-likelihood borrowed from game-theoretic statistics.
+  If $L$ denotes a model's expected log-likelihood ratio to the homogeneous Poisson baseline, then
+  we show that $-\log(α) / L$ represents the number of heldout time bins of recording needed to
+  reject the baseline at level $α$ under a particular null hypothesis testing procedure based on a
+  betting game. Thus, a simple re-scaling of the log-likelihood yields an intuitive metric of
+  model performance in units of recording time which answers "how much held out data would I need,
+  on average, to disprove the null." We illustrate the construction on head-direction cells
+  recorded in mouse anterior thalamus, where a generalized linear model reaches significance in
+  roughly $120$ ms of held-out data for a strongly tuned cell and roughly $11$ s for a moderately
+  tuned cell.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.28779
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.28779
+  arxiv: '2607.28779'
+arxiv: '2607.28779'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

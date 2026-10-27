@@ -1,0 +1,32 @@
+title: A simple geometric proof for the characterisation of e-merging functions
+authors: Eugenio Clerico
+year: 2026
+doi: 10.1016/j.spl.2026.110750
+arxiv: '2512.09708'
+abstract: >-
+  E-values offer a powerful framework for aggregating evidence across different (possibly
+  dependent) statistical experiments. A fundamental question is to identify e-merging functions,
+  namely mappings that merge several e-values into a single valid e-value. A simple and elegant
+  characterisation of this function class was recently obtained by Wang(2025), though via
+  technically involved arguments. This note gives a short and intuitive geometric proof of the
+  same characterisation, based on a supporting hyperplane argument applied to concave envelopes.
+  We also show that the result holds even without imposing monotonicity in the definition of
+  e-merging functions, which was needed for the existing proof. This shows that any non-monotone
+  merging rule is automatically dominated by a monotone one, and hence extending the definition
+  beyond the monotone case brings no additional generality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.09708
+labels:
+- theory
+- e-values
+publications:
+- name: Statistics & Probability Letters
+  year: 2026
+  url: https://doi.org/10.1016/j.spl.2026.110750
+  doi: 10.1016/j.spl.2026.110750
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.09708
+  arxiv: '2512.09708'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

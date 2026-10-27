@@ -1,0 +1,58 @@
+title: Bacillus Calmette-Guérin vaccine to reduce COVID-19 infections and hospitalisations in healthcare
+  workers – a living systematic review and prospective ALL-IN meta-analysis of individual participant
+  data from randomised controlled trials
+authors: J.A. (Judith) ter Schure, Alexander Ly, Lisa Belin, Christine S. Benn, Marc J.M. Bonten, Jeffrey
+  D. Cirillo, Johanna A.A. Damen, Inês Fronteira, Kelly D. Hendriks, Ana Paula Junqueira-Kipnis, André
+  Kipnis, Odile Launay, Jose Euberto Mendez-Reyes, Judit Moldvay, Mihai G. Netea, Sebastian Nielsen, Caryn
+  M. Upton, Gerben van den Hoogen, Jesper M. Weehuizen, Peter D. Grünwald, C.H. (Henri) van Werkhoven
+year: 2022
+doi: 10.1101/2022.12.15.22283474
+abstract: >-
+  Abstract BACKGROUND The objective is to determine the impact of the Bacillus Calmette - Guérin
+  (BCG) vaccine compared to placebo or no vaccine on COVID-19 infections and hospitalisations in
+  healthcare workers. We are using a living and prospective approach to
+  Individual-Participant-Data (IPD) meta-analysis of ongoing studies based on the Anytime Live and
+  Leading Interim (ALL-IN) meta-analysis statistical methodology. METHODS Planned and ongoing
+  randomised controlled trials were identified from trial registries and by snowballing (final
+  elicitation: Oct 3 2022). The methodology was specified prospectively – with no trial results
+  available – for trial inclusion as well as statistical analysis. Inclusion decisions were made
+  collaboratively based on a risk-of-bias assessment by an external protocol review committee
+  (Cochrane risk-of-bias tool adjusted for use on protocols), expected homogeneity in treatment
+  effect, and agreement with the predetermined event definitions. The co-primary endpoints were
+  incidence of COVID-19 infection and COVID-19-related hospital admission. Accumulating IPD from
+  included trials was analysed sequentially using the exact e -value logrank test (at level α =
+  0.5% for infections and level α = 4.5% for hospitalisations) and anytime-valid 95%-confidence
+  intervals (CIs) for the hazard ratio (HR) for a predetermined fixed-effects approach to
+  meta-analysis (no measures of statistical heterogeneity). Infections were included if
+  demonstrated by PCR tests, antigen tests or suggestive lung CTs. Participants were censored at
+  date of first COVID-19-specific vaccination and two-stage analyses were performed in calendar
+  time, with a stratification factor per trial. RESULTS Six trials were included in the primary
+  analysis with 4 433 participants in total. The e -values showed no evidence of a favourable
+  effect of minimal clinically relevance (HR < 0.8) in comparison to the null (HR = 1) for
+  COVID-19 infections, nor for COVID-19 hospitalisations (HR < 0.7 vs HR = 1). COVID-19 infection
+  was observed in 251 participants receiving BCG and 244 participants not receiving BCG, HR 1.02
+  (anytime-valid 95%-CI 0.78-1.35). COVID-19 hospitalisations were observed in 13 participants
+  receiving BCG and 7 not receiving BCG, resulting in an uninformative estimate (HR 1.88;
+  anytime-valid 95%-CI 0.26-13.40). DISCUSSION It is highly unlikely that BCG has a clinically
+  relevant effect on COVID-19 infections in healthcare workers. With only limited observations, no
+  conclusion could be drawn for COVID-19 related hospitalisation. Due to the nature of ALL-IN
+  meta-analysis, emerging data from new trials can be included without violating type - I error
+  rates or interval coverage. We intend to keep this meta-analysis alive and up-to-date, as more
+  trials report. For COVID-19 related hospitalisations, we do not expect enough future
+  observations for a meaningful analysis. For BCG-mediated protection against COVID-19 infections,
+  on the other hand, more observations could lead to a more precise estimate that concludes the
+  meta-analysis for futility, meaning that the current interval excludes the HR of 0.8
+  predetermined as effect size of minimal clinical relevance. OTHER No external funding.
+  Preregistered at PROSPERO: CRD42021213069.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1101/2022.12.15.22283474
+labels:
+- applications
+- e-values
+publications:
+- name: Manuscript
+  year: 2022
+  url: https://doi.org/10.1101/2022.12.15.22283474
+  doi: 10.1101/2022.12.15.22283474
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

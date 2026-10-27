@@ -1,0 +1,31 @@
+title: Universal Inference for model selection on networks
+authors: Eric Yanchenko, Jonathan P. Williams, Ryan Martin
+year: 2026
+arxiv: '2606.30981'
+abstract: >-
+  Model selection and hypothesis testing are important tasks on networks. A key challenge lies in
+  the inherent dependence in network data, as well as the fact that typically only a single
+  realization is observed. As a result, many existing methods must be carefully tailored to
+  specific models and only come with asymptotic theoretical guarantees. In this work, however, we
+  propose a general model selection framework using Universal Inference, making our method widely
+  applicable to various testing scenarios. Since Universal Inference requires two sets of data, we
+  employ edge sampling to obtain proper networks with tractable dependence. We prove that the
+  proposed statistic is an e-value, thus controlling the type I error rate in finite samples under
+  nearly any hypothesis test. To our knowledge, this is the first Universal Inference-type
+  statistic constructed from dependent splits of data as well as the first finite-sample testing
+  guarantee for hypothesis testing on networks. We also prove that the logarithm of the test
+  statistic diverges to positive infinity under various alternative models. On simulated and
+  real-world networks, the proposed method performs well on tasks such as choosing the random
+  graph model and the number of communities.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.30981
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.30981
+  arxiv: '2606.30981'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

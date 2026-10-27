@@ -1,0 +1,35 @@
+title: Carefree multiple testing with e-processes
+authors: Yury Tavyrikov, Jelle J. Goeman, Rianne de Heide
+year: 2026
+doi: 10.1214/26-ejs2546
+arxiv: '2501.19360'
+abstract: >-
+  E-processes enable hypothesis testing with ongoing data collection while maintaining Type I
+  error control. However, when testing multiple hypotheses simultaneously, current $e$-value based
+  multiple testing methods such as e-BH are not invariant to the order in which data are gathered
+  for the different $e$-processes. This can lead to undesirable situations, e.g., where a
+  hypothesis rejected at time $t$ is no longer rejected at time $t+1$ after choosing to gather
+  more data for one or more $e$-processes unrelated to that hypothesis. We argue that multiple
+  testing methods should always work with suprema of $e$-processes. We provide an example to
+  illustrate that e-BH does not control the FDR, at level $α$ when applied to suprema of
+  $e$-processes. From the same example we see that the FWER is not controlled with averaging, and
+  also closed e-BH does not control the FDR. We show that adjusters can be used to ensure FDR-sup
+  control with e-BH under arbitrary dependence.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.19360
+labels:
+- methodology
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: Electronic Journal of Statistics
+  year: 2026
+  url: https://doi.org/10.1214/26-ejs2546
+  doi: 10.1214/26-ejs2546
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.19360
+  arxiv: '2501.19360'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,36 @@
+title: 'Beyond Prediction: Conformal Inference for Latent Distributional Parameters'
+authors: Minxing Zheng, Wenbin Zhou, Shixiang Zhu
+year: 2026
+arxiv: '2608.03607'
+abstract: >-
+  Many prediction problems seek to infer an unobserved, instance-specific parameter that governs
+  the distribution of an observable response, even though the latent parameter is unavailable for
+  both historical and future instances. We develop LatentCP, a prior-free conformal framework that
+  constructs uncertainty sets for latent distributional parameters using only observed
+  context--response pairs and a specified forward model. The method first constructs a conformal
+  prediction set in the observable response space and then retains candidate latent parameters
+  according to the probability their induced response distributions assign to that set. This
+  inversion provides finite-sample marginal coverage without requiring latent calibration labels,
+  a unique inverse mapping, or knowledge of the latent mixing distribution. Because latent-set
+  efficiency depends nonmonotonically on the response-space miscoverage rate, we further introduce
+  a multilevel procedure that aggregates normalized incompatibility scores across several response
+  sets and selects the aggregation distribution using an independent tuning sample. Across
+  synthetic experiments, LatentCP maintains nominal latent coverage under weak forward
+  identification, observational nonidentifiability, and latent heterogeneity and multimodality,
+  where empirical-Bayes, likelihood-based, and proxy-label conformal methods can substantially
+  under-cover. On a California wildfire real dataset, it produces spatially adaptive uncertainty
+  sets for latent fire intensity. Independent tuning improves efficiency, while multilevel
+  aggregation provides additional gains when different response levels contain complementary
+  information, without sacrificing validity.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.03607
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.03607
+    arxiv: '2608.03607'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

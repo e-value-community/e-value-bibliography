@@ -1,0 +1,33 @@
+title: On the universality of e-processes for sequential testing
+authors: Aaditya Ramdas
+year: 2026
+abstract: >-
+  An e-process is a nonnegative adapted process whose expectation is at most one under every null
+  distribution at every stopping time. It has been shown that a sequential test has level at most
+  $\alpha$ if and only if it can be represented by thresholding an e-process at $1/\alpha$.
+  However, this universality statement does not characterize e-processes: it is also satisfied by
+  \emph{weak e-processes}, which satisfy the expectation bound only at the process's own
+  threshold-crossing times with deterministic deadlines rather than at all stopping times. What,
+  then, distinguishes full e-processes? We examine several natural testing and decision
+  guarantees, asking whether each is equivalent to the full definition. For example, we show that
+  randomized testing at arbitrary stopping times, post-hoc testing with unrestricted positive
+  scales, and control of data-dependent false-rejection costs, each characterize full e-processes
+  exactly, as does requiring weak validity to survive arbitrary stopping. Ordinary adjusters
+  recover only fixed-threshold testing validity, whereas a family of generalized adjusters that
+  also retain the current value gives another exact characterization. These results separate
+  universal representation from properties that identify exactly the class of e-processes.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.25740/jy665fz0693
+labels:
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.25740/jy665fz0693
+  doi: 10.25740/jy665fz0693
+doi: 10.25740/jy665fz0693
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

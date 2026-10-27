@@ -1,0 +1,37 @@
+title: 'The Acquisition Clock in Bell Records: Exact Fibers and Schedule-Dependent Temporal Inference'
+authors: Fazel Khayatian
+year: 2026
+doi: 10.20944/preprints202608.0537.v1
+abstract: >-
+  Bell statistics characterize setting-conditioned one-trial behavior. They do not generally
+  determine the joint law of an ordered record. We define exact one-trial fibers that contain
+  processes with identical marginal Bell behavior and different cross-trial dependence. We then
+  separate three components of the acquisition architecture. These components are sampling
+  geometry, trial admission, and programmed measurement context. The distinction determines which
+  mathematical and causal assumptions apply. For equatorial GHZ measurements, we construct
+  explicit temporally distinct models in the same one-trial fiber and derive the sharp
+  one-direction hiding cap. A second-order schedule map shows how periodic sampling can suppress
+  informative lags or create exact aliases. Outcome involutions yield an anytime-valid e-process
+  under predictable conditional symmetry. Source-gated analyses of NIST, Delft, Weihs, AlmostDI,
+  and ETH records illustrate exclusion, anomaly routing, event-ready admission, pairing
+  sensitivity, cross-talk localization, and model comparison. Controlled experiments on one IBM
+  Marrakesh QPU test the analysis under internally committed ground truth. IBM-1 recovers all 180
+  injected telegraph blocks up to a global label and recovers an injected line frequency to 1.13 ×
+  10−5 cycles per tick. IBM-2 recovers twelve programmed phases with mean circular error 0.043
+  rad. A training phase-orbit model predicts held-out co-located CHSH witnesses. The aligned
+  witness is 2.8086, while a full phase sweep gives 0.0306. Matched separable controls remain
+  below a simultaneous upper bound of 1.113. These experiments demonstrate identifiability and
+  aggregation procedures under the programmed models. They do not establish a spontaneous hardware
+  clock or a spacelike Bell test on the QPU.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.20944/preprints202608.0537.v1
+labels:
+- applications
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.20944/preprints202608.0537.v1
+  doi: 10.20944/preprints202608.0537.v1
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

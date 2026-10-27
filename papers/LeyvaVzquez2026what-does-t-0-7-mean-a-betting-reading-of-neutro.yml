@@ -1,0 +1,33 @@
+title: What does T = 0.7 mean? A betting reading of neutrosophic triplets built from several sources,
+  with anytime error guarantees and its limits, and its refinement when T is part of a refined neutrosophic
+  set
+authors: Maikel Yelandi Leyva-Vázquez, Florentin Smarandache
+year: 2026
+abstract: >-
+  We ask what a neutrosophic triplet means when it summarises several sources. T and F are the
+  winnings of two opposed bettors, I splits into conflict and ignorance, and verdicts keep their
+  error rates under repeated analysis of 33 streptokinase trials. An added section refines T
+  itself, as in the n-valued refined neutrosophic set. Read with the sources as possible worlds,
+  the betting T is a relative truth, true in at least one source; an absolute truth, true in every
+  source, is obtained from the smallest single-source e-value, carries its own error bound, and by
+  construction never coexists with a positive falsity. Truth can also be refined into graded
+  sub-hypotheses, whose degrees are merged into one T with the guarantee preserved by averaging
+  the capitals, not by a t-conorm on the degrees. In simulation, absolute truth is rarely reached
+  with many sources, which makes the existential reading of T measurable. Preprint, version of 15
+  October 2026. Submitted to the International Journal of Analysis and Applications; not yet peer
+  reviewed. The archive supplementary_code.zip contains the Python code, tests, registrations and
+  result files.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.23406348
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.23406348
+  doi: 10.5281/zenodo.23406348
+doi: 10.5281/zenodo.23406348
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

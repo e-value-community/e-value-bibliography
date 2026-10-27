@@ -1,0 +1,32 @@
+title: Active multiple testing with proxy p-values and e-values
+authors: Ziyu Xu, Catherine Wang, Larry Wasserman, Kathryn Roeder, Aaditya Ramdas
+year: 2025
+arxiv: '2502.05715'
+abstract: >-
+  Researchers often lack the resources to test every hypothesis of interest directly or compute
+  test statistics comprehensively, but often possess auxiliary data from which we can compute an
+  estimate of the experimental outcome. We introduce a novel approach for selecting which
+  hypotheses to query a statistic (e.g., run an experiment, perform expensive computation, etc.)
+  in a hypothesis testing setup by leveraging estimates to compute proxy statistics. Our framework
+  allows a scientist to propose a proxy statistic and then query the true statistic with some
+  probability based on the value of the proxy. We make no assumptions about how the proxy is
+  derived, and it can be arbitrarily dependent on the true statistic. If the true statistic is not
+  queried, the proxy is used in its place. We characterize "active" methods that produce valid
+  p-values and e-values in this setting and utilize this framework in the multiple testing setting
+  to create procedures with false discovery rate (FDR) control. Through simulations and real data
+  analysis of causal effects in scCRISPR screen experiments, we empirically demonstrate that our
+  proxy framework has both high power and low resource usage when our proxies are accurate
+  estimates of the respective true statistics.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.05715
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.05715
+  arxiv: '2502.05715'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

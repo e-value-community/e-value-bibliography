@@ -1,0 +1,26 @@
+title: Admissible improvement to the exchangeable Markov inequality with statistical applications
+authors: Aaditya Ramdas
+year: 2026
+abstract: >-
+  The exchangeable Markov inequality of Ramdas and Manole controls the probability that a prefix
+  average of nonnegative exchangeable observations crosses a threshold. We show that the
+  inequality can be uniformly improved. Applications include improved Chebyshev and Chernoff
+  inequalities under exchangeability, more powerful repeated-split universal inference, and
+  smaller p-value combinations. For the exchangeable R\"uger family, we obtain fully admissible
+  monotone mergers with polynomial preprocessing and sorting-time evaluation. For other mergers,
+  we give inexpensive strict refinements, but we explain a computational obstruction to generic
+  exact permutation algorithms.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.25740/hv421yk6687
+labels:
+- methodology
+- theory
+- e-values
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.25740/hv421yk6687
+  doi: 10.25740/hv421yk6687
+doi: 10.25740/hv421yk6687
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: 'A Tutorial on Safe Anytime-Valid Inference: Practical Maximally Flexible Sampling Designs for
+  Experiments Based on e-Values'
+authors: Alexander Ly, Udo Boehm, Peter Grünwald, Aaditya Ramdas, Don van Ravenzwaaij
+year: 2024
+doi: 10.31234/osf.io/h5vae_v4
+abstract: >-
+  We demonstrate how e-values simplify both experimental design and the inference process. With
+  e-values researchers can perform anytime-valid tests and construct confidence intervals that
+  maintain type I error control regardless of the sample size. This enables real-time monitoring
+  of evidence as data are collected, permitting early termination of experiments without
+  intolerably inflating the risk of false discoveries. Early stopping not only conserves
+  resources, but also mitigates risk for participants in clinical settings. Anytime-valid tests
+  allow for optional continuation, that is, the extension of an experiment, for instance if more
+  funds become available, or even if the evidence looks promising and the funding agency, a
+  reviewer, or an editor urges the experimenter to collect more data. Analogously, a researcher
+  can be assured that a 95% anytime-valid confidence interval will, with at least 95% probability,
+  cover the true effect size regardless of how, or even if, data collection is stopped. We use the
+  free and open-source software package safestats implemented in R to illustrate the practical
+  benefits of this novel inference framework.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.31234/osf.io/h5vae_v4
+labels:
+- applications
+- e-values
+- confidence sequences
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.31234/osf.io/h5vae_v4
+  doi: 10.31234/osf.io/h5vae_v4
+database_added: '2026-10-20'
+database_updated: '2026-10-24'

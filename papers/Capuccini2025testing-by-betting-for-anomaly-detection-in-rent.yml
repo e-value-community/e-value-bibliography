@@ -1,0 +1,30 @@
+title: Testing by Betting for Anomaly Detection in Rental E-Scooter GNSS Traces
+authors: Marco Capuccini, Rahul Rajendra Pai, Lars Carlsson
+year: 2025
+abstract: >-
+  Shared micromobility, particularly rental e-scooters, has rapidly transformed urban
+  transportation. Voi Technology has been at the forefront of this shift, powering over 300M rides
+  across Europe. While most customers use the service responsibly, mitigating reckless riding
+  emerges as a significant challenge given the high ridership. Previous research shows that riders
+  taking indirect routes are more likely to be involved in safety-critical events, suggesting
+  potentially irresponsible riding behavior. However, directness alone can overlook important
+  intra-trip patterns. Therefore, in this study, we use GNSS positioning as a proxy for intra-trip
+  riding behavior. We model a typical ride as a sequence of turning angles derived from GNSS
+  coordinates and detect anomalies leveraging the testing-by-betting framework, which provides
+  formal guarantees on false positive rates while achieving a favorable trade-off with false
+  negatives. The presented method is designed to operate under limited onboard compute, with
+  minimal complexity for deployment across large vehicle fleets, without requiring the GNSS trace
+  to be stored—a key privacy advantage. In a real-world evaluation, the method detects
+  approximately 60% of reckless rides while maintaining operationally acceptable false positive
+  rates.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v266/capuccini25a.html
+labels:
+- applications
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2025
+  url: https://raw.githubusercontent.com/mlresearch/v266/main/assets/capuccini25a/capuccini25a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

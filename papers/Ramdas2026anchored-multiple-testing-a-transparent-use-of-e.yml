@@ -1,0 +1,38 @@
+title: 'Anchored multiple testing: a transparent use of e-closure to improve FDR procedures'
+authors: Aaditya Ramdas
+year: 2026
+arxiv: '2610.11279'
+abstract: >-
+  The recent e-closure method can recover every procedure that controls FDR (and other expectation
+  losses). But the recovered e-collection is ``self-referential'' and gives no insight on how to
+  improve the procedure (if improvable), and some recent improvements have been somewhat opaque.
+  We introduce an elementary new technique called anchoring that exploits looseness in existing
+  FDR proofs to enlarge a baseline multiple-testing procedure's self-referential local e-value.
+  The resulting e-closure thus transparently retains every baseline discovery (and usually adding
+  more) and controlling the false discovery rate under the same conditions as the baseline. To
+  show that this principle is broadly applicable, we use it to improve a large suite of multiple
+  testing procedures: (i) Anchored-BH dominates the Benjamini-Hochberg (BH) procedure under PRDS
+  while being incomparable to Goeman's recent closed-BH, (ii) Anchored-BY dominates the
+  Benjamini-Yekutieli (BY) procedure under arbitrary dependence while being incomparable to
+  closed-BY, (iii) For two-sided Gaussian p-values (under appropriate covariance conditions),
+  Anchored-2BH dominates running BH twice at half the level on two one-sided p-values, (iv)
+  Anchored-dBH dominates dependence-adjusted BH, (v) Anchored e-BH dominates e-BH and is
+  incomparable to closed e-BH, (vi) Anchored SeqStep+ improves the original (including selective
+  and adpative variants) while preserving ordered rejection structures. All of these are
+  accomplished in sorting or quadratic time. The appendix shows how to dominate Shifted-BH (for
+  two-sided arbitrarily correlated Gaussians) and NDBH (for negatively dependent p-values), IndBH
+  (for graph-dependent p-values), some online FDR procedures and the support line procedure for
+  boundary FDR control.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.11279
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.11279
+  arxiv: '2610.11279'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,23 @@
+title: The diachronic Bayesian
+authors: Vladimir Vovk
+year: 2023
+arxiv: '2308.13069'
+abstract: >-
+  It is well known that a Bayesian probability forecast for all future observations should be a
+  probability measure in order to satisfy a natural condition of coherence. The main topics of
+  this paper are the evolution of the Bayesian probability measure and ways of testing its
+  adequacy as it evolves over time. The process of testing evolving Bayesian beliefs is modelled
+  in terms of betting, similarly to the standard Dutch book treatment of coherence. The resulting
+  picture is adapted to forecasting several steps ahead and making almost optimal decisions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2308.13069
+labels:
+- methodology
+- probability theory
+publications:
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2308.13069
+    arxiv: '2308.13069'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

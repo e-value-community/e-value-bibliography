@@ -1,0 +1,33 @@
+title: 'Axioms for validity: e-values, p-values and data-dependent levels'
+authors: Nick W. Koning
+year: 2026
+arxiv: '2605.28429'
+abstract: >-
+  The emerging literature on hypothesis testing with data-dependent significance levels relies on
+  a particular extension of the Type-I error. Existing arguments for this extension are heuristic.
+  We show it is uniquely characterized by three axioms: law-invariance, agreement with classical
+  testing on constant levels, and the preservation of (in)validity under independent selection of
+  the level. We find that three analogous axioms characterize the e-value as a multi-decision
+  generalization of a test in a decision-theoretic framework. We recover the p-value by dropping
+  the invalidity half of the independent selection axiom, showing that e-values correspond to
+  those p-values for which a data-independent choice between two invalid p-values cannot produce a
+  valid p-value. Our main technical contribution is to show how e-values emerge in every decision
+  problem with a notion of validity that satisfies law invariance, the independent selection
+  axiom, and an axiom stating that a procedure that selects an invalid procedure with arbitrarily
+  high probability must itself be invalid. In an application to post-hoc decision-making, we
+  justify expectation-based error rates in multiple testing and recover the 'e-closure principle'
+  as a special case.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.28429
+labels:
+- methodology
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.28429
+  arxiv: '2605.28429'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

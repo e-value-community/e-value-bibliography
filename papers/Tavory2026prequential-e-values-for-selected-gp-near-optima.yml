@@ -1,0 +1,34 @@
+title: Prequential E-Values for Selected-GP Near-Optimality Certificates
+authors: Ami Tavory, Noa Cohen
+year: 2026
+arxiv: '2609.39123'
+abstract: >-
+  When optimizing an expensive black-box function sequentially, as in hyperparameter optimization,
+  we may want to stop once the best evaluated value is certified within $\varepsilon$ of the
+  global optimum. Such a certificate needs two ingredients: a lower confidence bound for the
+  selected value and an upper confidence envelope over the domain, typically supplied by a
+  Gaussian process (GP). GP-UCB-style stopping rules are valid when the kernel and constants
+  defining this envelope are fixed before the run, but the practical temptation is to tune the
+  envelope from the same adaptive evaluations and then certify as if it had been fixed. We use
+  prequential e-values to make this selection auditable: starting from a predeclared set of fully
+  specified GP/RKHS envelopes, each candidate is tested by its own one-step-ahead e-process,
+  contradicted candidates are deleted, and certification uses the largest upper bound among the
+  survivors. With a valid selected-point lower bound and one declared candidate having valid
+  latent coverage and noise calibration, the rule is anytime-valid. On a 512-seed noisy RBF stress
+  sweep, it roughly halves false-certification risk at comparable power versus fit-then-certify.
+  Relative to random fixed GP precommitment on smooth $d=3,4$ objectives, each additional false
+  certificate is accompanied by 3.0 and 13.5 additional correct certificates, respectively.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.39123
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2609.39123
+    arxiv: '2609.39123'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

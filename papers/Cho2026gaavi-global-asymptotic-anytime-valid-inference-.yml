@@ -1,0 +1,31 @@
+title: 'GAAVI: Global Asymptotic Anytime Valid Inference for the Conditional Mean Function'
+authors: Brian M Cho, Raaz Dwivedi, Nathan Kallus
+year: 2026
+arxiv: '2602.08096'
+abstract: >-
+  Inference on the conditional mean function (CMF) is central to tasks from adaptive
+  experimentation to optimal treatment assignment and algorithmic fairness auditing. In this work,
+  we provide a novel asymptotic anytime-valid test for a CMF global null (e.g., that all
+  conditional means are zero) and contrasts between CMFs, enabling experimenters to make high
+  confidence decisions at any time during the experiment beyond a minimum sample size. We provide
+  mild conditions under which our tests achieve (i) asymptotic type-I error guarantees, (i) power
+  one, and, unlike past tests, (iii) optimal sample complexity relative to a Gaussian location
+  testing. By inverting our tests, we show how to construct function-valued asymptotic confidence
+  sequences for the CMF and contrasts thereof. Experiments on both synthetic and real-world data
+  show our method is well-powered across various distributions while preserving the nominal error
+  rate under continuous monitoring.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.08096
+labels:
+- methodology
+- confidence sequences
+publications:
+  - name: International Conference on Machine Learning
+    year: 2026
+    url: https://proceedings.mlr.press/v306/cho26c.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2602.08096
+    arxiv: '2602.08096'
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

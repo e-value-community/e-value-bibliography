@@ -1,0 +1,39 @@
+title: Improving Wald's (approximate) sequential probability ratio test by avoiding overshoot
+authors: Lasse Fischer, Aaditya Ramdas
+year: 2026
+doi: 10.1109/tit.2026.3658855
+arxiv: '2410.16076'
+abstract: >-
+  Wald's sequential probability ratio test (SPRT) is a cornerstone of sequential analysis. Based
+  on desired type-I, II error levels $α, β$, it stops when the likelihood ratio crosses certain
+  thresholds, guaranteeing optimality of the expected sample size. However, these thresholds are
+  not closed form and the test is often applied with approximate thresholds $(1-β)/α$ and
+  $β/(1-α)$ (approximate SPRT). When $β> 0$, this neither guarantees error control at $α,β$ nor
+  optimality. When $β=0$ (power-one SPRT), this method is conservative and not optimal. The
+  looseness in both cases is caused by \emph{overshoot}: the test statistic overshoots the
+  thresholds at the stopping time. Numerically calculating thresholds may be infeasible, and most
+  software packages do not do this. We improve the approximate SPRT by modifying the test
+  statistic to avoid overshoot. Our `sequential boosting' technique uniformly improves power-one
+  SPRTs $(β=0)$ for simple nulls and alternatives, or for one-sided nulls and alternatives in
+  exponential families. When $β> 0$, our techniques provide guaranteed error control at $α,β$,
+  while needing less samples than the approximate SPRT in our simulations. We also provide several
+  nontrivial extensions: confidence sequences, sampling without replacement and conformal
+  martingales.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2410.16076
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: IEEE Transactions on Information Theory
+  year: 2026
+  url: https://doi.org/10.1109/tit.2026.3658855
+  doi: 10.1109/tit.2026.3658855
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2410.16076
+  arxiv: '2410.16076'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

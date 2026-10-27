@@ -1,0 +1,32 @@
+title: Testing Semantic Importance via Betting
+authors: Jacopo Teneggi, Jeremias Sulam
+year: 2024
+doi: 10.52202/079017-2435
+arxiv: '2405.19146'
+abstract: >-
+  Recent works have extended notions of feature importance to semantic concepts that are
+  inherently interpretable to the users interacting with a black-box predictive model. Yet,
+  precise statistical guarantees, such as false positive rate and false discovery rate control,
+  are needed to communicate findings transparently and to avoid unintended consequences in
+  real-world scenarios. In this paper, we formalize the global (i.e., over a population) and local
+  (i.e., for a sample) statistical importance of semantic concepts for the predictions of opaque
+  models by means of conditional independence, which allows for rigorous testing. We use recent
+  ideas of sequential kernelized independence testing (SKIT) to induce a rank of importance across
+  concepts, and showcase the effectiveness and flexibility of our framework on synthetic datasets
+  as well as on image classification tasks using several and diverse vision-language models.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2405.19146
+labels:
+- applications
+- e-values
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2024
+  url: https://doi.org/10.52202/079017-2435
+  doi: 10.52202/079017-2435
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2405.19146
+  arxiv: '2405.19146'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

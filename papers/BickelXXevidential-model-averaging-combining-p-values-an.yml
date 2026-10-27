@@ -1,0 +1,32 @@
+title: >-
+  Evidential model averaging: Combining p-values and Bayes factors to propagate uncertainty about
+  statistical methods and their assumptions
+authors: David R. Bickel
+year: 2024
+abstract: >-
+  The non-replicability of many research results has been attributed in part to the freedom of
+  researchers to choose a method of hypothesis testing in order to achieve statistical
+  significance. Bayesian model averaging over the suitable methods could address the problem if
+  both a prior probability of the null hypothesis and a prior distribution of the parameters given
+  each model were available. The unavailability of a prior probability of the null hypothesis may
+  be handled by combining Bayes factors across the models representing the candidate methods.
+  Under broad conditions, the combined Bayes factor is a weighted mean of the model-specific Bayes
+  factors. Then the unavailability of prior distributions of the parameters given each model may
+  be addressed by replacing them with estimated Bayes factors. Estimated Bayes factors include
+  approximations such as those of the Bayesian information criterion. Using calibrated p-values as
+  estimated Bayes factors extends the model averages to the combination of p-values across
+  candidate testing methods using the same data. The combined p-value thereby propagates
+  uncertainty about which testing method to use. In the case of averaging two testing methods, the
+  combined p-value is notably less sensitive to the calibration method than is the weighted mean
+  of the Bayes factor estimates.
+abstract_status: source_abstract
+abstract_source: https://hal.science/hal-04621298
+labels:
+- methodology
+- e-values
+publications:
+  - name: Preprint
+    year: 2024
+    url: https://hal.science/hal-04621298
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

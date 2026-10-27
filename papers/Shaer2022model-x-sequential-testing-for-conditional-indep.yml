@@ -1,0 +1,34 @@
+title: Model-X Sequential Testing for Conditional Independence via Testing by Betting
+authors: Shalev Shaer, Gal Maman, Yaniv Romano
+year: 2023
+arxiv: '2210.00354'
+abstract: >-
+  This paper develops a model-free sequential test for conditional independence. The proposed test
+  allows researchers to analyze an incoming i.i.d. data stream with any arbitrary dependency
+  structure, and safely conclude whether a feature is conditionally associated with the response
+  under study. We allow the processing of data points online, as soon as they arrive, and stop
+  data acquisition once significant results are detected, rigorously controlling the type-I error
+  rate. Our test can work with any sophisticated machine learning algorithm to enhance data
+  efficiency to the extent possible. The developed method is inspired by two statistical
+  frameworks. The first is the model-X conditional randomization test, a test for conditional
+  independence that is valid in offline settings where the sample size is fixed in advance. The
+  second is testing by betting, a ``game-theoretic'' approach for sequential hypothesis testing.
+  We conduct synthetic experiments to demonstrate the advantage of our test over out-of-the-box
+  sequential tests that account for the multiplicity of tests in the time horizon, and demonstrate
+  the practicality of our proposal by applying it to real-world tasks.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.00354
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2023
+    url: https://proceedings.mlr.press/v206/shaer23a.html
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2210.00354
+    arxiv: '2210.00354'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

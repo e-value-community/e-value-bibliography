@@ -1,0 +1,32 @@
+title: Choosing the nominal level post-hoc with knockoffs using e-values
+authors: Lasse Fischer, Konstantinos Sechidis
+year: 2025
+arxiv: '2511.11166'
+abstract: >-
+  The knockoff filter is a powerful tool for controlled variable selection with false discovery
+  rate (FDR) control. In this paper, we leverage e-values to allow the nominal FDR level to be
+  switched post-hoc, after looking at the data and applying the knockoff procedure. This approach
+  addresses a significant limitation of standard knockoffs: while frequently used in
+  high-dimensional regressions, they often lack power in low-dimensional and sparse signal
+  settings. One of the main reasons for this is that the knockoff filter requires a minimum number
+  of selections that depends strictly on the nominal FDR level. By utilizing e-values, we can
+  increase the nominal level in cases where the original procedure makes no discoveries, or
+  decrease it to improve precision when discoveries are abundant. These improvements come without
+  any costs, meaning the results of our post-hoc procedure are always more informative than those
+  of the original knockoff filter. We extend this methodology to recently proposed derandomized
+  knockoff procedures and demonstrate its utility in variable selection problems relevant to drug
+  development using real clinical trial data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2511.11166
+labels:
+- applications
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2511.11166
+  arxiv: '2511.11166'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

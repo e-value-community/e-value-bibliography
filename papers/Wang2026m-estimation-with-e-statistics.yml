@@ -1,0 +1,29 @@
+title: M-estimation with e-statistics
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2026
+arxiv: '2605.30485'
+abstract: >-
+  We present a theory of point estimation with e-statistics (e-values and e-processes) by
+  introducing the "ME-estimator": the parameter that minimizes the corresponding e-statistic, or
+  the evidence against it. Our approach is based on the intuitive idea of e-statistics as a
+  measure of evidence and betting pay-off, and naturally generalizes the classical method of
+  maximum likelihood estimation. First, we establish the consistency as well as the almost sure
+  convergence rate for ME-estimators relating to the high-probability bounds on the size of the
+  confidence set derived from thresholding the e-statistics, an approach that sets ME-estimators
+  apart from traditional M-estimators. Second, we conduct classical M-estimator-style analysis on
+  the consistency and asymptotic normality of ME-estimators in the bounded mean estimation
+  setting, discussing the notion of efficiency (or lack thereof) from various choices of betting
+  strategy. Our work brings e-statistics, a fundamental tool for inference and uncertainty
+  quantification, to the space of estimation.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.30485
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.30485
+  arxiv: '2605.30485'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

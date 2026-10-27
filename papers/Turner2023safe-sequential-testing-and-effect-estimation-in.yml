@@ -1,0 +1,30 @@
+title: Safe Sequential Testing and Effect Estimation in Stratified Count Data
+authors: Rosanne J. Turner, Peter Grünwald
+year: 2023
+arxiv: '2302.11401'
+abstract: >-
+  Sequential decision making significantly speeds up research and is more cost-effective compared
+  to fixed-n methods. We present a method for sequential decision making for stratified count data
+  that retains Type-I error guarantee or false discovery rate under optional stopping, using
+  e-variables. We invert the method to construct stratified anytime-valid confidence sequences,
+  where cross-talk between subpopulations in the data can be allowed during data collection to
+  improve power. Finally, we combine information collected in separate subpopulations through
+  pseudo-Bayesian averaging and switching to create effective estimates for the minimal, mean and
+  maximal treatment effects in the subpopulations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2302.11401
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2023
+    url: https://proceedings.mlr.press/v206/turner23a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2302.11401
+    arxiv: '2302.11401'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

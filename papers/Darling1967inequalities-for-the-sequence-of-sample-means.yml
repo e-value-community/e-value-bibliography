@@ -1,0 +1,21 @@
+title: INEQUALITIES FOR THE SEQUENCE OF SAMPLE MEANS
+authors: D. A. Darling, Herbert Robbins
+year: 1967
+doi: 10.1073/pnas.57.6.1577
+abstract: >-
+  The lack of myostatin promotes growth of skeletal muscle, and blockade of its activity has been
+  proposed as a treatment for various muscle-wasting disorders. Here, we have examined two
+  independent mouse lines that harbor mutations in the myostatin gene, ...
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.57.6.1577
+labels:
+- methodology
+- theory
+- confidence sequences
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 1967
+    url: https://doi.org/10.1073/pnas.57.6.1577
+    doi: 10.1073/pnas.57.6.1577
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

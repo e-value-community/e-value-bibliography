@@ -1,0 +1,33 @@
+title: Time-Uniform Dependent Central Limit Theory
+authors: Mingxuan Ge, Yanlong Liu
+year: 2026
+arxiv: '2610.29288'
+abstract: >-
+  We establish a near-optimal almost sure invariance principle for nonstationary time series under
+  the functional dependence measure (FDM) framework. This result yields a universal time-uniform
+  dependent central limit theorem, which serves as the basis for anytime-valid inference. In
+  particular, we instantiate the theorem through asymptotic confidence sequences (AsympCSs),
+  time-uniform counterparts of asymptotic confidence intervals obtained via central limit
+  theorems, extending those originally proposed in Waudby-Smith et al. (2024) to time series with
+  serial dependence. We further refine their definition because, as we show, it can admit AsympCSs
+  that fail to achieve the desired asymptotic time-uniform coverage for a broad class of
+  data-generating processes, including independent and identically distributed cases. We address
+  this issue by adding a simple eventual-inclusion condition, which in turn permits more flexible
+  variance estimation, particularly useful in time-series settings. For feasible implementation
+  of AsympCSs, we establish strong consistency of HAC variance estimators under the FDM framework,
+  accommodating a wider range of commonly used bandwidth choices than existing results under
+  mixing conditions. As illustrations, we construct AsympCSs for algorithms with Markovian
+  structure and time-series-based causal estimands.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.29288
+labels:
+- methodology
+- confidence sequences
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.29288
+  arxiv: '2610.29288'
+database_added: '2026-10-22'
+database_updated: '2026-10-22'

@@ -1,0 +1,28 @@
+title: Active Hypothesis Testing under Computational Budgets
+authors: Qi Kuang, Bowen Gang, Yin Xia
+year: 2025
+arxiv: '2512.01423'
+abstract: >-
+  In large-scale hypothesis testing, computing exact $p$-values or $e$-values is often
+  resource-intensive, creating a need for budget-aware inferential methods. We propose a general
+  framework for active hypothesis testing that leverages inexpensive auxiliary statistics to
+  allocate a global computational budget. For each hypothesis, our data-adaptive procedure
+  probabilistically decides whether to compute the exact test statistic or a transformed proxy,
+  guaranteeing a valid $p$-value or $e$-value under the stated assumptions while satisfying the
+  exact budget constraint. We establish optimality for active $e$-values and develop optimality
+  and admissibility theory for active $p$-values. Empirical results from simulations and two
+  real-world applications, including a large-scale genome-wide association study and {a clinical
+  prediction task using a large language model to impute a costly feature}, demonstrate that our
+  framework improves statistical efficiency under fixed resource limits.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.01423
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.01423
+  arxiv: '2512.01423'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

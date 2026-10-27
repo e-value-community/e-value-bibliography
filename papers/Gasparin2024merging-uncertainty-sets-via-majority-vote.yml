@@ -1,0 +1,31 @@
+title: Merging uncertainty sets via majority vote
+authors: Matteo Gasparin, Aaditya Ramdas
+year: 2024
+doi: null
+arxiv: '2401.09379'
+abstract: >-
+  Given $K$ uncertainty sets that are arbitrarily dependent -- for example, confidence intervals
+  for an unknown parameter obtained with $K$ different estimators, or prediction sets obtained via
+  conformal prediction based on $K$ different algorithms on shared data -- we address the question
+  of how to efficiently combine them in a black-box manner to produce a single uncertainty set. We
+  present a simple and broadly applicable majority vote procedure that produces a merged set with
+  nearly the same error guarantee as the input sets. We then extend this core idea in a few ways:
+  we show that weighted averaging can be a powerful way to incorporate prior information, and a
+  simple randomization trick produces strictly smaller merged sets without altering the coverage
+  guarantee. Further improvements can be obtained if the sets are exchangeable. We also show that
+  many modern methods, like split conformal prediction, median of means, HulC and cross-fitted
+  ``double machine learning'', can be effectively derandomized using these ideas.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.09379
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2401.09379
+  arxiv: '2401.09379'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

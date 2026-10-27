@@ -1,0 +1,35 @@
+title: Anytime-Valid Tests of Factor Alphas
+authors: Xiaoquan Liu
+year: 2026
+abstract: >-
+  Standard tests of cross-sectional predictors---p-value corrections, Bayesianposterior
+  odds---assume a fixed sample size. Factor research is sequential:a predictor is discovered, new
+  data are added, and what gets tested nextdepends on what has been seen. Under such optional
+  stopping and continuation, no classical procedure retains the error rates its users assume.
+  Iconstruct an anytime-valid test of $H_0 : \alpha_F = 0$ in two steps. Factor returnsare first
+  projected on benchmark loadings estimated from past data alone,without an intercept, so the
+  residual series has mean equal to the interceptand contains no look-ahead. A hypothetical
+  investor then places bounded,predictable bets on those residuals; her wealth is an e-process, a
+  nonnegativemartingale under the null, and the test rejects when it exceeds $1/\alpha$.
+  Ville&apos;sinequality keeps the error probability below $\alpha$ at every stopping time.
+  Theconstruction is closed-form and runs on any long--short return series. Weapply it to the 212
+  publicly available predictors, conditioning on the Fama--French five factors over
+  1963:07--2023:12.Of the 212, 76 reject at the $1/\alpha = 20$ threshold. The median
+  post-publicationgrowth rate of the 212 predictors falls to 22\% of its pre-publication level.
+  Outof sample, e-value screening selects fewer factors than $|t| > 2$ or $|t| > 3$, andits e-BH
+  variant earns the largest point estimate of FF5 alpha (5.0\%/yr)
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7357270
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7357270
+  doi: 10.2139/ssrn.7357270
+doi: 10.2139/ssrn.7357270
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,34 @@
+title: 'PDC-MAKES: a conditional screening method for controlling false discoveries in high-dimensional
+  multi-response setting'
+authors: Wei Xiong, Han Pan, Tong Shen
+year: 2025
+doi: 10.1093/biomtc/ujaf042
+abstract: >-
+  ABSTRACT The coexistences of high dimensionality and strong correlation in both responses and
+  predictors pose unprecedented challenges in identifying important predictors. In this paper, we
+  propose a model-free conditional feature screening method with false discovery rate (FDR)
+  control for ultrahigh-dimensional multi-response setting. The proposed method is built upon
+  partial distance correlation, which measures the dependence between two random vectors while
+  controlling effect for a multivariate random vector. This screening approach is robust against
+  heavy-tailed data and can select predictors in instances of high correlation among predictors.
+  Additionally, it can identify predictors that are marginally unrelated but conditionally related
+  with the response. Leveraging the advantageous properties of partial distance correlation, our
+  method allows for high-dimensional variables to be conditioned upon, distinguishing it from
+  current research in this field. To further achieve FDR control, we apply derandomized
+  knockoff-e-values to establish the threshold for feature screening more stably. The proposed FDR
+  control method is shown to enjoy sure screening property while maintaining FDR control as well
+  as achieving higher power under mild conditions. The superior performance of these methods is
+  demonstrated through simulation examples and a real data application.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/biomtc/ujaf042
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Biometrics
+  year: 2025
+  url: https://doi.org/10.1093/biomtc/ujaf042
+  doi: 10.1093/biomtc/ujaf042
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

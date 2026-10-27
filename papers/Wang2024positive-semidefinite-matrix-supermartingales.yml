@@ -1,0 +1,36 @@
+title: Positive Semidefinite Matrix Supermartingales
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2025
+doi: 10.1214/25-ejp1416
+arxiv: '2401.15567'
+abstract: >-
+  We explore the asymptotic convergence and nonasymptotic maximal inequalities of supermartingales
+  and backward submartingales in the space of positive semidefinite matrices. These are natural
+  matrix analogs of scalar nonnegative supermartingales and backward nonnegative submartingales,
+  whose convergence and maximal inequalities are the theoretical foundations for a wide and
+  ever-growing body of results in statistics, econometrics, and theoretical computer science. Our
+  results lead to new concentration inequalities for either martingale-dependent or exchangeable
+  random symmetric matrices under a variety of tail conditions, encompassing now-standard Chernoff
+  bounds to self-normalized heavy-tailed settings. Further, these inequalities are usually
+  expressed in the Loewner order, are sometimes valid simultaneously for all sample sizes or at an
+  arbitrary data-dependent stopping time, and can often be tightened via an external randomization
+  factor.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.15567
+labels:
+- theory
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Electronic Journal of Probability
+  year: 2025
+  url: https://doi.org/10.1214/25-ejp1416
+  doi: 10.1214/25-ejp1416
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2401.15567
+  arxiv: '2401.15567'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

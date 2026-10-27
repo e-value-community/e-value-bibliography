@@ -1,0 +1,33 @@
+title: Sequential Scoring Rule Evaluation for Forecast Method Selection
+authors: David T. Frazier, Donald S. Poskitt
+year: 2025
+arxiv: '2505.09090'
+abstract: >-
+  This paper shows that sequential statistical analysis techniques can be generalised to the
+  problem of selecting between alternative forecasting methods using scoring rules. A return to
+  basic principles is necessary in order to show that ideas and concepts from sequential
+  statistical methods can be adapted and applied to sequential scoring rule evaluation (SSRE). One
+  key technical contribution of this paper is the development of a large deviations type result
+  for SSRE schemes using a change of measure that parallels a traditional exponential tilting
+  form. Further, we also show that SSRE will terminate in finite time with probability one, and
+  that the moments of the SSRE stopping time exist. A second key contribution is to show that the
+  exponential tilting form underlying our large deviations result allows us to cast SSRE within
+  the framework of generalised e-values. Relying on this formulation, we devise sequential testing
+  approaches that are both powerful and maintain control on error probabilities underlying the
+  analysis. Through several simulated examples, we demonstrate that our e-values based SSRE
+  approach delivers reliable results that are more powerful than more commonly applied testing
+  methods precisely in the situations where these commonly applied methods can be expected to
+  fail.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.09090
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.09090
+  arxiv: '2505.09090'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

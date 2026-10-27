@@ -1,0 +1,38 @@
+title: 'The Detect Law: Zero-Shot Detection of Machine-Generated Text with an Integer-Exact, Heterogeneity-Aware
+  Sequential Test'
+authors: Devieswar Kancheti
+year: 2026
+abstract: >-
+  We present The Detect Law, a zero-shot detector of machine-generated text that combines three
+  per-token signals from two small open language models with an exact 32-bit integer sequential
+  decision rule. A base model (Llama-3.2-1B) and its instruction-tuned twin supply a surprise
+  signal (how much more predictable each token is than the base model expects), a contrast signal
+  (how much more the instruction-tuned model prefers the chosen token), and a repetition signal
+  (whether tokens are reused less often than the base model predicts). Each signal is centred and
+  scaled by constants measured on human-written text only; no detector is trained on
+  machine-generated text. The null model gives every human text its own persistent stylistic bias,
+  which keeps a human text's statistic bounded as the text grows, and the decision rule combines a
+  fixed-length end-of-text test with anytime-valid early stopping derived from Ville's inequality,
+  under a design false-positive budget of 1%. The ranking score is the one-sided chi-bar-squared
+  statistic. On the official RAID test set (672,000 texts: 11 generators, 8 domains, 4 decoding
+  settings, 11 adversarial attacks), RAID's evaluation service reports that The Detect Law detects
+  92.33% of machine-generated text at a 5% false-positive rate without attacks (86.54% at 1%) and
+  88.99% when attacks are included (AUROC 96.48). This is the highest score among the zero-shot
+  detectors evaluated on RAID; Binoculars, the strongest previous one, scores 78.98% and 69.54%.
+  The detector needs one forward pass of each of two 1.24B-parameter models per token, and it
+  scored the full RAID test set in 5.6 hours on a single NVIDIA A30 GPU.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.23257822
+labels:
+- methodology
+- applications
+- e-processes
+- e-detectors
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.23257822
+  doi: 10.5281/zenodo.23257822
+doi: 10.5281/zenodo.23257822
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

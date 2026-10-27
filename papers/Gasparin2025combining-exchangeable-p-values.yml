@@ -1,0 +1,38 @@
+title: Combining exchangeable p-values
+authors: Matteo Gasparin, Ruodu Wang, Aaditya Ramdas
+year: 2025
+doi: 10.1073/pnas.2410849122
+arxiv: '2404.03484'
+abstract: >-
+  The problem of combining p-values is an old and fundamental one, and the classic assumption of
+  independence is often violated or unverifiable in many applications. There are many well-known
+  rules that can combine a set of arbitrarily dependent p-values (for the same hypothesis) into a
+  single p-value. We show that essentially all these existing rules can be strictly improved when
+  the p-values are exchangeable, or when external randomization is allowed (or both). For example,
+  we derive randomized and/or exchangeable improvements of well known rules like ``twice the
+  median'' and ``twice the average'', as well as geometric and harmonic means. Exchangeable
+  p-values are often produced one at a time (for example, under repeated tests involving data
+  splitting), and our rules can combine them sequentially as they are produced, stopping when the
+  combined p-values stabilize. Our work also improves rules for combining arbitrarily dependent
+  p-values, since the latter becomes exchangeable if they are presented to the analyst in a random
+  order. The main technical advance is to show that all existing combination rules can be obtained
+  by calibrating the p-values to e-values (using an $α$-dependent calibrator), averaging those
+  e-values, converting to a level-$α$ test using Markov's inequality, and finally obtaining
+  p-values by combining this family of tests; the improvements are delivered via recent randomized
+  and exchangeable variants of Markov's inequality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2404.03484
+labels:
+- methodology
+- e-values
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 2025
+    url: https://doi.org/10.1073/pnas.2410849122
+    doi: 10.1073/pnas.2410849122
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2404.03484
+    arxiv: '2404.03484'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

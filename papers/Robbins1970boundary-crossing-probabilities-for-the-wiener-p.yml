@@ -1,0 +1,32 @@
+title: Boundary Crossing Probabilities for the Wiener Process and Sample Sums
+authors: Herbert Robbins, David Siegmund
+year: 1970
+doi: 10.1214/aoms/1177696787
+abstract: >-
+  Let $W(t)$ denote a standard Wiener process for $0 \leqq t 0$ (or for some $t > 0$) for a
+  certain class of functions $g(t)$, including functions which are $\sim (2t\log\log
+  t)^{\frac{1}{2}}$ as $t\rightarrow\infty$. We also prove an invariance theorem which states that
+  this probability is the limit as $m \rightarrow \infty$ of the probability that $S_n \geqq
+  m^{\frac{1}{2}}g(n/m)$ for some $n \geqq \tau m$ (or for some $n \geqq 1)$, where $S_n$ is the
+  $n$th partial sum of any sequence $x_1, x_2,\cdots$ of independent and identically distributed
+  (i.i.d.) random variables with mean 0 and variance 1. The main results were announced in [19].
+  Some aspects of the invariance theorem were considered independently by Muller [14], who also
+  studied the rate of convergence to the limiting distribution. Statistical applications of these
+  ideas are indicated in [3] and [18]. In Section 2 we state the general theorems and give several
+  examples. Sections 3-5 are devoted to the proof of these results. In Section 6 we indicate the
+  applicability of our methods to stochastic processes other than the Wiener process. Of
+  particular interest in this regard is the analogue of Theorem 1 for Bessel diffusion processes.
+  Section 7 raises questions which will be treated in a subsequent paper.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aoms/1177696787
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: The Annals of Mathematical Statistics
+    year: 1970
+    url: https://doi.org/10.1214/aoms/1177696787
+    doi: 10.1214/aoms/1177696787
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

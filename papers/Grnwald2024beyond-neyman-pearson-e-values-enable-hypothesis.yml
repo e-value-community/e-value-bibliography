@@ -1,0 +1,37 @@
+title: 'Beyond Neyman–Pearson: e-values enable hypothesis testing with a data-driven alpha'
+authors: Peter Grünwald
+year: 2024
+doi: 10.1073/pnas.2302098121
+arxiv: '2205.00901'
+abstract: >-
+  A standard practice in statistical hypothesis testing is to mention the p-value alongside the
+  accept/reject decision. We show the advantages of mentioning an e-value instead. With p-values,
+  it is not clear how to use an extreme observation (e.g. p $\ll α$) for getting better
+  frequentist decisions. With e-values it is straightforward, since they provide Type-I risk
+  control in a generalized Neyman-Pearson setting with the decision task (a general loss function)
+  determined post-hoc, after observation of the data -- thereby providing a handle on `roving
+  $α$'s'. When Type-II risks are taken into consideration, the only admissible decision rules in
+  the post-hoc setting turn out to be e-value-based. Similarly, if the loss incurred when
+  specifying a faulty confidence interval is not fixed in advance, standard confidence intervals
+  and distributions may fail whereas e-confidence sets and e-posteriors still provide valid risk
+  guarantees. Sufficiently powerful e-values have by now been developed for a range of classical
+  testing problems. We discuss the main challenges for wider development and deployment.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2205.00901
+openalex_id: null
+s2_id: null
+labels:
+- theory
+- methodology
+- e-values
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 2024
+    url: https://doi.org/10.1073/pnas.2302098121
+    doi: 10.1073/pnas.2302098121
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2205.00901
+    arxiv: '2205.00901'
+database_added: '2026-10-20'
+database_updated: '2026-10-23'

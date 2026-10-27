@@ -1,0 +1,34 @@
+title: Uncertainty Quantification and Risk Control for Multiple Sound Source Localization
+authors: Vadim Rozenfeld, Bracha Laufer Goldshtein
+year: 2026
+abstract: >-
+  Reliable Sound Source Localization (SSL) plays an essential role in many downstream tasks, where
+  informed decision making depends not only on accurate localization but also on the confidence in
+  each estimate. This need for reliability becomes even more pronounced in challenging conditions,
+  such as reverberant environments and multi-source scenarios. However, existing SSL methods
+  typically provide only point estimates, offering limited or no Uncertainty Quantification (UQ).
+  We leverage the Conformal Prediction (CP) framework and its extensions for controlling general
+  risk functions to develop two complementary UQ approaches for SSL. The first assumes that the
+  number of active sources is known and constructs prediction regions that cover the true source
+  locations. The second addresses the more challenging setting where the source count is unknown,
+  first reliably estimating the number of active sources and then forming corresponding prediction
+  regions. We evaluate the proposed methods on extensive simulations and real-world recordings
+  across varying reverberation levels and source configurations. Results demonstrate reliable
+  finite-sample guarantees and consistent performance for both known and unknown source-count
+  scenarios, highlighting the practical utility of the proposed frameworks for uncertainty-aware
+  SSL.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.17377
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.17377
+  arxiv: '2603.17377'
+arxiv: '2603.17377'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

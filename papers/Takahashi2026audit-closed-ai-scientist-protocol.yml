@@ -1,0 +1,43 @@
+title: Audit-Closed AI Scientist Protocol
+authors: K Takahashi
+year: 2026
+abstract: >-
+  AI scientist systems and self-driving laboratories require governance protocols that are
+  statistically valid under continuous monitoring, auditable without privileged operators, and
+  robust to physical-world failure modes. We present an audit-closed protocol in which every
+  decision is a deterministic function of a public transparency log, with all semantic claims
+  grounded in explicitly declared observable contexts. The formal core integrates typed stochastic
+  observation interfaces, tolerance-aware predictive semantics, and non-vacuous coherence auditing
+  on finite acyclic proof graphs. To resolve the deterministic-pipeline tension, we combine
+  explicit deterministic-depth controls with a Lipschitz observation-translation theorem that
+  converts latent Wasserstein closeness into observable totalvariation guarantees. For sequential
+  inference we use always-valid e-processes with gate-wise alpha accounting, robust score
+  sanitization plus integrity monitoring, and anti-griefing novelty dynamics with signal-qualified
+  eligible-cost updates. For adaptive experimentation we provide two regimes: a conservative
+  fixed-ratio IPS test and a variance-adaptive predictable betting process that preserves
+  optionalstopping validity while avoiding high-ratio evidence paralysis. For physical deployment
+  we introduce hierarchical primary/secondary sentinels, spoofing-aware coherence gates, and
+  auditable calibration transitions that separate sensor aging from sentinel degradation. For
+  long-horizon autonomy we use drift-mode state transitions, exogenous-only root-memory decay, and
+  subgraph-local fault localization with familywise error control. We prove system-level
+  guarantees covering adaptive optional stopping, variance-adaptive evidence growth,
+  Byzantineresilient aggregation, legal-spam stability, drift-localization safety, and mixture
+  re-anchoring coherence. A fully reproducible synthetic benchmark confirms improved availability
+  under outliers, high-ratio contextual exploration, root-debt erosion attacks, and sentinel aging
+  while maintaining conservative false-acceptance behavior; the released manifest includes
+  cryptographic digests and an automatic manuscript-value consistency check.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7338438
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7338438
+  doi: 10.2139/ssrn.7338438
+doi: 10.2139/ssrn.7338438
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

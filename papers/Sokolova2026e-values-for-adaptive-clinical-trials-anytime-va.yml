@@ -1,0 +1,39 @@
+title: 'E-values for Adaptive Clinical Trials: Anytime-Valid Monitoring in Practice'
+authors: Alexandra Sokolova, Vadim Sokolov
+year: 2026
+arxiv: '2602.06379'
+abstract: >-
+  Adaptive clinical trials rely on interim analyses, flexible stopping, and data-dependent design
+  modifications that complicate statistical guarantees when fixed-horizon test statistics are
+  repeatedly inspected or reused after adaptations. E-values and e-processes provide anytime-valid
+  tests and confidence sequences that remain valid under optional stopping and optional
+  continuation without requiring a prespecified monitoring schedule. This paper is a methodology
+  guide for practitioners. We develop the betting-martingale construction of e-processes for
+  two-arm randomized controlled trials, show how e-values naturally handle composite null
+  hypotheses and support futility monitoring, and provide guidance on when e-values are
+  appropriate, when established alternatives are preferable, and how to integrate e-value
+  monitoring with group sequential and Bayesian adaptive workflows. A numerical study compares
+  five monitoring rules -- naive and calibrated versions of frequentist, Bayesian, and e-value
+  approaches -- in a two-arm binary-endpoint trial. Naive repeated testing and naive posterior
+  thresholds inflate Type I error substantially under frequent interim looks. Among the valid
+  methods, the calibrated group sequential rule achieves the highest power, the e-value rule
+  provides robust anytime-valid control with moderate power, and the calibrated Bayesian rule is
+  the most conservative. Extended simulations show that the power gap between group sequential and
+  e-value methods depends on the monitoring schedule and reverses under continuous monitoring. The
+  methodology, including futility monitoring, platform trial multiplicity control, and hybrid
+  strategies combining e-values with established methods, is implemented in the open-source R
+  package `evalinger` and situated within the regulatory framework of the January 2026 FDA draft
+  guidance on Bayesian methodology.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.06379
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.06379
+  arxiv: '2602.06379'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

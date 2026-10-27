@@ -1,0 +1,34 @@
+title: Quantum Sequential Universal Hypothesis Testing
+authors: Matteo Zecchin, Osvaldo Simeone, Aaditya Ramdas
+year: 2025
+arxiv: '2508.21594'
+abstract: >-
+  Quantum hypothesis testing (QHT) concerns the statistical inference of unknown quantum states.
+  In the general setting of composite hypotheses, the goal of QHT is to determine whether an
+  unknown quantum state belongs to one or another of two classes of states based on the
+  measurement of a number of copies of the state. Prior art on QHT with composite hypotheses
+  focused on a fixed-copy two-step protocol, with state estimation followed by an optimized joint
+  measurement. However, this fixed-copy approach may be inefficient, using the same number of
+  copies irrespective of the inherent difficulty of the testing task. To address these
+  limitations, we introduce the quantum sequential universal test (QSUT), a novel framework for
+  sequential QHT in the general case of composite hypotheses. QSUT builds on universal inference,
+  and it alternates between adaptive local measurements aimed at exploring the hypothesis space
+  and joint measurements optimized for maximal discrimination. QSUT is proven to rigorously
+  control the type I error under minimal assumptions about the hypothesis structure. We present
+  two practical instantiations of QSUT, one based on the Helstrom-Holevo test and one leveraging
+  shallow variational quantum circuits. Empirical results across a range of composite QHT tasks
+  demonstrate that QSUT consistently reduces copy complexity relative to state-of-the-art
+  fixed-copy strategies.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2508.21594
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2508.21594
+  arxiv: '2508.21594'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

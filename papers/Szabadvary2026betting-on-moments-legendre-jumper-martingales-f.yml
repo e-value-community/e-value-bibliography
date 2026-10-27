@@ -1,0 +1,34 @@
+title: 'Betting on Moments: Legendre Jumper Martingales for Online Exchangeability Testing'
+authors: Johan Hallberg Szabadváry
+year: 2026
+arxiv: '2606.20859'
+abstract: >-
+  A fundamental assumption in statistics and machine learning is that ``the future looks like the
+  past,'' formalized as exchangeability: the joint data distribution is order-invariant. In
+  practice, this assumption is often violated due to distribution shifts over time. Early
+  detection of exchangeability violations is crucial to prevent performance degradation and enable
+  timely interventions like model retraining. Conformal test martingales offer a flexible,
+  distribution-free framework for sequential exchangeability testing with guaranteed false-alarm
+  rate control by betting against the uniformity of conformal p-values. While alternatives such as
+  plug-in martingales and mixture-based strategies exist, computationally efficient baselines like
+  the Simple Jumper are limited to detecting mean location shifts. We propose a family of
+  conformal test martingales based on shifted Legendre polynomials that extend the Simple Jumper
+  to higher-order moments. The Simple Legendre Jumper replaces linear betting functions with
+  polynomials of arbitrary degree, enabling rapid detection of variance, skewness, and other
+  higher-order deviations. The Product Legendre Jumper combines multiple polynomial degrees into a
+  single betting function but suffers from exponential state-space growth, termed the jumping tax.
+  To resolve this, we introduce the Variational Legendre Jumper, which employs a mean-field
+  approximation to reduce complexity to constant time per step with minimal power loss, providing
+  an expressive, scalable framework for real-time distribution shift monitoring.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.20859
+labels:
+- methodology
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.20859
+    arxiv: '2606.20859'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

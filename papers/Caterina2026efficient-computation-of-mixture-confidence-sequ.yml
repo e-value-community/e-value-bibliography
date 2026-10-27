@@ -1,0 +1,27 @@
+title: Efficient computation of mixture confidence sequences in generalized linear models
+authors: Claudia Di Caterina, Luigi Pace, Alessandra Salvan, Nicola Sartori
+year: 2026
+arxiv: '2609.20496'
+abstract: >-
+  Classical confidence intervals, when repeatedly obtained on accumulating data at different
+  sample sizes, produce contradictory inferences with high probability. We propose a simple and
+  efficient strategy for computing, instead, mixture confidence sequences for regression
+  coefficients in generalized linear models under this sequential framework. Simulations
+  demonstrate the computational convenience of our approach and the importance of drawing
+  inferential conclusions based on these anytime-valid tools when observations become available in
+  batches over time. The usefulness of the proposed procedure is also shown in the analysis of
+  streaming data from the American National Automotive Sampling System.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.20496
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.20496
+  arxiv: '2609.20496'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

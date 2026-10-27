@@ -1,0 +1,37 @@
+title: Testing randomness online
+authors: Vladimir Vovk
+year: 2021
+doi: 10.1214/20-sts817
+arxiv: '1906.09256'
+abstract: >-
+  The hypothesis of randomness is fundamental in statistical machine learning and in many areas of
+  nonparametric statistics; it says that the observations are assumed to be independent and coming
+  from the same unknown probability distribution. This hypothesis is close, in certain respects,
+  to the hypothesis of exchangeability, which postulates that the distribution of the observations
+  is invariant with respect to their permutations. This paper reviews known methods of testing the
+  two hypotheses concentrating on the online mode of testing, when the observations arrive
+  sequentially. All known online methods for testing these hypotheses are based on conformal
+  martingales, which are defined and studied in detail. The paper emphasizes conceptual and
+  practical aspects and states two kinds of results. Validity results limit the probability of a
+  false alarm or the frequency of false alarms for various procedures based on conformal
+  martingales, including conformal versions of the CUSUM and Shiryaev-Roberts procedures.
+  Efficiency results establish connections between randomness, exchangeability, and conformal
+  martingales.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1906.09256
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-processes
+publications:
+  - name: Statistical Science
+    year: 2021
+    url: https://doi.org/10.1214/20-STS817
+    doi: 10.1214/20-sts817
+  - name: arXiv
+    year: 2019
+    url: https://arxiv.org/abs/1906.09256
+    arxiv: '1906.09256'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

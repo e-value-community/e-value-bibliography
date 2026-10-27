@@ -1,0 +1,38 @@
+title: 'Derandomized knockoffs: leveraging e-values for false discovery rate control'
+authors: Zhimei Ren, Rina Foygel Barber
+year: 2024
+doi: 10.1093/jrsssb/qkad085
+arxiv: '2205.15461'
+abstract: >-
+  Model-X knockoffs is a flexible wrapper method for high-dimensional regression algorithms, which
+  provides guaranteed control of the false discovery rate (FDR). Due to the randomness inherent to
+  the method, different runs of model-X knockoffs on the same dataset often result in different
+  sets of selected variables, which is undesirable in practice. In this paper, we introduce a
+  methodology for derandomizing model-X knockoffs with provable FDR control. The key insight of
+  our proposed method lies in the discovery that the knockoffs procedure is in essence an e-BH
+  procedure. We make use of this connection, and derandomize model-X knockoffs by aggregating the
+  e-values resulting from multiple knockoff realizations. We prove that the derandomized procedure
+  controls the FDR at the desired level, without any additional conditions (in contrast,
+  previously proposed methods for derandomization are not able to guarantee FDR control). The
+  proposed method is evaluated with numerical experiments, where we find that the derandomized
+  procedure achieves comparable power and dramatically decreased selection variability when
+  compared with model-X knockoffs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2205.15461
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+  year: 2024
+  url: https://doi.org/10.1093/jrsssb/qkad085
+  doi: 10.1093/jrsssb/qkad085
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2205.15461
+  arxiv: '2205.15461'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

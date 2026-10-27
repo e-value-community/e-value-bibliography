@@ -1,0 +1,28 @@
+title: Equivalence testing with data-dependent and post-hoc equivalence margins
+authors: Stan Koobs, Nick W. Koning
+year: 2026
+arxiv: '2603.16213'
+abstract: >-
+  Equivalence testing compares the hypothesis that an effect $μ$ is large against the alternative
+  that it is negligible. Here, `large' is classically expressed as being larger than some
+  `equivalence margin' $Δ$. A longstanding problem is that this margin must be specified but can
+  rarely be objectively justified in practice. We lay the foundation for an alternative paradigm,
+  arguing to instead report a data-dependent margin $\widehatΔ_α$ that bounds the true effect $μ$
+  with probability $1 - α$. Our key argument is that $\widehatΔ_α$ is more useful than a test
+  outcome at a fixed margin $Δ$, as measured by the guarantees it offers to decision makers. We
+  generalize this to a curve of margins $α\mapsto \widehatΔ_α$, uniformly valid under the post-hoc
+  selection of the margin. These ideas rely on e-values, which we derive for models that are
+  strictly totally positive of order 3, nesting the classical z-test and t-test settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.16213
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.16213
+  arxiv: '2603.16213'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

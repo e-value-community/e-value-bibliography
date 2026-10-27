@@ -1,0 +1,45 @@
+title: 'Betting against the Field: Optimal Elimination in Sequential Model Confidence Sets'
+authors: Seyed Armin Hosseini
+year: 2026
+doi: 10.2139/ssrn.7599398
+abstract: >-
+  A sequential model confidence set eliminates a model once the evidence that it is not among the
+  best reaches 1/α. I ask how this evidence should be aggregated across the rivals of a model, and
+  how fast elimination can be. For losses in [0, 1], every loss-based certificate that a model is
+  not best is dominated by the wealth of a bettor who stakes on the model losing to a predictable
+  aggregate of its rivals; the construction in use, an average of pairwise e-processes, aggregates
+  outside the bet, by exponential weighting over pairwise bettors. For i.i.d. streams, no
+  loss-based procedure with distribution-free validity eliminates a model that is not best in
+  fewer expected rounds than log(1/α) divided by the relative entropy from the data law to the
+  laws under which the model is best. This instance-wise limit carries no correction for the
+  number of models, and a universal portfolio of rivals, which learns from the stream, attains it
+  as α → 0, with a non-asymptotic bound read off from its regret. Uniformly over the placement of
+  one better rival among K rivals that tie the model, however, every valid procedure must pay log
+  K in the threshold, the price of model-selection aggregation, and exponential weighting attains
+  this minimax price. Merging pairwise e-processes by any admissible rule cannot exceed the rate
+  of the best single rival, and averaging them pays about the logarithm of the number of rivals in
+  the threshold at every instance with few better rivals, a cost I bound non-asymptotically and
+  show to be tight to first order. For small gaps the rate loss is a squared ratio of Sharpe
+  ratios; it equals 2K/(K + 1) when K rivals beat the model by equal gaps and all losses have
+  equal variances and correlations, and it is unbounded in general. Two practical certificates, a
+  plug-in Kelly portfolio and a universal portfolio over the leading rivals, are valid under any
+  dependence, exact on fixed evaluation sets and compatible with closed testing. On hyperparameter
+  searches over five tabular data sets and three language-model leaderboards with up to 220
+  models, the plug-in portfolio eliminates models faster than the pairwise construction with the
+  same stakes and guarantees, by a median factor between 1.23 and 1.46 at α = 0.05, and never
+  significantly later; the advantage persists down to α = 0.001 and shrinks as α decreases, as
+  expected of a threshold effect.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7599398
+labels:
+- methodology
+- e-values
+- e-processes
+- information theory
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7599398
+  doi: 10.2139/ssrn.7599398
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

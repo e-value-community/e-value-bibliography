@@ -1,0 +1,22 @@
+title: Online Adaptive Anomaly Thresholding with Confidence Sequences
+authors: Sophia Huiwen Sun, Abishek Sankararaman, Balakrishnan Murali Narayanaswamy
+year: 2024
+abstract: >-
+  Sun, Sankararaman, and Narayanaswamy connect online anomaly-threshold selection with confidence
+  sequences. Their algorithm adapts to distribution shifts while providing distribution-free
+  guarantees on false-positive and false-negative rates. Relevant offline data can warm-start the
+  method, while irrelevant offline data causes only bounded degradation; experiments on synthetic
+  and real datasets improve on common baselines.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v235/sun24h.html
+labels:
+- methodology
+- applications
+- e-processes
+- confidence sequences
+publications:
+- name: International Conference on Machine Learning
+  year: 2024
+  url: https://proceedings.mlr.press/v235/sun24h.html
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

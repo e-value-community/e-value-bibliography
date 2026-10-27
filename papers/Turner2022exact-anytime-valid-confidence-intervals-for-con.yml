@@ -1,0 +1,28 @@
+title: Exact Anytime-valid Confidence Intervals for Contingency Tables and Beyond
+authors: Rosanne Turner, Peter Grünwald
+year: 2023
+doi: 10.1016/j.spl.2023.109835
+arxiv: '2203.09785'
+abstract: >-
+  E-variables are tools for retaining type-I error guarantee with optional stopping. We extend
+  E-variables for sequential two-sample tests to general null hypotheses and anytime-valid
+  confidence sequences. We provide implementations for estimating risk difference, relative risk
+  and odds-ratios in contingency tables.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.09785
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: Statistics & Probability Letters
+  year: 2023
+  url: https://doi.org/10.1016/j.spl.2023.109835
+  doi: 10.1016/j.spl.2023.109835
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2203.09785
+  arxiv: '2203.09785'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

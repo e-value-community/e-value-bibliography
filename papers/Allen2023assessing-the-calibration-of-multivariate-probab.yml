@@ -1,0 +1,43 @@
+title: Assessing the calibration of multivariate probabilistic forecasts
+authors: Sam Allen, Johanna Ziegel, David Ginsbourger
+year: 2024
+doi: 10.1002/qj.4647
+arxiv: '2307.05846'
+abstract: >-
+  Rank and PIT histograms are established tools to assess the calibration of probabilistic
+  forecasts. They not only check whether an ensemble forecast is calibrated, but they also reveal
+  what systematic biases (if any) are present in the forecasts. Several extensions of rank
+  histograms have been proposed to evaluate the calibration of probabilistic forecasts for
+  multivariate outcomes. These extensions introduce a so-called pre-rank function that condenses
+  the multivariate forecasts and observations into univariate objects, from which a standard rank
+  histogram can be produced. Existing pre-rank functions typically aim to preserve as much
+  information as possible when condensing the multivariate forecasts and observations into
+  univariate objects. Although this is sensible when conducting statistical tests for multivariate
+  calibration, it can hinder the interpretation of the resulting histograms. In this paper, we
+  demonstrate that there are few restrictions on the choice of pre-rank function, meaning
+  forecasters can choose a pre-rank function depending on what information they want to extract
+  from their forecasts. We introduce the concept of simple pre-rank functions, and provide
+  examples that can be used to assess the location, scale, and dependence structure of
+  multivariate probabilistic forecasts, as well as pre-rank functions tailored to the evaluation
+  of probabilistic spatial field forecasts. The simple pre-rank functions that we introduce are
+  easy to interpret, easy to implement, and they deliberately provide complementary information,
+  meaning several pre-rank functions can be employed to achieve a more complete understanding of
+  multivariate forecast performance. We then discuss how e-values can be employed to formally test
+  for multivariate calibration over time. This is demonstrated in an application to wind speed
+  forecasting using the EUPPBench post-processing benchmark data set.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2307.05846
+labels:
+- applications
+- e-values
+publications:
+- name: Quarterly Journal of the Royal Meteorological Society
+  year: 2024
+  url: https://doi.org/10.1002/qj.4647
+  doi: 10.1002/qj.4647
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2307.05846
+  arxiv: '2307.05846'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

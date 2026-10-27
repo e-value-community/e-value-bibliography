@@ -1,0 +1,25 @@
+title: Root Cause Analysis of Outliers in Unknown Cyclic Graphs
+authors: Daniela Schkoda, Dominik Janzing
+year: 2025
+arxiv: '2510.06995'
+abstract: >-
+  We study the propagation of outliers in cyclic causal graphs with linear structural equations,
+  tracing them back to one or several "root cause" nodes. We show that it is possible to identify
+  a short list of potential root causes provided that the perturbation is sufficiently strong and
+  propagates according to the same structural equations as in the normal mode. This shortlist
+  consists of the true root causes together with those of its parents lying on a cycle with the
+  root cause. Notably, our method does not require prior knowledge of the causal graph and yields
+  encouraging results on simulated data and real data from biology and cloud computing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.06995
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2510.06995
+    arxiv: '2510.06995'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

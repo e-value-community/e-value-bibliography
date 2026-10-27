@@ -1,0 +1,32 @@
+title: Besag-Clifford e-values for unnormalized testing
+authors: Alexander Dombowsky, Barbara E. Engelhardt, Aaditya Ramdas
+year: 2026
+arxiv: '2603.15845'
+abstract: >-
+  Unnormalized probability distributions are frequently used in machine learning for modeling
+  complex data generating processes. Though Markov chain Monte Carlo (MCMC) algorithms can
+  approximately sample from unnormalized distributions, intractability of their normalizing
+  constants renders likelihood ratio testing infeasible. We propose to use the parallel method of
+  Besag and Clifford to generate samples that are exchangeable with the data under the null, to
+  then generate valid e-values for any number of iterations or algorithmic steps. We show that as
+  the number of samples grows, these Besag-Clifford e-values constructed using the unnormalized
+  likelihood ratio are actually log-optimal up to a multiplicative term that diminishes with the
+  mixing time of the Markov chain. Additionally, averaging over the output of multiple chains
+  retains validity while increasing the e-power. We extend Besag-Clifford e-values to the general
+  problem of unnormalized test statistics, which allows application to composite hypotheses,
+  uncertainty quantification, generative model evaluation, and sequential testing. Through
+  simulations and an application to galaxy velocity modeling, we empirically verify our theory,
+  explore the impact of autocorrelation and mixing, and evaluate the performance of Besag-Clifford
+  e-values.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.15845
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.15845
+  arxiv: '2603.15845'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

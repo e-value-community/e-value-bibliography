@@ -1,0 +1,34 @@
+title: 'Cover meets Robbins while Betting on Bounded Data: ln n Regret and Almost Sure ln ln n Regret'
+authors: Shubhada Agrawal, Aaditya Ramdas
+year: 2026
+arxiv: '2604.20172'
+abstract: >-
+  Consider betting against a sequence of $[0,1]$-valued observations using bets that are fair if
+  the data have a conditional mean $m_0 \in (0,1)$. Cover's universal portfolio algorithm achieves
+  a worst-case regret of $O(\ln n)$ compared to the best constant bet in hindsight, and this
+  logarithmic order is unimprovable against adversarial data. We construct an explicit
+  full-support Robbins mixture that combines insights from Robbins and Cover. It retains $O(\ln
+  n)$ regret on every path while also eventually satisfying $R_n\le(1+o(1))\ln\ln V_n$ on every
+  path with bounded mixture wealth and $V_n\to\infty$, where $V_n$ is an intrinsic variance
+  process. It also attains the optimal asymptotic wealth growth rate under iid alternatives. Under
+  the conditional-mean claim and almost-sure divergence of $V_n$, the sharper regret bound holds
+  almost surely, and its leading constant $1$ is unimprovable. We also give explicit finite-time,
+  path-wise regret bounds. A simple hedging principle shows how splitting initial wealth between
+  two strategies achieves a best-of-both-worlds guarantee by retaining the smaller of their
+  regrets and the larger of their growth rates. We contrast our results to those for unbounded
+  data in Agrawal and Ramdas (2026). Their worst-case regret is unbounded. However, hedging yields
+  almost-sure iterated-logarithmic regret together with optimal growth. Finally, our wealth
+  process witnesses a sharp game-theoretic upper law of iterated logarithm, analogous to Shafer
+  and Vovk (2005).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.20172
+labels:
+- theory
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.20172
+  arxiv: '2604.20172'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

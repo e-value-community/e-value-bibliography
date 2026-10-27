@@ -1,0 +1,29 @@
+title: 'Formal-AVS: a Lean benchmark for anytime-valid confidence-sequence theorem proving'
+authors: Aidan Z.H. Yang
+year: 2026
+abstract: >-
+  Anytime-valid confidence sequences provide confidence intervals valid at every stopping time,
+  removing the optional-stopping problem in A/B testing and sequential clinical trials. Deploying
+  them correctly requires proving that the implementation matches the theory, since subtle bugs
+  silently invalidate coverage guarantees. We release Formal-AVS, a benchmark of $60$ Lean 4
+  theorems formalizing properties of four anytime-valid families (Howard-Ramdas, betting,
+  Whitehouse vector, asymptotic CLT) against a companion library and a fixed Mathlib commit. We
+  evaluate seven solvers across three capability levels. Single-shot generalist closure peaks at
+  $22/60$ and drops to zero on cross-function targets. A four-round agentic refinement loop closes
+  the first non-Aristotle cross-function target and narrows the prompt-sensitivity gap. Harmonic
+  Aristotle closes $53/60$ axiom-clean and surfaces three false-as-stated targets that all other
+  solvers accepted. We release the benchmark, a companion Lean library, and a 14-session Aristotle
+  history archive with closed proofs, refutation witnesses, and axiom audits.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/82446
+labels:
+- methodology
+- applications
+- e-processes
+- confidence sequences
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=oxBDPN1To2
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

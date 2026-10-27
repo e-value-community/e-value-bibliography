@@ -1,0 +1,31 @@
+title: 'CAQ: Clustered Asymptotically Anytime-Valid Quantile Treatment Effects for Online Experiments'
+authors: Diane Lu, Eric J. Oh
+year: 2026
+arxiv: '2610.30019'
+abstract: >-
+  Confidence sequences let an experiment be monitored continuously without inflating error, but
+  the existing constructions for quantiles assume that observations arrive independently. In
+  online experiments this rarely holds: randomization assigns users, while the metric is computed
+  over the many correlated events each user generates, so intervals built for independent data
+  are too narrow and miss the truth more often than their nominal rate allows. We propose CAQ, a
+  confidence sequence for a quantile that is both robust to this within-user dependence and valid
+  at arbitrary stopping times, together with a sequential test for the difference in a quantile
+  between two treatment arms. The width adapts to the dependence actually present, widening
+  beyond the independent-data benchmark only when correlation within users is strong. In
+  simulations, CAQ is the only method we tested that holds both coverage and false-positive rate
+  at their nominal levels across clustering strengths and heavy-tailed data, while the
+  fixed-horizon baseline fails under continuous monitoring and the independence-assuming
+  sequential baseline fails as within-user correlation grows.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.30019
+labels:
+- methodology
+- applications
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.30019
+  arxiv: '2610.30019'
+database_added: '2026-10-22'
+database_updated: '2026-10-22'

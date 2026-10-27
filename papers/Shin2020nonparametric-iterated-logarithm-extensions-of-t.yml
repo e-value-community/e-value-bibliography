@@ -1,0 +1,35 @@
+title: Nonparametric iterated-logarithm extensions of the sequential generalized likelihood ratio test
+authors: Jaehyeok Shin, Aaditya Ramdas, Alessandro Rinaldo
+year: 2021
+doi: 10.1109/jsait.2021.3081105
+arxiv: '2010.08082'
+abstract: >-
+  We develop a nonparametric extension of the sequential generalized likelihood ratio (GLR) test
+  and corresponding time-uniform confidence sequences for the mean of a univariate distribution.
+  By utilizing a geometric interpretation of the GLR statistic, we derive a simple analytic upper
+  bound on the probability that it exceeds any prespecified boundary; these are intractable to
+  approximate via simulations due to infinite horizon of the tests and the composite nonparametric
+  nulls under consideration. Using time-uniform boundary-crossing inequalities, we carry out a
+  unified nonasymptotic analysis of expected sample sizes of one-sided and open-ended tests over
+  nonparametric classes of distributions (including sub-Gaussian, sub-exponential, sub-gamma, and
+  exponential families). Finally, we present a flexible and practical method to construct
+  time-uniform confidence sequences that are easily tunable to be uniformly close to the pointwise
+  Chernoff bound over any target time interval.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2010.08082
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: IEEE Journal on Selected Areas in Information Theory
+  year: 2021
+  url: https://doi.org/10.1109/jsait.2021.3081105
+  doi: 10.1109/jsait.2021.3081105
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2010.08082
+  arxiv: '2010.08082'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

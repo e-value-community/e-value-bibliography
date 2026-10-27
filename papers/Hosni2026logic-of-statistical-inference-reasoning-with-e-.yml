@@ -1,0 +1,25 @@
+title: 'Logic of Statistical Inference: Reasoning with E-Values'
+authors: Hykel Hosni, Soroush Rafiee Rad
+year: 2026
+abstract: >-
+  Abstract Inference with e-values is attracting increasing attention in statistics. We show that
+  e-values can be embedded in two recent logical frameworks for statistical inference: a dynamic
+  epistemic framework centred on learning from observation streams, and a rejection-based
+  framework centred on non-monotonic inference. For the former we show that e-value-based
+  plausibility maps satisfy the key learnability conditions of [3]. For the latter, we show that a
+  natural logarithmic transform of canonical e-values yields a rejection score in the sense of [2]
+  and relate it directly to the plausibility scores of the dynamic framework.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1007/s10992-026-09862-6
+labels:
+- philosophy
+- e-values
+- e-processes
+publications:
+- name: Journal of Philosophical Logic
+  year: 2026
+  url: https://doi.org/10.1007/s10992-026-09862-6
+  doi: 10.1007/s10992-026-09862-6
+doi: 10.1007/s10992-026-09862-6
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

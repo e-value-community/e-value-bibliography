@@ -1,0 +1,37 @@
+title: 'Catch me if you can: Signal localization with knockoff e-values'
+authors: Paula Gablenz, Chiara Sabatti
+year: 2025
+doi: 10.1093/jrsssb/qkae042
+arxiv: '2306.09976'
+abstract: >-
+  We consider problems where many, somewhat redundant, hypotheses are tested and we are interested
+  in reporting the most precise rejections, with false discovery rate (FDR) control. This is the
+  case, for example, when researchers are interested both in individual hypotheses as well as
+  group hypotheses corresponding to intersections of sets of the original hypotheses, at several
+  resolution levels. A concrete application is in genome-wide association studies, where,
+  depending on the signal strengths, it might be possible to resolve the influence of individual
+  genetic variants on a phenotype with greater or lower precision. To adapt to the unknown signal
+  strength, analyses are conducted at multiple resolutions and researchers are most interested in
+  the more precise discoveries. Assuring FDR control on the reported findings with these adaptive
+  searches is, however, often impossible. To design a multiple comparison procedure that allows
+  for an adaptive choice of resolution with FDR control, we leverage e-values and linear
+  programming. We adapt this approach to problems where knockoffs and group knockoffs have been
+  successfully applied to test conditional independence hypotheses. We demonstrate its efficacy by
+  analyzing data from the UK Biobank.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2306.09976
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+  year: 2025
+  url: https://doi.org/10.1093/jrsssb/qkae042
+  doi: 10.1093/jrsssb/qkae042
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2306.09976
+  arxiv: '2306.09976'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

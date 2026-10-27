@@ -1,0 +1,30 @@
+title: Time-Uniform Confidence Spheres for Means of Random Vectors
+authors: Ben Chugg, Hongjian Wang, Aaditya Ramdas
+year: 2023
+arxiv: '2311.08168'
+abstract: >-
+  We study sequential mean estimation in $\mathbb{R}^d$. In particular, we derive time-uniform
+  confidence spheres -- confidence sphere sequences (CSSs) -- which contain the mean of random
+  vectors with high probability simultaneously across all sample sizes. Our results include a
+  dimension-free CSS for log-concave random vectors, a dimension-free CSS for sub-Gaussian random
+  vectors, and CSSs for sub-$ψ$ random vectors (which includes sub-gamma, sub-Poisson, and
+  sub-exponential distributions). Many of our results are optimal. For sub-Gaussian distributions
+  we also provide a CSS which tracks a time-varying mean, generalizing Robbins' mixture approach
+  to the multivariate setting. Finally, we provide several CSSs for heavy-tailed random vectors
+  (two moments only). Our bounds hold under a martingale assumption on the mean and do not require
+  that the observations be iid. Our work is based on PAC-Bayesian theory and inspired by an
+  approach of Catoni and Giulini.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2311.08168
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2311.08168
+  arxiv: '2311.08168'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

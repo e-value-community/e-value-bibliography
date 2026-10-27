@@ -1,0 +1,32 @@
+title: Hypothesis testing for community structure in temporal networks using e-values
+authors: Eric Yanchenko, Jonathan P. Williams, Ryan Martin
+year: 2026
+doi: 10.1017/nws.2026.10036
+arxiv: '2507.23034'
+abstract: >-
+  Community structure in networks naturally arises in various applications. But while the topic
+  has received significant attention for static networks, the literature on community structure in
+  temporally evolving networks is more scarce. In particular, there are currently no statistical
+  methods available to test for the presence of community structure in a sequence of networks
+  evolving over time. In this work, we propose a simple yet powerful test using e-values, an
+  alternative to p-values that is more flexible in certain ways. Specifically, an e-value
+  framework retains valid testing properties even after combining dependent information, a
+  relevant feature in the context of testing temporal networks. We apply the proposed test to
+  synthetic and real-world networks, demonstrating various features inherited from the e-value
+  formulation and exposing some of the inherent difficulties of testing on temporal networks.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2507.23034
+labels:
+- applications
+- e-values
+publications:
+  - name: Network Science
+    year: 2025
+    url: https://doi.org/10.1017/nws.2026.10036
+    doi: 10.1017/nws.2026.10036
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2507.23034
+    arxiv: '2507.23034'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

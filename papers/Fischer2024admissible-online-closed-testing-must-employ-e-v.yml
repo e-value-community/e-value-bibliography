@@ -1,0 +1,35 @@
+title: Admissible online closed testing must employ e-values
+authors: Lasse Fischer, Aaditya Ramdas
+year: 2024
+doi: null
+arxiv: '2407.15733'
+abstract: >-
+  In contemporary research, data scientists often test an infinite sequence of hypotheses
+  $H_1,H_2,\ldots$ one by one, and are required to make real-time decisions without knowing the
+  future hypotheses or data. In this paper, we consider such an online multiple testing problem
+  with the goal of providing simultaneous lower bounds for the number of true discoveries in
+  data-adaptively chosen rejection sets. Employing the recent online closure principle, we show
+  that for this task it is necessary to use an anytime-valid test for each intersection
+  hypothesis. This connects two distinct branches of the literature: online testing of multiple
+  hypotheses (where the hypotheses appear online), and sequential anytime-valid testing of a
+  single hypothesis (where the data for a fixed hypothesis appears online). Motivated by this
+  result, we construct a new online closed testing procedure and a corresponding short-cut with a
+  true discovery guarantee based on multiplying sequential e-values. This general but simple
+  procedure gives uniform improvements over the state-of-the-art methods but also allows to
+  construct entirely new and powerful procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.15733
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- theory
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.15733
+  arxiv: '2407.15733'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

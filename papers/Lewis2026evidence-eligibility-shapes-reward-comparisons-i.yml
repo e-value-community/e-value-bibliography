@@ -1,0 +1,35 @@
+title: Evidence Eligibility Shapes Reward Comparisons in Scientific Experiment Allocation
+authors: David Lewis, Enrique Zueco, Ling Yi
+year: 2026
+abstract: >-
+  Scientific agents that allocate experiments are often compared by the reward they optimize, but
+  such comparisons also depend on which measurements may count as evidence. Across 8,192 Gaussian
+  campaigns, a confirmation-only evidence rule gives certificate reward a 23.01 percentage-point
+  (pp) advantage in true findings over maximum-observation reward. Admitting every valid
+  observation, a post hoc control, shrinks the gap to 2.46 pp after matched reselection; it
+  replicates on fresh seeds (2.24 pp), and a tuned evidence-progress heuristic stays stronger. A
+  pre-declared study then embeds the controllers in a scripted evidence-contract executor, a
+  non-LLM program agent that works through typed tools, a claim validator and a ledger, deciding
+  when to open, search, confirm, claim or abandon campaigns under a shared 1,536-credit budget.
+  With eligibility controlled, the certificate-reward agent yields an extra 2.47 findings per
+  program (realization-resampled 95% CI 1.07–3.85), through speed and reinvestment, not a better
+  reward. A pre-declared matched-spend follow-up still detects 1.67 and 4.94 findings per program
+  at 13 and 19 campaigns, but only through observation controllers whose fixed search phase
+  exceeds the allowance; the controller whose phase fits gives 0.37, below the margin. Eligibility
+  adds 2.03 findings per program for the search-heavy observation agent, and the tuned heuristic
+  still leads by 0.83. Separately, repeatedly inspected fixed-sample tests make 37.54% false
+  claims versus 2.12% for a Gaussian e-process, which fails under a shared offset. Reward
+  comparisons are interpretable only when evidence eligibility and spend are both fixed; we
+  establish neither a superior learning method nor biological efficacy.
+abstract_status: source_abstract
+abstract_source: https://neurips.cc/virtual/2026/172624
+labels:
+- methodology
+- applications
+- e-processes
+publications:
+- name: NeurIPS Agentic AI for Biological Discovery Workshop
+  year: 2026
+  url: https://neurips.cc/virtual/2026/172624
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

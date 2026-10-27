@@ -1,0 +1,37 @@
+title: Betting for Sim-to-Real Performance Certificates
+authors: Yujia Chen, Bowen Weng
+year: 2026
+arxiv: '2608.21572'
+abstract: >-
+  Consider a typical test of a robot system: one observes a sequence of outcomes concerning some
+  aspect of interest (crash or no crash, tracking error, time to completion), and reports a mean
+  (crash risk, average error, mean time to completion) and, more importantly, an interval
+  guaranteed to contain that mean at a prescribed confidence, referred to as a performance
+  certificate. Given expensive real-world trials, the sample size is therefore small, and the
+  certificate is often loose. Now consider the same procedure, except that before each real
+  outcome is revealed, the operator ``peeks'' at a large bank of simulated results, and places a
+  bet on where the real outcome will land. As the real outcomes settle the bets, the operator
+  gains or loses wealth. One's ``trust'' over simulators also shifts within the portfolio. This
+  paper develops that idea into a sim-to-real betting certificate framework with three
+  contributions: (i) An algorithm that links a scalable bank of simulators to effective bets, and
+  the accumulated betting wealth to the certificate. (ii) A proof that the returned certificate is
+  anytime valid, covering the true mean with the prescribed probability, using any simulator bank.
+  (iii) The guaranteed wealth-regret bounds yield configuration principles for the proposed
+  algorithm and simulator bank design to deliver tight certificates. Experiments across synthetic
+  distributions and real-world robot tests, covering both replayed standardized testing outcomes
+  and online runtime evaluation, show the proposed method narrows the certificate by
+  $51.6\%\pm16\%$ against classic and state-of-the-art baselines, and by $32.26\%\pm8\%$ in the
+  extremely limited-sample regime ($\leq30$ samples).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.21572
+labels:
+- applications
+- e-processes
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.21572
+    arxiv: '2608.21572'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

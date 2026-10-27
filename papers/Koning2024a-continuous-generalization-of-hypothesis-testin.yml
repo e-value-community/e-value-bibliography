@@ -1,0 +1,30 @@
+title: 'How e-values generalize hypothesis testing: a Neyman-Pearson lemma for the e-value'
+authors: Nick W. Koning
+year: 2024
+doi: null
+arxiv: '2409.05654'
+abstract: >-
+  While e-values are swiftly rising in prominence, their formal relationship to classical
+  hypothesis testing remains unsettled. We develop a unified decision-theoretic framework by
+  viewing the e-value as a multi-decision generalization of a hypothesis test. Replacing power by
+  the expected utility of evidence, we derive a Neyman-Pearson lemma for e-values, with classical
+  Neyman-Pearson tests and log-optimal e-values arising from particular utility functions. Our
+  main technical contribution is to study such expected utility-optimal e-values without
+  assumptions on the composite null hypothesis and simple alternative. As a corollary, we obtain
+  an assumption-free form of the classical Neyman-Pearson lemma for composite null hypotheses,
+  showing power-optimal tests exist and have a likelihood-ratio form.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.05654
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.05654
+  arxiv: '2409.05654'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

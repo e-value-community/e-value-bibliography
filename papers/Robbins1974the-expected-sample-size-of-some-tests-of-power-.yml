@@ -1,0 +1,21 @@
+title: The Expected Sample Size of Some Tests of Power One
+authors: H. Robbins, D. Siegmund
+year: 1974
+doi: 10.1214/aos/1176342704
+abstract: >-
+  Asymptotic approximations to the expected sample size are given for a class of tests of power
+  one introduced in [10]. Comparisons are made with the method of mixtures of likelihood ratios,
+  and an application is given to Breiman's gambling theory for favorable games.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aos/1176342704
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: The Annals of Statistics
+  year: 1974
+  url: https://doi.org/10.1214/aos/1176342704
+  doi: 10.1214/aos/1176342704
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

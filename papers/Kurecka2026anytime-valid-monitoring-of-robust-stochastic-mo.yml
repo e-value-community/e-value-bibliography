@@ -1,0 +1,35 @@
+title: Anytime-Valid Monitoring of Robust Stochastic Models
+authors: Martin Kurečka, Roman Andriushchenko, Milan Češka, Nicola Paoletti, Petr Novotný
+year: 2026
+arxiv: '2610.26193'
+abstract: >-
+  Formal methods provide a principal approach to obtaining safety guarantees for autonomous
+  agents. Their key bottleneck is their reliance on a formal model (e.g., a Markov decision
+  process) describing the agent-environment interaction. Learning or crafting the model is an
+  error-prone process, which undermines the guarantees offered by formal methods. Robust models
+  account for modelling uncertainty, but may still fail to capture the true environment. This
+  issue can be addressed through \emph{runtime model monitoring}, which aims to raise an alarm
+  when a likely model-environment discrepancy is detected, while keeping the probability of false
+  alarm bounded. Existing approaches impose various assumptions and do not clearly explain the
+  rationale behind their design choices, leaving the broader design space for these monitors
+  somewhat opaque. In this paper, we formalise the design space of monitors for robust stochastic
+  models through the lens of \emph{parameterised sequential betting} algorithms, highlighting the
+  importance of \emph{observation feature} design (choosing what information about the history the
+  monitor uses) and \emph{bet design} (how rich a family of betting rules the monitor can
+  represent). We show that our framework generalizes the existing approaches, and we use its
+  formalization to propose a new \emph{mixture of linear monitors (ML)} design. We prove that
+  these ML monitors achieve an asymptotically optimal detection time within the class of linear
+  monitors, making them a principled choice for our monitoring problem. Our experiments confirm
+  that ML monitors significantly reduce detection times compared to existing monitors and can
+  effectively exploit more complex observation features.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.26193
+labels:
+- applications
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.26193
+    arxiv: '2610.26193'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

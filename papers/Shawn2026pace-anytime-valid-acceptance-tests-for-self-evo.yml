@@ -1,0 +1,37 @@
+title: 'PACE: Anytime-Valid Acceptance Tests for Self-Evolving Agents'
+authors: Zayx Shawn
+year: 2026
+arxiv: '2606.08106'
+abstract: >-
+  Self-evolving agents improve by repeatedly proposing changes to their own prompts, skills, or
+  workflows and keeping those that score higher on a small held-out set. Almost all effort has
+  gone into the proposer that generates candidates; we argue the weak point is the acceptor, the
+  rule that decides whether to commit a change. Applied hundreds of times against the same noisy
+  dev estimate, the ubiquitous "keep it if the score went up" rule is uncontrolled adaptive
+  multiple testing: the agent effectively p-hacks itself, accumulating false commits that make it
+  churn and drift rather than improve. We recast committing as a sequential hypothesis test and
+  propose PACE (Paired Anytime-valid Commit Evaluation), a training-free, anytime-valid commit
+  gate. Each candidate is compared to the incumbent on identical instances and committed only when
+  a testing-by-betting e-process accumulates decisive evidence, stopping early to save evaluations
+  and controlling each candidate's false-commit probability at a user-set level even under
+  optional stopping (a per-decision guarantee). On Qwen2.5 agents (0.5B-3B) self-evolving at the
+  prompt level on GSM8K, SVAMP, and ARC-Challenge, greedy acceptance commits 30-42% false and
+  10-33% harmful edits when a genuine improvement is hidden among noisy proposals, while PACE
+  commits the real one and essentially nothing else, matching greedy's held-out accuracy at
+  sharply lower variance and about 18% lower evaluation cost. With no real gain available, greedy
+  commits 13-21 spurious self-modifications per run (72-100% false) and degrades the most fragile
+  agent by 4.9 points, while PACE holds at baseline. Reliability of self-evolution depends on the
+  acceptor, not only on the proposer.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.08106
+labels:
+- applications
+- e-processes
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.08106
+    arxiv: '2606.08106'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

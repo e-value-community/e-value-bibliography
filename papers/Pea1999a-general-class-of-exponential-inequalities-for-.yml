@@ -1,0 +1,32 @@
+title: A General Class of Exponential Inequalities for Martingales and Ratios
+authors: Victor H. de la Peña
+year: 1999
+doi: 10.1214/aop/1022677271
+abstract: >-
+  In this paper we introduce a technique for obtaining exponential inequalities, with particular
+  emphasis placed on results involving ratios. Our main applications consist of approximations to
+  the tail probability of the ratio of a martingale over its conditional variance (or its
+  quadratic variation for continuous martingales). We provide examples that strictly extend
+  several of the classical exponential inequalities for sums of independent random variables and
+  martingales. The spirit of this application is that, when going from results for sums of
+  independent random variables to martingales, one should replace the variance by the conditional
+  variance and the exponential of a function of the variance by the expectation of the exponential
+  of the same function of the conditional variance. The decoupling inequalities used to attain our
+  goal are of independent interest. They include a new exponential decoupling inequality with
+  constraints and a sharp inequality for the probability of the intersection of a fixed number of
+  dependent sets. Finally, we also present an exponential inequality that does not require any
+  integrability conditions involving the ratio of the sum of conditionally symmetric variables to
+  its sum of squares.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aop/1022677271
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: The Annals of Probability
+  year: 1999
+  url: https://doi.org/10.1214/aop/1022677271
+  doi: 10.1214/aop/1022677271
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

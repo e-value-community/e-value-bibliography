@@ -1,0 +1,33 @@
+title: Asymptotic Anytime-Valid Inference for U-statistics
+authors: Leheng Cai, Qirui Hu, Weijia Li
+year: 2026
+arxiv: '2605.14692'
+abstract: >-
+  We study asymptotic anytime-valid confidence sequences for degree-two U-statistics under
+  continuous monitoring. In the nondegenerate case, Hoeffding's projection reduces the problem to
+  a time-uniform central limit theory for the partial sums of the first-order projection, while
+  the canonical remainder is shown to be negligible under mild moment assumptions. A leave-one-out
+  jackknife estimator then yields a fully data-driven procedure, leading to confidence sequences
+  with asymptotic coverage guarantee for the parameter of interest. In the degenerate case, we
+  show that the U-statistic is approximated by a centered quadratic Gaussian-chaos rather than by
+  a simple Gaussian, which poses significant challenges for sequential inference. To address this
+  issue, we novelly develop the Spectrally Allocated Gaussian-chaos Excursion (SAGE) boundary, and
+  then provide plug-in implementations based on truncated spectrum estimation with consistency
+  guarantees. The resulting widths can attain the expected time-uniform optimal rates:
+  $\sqrt{\log\log n/n}$ in the nondegenerate regime and $\log\log n/n$ in the degenerate regime.
+  Several widely used U-statistics are discussed within the proposed framework, and numerical
+  experiments further support the validity of the derived theory.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.14692
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.14692
+  arxiv: '2605.14692'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

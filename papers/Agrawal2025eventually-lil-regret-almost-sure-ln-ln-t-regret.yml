@@ -1,0 +1,30 @@
+title: 'Eventually LIL Regret: Almost Sure ln ln T Regret for a sub-Gaussian Mixture on Unbounded Data'
+authors: Shubhada Agrawal, Aaditya Ramdas
+year: 2025
+arxiv: '2512.12325'
+abstract: >-
+  We prove that a classic sub-Gaussian mixture proposed by Robbins in a stochastic setting
+  actually satisfies a path-wise (deterministic) regret bound. For every path in a natural ``Ville
+  event'' $\mathcal E_α$, this regret till time $T$ is bounded by $\ln^2(1/α)/V_T + \ln (1/α) +
+  \ln \ln V_T$ up to universal constants, where $V_T$ is a nonnegative, nondecreasing, cumulative
+  variance process. (The bound reduces to $\ln(1/α) + \ln \ln V_T$ if $V_T \geq \ln(1/α)$.) If the
+  data were stochastic, then one can show that $\mathcal E_α$ has probability at least $1-α$ under
+  a wide class of distributions (eg: sub-Gaussian, symmetric, variance-bounded, etc.). In fact, we
+  show that on the Ville event $\mathcal E_0$ of probability one, the regret on every path in
+  $\mathcal E_0$ is eventually bounded by $\ln \ln V_T$ (up to constants). We explain how this
+  work helps bridge the world of adversarial online learning (which usually deals with regret
+  bounds for bounded data), with game-theoretic statistics (which can handle unbounded data,
+  albeit using stochastic assumptions). In short, conditional regret bounds serve as a bridge
+  between stochastic and adversarial betting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.12325
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.12325
+  arxiv: '2512.12325'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

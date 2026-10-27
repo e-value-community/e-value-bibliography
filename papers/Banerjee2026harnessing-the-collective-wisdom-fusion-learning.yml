@@ -1,0 +1,31 @@
+title: 'Harnessing The Collective Wisdom: Fusion Learning Using Decision Sequences From Diverse Sources'
+authors: Trambak Banerjee, Bowen Gang, Jianliang He
+year: 2026
+doi: 10.1093/biomet/asaf080
+arxiv: '2308.11026'
+abstract: >-
+  We introduce an Integrative Ranking and Thresholding (IRT) framework for fusing evidence from
+  multiple testing procedures. The key innovation is a method that transforms binary testing
+  decisions into compound $e-$values, enabling the combination of findings across diverse data
+  sources or studies. We demonstrate that IRT ensures overall false discovery rate (FDR) control,
+  provided the individual studies maintain their respective FDR levels. This approach is highly
+  flexible and is a powerful alternative for fusing inferences in meta-analysis where some studies
+  report summary statistics while the rest reveal only the rejections under a pre-specified FDR
+  level. Extensions to alternative Type I error control measures are explored.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2308.11026
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Biometrika
+  year: 2026
+  url: https://doi.org/10.1093/biomet/asaf080
+  doi: 10.1093/biomet/asaf080
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2308.11026
+  arxiv: '2308.11026'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

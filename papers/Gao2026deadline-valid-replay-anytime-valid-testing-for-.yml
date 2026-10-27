@@ -1,0 +1,32 @@
+title: 'Deadline-Valid Replay: Anytime-Valid Testing for LLM Inference Policies'
+authors: Rui Gao
+year: 2026
+abstract: >-
+  Large language model systems increasingly choose among inference policies rather than fixed
+  models: they may answer greedily, sample multiple completions, branch when confidence is low, or
+  abstain under uncertainty. Under latency deadlines, standard leaderboards do not distinguish a
+  descriptive utility gap from a statistically certified policy advantage. We formulate
+  deadline-constrained LLM policy evaluation as a paired sequential testing problem. Our protocol
+  replays frozen real-model traces, assigns correct-before-deadline utility, and monitors policy
+  comparisons using an anytime-valid mixture betting e-process. In a four-slice Qwen2.5 trace-bank
+  study spanning GSM8K, BBH, ARC, and CoLA, descriptive leaders vary across tasks and deadlines.
+  However, no configured comparison crosses the unadjusted $\alpha=0.05$ e-value rejection
+  threshold; the largest final e-value is 3.675, below the threshold of 20, and it is based on
+  only three discordant prompts out of 120. In the full four-policy, four-slice, three-deadline
+  grid, a one-sided family-wise Bonferroni-over-e-values rule would require threshold 1440, far
+  above all observed e-values. These results show that deadline-sensitive leaderboard differences
+  can be visible while remaining statistically uncertified, motivating calibrated sequential
+  evidence as a discipline layer for LLM policy evaluation.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/80034
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=KcqIBf7un6
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

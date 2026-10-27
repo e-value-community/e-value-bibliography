@@ -1,0 +1,33 @@
+title: Bregman Deviations of Generic Exponential Families
+authors: Sayak Ray Chowdhury, Patrick Saux, Odalric-Ambrym Maillard, Aditya Gopalan
+year: 2023
+arxiv: '2201.07306'
+abstract: >-
+  We revisit the method of mixture technique, also known as the Laplace method, to study the
+  concentration phenomenon in generic exponential families. Combining the properties of Bregman
+  divergence associated with log-partition function of the family with the method of mixtures for
+  super-martingales, we establish a generic bound controlling the Bregman divergence between the
+  parameter of the family and a finite sample estimate of the parameter. Our bound is time-uniform
+  and makes appear a quantity extending the classical information gain to exponential families,
+  which we call the Bregman information gain. For the practitioner, we instantiate this novel
+  bound to several classical families, e.g., Gaussian, Bernoulli, Exponential, Weibull, Pareto,
+  Poisson and Chi-square yielding explicit forms of the confidence sets and the Bregman
+  information gain. We further numerically compare the resulting confidence bounds to
+  state-of-the-art alternatives for time-uniform concentration and show that this novel method
+  yields competitive results. Finally, we highlight the benefit of our concentration bounds on
+  some illustrative applications.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2201.07306
+labels:
+- methodology
+- confidence sequences
+publications:
+  - name: Conference on Learning Theory
+    year: 2023
+    url: https://proceedings.mlr.press/v195/chowdhury23a.html
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2201.07306
+    arxiv: '2201.07306'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

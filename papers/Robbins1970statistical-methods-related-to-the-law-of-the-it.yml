@@ -1,0 +1,24 @@
+title: Statistical Methods Related to the Law of the Iterated Logarithm
+authors: Herbert Robbins
+year: 1970
+doi: 10.1214/aoms/1177696786
+abstract: >-
+  1. Extension and applications of an inequality of Ville and Wald. Let x 1… be a sequence of
+  random variables with a specified joint probability distribution P. We shall give a method for
+  obtaining probability inequalities and related limit theorems concerning the behavior of the
+  entire sequence of x’s.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aoms/1177696786
+labels:
+- methodology
+- theory
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: The Annals of Mathematical Statistics
+    year: 1970
+    url: https://doi.org/10.1214/aoms/1177696786
+    doi: 10.1214/aoms/1177696786
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

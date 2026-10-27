@@ -1,0 +1,38 @@
+title: Anytime-Valid Confirmation of Covariate Balance for Prespecified Corrections
+authors: Seungjin Choi
+year: 2026
+arxiv: '2607.23157'
+abstract: >-
+  Many covariate-shift adaptation methods construct a correction $w(x)$, but users must still
+  determine whether the corrected distribution is sufficiently balanced for the target stream. We
+  study anytime-valid confirmation of prespecified corrections from sequential unlabeled target
+  inputs. Our primary contribution is a procedure for confirming covariate balance. For a
+  prespecified class of balancing functions and tolerances, time-uniform confidence sequences
+  permit continuous monitoring and data-dependent stopping once all plausible target moments lie
+  within their tolerance bands. If the correction is out of tolerance for at least one function,
+  the probability of ever incorrectly confirming balance is at most the prescribed level. Upon
+  stopping, the procedure yields a certificate local to the chosen functions and tolerances, yet
+  providing an absolute downstream-adequacy statement that ordinary shift diagnostics generally do
+  not. With finite source data, contracted bands preserve this guarantee while accounting for
+  uncertainty in weighted source moments, whereas expanded bands support only compatibility
+  diagnostics. As complementary information, we study a source-calibrated likelihood-ratio
+  e-process whose KL-drift identity characterizes correction directions relative to the source.
+  Under the source-reference distribution, the probability of ever crossing its evidence threshold
+  is controlled, but crossing does not confirm balance. We also give an exponential-tilt test for
+  departures beyond an acceptable correction region and deploy balance-confirmed corrections in
+  weighted conformal prediction. Experiments illustrate false-confirmation control, locality to
+  the balancing-function class, KL-drift diagnostics, acceptable-region monitoring, finite-source
+  effects, and downstream conformal coverage under covariate shift.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.23157
+labels:
+- applications
+- e-processes
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2607.23157
+    arxiv: '2607.23157'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

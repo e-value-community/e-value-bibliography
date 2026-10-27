@@ -1,0 +1,35 @@
+title: Boosting e-BH via conditional calibration
+authors: Junu Lee, Zhimei Ren
+year: 2024
+doi: null
+arxiv: '2404.17562'
+abstract: >-
+  The e-BH procedure is an e-value-based multiple testing procedure that provably controls the
+  false discovery rate (FDR) under any dependence structure between the e-values. Despite this
+  appealing theoretical FDR control guarantee, the e-BH procedure often suffers from low power in
+  practice. In this paper, we propose a general framework that boosts the power of e-BH without
+  sacrificing its FDR control under arbitrary dependence. This is achieved by the technique of
+  conditional calibration, where we take as input the e-values and calibrate them to be a set of
+  "boosted e-values" that are guaranteed to be no less -- and are often more -- powerful than the
+  original ones. Our general framework is explicitly instantiated in three classes of multiple
+  testing problems: (1) testing under parametric models, (2) conditional independence testing
+  under the model-X setting, and (3) model-free conformalized selection. Extensive numerical
+  experiments show that our proposed method significantly improves the power of e-BH while
+  continuing to control the FDR. We also demonstrate the effectiveness of our method through an
+  application to an observational study dataset for identifying individuals whose counterfactuals
+  satisfy certain properties.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2404.17562
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2404.17562
+  arxiv: '2404.17562'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,29 @@
+title: The only admissible way of merging arbitrary e-values
+authors: Ruodu Wang
+year: 2025
+doi: 10.1093/biomet/asaf020
+arxiv: '2409.19888'
+abstract: >-
+  We prove that the only admissible way of merging arbitrary e-values is to use a weighted
+  arithmetic average. This result completes the picture of merging methods for e-values, and
+  generalizes the result of Vovk and Wang (2021, Annals of Statistics, 49(3), 1736--1754) that the
+  only admissible way of symmetrically merging e-values is to use the arithmetic average combined
+  with a constant. Although the proved statement is naturally anticipated, its proof relies on a
+  sophisticated application of optimal transport duality and a minimax theorem.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.19888
+labels:
+- methodology
+- theory
+- e-values
+publications:
+- name: Biometrika
+  year: 2025
+  url: https://doi.org/10.1093/biomet/asaf020
+  doi: 10.1093/biomet/asaf020
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.19888
+  arxiv: '2409.19888'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

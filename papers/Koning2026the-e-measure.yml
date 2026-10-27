@@ -1,0 +1,32 @@
+title: The E-measure
+authors: Nick W. Koning
+year: 2026
+arxiv: '2604.20788'
+abstract: >-
+  We introduce the E-measure: a measure-like generalization of the E-value to a class of
+  hypotheses. Unlike classical measures, E-measures are closed under infimums instead of addition.
+  They arise from a compatibility axiom with logical implications, that there should be at least
+  as much evidence against more specific hypotheses. We show that E-measures are the only
+  non-dominated such objects, if the hypothesis class is closed under intersections. We propose to
+  use the E-measure to present all the relevant evidence for a problem, where the relevance is
+  captured by the choice of hypothesis class. We showcase this by applying the E-measure to
+  decision making, inducing a hypothesis class from the uncertain consequences of decisions. This
+  results in uniform E-consequence bounds on decisions, which nest high-probability loss bounds.
+  Correcting for multiplicity, we consider 'familywise evidence' and 'false evidence rate'
+  control, generalizing from errors and discoveries to continuous evidence. Remarkably, E-measures
+  control these without multiplicity correction if the hypothesis class is intersection-closed.
+  Moreover, we obtain a 'frequentist' notion of updating from E-prior to E-posterior. Abstracting
+  the notion of a 'hypothesis', we advocate for using E-measures for any unknown quantity, leading
+  to predictive E-measures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.20788
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.20788
+  arxiv: '2604.20788'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

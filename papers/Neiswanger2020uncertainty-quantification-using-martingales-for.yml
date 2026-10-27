@@ -1,0 +1,34 @@
+title: Uncertainty quantification using martingales for misspecified Gaussian processes
+authors: Willie Neiswanger, Aaditya Ramdas
+year: 2021
+arxiv: '2006.07368'
+abstract: >-
+  We address uncertainty quantification for Gaussian processes (GPs) under misspecified priors,
+  with an eye towards Bayesian Optimization (BO). GPs are widely used in BO because they easily
+  enable exploration based on posterior uncertainty bands. However, this convenience comes at the
+  cost of robustness: a typical function encountered in practice is unlikely to have been drawn
+  from the data scientist's prior, in which case uncertainty estimates can be misleading, and the
+  resulting exploration can be suboptimal. We present a frequentist approach to GP/BO uncertainty
+  quantification. We utilize the GP framework as a working model, but do not assume correctness of
+  the prior. We instead construct a confidence sequence (CS) for the unknown function using
+  martingale techniques. There is a necessary cost to achieving robustness: if the prior was
+  correct, posterior GP bands are narrower than our CS. Nevertheless, when the prior is wrong, our
+  CS is statistically valid and empirically outperforms standard GP methods, in terms of both
+  coverage and utility for BO. Additionally, we demonstrate that powered likelihoods provide
+  robustness against model misspecification.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2006.07368
+labels:
+- applications
+- e-values
+- confidence sequences
+publications:
+  - name: Algorithmic Learning Theory
+    year: 2021
+    url: https://proceedings.mlr.press/v132/neiswanger21a.html
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2006.07368
+    arxiv: '2006.07368'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

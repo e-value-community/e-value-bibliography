@@ -1,0 +1,30 @@
+title: Anytime-Valid Quantum State Tomography via Confidence Sequences
+authors: Aldo Cumitini, Luca Barletta, Osvaldo Simeone
+year: 2026
+doi: 10.1109/lsp.2026.3722148
+arxiv: '2601.20761'
+abstract: >-
+  In this letter, we address the problem of developing quantum state tomography (QST) methods that
+  remain valid at any time during a sequence of measurements. Specifically, the aim is to provide
+  a rigorous quantification of the uncertainty associated with the current state estimate as data
+  are acquired incrementally. To this end, the proposed framework augments existing QST techniques
+  by associating current point estimates of the state with confidence sets that are guaranteed to
+  contain the true quantum state with a user-defined probability. The methodology is grounded in
+  recent statistical advances in anytime-valid confidence sequences. Numerical results confirm the
+  theoretical coverage properties of the proposed anytime-valid QST.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.20761
+labels:
+- applications
+- confidence sequences
+publications:
+  - name: IEEE Signal Processing Letters
+    year: 2026
+    url: https://doi.org/10.1109/lsp.2026.3722148
+    doi: 10.1109/lsp.2026.3722148
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2601.20761
+    arxiv: '2601.20761'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

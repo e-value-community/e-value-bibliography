@@ -1,0 +1,25 @@
+title: Optimal e-values for testing the mean of a bounded random variable against a composite alternative
+authors: Sebastian Arnold, Eugenio Clerico
+year: 2026
+arxiv: '2601.11347'
+abstract: >-
+  We derive explicitly the e-values with optimal (relative) growth rate in the worst case for
+  testing the mean of a bounded random variable, thereby providing the first application of the
+  (RE)GROW quality criteria beyond the assumption of mutually absolutely continuous hypotheses for
+  e-values originally proposed by Grünwald et al. (2024). For both criteria, we explicitly
+  characterise the alternatives that are most difficult to test against and show that they admit a
+  meaningful interpretation. We give two important examples in which REGROW provides a powerful
+  quality criterion to choose optimal e-variables whereas GROW leads to trivial solutions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.11347
+labels:
+- methodology
+- theory
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2601.11347
+  arxiv: '2601.11347'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

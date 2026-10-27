@@ -1,0 +1,33 @@
+title: >-
+  Benchmarking Test Statistics and False Discovery Rate Procedures for Single-Cell Differential
+  Expression
+authors: Bowen Duan, Qingmin Zhang, Peibo Hao
+year: 2026
+doi: 10.3390/math14203786
+abstract: >-
+  Single-cell differential expression analysis combines a gene-level statistic with a false
+  discovery rate (FDR) procedure. We examine how these two choices affect error control and power
+  by pairing four statistics with BH, e-BH, data-splitting mirror, and target–decoy procedures.
+  The benchmark uses zero-inflated negative-binomial simulations and a donor-level model fitted to
+  Kang18 control data, with known signal genes in both designs. We vary dropout, signal type, gene
+  number, and cross-gene dependence. Higher dropout reduces power across all 16 combinations in
+  the mean-shift experiment, whereas null FDR depends on the statistic and its tail calibration.
+  Distribution-sensitive statistics detect equal-mean dispersion changes that mean-based
+  statistics largely miss. The apparent power gain of data splitting and target–decoy at a larger
+  gene count is not reproduced when the number of signals is held fixed. The working e-value is
+  sensitive to null-score calibration, and donor dependence affects some procedures without a
+  common monotone pattern. These results show why benchmark comparisons should separate the signal
+  being tested, the calibration of the input evidence, and the multiple-testing rule.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.3390/math14203786
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Mathematics
+    year: 2026
+    url: https://doi.org/10.3390/math14203786
+    doi: 10.3390/math14203786
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

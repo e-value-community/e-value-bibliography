@@ -1,0 +1,38 @@
+title: e-values based continuous-time model selection for residential electricity demand forecasts
+authors: Fabian Backhaus, Karoline Brucke, Peter Ruckdeschel, Sunke Schlüters
+year: 2025
+arxiv: '2410.17800'
+abstract: >-
+  With the growing number of forecasting techniques and the increasing significance of
+  forecast-based operation - particularly in the rapidly evolving energy sector - selecting the
+  most effective forecasting model has become a critical task. Given the dynamic nature of energy
+  forecasting, it is highly advantageous to assess the superiority of forecasting models not only
+  retrospectively but continuously in real-time as new data and evidence becomes available, while
+  simultaneously providing strong probabilistic guarantees for these decisions. In this work, we
+  show that this can be achieved through the mathematical concept of e-values, which has recently
+  gained massive attention in the field of statistics. It allows for unified construction
+  principles for powerful tests and accurate statistical decisions, which can be evaluated at any
+  chosen time points while maintaining an overall probabilistic error control. We extend the use
+  of e-values by developing a simple persistence approach that dynamically combines input
+  forecasts to generate new fused predictions. To demonstrate the performance of our method we
+  apply it to electricity demand forecasts based on different artificial intelligence based
+  models. Our results indicate that e-values are able to improve the accuracy and reliability of
+  forecasts in a dynamic environment, offering a valuable tool for real-time decision-making in
+  the energy sector.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2410.17800
+labels:
+- applications
+- e-values
+publications:
+- name: Energy and Buildings
+  year: 2025
+  url: https://doi.org/10.1016/j.enbuild.2025.116452
+  doi: 10.1016/j.enbuild.2025.116452
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2410.17800
+  arxiv: '2410.17800'
+doi: 10.1016/j.enbuild.2025.116452
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

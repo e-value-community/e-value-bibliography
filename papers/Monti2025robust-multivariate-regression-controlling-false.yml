@@ -1,0 +1,32 @@
+title: Robust multivariate regression controlling false discoveries for microbiome data
+authors: Gianna Serafina Monti, Meritxell Pujolassos, Malu Calle Rosingana, Peter Filzmoser
+year: 2025
+doi: 10.1093/bioinformatics/btaf506
+abstract: >-
+  Abstract Motivation Understanding how bacterial species relate to clinical health indicators can
+  reveal microbiome signatures of disease, offering insights into conditions such as obesity or
+  liver disease. However, analyzing such data requires methods that address compositionality, high
+  dimensionality, sparsity, and outliers. Results We tackle the challenge of identifying
+  microbiome components linked to health indicators through a robust multivariate compositional
+  regression model. Our method addresses the high dimensionality, sparsity, and compositional
+  nature of microbiome data while maintaining control of the false discovery rate (FDR). By
+  incorporating outlier robustness and a derandomization step, we enhance the stability and
+  reproducibility of results, surpassing current techniques like the Multi-Response Knockoff
+  Filter (MRKF). In simulation studies, our method outperforms MRKF in terms of FDR control,
+  power, and robustness. In real data applications, it leads to valuable biological insights, such
+  as identifying microbial species associated with specific clinical parameters. Availability and
+  implementation Software in R code format, along with synthetic data example illustrations and
+  comprehensive documentation, is available at https://github.com/giannamonti/RobMReg.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/bioinformatics/btaf506
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Bioinformatics
+  year: 2025
+  url: https://doi.org/10.1093/bioinformatics/btaf506
+  doi: 10.1093/bioinformatics/btaf506
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

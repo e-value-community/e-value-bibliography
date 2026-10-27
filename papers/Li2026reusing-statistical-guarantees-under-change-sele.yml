@@ -1,0 +1,35 @@
+title: 'Reusing Statistical Guarantees Under Change: Selection Costs and Event Ownership'
+authors: Ao Li, Weitong Chen
+year: 2026
+arxiv: '2610.09391'
+abstract: >-
+  An adaptive system can retain an earlier estimate while changing what that estimate is used to
+  guarantee. The guarantee depends on the experiment that produced the evidence, including how its
+  target was selected and which assumptions connect it to the current claim. We show that
+  past-measurable selection preserves future martingale dynamics without preserving a unit
+  expected starting value. An exact finite counterexample, using a strictly positive family,
+  refutes a published changing-prior extension as stated with probability one and rules out
+  unrestricted bounds based only on switch count and the error level. We give a paid-start
+  multi-switch correction and establish $m$ as the sharp worst-case expected starting-moment cost
+  for an unstructured family of $m$ hypotheses. We then develop Adaptive Assurance, a framework in
+  which statistical events retain their experiment, funding and outcome bindings while claims and
+  premise dependencies change. Compatible-outcome projection supports reuse, selective
+  invalidation, fresh acquisition and auditable decisions. Two histories can have identical
+  current regions yet require different responses to a later edit, making evidence origin part of
+  the assurance state. Studies in six public-recorded domains exercise heterogeneous outcomes and
+  access contracts. Component interventions expose erroneous inheritance and unnecessary resets.
+  The framework separates conditional guarantee recovery from competence adaptation, with explicit
+  costs for evidence, computation and verification.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.09391
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.09391
+    arxiv: '2610.09391'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

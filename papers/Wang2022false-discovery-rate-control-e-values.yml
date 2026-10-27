@@ -1,0 +1,37 @@
+title: False Discovery Rate Control with E-values
+authors: Ruodu Wang, Aaditya Ramdas
+year: 2022
+doi: 10.1111/rssb.12489
+arxiv: '2009.02824'
+abstract: >-
+  E-values have gained attention as potential alternatives to p-values as measures of uncertainty,
+  significance and evidence. In brief, e-values are realized by random variables with expectation
+  at most one under the null; examples include betting scores, (point null) Bayes factors,
+  likelihood ratios and stopped supermartingales. We design a natural analog of the
+  Benjamini-Hochberg (BH) procedure for false discovery rate (FDR) control that utilizes e-values,
+  called the e-BH procedure, and compare it with the standard procedure for p-values. One of our
+  central results is that, unlike the usual BH procedure, the e-BH procedure controls the FDR at
+  the desired level -- with no correction -- for any dependence structure between the e-values. We
+  illustrate that the new procedure is convenient in various settings of complicated dependence,
+  structured and post-selection hypotheses, and multi-armed bandit problems. Moreover, the BH
+  procedure is a special case of the e-BH procedure through calibration between p-values and
+  e-values. Overall, the e-BH procedure is a novel, powerful and general tool for multiple testing
+  under dependence, that is complementary to the BH procedure, each being an appropriate choice in
+  different applications.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2009.02824
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+    year: 2022
+    url: https://doi.org/10.1111/rssb.12489
+    doi: 10.1111/rssb.12489
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2009.02824
+    arxiv: '2009.02824'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

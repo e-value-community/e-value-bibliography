@@ -1,0 +1,39 @@
+title: Structure-Adaptive E-Value Filter for Detecting Regional Signals in Brain Imaging
+authors: Jingcheng He, Hangjin Jiang, Wenguang Sun, for the Alzheimer's Disease Neuroimaging Initiative
+year: 2026
+doi: 10.1080/01621459.2026.2735971
+arxiv: '2609.07246'
+abstract: >-
+  Structural MRI provides a noninvasive view of the neuroanatomical differences associated with
+  cognitive impairment and dementia. Using data from the Alzheimer's Disease Neuroimaging
+  Initiative, we investigate which anatomical regions exhibit widespread gray-matter differences
+  and how these regional patterns vary across the clinical spectrum. Addressing this goal requires
+  translating spatially dependent voxel-level evidence into regional conclusions while controlling
+  multiplicity across anatomical regions. We propose the Structure-adaptive E-value FilTer (SEFT),
+  which uses flexible working models to construct spatially adaptive voxel-level scores and
+  aggregates them into regional partial-conjunction e-values. When combined with the e-value
+  Benjamini--Hochberg (e-BH) procedure, these e-values provide finite-sample control of the
+  set-wise false discovery rate under arbitrary interregional dependence. The ADNI analysis
+  reveals a coherent neuroanatomical pattern: the exploratory analysis shows that differences
+  between normal cognition and mild cognitive impairment are concentrated in medial-temporal
+  regions, whereas the differences between mild cognitive impairment and dementia extend more
+  broadly into temporal--limbic and posterior association regions. Both patterns largely overlap
+  the normal-cognition--dementia benchmark, identifying a shared anatomical core across the
+  clinical comparisons.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.07246
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Journal of the American Statistical Association
+  year: 2026
+  url: https://doi.org/10.1080/01621459.2026.2735971
+  doi: 10.1080/01621459.2026.2735971
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.07246
+  arxiv: '2609.07246'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

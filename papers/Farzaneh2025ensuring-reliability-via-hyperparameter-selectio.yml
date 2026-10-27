@@ -1,0 +1,27 @@
+title: 'Ensuring Reliability via Hyperparameter Selection: Review and Advances'
+authors: Amirmohammad Farzaneh, Osvaldo Simeone
+year: 2025
+abstract: >-
+  Hyperparameter selection is a critical step in the deployment of artificial intelligence (AI)
+  models, particularly in the current era of foundational, pre-trained, models. By framing
+  hyperparameter selection as a multiple hypothesis testing problem, recent research has shown
+  that it is possible to provide statistical guarantees on population risk measures attained by
+  the selected hyperparameter. This paper reviews the Learn-Then-Test (LTT) framework, which
+  formalizes this approach, and explores several extensions tailored to engineering-relevant
+  scenarios. These extensions encompass different risk measures and statistical guarantees,
+  multi-objective optimization, the incorporation of prior knowledge and dependency structures
+  into the hyperparameter selection process, as well as adaptivity. The paper also includes
+  illustrative applications for communication systems.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.23919/eusipco63237.2025.11226701
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: 2025 33rd European Signal Processing Conference (EUSIPCO)
+  year: 2025
+  url: https://eusipco2025.org/wp-content/uploads/pdfs/0001163.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

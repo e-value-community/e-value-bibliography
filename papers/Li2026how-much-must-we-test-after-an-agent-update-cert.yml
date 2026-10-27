@@ -1,0 +1,30 @@
+title: How Much Must We Test After an Agent Update? Certifying Retention in Continually Learning Agents
+authors: Xiaoyu Li, Zheng Gao, Penghao Jiang, Zhicheng Bao, Jiaojiao Jiang
+year: 2026
+abstract: >-
+  Local agent updates expose where behavior can change. Can this information make retention
+  certification cheaper? We separate cheap routing observations from costly paired agent
+  evaluations. For a frozen update activating on mass $p_i$ of historical family $i$, we establish
+  matching $\Theta(\sum_i p_i^2/\gamma^2)$ expected active-pair complexity at good candidates, at
+  fixed error levels in a specified paired-score oracle, for known $p_i \geq 2\gamma$. Estimated
+  support yields an anytime-valid gate for one frozen update. In 110,592 procedural model
+  responses, five of six experience memories show supported target gains of 21.1–97.3 percentage
+  points with candidate-specific historical compatibility when locally applied; global injection
+  causes material historical harm in all six. A pre-inspection analysis extension reduces mean
+  replayed active-pair inspections by 31.9% at narrow controlled overlap, while spending
+  substantially more routing queries. A separately frozen model-selection update improves official
+  GSM8K accuracy by 11.0 points while preserving the tested historical policy. The original
+  wider-overlap procedural primary yields no useful releases. The results identify when locality
+  enables useful updates and when its certification saves expensive evidence.
+abstract_status: source_abstract
+abstract_source: https://neurips.cc/virtual/2026/170524
+labels:
+- methodology
+- applications
+- e-processes
+publications:
+- name: NeurIPS Continual Learning Workshop
+  year: 2026
+  url: https://neurips.cc/virtual/2026/170524
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

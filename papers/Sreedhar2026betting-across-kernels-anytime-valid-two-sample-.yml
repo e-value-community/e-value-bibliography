@@ -1,0 +1,32 @@
+title: 'Betting Across Kernels: Anytime-Valid Two-Sample Testing over Kernel Families'
+authors: Diya Sreedhar, Juliana Li
+year: 2026
+abstract: >-
+  Sequential kernel two-sample tests rely on a fixed RKHS chosen in advance, but the right kernel
+  depends on the unknown alternative. We give the first anytime-valid two-sample test that adapts
+  over a continuous family of RKHSs, by composing Shekhar-Ramdas online betting within each RKHS
+  with method-of-mixtures aggregation across kernel parameters. At a point-mass prior the test
+  recovers single-kernel Shekhar-Ramdas exactly. For a discrete family of K kernels, its stopping
+  time is (log K + log(1/α) + C) / MMD² at the best kernel k*; continuous priors achieve the same
+  leading rate plus a burn-in correction. We obtain the first time-uniform confidence sequence on
+  the best-in-family divergence sup over λ of MMD²(k_λ), and a matching lower bound from a
+  bandpass-Gaussian construction shows the log K price is information-theoretically unavoidable.
+  Experiments cover three settings: across six LLM-auditing scenarios the optimal bandwidth varies
+  but the mixture stays competitive throughout (cross-provider Claude vs GPT detected in 18
+  samples at α = 0.05; the mixture beats a post-hoc oracle by 1.5x on regime-uncertain streams);
+  on capability-rate evaluation it detects an 88% vs 49% accuracy gap between Sonnet 4.6 and Haiku
+  4.5 in 22 samples; and on a classical A/B test it preserves Type I control under continuous
+  monitoring while a naive peeking z-test inflates to a 34% false-positive rate.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/80001
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=h9SRf9tW6r
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

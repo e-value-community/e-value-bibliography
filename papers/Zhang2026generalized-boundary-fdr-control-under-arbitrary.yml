@@ -1,0 +1,36 @@
+title: 'Generalized Boundary FDR Control under Arbitrary Dependence: An Approach on Closure Principle'
+authors: Yifan Zhang, Wentao Zhang, Changliang Zou, Haojie Ren
+year: 2026
+arxiv: '2605.09953'
+abstract: >-
+  False discovery rate (FDR) is a cornerstone of modern multiple testing. However, it often fails
+  to guarantee the reliability of "marginal" discoveries that lie at the boundary of the rejection
+  set, which are often crucial in high-precision applications. While recent works (Soloff et al.,
+  2024; Xiang et al., 2025) introduced the boundary false discovery rate (bFDR) to control the
+  error probability at the marginal discovery, their method relies on restrictive assumptions such
+  as independence or specific prior distributions. In this paper, we first propose $k$-bFDR, a
+  novel generalization that controls the error probability of the $k$ least significant
+  discoveries. We then provide a systematic investigation into the theoretical relationship
+  between $k$-bFDR and existing error metrics. Furthermore, building upon the closure principle,
+  we develop Domino, a unified framework that guarantees $k$-bFDR control under arbitrary
+  dependence, applicable for both p-values and e-values. We prove the theoretical validity of the
+  proposed Domino algorithm and demonstrate through extensive numerical experiments that it
+  consistently achieves rigorous $k$-bFDR control while identifying trustworthy marginal
+  discoveries. Analyses of real data reveal that $k$-bFDR control yields higher-quality rejection
+  sets with greater practical significance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.09953
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: International Conference on Machine Learning
+    year: 2026
+    url: https://proceedings.mlr.press/v306/zhang26iz.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2605.09953
+    arxiv: '2605.09953'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

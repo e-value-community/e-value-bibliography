@@ -1,0 +1,42 @@
+title: The numeraire e-variable and reverse information projection
+authors: Martin Larsson, Aaditya Ramdas, Johannes Ruf
+year: 2025
+doi: 10.1214/24-aos2487
+arxiv: '2402.18810'
+abstract: >-
+  We consider testing a composite null hypothesis $\mathcal{P}$ against a point alternative
+  $\mathsf{Q}$ using e-variables, which are nonnegative random variables $X$ such that
+  $\mathbb{E}_\mathsf{P}[X] \leq 1$ for every $\mathsf{P} \in \mathcal{P}$. This paper establishes
+  a fundamental result: under no conditions whatsoever on $\mathcal{P}$ or $\mathsf{Q}$, there
+  exists a special e-variable $X^*$ that we call the numeraire, which is strictly positive and
+  satisfies $\mathbb{E}_\mathsf{Q}[X/X^*] \leq 1$ for every other e-variable $X$. In particular,
+  $X^*$ is log-optimal in the sense that $\mathbb{E}_\mathsf{Q}[\log(X/X^*)] \leq 0$. Moreover,
+  $X^*$ identifies a particular sub-probability measure $\mathsf{P}^*$ via the density $d
+  \mathsf{P}^*/d \mathsf{Q} = 1/X^*$. As a result, $X^*$ can be seen as a generalized likelihood
+  ratio of $\mathsf{Q}$ against $\mathcal{P}$. We show that $\mathsf{P}^*$ coincides with the
+  reverse information projection (RIPr) when additional assumptions are made that are required for
+  the latter to exist. Thus $\mathsf{P}^*$ is a natural definition of the RIPr in the absence of
+  any assumptions on $\mathcal{P}$ or $\mathsf{Q}$. In addition to the abstract theory, we provide
+  several tools for finding the numeraire and RIPr in concrete cases. We discuss several
+  nonparametric examples where we can indeed identify the numeraire and RIPr, despite not having a
+  reference measure. Our results have interpretations outside of testing in that they yield the
+  optimal Kelly bet against $\mathcal{P}$ if we believe reality follows $\mathsf{Q}$. We end with
+  a more general optimality theory that goes beyond the ubiquitous logarithmic utility. We focus
+  on certain power utilities, leading to reverse Rényi projections in place of the RIPr, which
+  also always exist.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2402.18810
+labels:
+- theory
+- e-values
+publications:
+- name: The Annals of Statistics
+  year: 2025
+  url: https://doi.org/10.1214/24-aos2487
+  doi: 10.1214/24-aos2487
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2402.18810
+  arxiv: '2402.18810'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

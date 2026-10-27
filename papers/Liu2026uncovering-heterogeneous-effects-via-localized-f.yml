@@ -1,0 +1,35 @@
+title: Uncovering heterogeneous effects via localized feature selection
+authors: >-
+  Xiaoxia Liu, Jiaqi Gu, Zhaomeng Chen, Benjamin Chu, Linxi Liu, Tim Morrison, Robert R. Butler III,
+  Jacob Edelson, Jinzhou Li, Frank M. Longo, Hua Tang, Iuliana Ionita-Laza, Chiara Sabatti, Emmanuel
+  Candès, Zihuai He
+year: 2026
+doi: 10.1073/pnas.2527033123
+abstract: >-
+  Identifying features that interact to trigger disease, while accounting for heterogeneity across
+  diverse populations, is essential for the development of precision and targeted medicine.
+  Despite the availability of vast and complex health-related datasets, most existing works focus
+  on identifying disease-associated features at the population level or within a few
+  subpopulations, often overlooking individual-level heterogeneity within these groups. To address
+  this limitation, we propose a framework that utilizes localized test statistics to identify
+  disease-associated features tailored to individual profiles. Our method leverages the recently
+  developed knockoffs methodology to control the noise level of the selection set so that the
+  results are replicable. Moreover, it allows for the discovery of hidden heterogeneous effects
+  within the data, as demonstrated in an application to single-cell RNA sequencing data for
+  Alzheimer’s disease. By aggregating localized feature selection results, our framework also
+  enables powerful population-level feature selection. Our framework provides a powerful tool for
+  exploratory studies of precision medicine, offering the potential to generate novel hypotheses
+  for confirmatory biological experiments.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.2527033123
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 2026
+    url: https://doi.org/10.1073/pnas.2527033123
+    doi: 10.1073/pnas.2527033123
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

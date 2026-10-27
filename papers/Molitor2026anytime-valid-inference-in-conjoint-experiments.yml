@@ -1,0 +1,36 @@
+title: Anytime-Valid Inference in Conjoint Experiments
+authors: Daniel Molitor, Jennah Gosciak, Michael Lindon
+year: 2026
+arxiv: '2610.28979'
+abstract: >-
+  Choosing an appropriate sample size is a fundamental challenge in experimental design. This
+  challenge is particularly salient in conjoint experiments, where researchers simultaneously
+  target many estimands whose inferential goals may be reached at different sample sizes.
+  Conventional sample-size calculations address this challenge in an ex ante manner. In large
+  online studies, including many conjoint experiments, data often arrive continuously, allowing
+  researchers to dynamically stop data collection. In such settings, the relevant practical
+  question is not "what sample size should I choose in advance?" but rather, as data accumulate,
+  "have I learned enough yet?" A naive response is to repeatedly inspect conventional confidence
+  intervals and $p$-values, but doing so invalidates their inferential guarantees. We address this
+  challenge by developing a general anytime-valid framework for conjoint experiments that allows
+  continuous monitoring and data-dependent stopping. This framework equips many common conjoint
+  estimands with asymptotic $e$-processes, confidence sequences, and anytime-valid $p$-values, and
+  provides a general recipe for any estimand that can be expressed as a linear contrast of
+  population OLS coefficients. Across common conjoint settings, we demonstrate that anytime-valid
+  inference can yield substantial sample savings relative to fixed-sample designs. The
+  probability of early stopping frequently exceeds 50%, with mean sample savings often surpassing
+  25%.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.28979
+labels:
+- methodology
+- applications
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.28979
+  arxiv: '2610.28979'
+database_added: '2026-10-22'
+database_updated: '2026-10-22'

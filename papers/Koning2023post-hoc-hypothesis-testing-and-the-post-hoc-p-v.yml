@@ -1,0 +1,34 @@
+title: Post-hoc α hypothesis testing and the post-hoc p-value
+authors: Nick W. Koning
+year: 2023
+doi: null
+arxiv: '2312.08040'
+abstract: >-
+  In traditional hypothesis testing one must pre-specify the significance level $α$ to bound the
+  `size' of the test: its probability to falsely reject the hypothesis. Indeed, a data-dependent
+  selection of $α$ would generally distort the size, possibly making it larger than the specified
+  level $α$. We explore hypothesis testing with a data-dependent choice of $α$ by guaranteeing
+  that there is no such size distortion in expectation, even if the level $α$ is arbitrarily
+  selected based on the data. Unlike regular $p$-values, resulting `post-hoc $p$-values' allow us
+  to `reject at level $p$' and still provide this guarantee. Interestingly, we find that $p$ is a
+  post-hoc $p$-value if and only if $1/p$ is an $e$-value, a recently introduced measure of
+  evidence. While often treated as different paradigms, this reveals $e$-values are simply
+  $p$-values under a stronger error guarantee, thinly veiled by the reciprocal $p = 1/e$.
+  Moreover, we extend classical optimal testing to optimal post-hoc testing. Finally, we apply our
+  work to close Markov's inequality into a post-hoc $α$ equality, and we study more general forms
+  of post-hoc testing that require us to generalize beyond $e$-values.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2312.08040
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2312.08040
+  arxiv: '2312.08040'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

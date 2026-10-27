@@ -1,0 +1,33 @@
+title: Strong duality for the GROW criterion
+authors: Ashwin Ram, Martin Larsson, Johannes Ruf, Aaditya Ramdas
+year: 2026
+arxiv: '2606.24768'
+abstract: >-
+  This paper presents general strong duality results when testing hypotheses by betting against
+  them. A bet is an e-variable for a composite null hypothesis $\Pcal$: a nonnegative random
+  variable $X$ whose expected value is at most one under every $P \in \mathcal P$. Following
+  Kelly, Breiman, Cover, Shafer, and Grunwald et al. (2024), we study a natural minimax
+  \emph{log-optimality} criterion: given a composite alternative $\Qcal$, we characterize the
+  ``GROW value'' $\sup_{X} \inf_{Q} \E_{Q}[\log X]$. This paper generalizes the results of Larsson
+  et al. (2025) from (arbitrary $\mathcal P$ and) simple $\mathcal Q$ to arbitrary $\mathcal Q$.
+  We prove that there always exists a minimizing information-projection pair between the weak-$*$
+  closures of the convex hulls of arbitrary $\mathcal P$ and $\mathcal Q$, and show that the GROW
+  value for \emph{bounded} e-variables always equals their relative entropy. We also prove a
+  similarly general strong duality for the REGROW criterion with bounded e-variables and arbitrary
+  bounded offsets. Under various assumptions our results extend to unbounded e-variables, and
+  examples show that without any assumptions such extensions fail. Our results are analogous to
+  those in Larsson et al. (2026), swapping tests for bounded e-variables, minimax risk for the
+  GROW criterion, and total variation for relative entropy.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.24768
+labels:
+- theory
+- e-values
+- information theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.24768
+  arxiv: '2606.24768'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

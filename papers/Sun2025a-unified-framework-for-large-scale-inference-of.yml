@@ -1,0 +1,35 @@
+title: 'A Unified Framework for Large-Scale Inference of Classification: Error Rate Control and Optimality'
+authors: Yinrui Sun, Yin Xia
+year: 2025
+arxiv: '2504.07321'
+abstract: >-
+  Classification is a fundamental task in supervised learning, while achieving valid
+  misclassification rate control remains challenging due to possibly the limited predictive
+  capability of the classifiers or the intrinsic complexity of the classification task. In this
+  article, we address large-scale multi-class classification problems with general error rate
+  guarantees to enhance algorithmic trustworthiness. To this end, we first introduce a notion of
+  group-wise classification, which unifies the common class-wise and overall classifications as
+  special cases. We then develop a unified inference framework for the general group-wise
+  classification that consists of three steps: Pre-classification, Selective $p$-value
+  construction, and large-scale Post-classification decisions (PSP). Theoretically, PSP is
+  distribution-free and provides valid finite-sample guarantees for controlling general group-wise
+  false decision rates at target levels. To show the power of PSP, we demonstrate that the step of
+  post-classification decisions never degrades the power of pre-classification, provided that
+  pre-classification has been sufficiently powerful to meet the target error levels. We further
+  establish general power optimality theories for PSP from both non-asymptotic and asymptotic
+  perspectives. Numerical results in both simulations and real data analysis validate the
+  performance of the proposed PSP approach. In addition, we introduce an ePSP algorithm that
+  integrates the idea of PSP with selective $e$-values. Finally, extensions of PSP are shown to
+  demonstrate its feasibility and power in broader applications.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.07321
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.07321
+  arxiv: '2504.07321'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,33 @@
+title: Variable Selection for Multi-Source Count Data with Controlled False Discovery Rate
+authors: Shan Tang, Shanjun Mao, Shourong Ma, Falong Tan
+year: 2024
+arxiv: '2411.18986'
+abstract: >-
+  The rapid generation of complex, highly skewed, and zero-inflated multi-source count data poses
+  significant challenges for variable selection, particularly in biomedical domains like tumor
+  development and metabolic dysregulation. To address this, we propose a new variable selection
+  method, Zero-Inflated Poisson-Gamma Simultaneous Knockoff (ZIPG-SK), specifically designed for
+  multi-source count data. Our method leverages a gaussian copula based on the Zero-Inflated
+  Poisson-Gamma (ZIPG) distribution to construct knockoffs that properly account for the
+  properties of count data, including high skewness and zero inflation, while effectively
+  incorporating covariate information. This framework enables the detection of common features
+  across multi-source datasets with guaranteed false discovery rate (FDR) control. Furthermore, we
+  enhance the power of the method by incorporating e-value aggregation, which effectively
+  mitigates the inherent randomness in knockoff generation. Through extensive simulations, we
+  demonstrate that ZIPG-SK significantly outperforms existing methods, achieving superior power
+  across various scenarios. We validate the utility of our method on real-world colorectal cancer
+  (CRC) and type 2 diabetes (T2D) datasets, identifying key variables whose characteristics align
+  with established findings and simultaneously provide new mechanistic insights.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2411.18986
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2411.18986
+  arxiv: '2411.18986'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

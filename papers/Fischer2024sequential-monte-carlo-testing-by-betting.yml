@@ -1,0 +1,39 @@
+title: Sequential Monte-Carlo testing by betting
+authors: Lasse Fischer, Aaditya Ramdas
+year: 2025
+doi: 10.1093/jrsssb/qkaf014
+arxiv: '2401.07365'
+abstract: >-
+  In a Monte-Carlo test, the observed dataset is fixed, and several resampled or permuted versions
+  of the dataset are generated in order to test a null hypothesis that the original dataset is
+  exchangeable with the resampled/permuted ones. Sequential Monte-Carlo tests aim to save
+  computational resources by generating these additional datasets sequentially one by one, and
+  potentially stopping early. While earlier tests yield valid inference at a particular
+  prespecified stopping rule, our work develops a new anytime-valid Monte-Carlo test that can be
+  continuously monitored, yielding a p-value or e-value at any stopping time possibly not
+  specified in advance. It generalizes the well-known method by Besag and Clifford, allowing it to
+  stop at any time, but also encompasses new sequential Monte-Carlo tests that tend to stop sooner
+  under the null and alternative without compromising power. The core technical advance is the
+  development of new test martingales (nonnegative martingales with initial value one) for testing
+  exchangeability against a very particular alternative. These test martingales are constructed
+  using new and simple betting strategies that smartly bet on whether a generated test statistic
+  is greater or smaller than the observed one. The betting strategies are guided by the derivation
+  of a simple log-optimal betting strategy, have closed form expressions for the wealth process,
+  provable guarantees on resampling risk, and display excellent power in practice.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.07365
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+    year: 2024
+    url: https://doi.org/10.1093/jrsssb/qkaf014
+    doi: 10.1093/jrsssb/qkaf014
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2401.07365
+    arxiv: '2401.07365'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

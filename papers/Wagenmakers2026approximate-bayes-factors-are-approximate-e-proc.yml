@@ -1,0 +1,22 @@
+title: Approximate Bayes Factors Are Approximate E-Processes
+authors: Eric-Jan Wagenmakers, František Bartoš, Frederik Aust
+year: 2026
+doi: 10.2139/ssrn.6138254
+abstract: >-
+  Recent years have seen a surge of interest in ‘e-values’ and ‘e-processes’,which allow
+  sequential inference and optional stopping while maintainingstrict frequentist Type I error
+  control. For the test of a single parameter wepresent families of Wald-type test statistics that
+  are both e-processes andapproximate Bayes factors (e.g., Jeffreys, 1936).
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.6138254
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.6138254
+  doi: 10.2139/ssrn.6138254
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,27 @@
+title: A Predictable E-Process for Anytime-Valid Overidentification Monitoring in GMM
+authors: S M Nazmuz Sakib
+year: 2026
+doi: 10.33774/coe-2026-jwm4x
+abstract: >-
+  Classical Hansen–Sargan overidentification testing is not robust to optional stopping and
+  repeated “peeking” in real-time monitoring. This manuscript intro- duces the S M Nazmuz Sakib
+  eJ-Test and the associated Sakib Index SIt, an anytime-valid evidence stream for overidentified
+  moment restrictions. The key idea is a predictable orthogonalization of GMM moments that removes
+  parameter directions online, combined with a Gaussian mixture supermartingale to produce an
+  e-process Et that is valid under optional continuation. All empirical illustrations are
+  dataset-based and use open World Bank data on U.S. inflation and unemployment (1975–2024). In
+  our inflation illustration, the resulting e-process crosses the 1/α threshold for α = 0.05 in
+  year 2023, while an expanding-window J-path crosses much earlier, illustrating how repeated
+  monitoring can distort classical fixed-sample testing.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.33774/coe-2026-jwm4x
+labels:
+- applications
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.33774/coe-2026-jwm4x
+  doi: 10.33774/coe-2026-jwm4x
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,43 @@
+title: >-
+  DriftFair: Anytime-Valid Temporal Fairness Monitoring and Shift Attribution for AI-Assisted Talent
+  Promotion Decisions
+authors: Zimeng Wang, Zifan Chen, Zijian Shen
+year: 2026
+abstract: >-
+  Organisations increasingly deploy machine-learned scorers to shortlist employees for promotion.
+  Such systems are typically audited for fairness once, at deployment, and then left unchecked,
+  even though the population they judge keeps moving. We show that this practice is unsafe in a
+  specific and measurable way: the drift that damages fairness and the drift that damages accuracy
+  are largely disjoint, so accuracy-oriented monitors never fire, while input-oriented monitors
+  fire on shifts that carry no fairness consequence at all. We present DriftFair, an operational
+  monitor with four components. (i) A change detector for group-fairness functionals built as a
+  weighted mixture of restarted betting e-processes; because the mixture is a non-negative
+  supermartingale started at one, Ville's inequality gives a time-uniform false-alarm guarantee
+  over an unbounded monitoring horizon, together with an explicit tolerance band that also absorbs
+  the estimation error of the certified reference. (ii) An additive decomposition of any observed
+  fairness drift into within-group covariate shift, latent (concept) shift and group-composition
+  shift, obtained by per-group density-ratio reweighting, plus an exact Shapley attribution that
+  names the responsible feature. (iii) A multi-cohort dashboard with online false-discovery-rate
+  control via e-values. (iv) An attribution-driven maintenance policy. On a real promotion data
+  set of 54,808 employee records, DriftFair is the only monitor among seven that combines a zero
+  false-alarm rate on fairness-irrelevant drift with reliable detection of harmful drift; its
+  shift attribution reaches 0.85 macro accuracy against 0.40 for a Kolmogorov-Smirnov input
+  monitor, and its Shapley term recovers the perturbed feature with an attributed magnitude of
+  0.185 versus at most 0.021 for every other feature. Monitor-triggered per-group threshold
+  recalibration cuts excess-disparity exposure by 48% relative to no maintenance while consuming
+  1,100 fresh labels, about one forty-ninth of the cheapest periodic schedule, and matches an
+  oracle that knows the true change points. We further report a real chronological stream and a
+  quantified data-sufficiency limit for small cohorts.
+abstract_status: source_abstract
+abstract_source: https://wsr-j.org/index.php/ojs/article/view/153
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+  - name: World Scientific Research Journal 12(10)
+    year: 2026
+    url: http://wsr-j.org/index.php/ojs/article/view/153
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

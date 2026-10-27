@@ -1,0 +1,33 @@
+title: Uniform mean estimation for monotonic processes
+authors: Eugenio Clerico, Hamish E. Flynn, Patrick Rebeschini
+year: 2026
+doi: 10.1016/j.spl.2025.110558
+arxiv: '2502.01244'
+abstract: >-
+  We consider the problem of deriving uniform confidence bands for the mean of a monotonic
+  stochastic process, such as the cumulative distribution function (CDF) of a random variable,
+  based on a sequence of i.i.d.~observations. Our approach leverages the coin-betting framework,
+  and inherits several favourable characteristics of coin-betting methods. In particular, for each
+  point in the domain of the mean function, we obtain anytime-valid confidence intervals that are
+  numerically tight and adapt to the variance of the observations. To derive uniform confidence
+  bands, we employ a continuous union bound that crucially leverages monotonicity. In the case of
+  CDF estimation, we also exploit the fact that the empirical CDF is piece-wise constant to obtain
+  simple confidence bands that can be easily computed. In simulations, we find that our confidence
+  bands for the CDF achieve state-of-the-art performance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.01244
+labels:
+- methodology
+- confidence sequences
+- probability theory
+publications:
+  - name: Statistics & Probability Letters
+    year: 2026
+    url: https://doi.org/10.1016/j.spl.2025.110558
+    doi: 10.1016/j.spl.2025.110558
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2502.01244
+    arxiv: '2502.01244'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

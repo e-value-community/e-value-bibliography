@@ -1,0 +1,40 @@
+title: Anytime-Valid Stopping for Self-Consistency on Open Answer Sets
+authors: Guan-Yuan Chen, Ya-Fen Yeh
+year: 2026
+abstract: >-
+  Self-consistency samples reasoning chains and returns the most frequent answer, and adaptive
+  variants stop sampling early to save compute. Deployments act on the stopped answer, yet these
+  rules check a posterior or window criterion as draws arrive, so the chance of stopping on an
+  answer that is not the population mode has no time-uniform bound. In simulation, Adaptive
+  Consistency (AC) at its published setting significantly exceeds the tolerance implied by its
+  credible level in 27 of 70 cells. Existing anytime-valid mode certificates need the number of
+  answers in advance, control nulls that must hold at every round rather than the error of the
+  answer returned at stopping, certify a target fixed before sampling, or restart fixed-sample
+  tests on fresh draws; a tuple-indexed repair for a data-selected leader is stated under a unique
+  mode. We give a stopping rule for i.i.d. draws over an unknown, possibly countably infinite
+  answer set that certifies at level δ that an answer it selects from the data is a population
+  mode. Each discovered answer must beat every rival, seen or unseen, against a threshold set by
+  the order in which it was first seen rather than by the size of the answer set. Under a unique
+  mode, the expected stopping time of this complete rule attains the optimal leading constant as δ
+  → 0 without knowledge of the answer set. The rule and its four variants never exceed δ in 140
+  i.i.d. simulation cells; where the rule and AC both certify at least 90% of replicates, the rule
+  costs a median 3.2 times AC's draws. On GSM8K with Qwen2.5-1.5B at δ = 0.05, the rule, set by δ
+  alone, lands within one wrong certificate and four certified questions in 200 of the
+  coverage–error frontier that AC reaches with a threshold tuned in-sample; on Qwen3.5-2B and 9B
+  it makes at most one more wrong certificate in 200 than AC at matched coverage.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.23382900
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.23382900
+  doi: 10.5281/zenodo.23382900
+doi: 10.5281/zenodo.23382900
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

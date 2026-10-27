@@ -1,0 +1,39 @@
+title: Stopping Rules for Stochastic Gradient Descent via Anytime-Valid Confidence Sequences
+authors: Liviu Aolaritei, Michael I. Jordan
+year: 2025
+first_year: 2025
+first_date: '2025-12-15'
+arxiv: '2512.13123'
+abstract: >-
+  The problem of stopping stochastic gradient descent (SGD) in an online manner, based solely on
+  the observed trajectory, is a challenging theoretical problem with significant consequences for
+  applications. While SGD is routinely monitored as it runs, the classical theory of SGD provides
+  guarantees only at pre-specified iteration horizons and offers no valid way to decide, based on
+  the observed trajectory, when further computation is justified. We address this longstanding gap
+  by developing anytime-valid confidence sequences for stochastic gradient methods, which remain
+  valid under continuous monitoring and directly induce statistically valid, trajectory-dependent
+  stopping rules: stop as soon as the current upper confidence bound on an appropriate performance
+  measure falls below a user-specified tolerance. The confidence sequences are constructed using
+  nonnegative supermartingales, are time-uniform, and depend only on observable quantities along the
+  SGD trajectory, without requiring prior knowledge of the optimization horizon. In convex
+  optimization, this yields anytime-valid certificates for weighted suboptimality of projected SGD
+  under general stepsize schedules, without assuming smoothness or strong convexity. In nonconvex
+  optimization, it yields time-uniform certificates for weighted first-order stationarity under
+  smoothness assumptions. We further characterize the stopping-time complexity of the resulting
+  stopping rules under standard stepsize schedules. To the best of our knowledge, this is the first
+  framework that provides statistically valid, time-uniform stopping rules for SGD across both
+  convex and nonconvex settings based solely on its observed trajectory.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.13123
+labels:
+- methodology
+- applications
+- confidence sequences
+- online learning
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2512.13123
+    arxiv: '2512.13123'
+database_added: '2026-10-22'
+database_updated: '2026-10-22'

@@ -1,0 +1,33 @@
+title: 'Betting on Bets: Anytime-Valid Tests for Stochastic Dominance'
+authors: Sebastian Arnold, Yo Joong Choe, Marco Scarsini, Ilia Tsetlin
+year: 2026
+arxiv: '2604.21851'
+abstract: >-
+  How can we monitor, in real time, whether one uncertain prospect has any upside over another? To
+  answer this question, we develop a novel family of sequential, anytime-valid tests for
+  stochastic dominance (SD), a classical and popular notion for comparing entire distribution
+  functions. The problem is distinct from that of testing mean dominance, and it is particularly
+  useful when comparing distributions with similar means or with ordinal outcomes. We first derive
+  powerful, nonparametric e-processes that quantify evidence against the null hypothesis that one
+  prospect is stochastically dominated by another. For first-order SD, these e-processes are based
+  on mixtures of growth-rate optimal e-variables, yielding a test of power one that retains
+  validity under continuous monitoring. We then generalize the approach to sequential testing for
+  higher-order SD and other integral stochastic orders. Empirically, we find that the tests are
+  competitive in power with classical, non-anytime-valid SD tests. Our real-world application
+  examines a controversial phenomenon in baseball analytics, known as the
+  "third-time-through-the-order (3TTO) penalty," viewed as a monitoring problem. We close by
+  sketching the complementary problem of testing whether a prospect has a definite upside,
+  formalizing conditions under which we can derive a powerful anytime-valid test.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.21851
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.21851
+  arxiv: '2604.21851'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

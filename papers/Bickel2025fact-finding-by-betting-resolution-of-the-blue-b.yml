@@ -1,0 +1,34 @@
+title: 'Fact-finding by betting: Resolution of the Blue Bus, Gatecrasher, and Prison Riot paradoxes of
+  proof without neglecting base rates'
+authors: David R. Bickel
+year: 2025
+doi: 10.5281/zenodo.15644665
+abstract: >-
+  The degree of proof needed to meet an evidentiary standard is most commonly quantified as the
+  posterior odds or, equivalently, the posterior probability, of the fact in dispute. For example
+  (Pardo, 2023), the preponderance of evidence may require odds above 1:1 (probability above 50%),
+  clear and convincing evidence may require odds above 3:1 (probability above 75%), and proof
+  beyond a reasonable doubt may require odds above 9:1 (probability above 90%). However, that way
+  to quantify the degree of proof generates paradoxes when the evidence is essentially limited to
+  the “naked statistical evidence” of base rates, taken as prior probabilities, as classically
+  illustrated by the Blue Bus case, the Gatecrasher case, and the Prison Riot case. A simpler
+  measure of the degree of proof that is not subject to those paradoxes is the likelihood ratio.
+  Unfortunately, it only bypasses those paradoxes because it is almost completely blind to base
+  rates, making it particularly unreliable in res ipsa loquitur cases and in cases involving DNA
+  matching evidence. To overcome both problems, this paper, drawing on an increasingly adopted
+  approach to statistical hypothesis testing, proposes quantifying the degree of proof by the
+  payout the fact-finder would receive for placing a hypothetical bet against the defendant's
+  hypothesis that the disputed fact is false.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.15644665
+labels:
+- philosophy
+- applications
+- e-values
+publications:
+- name: Manuscript
+  year: 2025
+  url: https://doi.org/10.5281/zenodo.15644665
+  doi: 10.5281/zenodo.15644665
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

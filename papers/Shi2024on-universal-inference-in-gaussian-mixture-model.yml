@@ -1,0 +1,32 @@
+title: On universal inference in Gaussian mixture models
+authors: Hongjian Shi, Mathias Drton
+year: 2024
+doi: null
+arxiv: '2407.19361'
+abstract: >-
+  A recent line of work provides new statistical tools based on game-theory and achieves safe
+  anytime-valid inference without assuming regularity conditions. In particular, the framework of
+  universal inference proposed by Wasserman, Ramdas and Balakrishnan [78] offers new solutions to
+  testing problems by modifying the likelihood ratio test in a data-splitting scheme. In this
+  paper, we study the performance of the resulting split likelihood ratio test under Gaussian
+  mixture models, which are canonical examples for models in which classical regularity conditions
+  fail to hold. We establish that under the null hypothesis, the split likelihood ratio statistic
+  is asymptotically normal with increasing mean and variance. Contradicting the usual belief that
+  the flexibility of universal inference comes at the price of a significant loss of power, we
+  prove that universal inference surprisingly achieves the same detection rate $(n^{-1}\log\log
+  n)^{1/2}$ as the classical likelihood ratio test.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.19361
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.19361
+  arxiv: '2407.19361'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

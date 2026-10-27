@@ -1,0 +1,33 @@
+title: Universality of e-detectors for ARL control
+authors: Aaditya Ramdas
+year: 2026
+arxiv: '2608.12660'
+abstract: >-
+  An e-detector for a pre-change class $\mathcal P$ is a nonnegative process $M$ such that
+  $\mathbb E_P[M_τ] \leq \mathbb E_P[τ]$ for all stopping times $τ$ and all $P \in \mathcal P$.
+  Thresholding e-detectors controls the average run length (ARL): declaring a change at the first
+  time $T_b$ when $M$ crosses $b$ ensures that $\inf_{P \in \mathcal P}\mathbb E_P[T] \geq b$. But
+  e-detectors do substantially more than control the ARL; they also satisfy a
+  \emph{optional-horizon inequality}: \[ P(T_b\leqσ)\leq \mathbb E_P[σ]/b \] for every
+  data-dependent stopping time (monitoring horizon) \(σ\) and $P\in \mathcal P$. In particular,
+  every e-detector-based procedure obeys $P(T\leq t)\leq t/b$ at each fixed $t$, thus avoiding
+  early false alarms. Remarkably, the converse also holds: every stopping time $T$ that satisfies
+  the optional-horizon inequality must in fact arise from thresholding an e-detector. We also
+  derive a universal representation of stopping times that satisfy (only) ARL control. These are
+  represented by \emph{weak} e-detectors, that only require $\mathbb E_P[M_τ] \leq \mathbb E_P[τ]$
+  to hold at all threshold stopping times $T_b$. Appendices present universal representations for
+  other (less common) change detection metrics.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.12660
+labels:
+- methodology
+- theory
+- e-processes
+- e-detectors
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.12660
+    arxiv: '2608.12660'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

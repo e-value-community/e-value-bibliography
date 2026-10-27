@@ -1,0 +1,41 @@
+title: On the existence of powerful p-values and e-values for composite hypotheses
+authors: Zhenyuan Zhang, Aaditya Ramdas, Ruodu Wang
+year: 2024
+doi: 10.1214/24-AOS2434
+abstract: >-
+  Given a composite null $ \mathcal P$ and composite alternative $ \mathcal Q$, when and how can
+  we construct a p-value whose distribution is exactly uniform under the null, and stochastically
+  smaller than uniform under the alternative? Similarly, when and how can we construct an e-value
+  whose expectation exactly equals one under the null, but its expected logarithm under the
+  alternative is positive? We answer these basic questions, and other related ones, when $
+  \mathcal P$ and $ \mathcal Q$ are convex polytopes (in the space of probability measures). We
+  prove that such constructions are possible if and only if $ \mathcal Q$ does not intersect the
+  span of $ \mathcal P$. If the p-value is allowed to be stochastically larger than uniform under
+  $P\in \mathcal P$, and the e-value can have expectation at most one under $P\in \mathcal P$,
+  then it is achievable whenever $ \mathcal P$ and $ \mathcal Q$ are disjoint. More generally,
+  even when $ \mathcal P$ and $ \mathcal Q$ are not polytopes, we characterize the existence of a
+  bounded nontrivial e-variable whose expectation exactly equals one under any $P \in \mathcal P$.
+  The proofs utilize recently developed techniques in simultaneous optimal transport. A key role
+  is played by coarsening the filtration: sometimes, no such p-value or e-value exists in the
+  richest data filtration, but it does exist in some reduced filtration, and our work provides the
+  first general characterization of this phenomenon. We also provide an iterative construction
+  that explicitly constructs such processes, and under certain conditions it finds the one that
+  grows fastest under a specific alternative $Q$. We discuss implications for the construction of
+  composite nonnegative (super)martingales, and end with some conjectures and open problems.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.16539
+labels:
+- methodology
+- e-values
+publications:
+  - name: The Annals of Statistics
+    year: 2024
+    url: https://doi.org/10.1214/24-AOS2434
+    doi: 10.1214/24-AOS2434
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2305.16539
+    arxiv: '2305.16539'
+arxiv: '2305.16539'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

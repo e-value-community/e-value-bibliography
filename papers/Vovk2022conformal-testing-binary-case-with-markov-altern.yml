@@ -1,0 +1,24 @@
+title: 'Conformal testing: binary case with Markov alternatives'
+authors: Vladimir Vovk, Ilia Nouretdinov, Alex Gammerman
+year: 2022
+arxiv: '2111.01885'
+abstract: >-
+  We continue study of conformal testing in binary model situations. In this note we consider
+  Markov alternatives to the null hypothesis of exchangeability. We propose two new classes of
+  conformal test martingales; one class is statistically efficient in our experiments, and the
+  other class partially sacrifices statistical efficiency to gain computational efficiency.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2111.01885
+labels:
+- applications
+- e-processes
+publications:
+  - name: Symposium on Conformal and Probabilistic Prediction and Applications
+    year: 2022
+    url: https://proceedings.mlr.press/v179/vovk22a.html
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2111.01885
+    arxiv: '2111.01885'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

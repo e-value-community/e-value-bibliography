@@ -1,0 +1,29 @@
+title: On Continuous Monitoring of Risk Violations under Unknown Shift
+authors: Alexander Timans, Rajeev Verma, Eric Nalisnick, Christian A. Naesseth
+year: 2025
+arxiv: '2506.16416'
+abstract: >-
+  Machine learning systems deployed in the real world must operate under dynamic and often
+  unpredictable distribution shifts. This challenges the validity of statistical safety assurances
+  on the system's risk established beforehand. Common risk control frameworks rely on fixed
+  assumptions and lack mechanisms to continuously monitor deployment reliability. In this work, we
+  propose a general framework for the real-time monitoring of risk violations in evolving data
+  streams. Leveraging the 'testing by betting' paradigm, we propose a sequential hypothesis
+  testing procedure to detect violations of bounded risks associated with the model's
+  decision-making mechanism, while ensuring control on the false alarm rate. Our method operates
+  under minimal assumptions on the nature of encountered shifts, rendering it broadly applicable.
+  We illustrate the effectiveness of our approach by monitoring risks in outlier detection and set
+  prediction under a variety of shifts.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2506.16416
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2506.16416
+  arxiv: '2506.16416'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

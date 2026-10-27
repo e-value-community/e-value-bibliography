@@ -1,0 +1,27 @@
+title: Combining e-values using demi-supermartingales
+authors: Jiahao Ming, Aaditya Ramdas, Yi Shen, Ruodu Wang, Ian Waudby-Smith
+year: 2026
+arxiv: '2603.10329'
+abstract: >-
+  We present a new method for combining e-variables through demi-supermartingales, which settles
+  an old conjecture in the literature on nonparametric mean testing. It also provides an explicit
+  concentration bound for a certain Kullback--Leibler-type statistic arising in the stochastic
+  multi-armed bandit literature. All of these combination results hold for independent e-variables
+  as well as for the class of co-valid e-variables, whose dependence structure lies somewhere
+  between independence and sequential validity. The results are further generalized to compound
+  e-variables. The proofs proceed by analyzing elementary symmetric polynomials and their behavior
+  as nonnegative demi-supermartingales.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.10329
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.10329
+  arxiv: '2603.10329'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

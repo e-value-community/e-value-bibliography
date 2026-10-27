@@ -1,0 +1,24 @@
+title: Finite-Sample-Corrected Conformal Test Martingales for Wireless Link Adaptation
+authors: Peixuan Wu, George Koudouridis, Genghua Dong
+year: 2026
+abstract: >-
+  Conformal test martingales (CTMs) bet on conformal p-values to accumulate evidence against
+  exchangeability. With finite calibration, a threshold event has finite-grid uncertainty around
+  its nominal probability. We use the Dvoretzky-Kiefer-Wolfowitz inequality to bound this
+  probability and subtract the largest admissible positive excess expected gain. Under the stated
+  continuous score null and a predictable betting schedule, the corrected single-score wealth is a
+  nonnegative supermartingale on the calibration event. A simulated wireless replay illustrates
+  how the corrected evidence process enters an online monitoring pipeline for alarms and
+  retraining decisions.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v329/wu26a.html
+labels:
+- applications
+- e-processes
+- probability theory
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2026
+  url: https://raw.githubusercontent.com/mlresearch/v329/main/assets/wu26a/wu26a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

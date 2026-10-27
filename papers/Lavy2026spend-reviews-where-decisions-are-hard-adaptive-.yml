@@ -1,0 +1,38 @@
+title: 'Spend Reviews Where Decisions Are Hard: Adaptive Review Allocation Under Fixed Conference Capacity'
+authors: Sagie Lavy
+year: 2026
+abstract: >-
+  Large conferences increasingly face a mismatch between submission volume and expert reviewing
+  capacity. Uniform policies respond by assigning nearly the same number of reviews to every
+  paper, even though decision difficulty varies sharply across submissions. We formulate reviewing
+  as fixed-budget threshold classification and study an adaptive allocation rule that sends each
+  additional review to the paper with largest uncertainty index $I_i = v_i p_i(1-p_i)$. We
+  establish two structural allocation results. First, when candidate papers have equal review
+  counts, this index ranks papers exactly by the expected one-step reduction in decision
+  uncertainty. Second, review demand scales with distance from the acceptance boundary: a paper at
+  latent margin $\Delta_i$ requires order $\sigma^2/\Delta_i^2$ reviews for fixed error, and a
+  continuous oracle pool obeys the exact budget-rescaling law
+  $B_c^\star(\epsilon)=B_1^\star(\epsilon)/c^2$ when all margins are multiplied by $c$.
+  Separately, we prove that predictable adaptive sampling preserves a Gaussian e-process and
+  therefore supports a single terminal e-BH decision with finite-sample FDR control. In matched
+  simulations with 2,000 submissions, the primary Adaptive-P method uses 80% of a
+  four-reviews-per-paper baseline yet reduces total error from 4.32% to 1.92% at reviewer-noise CV
+  10%, while increasing power from 87.97% to 93.59%. A matched martingale/e-value allocation
+  variant produces nearly the same operational performance, while its evidence-only e-BH layer is
+  substantially more conservative. A dense label-preserving budget sweep further shows that pools
+  with more mass near the decision boundary require more review capacity under high reviewer
+  noise. The main implication is operational: conference review demand should be modeled as a
+  function of decision difficulty, not submission count alone
+abstract_status: source_abstract
+abstract_source: https://neurips.cc/virtual/2026/166283
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: NeurIPS AI-Native Academia Workshop
+  year: 2026
+  url: https://neurips.cc/virtual/2026/166283
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

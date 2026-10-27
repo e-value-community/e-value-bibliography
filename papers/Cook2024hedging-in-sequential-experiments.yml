@@ -1,0 +1,35 @@
+title: Hedging in Sequential Experiments
+authors: Thomas Cook, Patrick Flaherty
+year: 2024
+arxiv: '2406.15867'
+abstract: >-
+  Experimentation involves risk. The investigator expends time and money in the pursuit of data
+  that supports a hypothesis. In the end, the investigator may find that all of these costs were
+  for naught and the data fail to reject the null. Furthermore, the investigator may not be able
+  to test other hypotheses with the same data set in order to avoid false positives due to
+  p-hacking. Therefore, there is a need for a mechanism for investigators to hedge the risk of
+  financial and statistical bankruptcy in the business of experimentation. In this work, we build
+  on the game-theoretic statistics framework to enable an investigator to hedge their bets against
+  the null hypothesis and thus avoid ruin. First, we describe a method by which the investigator's
+  test martingale wealth process can be capitalized by solving for the risk-neutral price. Then,
+  we show that a portfolio that comprises the risky test martingale and a risk-free process is
+  still a test martingale which enables the investigator to select a particular risk-return
+  position using Markowitz portfolio theory. Finally, we show that a function that is derivative
+  of the test martingale process can be constructed and used as a hedging instrument by the
+  investigator or as a speculative instrument by a risk-seeking investor who wants to participate
+  in the potential returns of the uncertain experiment wealth process. Together, these instruments
+  enable an investigator to hedge the risk of ruin and they enable a investigator to efficiently
+  hedge experimental risk.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2406.15867
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2406.15867
+  arxiv: '2406.15867'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

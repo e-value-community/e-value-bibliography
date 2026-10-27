@@ -1,0 +1,34 @@
+title: 'Certified Interventional Fidelity: Anytime-Valid, Adaptive Evaluation of Causal Claims in Mechanistic
+  Interpretability'
+authors: Amir Asiaee
+year: 2026
+arxiv: '2607.08349'
+abstract: >-
+  Mechanistic interpretability often evaluates explanations by intervening on a model: swapping
+  hidden states, patching activations, ablating components, or comparing a compressed model to the
+  original one. These experiments are usually summarized by a point estimate, even though the
+  evaluation may be monitored while it runs or adapted toward suspected failures. This makes it
+  hard to tell whether a reported fidelity or patching effect is a stable causal claim or a
+  consequence of finite sampling and evaluation choices. We introduce Certified Interventional
+  Fidelity (CIF), a statistical layer for interventional interpretability evaluations. CIF first
+  writes the quantity being reported as a causal estimand: an expectation of a bounded score over
+  a stated input distribution and a stated intervention distribution. It then provides confidence
+  intervals and anytime-valid confidence sequences for this estimand, including under adaptive
+  intervention sampling via bounded mixture importance weighting. We instantiate CIF with
+  Hoeffding-style sequences and variance-adaptive betting sequences, the latter reducing
+  certification cost by 10-30x in our experiments. On MNIST abstractions and GPT-2 Small IOI
+  circuits, CIF certifies high-fidelity claims, shows when apparent method differences are not
+  statistically supported, and makes sensitivity to the intervention distribution explicit.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.08349
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.08349
+  arxiv: '2607.08349'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,34 @@
+title: E-BH Based Interaction Identification for Classification With Ultra-High Dimensional Binary Features
+authors: Baiguo An, Zihao Xin, Guozhong Feng, Beibei Zhang
+year: 2026
+doi: 10.1002/sta4.70143
+abstract: >-
+  ABSTRACT While interactions can provide valuable information for classification, identifying
+  meaningful interactions in ultra‐high dimensional settings presents significant challenges. To
+  address this issue, we propose a novel interaction detection method specifically designed for
+  discrete binary features in ultra‐high dimensional scenarios. We first construct a parameter to
+  quantify the interaction strength between feature pairs. After deriving an appropriate estimator
+  and establishing its asymptotic distribution, we employ hypothesis testing to determine whether
+  a given feature pair exhibits statistically significant interaction. A key innovation of our
+  method is its e‐value‐based framework for the entire interaction identification process. This
+  choice is motivated by the e‐value's superior performance in assessing feature relevance
+  compared to traditional ‐values. We provide theoretical guarantees demonstrating that, with
+  probability approaching 1 as sample size increases, our method can correctly identify all
+  interacting feature pairs and effectively control the false discovery rate. Leveraging these
+  identified feature interactions, we develop an enhanced classification model that extends the
+  conventional naïve Bayes framework. Comprehensive numerical studies validate the effectiveness
+  of our approach, showing excellent performance in both interaction identification and subsequent
+  classification.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/sta4.70143
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Stat
+  year: 2026
+  url: https://doi.org/10.1002/sta4.70143
+  doi: 10.1002/sta4.70143
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

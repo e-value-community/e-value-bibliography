@@ -1,0 +1,38 @@
+title: Sequentially valid tests for forecast calibration
+authors: Sebastian Arnold, Alexander Henzi, Johanna F. Ziegel
+year: 2023
+doi: 10.1214/22-aoas1697
+arxiv: '2109.11761'
+abstract: >-
+  Forecasting and forecast evaluation are inherently sequential tasks. Predictions are often
+  issued on a regular basis, such as every hour, day, or month, and their quality is monitored
+  continuously. However, the classical statistical tools for forecast evaluation are static, in
+  the sense that statistical tests for forecast calibration are only valid if the evaluation
+  period is fixed in advance. Recently, e-values have been introduced as a new, dynamic method for
+  assessing statistical significance. An e-value is a non-negative random variable with expected
+  value at most one under a null hypothesis. Large e-values give evidence against the null
+  hypothesis, and the multiplicative inverse of an e-value is a conservative p-value. E-values are
+  particularly suitable for sequential forecast evaluation, since they naturally lead to
+  statistical tests which are valid under optional stopping. This article proposes e-values for
+  testing probabilistic calibration of forecasts, which is one of the most important notions of
+  calibration. The proposed methods are also more generally applicable for sequential
+  goodness-of-fit testing. We demonstrate that the e-values are competitive in terms of power when
+  compared to extant methods, which do not allow sequential testing. Furthermore, they provide
+  important and useful insights in the evaluation of probabilistic weather forecasts.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2109.11761
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: The Annals of Applied Statistics
+  year: 2023
+  url: https://doi.org/10.1214/22-aoas1697
+  doi: 10.1214/22-aoas1697
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2109.11761
+  arxiv: '2109.11761'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

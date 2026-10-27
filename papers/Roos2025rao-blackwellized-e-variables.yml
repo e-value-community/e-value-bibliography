@@ -1,0 +1,27 @@
+title: Rao-Blackwellized e-variables
+authors: Dante de Roos, Ben Chugg, Peter Grünwald, Aaditya Ramdas
+year: 2026
+doi: 10.1093/biomet/asag061
+arxiv: '2512.16759'
+abstract: >-
+  We show that for any concave utility, the expected utility of an e-variable can only increase
+  after conditioning on a sufficient statistic, echoing the classic Rao-Blackwell theorem. The
+  simplest form of the result has a straightforward proof using Jensen's inequality, but we prove
+  more sophisticated versions. We provide several applications of this insight, including a
+  derivation of the log-optimal e-variable for testing the variance in a linear regression model.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.16759
+labels:
+- methodology
+- e-values
+publications:
+- name: Biometrika
+  year: 2026
+  url: https://doi.org/10.1093/biomet/asag061
+  doi: 10.1093/biomet/asag061
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.16759
+  arxiv: '2512.16759'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

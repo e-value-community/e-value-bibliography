@@ -1,0 +1,28 @@
+title: Asymptotically Real-time Detection of Structural Instabilities in Matrix-valued Factor Models
+authors: Ying Lun Cheung, Zhaofeng Wang
+year: 2026
+abstract: >-
+  This paper develops an online monitoring procedure to detect structural instabilities in
+  high-dimensional matrix-valued factor models. Comparing the factor structure from an initial
+  training period with that from a rolling monitoring period, we propose three complementary
+  statistics based on: (i) the principal angles between the estimated loading subspaces, (ii) the
+  discrepancies in the estimated common components, and (iii) the changes in the number of spiked
+  eigenvalues. Using Gaussian randomization, we construct a test martingale that ensures
+  familywise Type-I error control over any prespecified monitoring horizon. The procedure detects
+  a wide range of instabilities with probability approaching one and asymptotically negligible
+  detection delay.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.6816958
+labels:
+- methodology
+- applications
+- e-processes
+- e-detectors
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.6816958
+  doi: 10.2139/ssrn.6816958
+doi: 10.2139/ssrn.6816958
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

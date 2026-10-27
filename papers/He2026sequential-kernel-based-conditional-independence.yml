@@ -1,0 +1,33 @@
+title: Sequential Kernel-based Conditional Independence Testing via Adaptive Betting
+authors: Zheng He, Danica J. Sutherland
+year: 2026
+arxiv: '2606.18993'
+abstract: >-
+  Testing conditional independence is fundamental yet intrinsically difficult: without additional
+  assumptions, Type I error control is impossible in general. The "Model-X'' paradigm addresses
+  this difficulty by assuming exact knowledge of a relevant conditional distribution. While small
+  deviations from this assumption can sometimes be tolerated in classical one-shot testing,
+  existing sequential conditional independence tests typically require the Model-X conditional to
+  be known exactly, making them fragile when it must instead be estimated. We propose a new
+  approach that is substantially more robust to such estimation error. Our method applies
+  testing-by-betting to an adaptively optimized Kernel Conditional Independence statistic,
+  together with a normalization scheme and a truncate-and-shift calibration strategy. These
+  modifications greatly reduce Type I error inflation while preserving high power across
+  high-dimensional synthetic benchmarks and real-world fairness tasks, outperforming existing
+  sequential Model-X approaches. Code is available at https://github.com/he-zh/SKCI.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.18993
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/he26ah.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.18993
+  arxiv: '2606.18993'
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

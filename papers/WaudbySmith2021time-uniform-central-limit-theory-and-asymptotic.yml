@@ -1,0 +1,43 @@
+title: Time-uniform central limit theory and asymptotic confidence sequences
+authors: Ian Waudby-Smith, David Arbour, Ritwik Sinha, Edward H. Kennedy, Aaditya Ramdas
+year: 2024
+doi: 10.1214/24-aos2408
+arxiv: '2103.06476'
+abstract: >-
+  Confidence intervals based on the central limit theorem (CLT) are a cornerstone of classical
+  statistics. Despite being only asymptotically valid, they are ubiquitous because they permit
+  statistical inference under weak assumptions and can often be applied to problems even when
+  nonasymptotic inference is impossible. This paper introduces time-uniform analogues of such
+  asymptotic confidence intervals, adding to the literature on confidence sequences (CS) --
+  sequences of confidence intervals that are uniformly valid over time -- which provide valid
+  inference at arbitrary stopping times and incur no penalties for "peeking" at the data, unlike
+  classical confidence intervals which require the sample size to be fixed in advance. Existing
+  CSs in the literature are nonasymptotic, enjoying finite-sample guarantees but not the
+  aforementioned broad applicability of asymptotic confidence intervals. This work provides a
+  definition for "asymptotic CSs" and a general recipe for deriving them. Asymptotic CSs forgo
+  nonasymptotic validity for CLT-like versatility and (asymptotic) time-uniform guarantees. While
+  the CLT approximates the distribution of a sample average by that of a Gaussian for a fixed
+  sample size, we use strong invariance principles (stemming from the seminal 1960s work of
+  Strassen) to uniformly approximate the entire sample average process by an implicit Gaussian
+  process. As an illustration, we derive asymptotic CSs for the average treatment effect in
+  observational studies (for which nonasymptotic bounds are essentially impossible to derive even
+  in the fixed-time regime) as well as randomized experiments, enabling causal inference in
+  sequential environments.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2103.06476
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: The Annals of Statistics
+  year: 2024
+  url: https://doi.org/10.1214/24-aos2408
+  doi: 10.1214/24-aos2408
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2103.06476
+  arxiv: '2103.06476'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

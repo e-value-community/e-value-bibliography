@@ -1,0 +1,37 @@
+title: 'Controlling the False Discovery Rate in DIF Detection With e-Values: Evidence From Multidimensional
+  and Testlet Simulations'
+authors: Shan Huang, David Goretzko
+year: 2026
+doi: 10.1177/00131644261433236
+abstract: >-
+  This study presents the first application of e-value–based false discovery rate (FDR) control to
+  Differential Item Functioning (DIF) detection, addressing long-standing limitations of p
+  -value-based approaches when model assumptions are violated—for example, under
+  multidimensionality, local item dependence, or extreme sample sizes. Two comprehensive
+  simulation studies were conducted to evaluate e-BH (the e-value analogue of BH) procedures,
+  using K-fold and Multisplit likelihood-ratio e-values, under (a) multidimensional contamination
+  and (b) testlet-based local dependence. Across both scenarios, e-BH consistently provided
+  stronger and more stable control of Type I error, FDR, and family-wise error rate (FWER) than
+  classical procedures such as Benjamini–Hochberg (BH) and Holm. Even under severe model
+  misspecification, e-BH maintained substantially lower false-positive rates while remaining
+  relatively competitive in terms of Type II error. A key finding concerns sample size: classical
+  p -value methods exhibited inflation of Type I error as N increased, whereas e-BH preserved
+  stable error control due to its model-agnostic calibration. An empirical application using
+  Progress in International Reading Literacy Study (PIRLS) data further demonstrated that e-BH
+  produces a more defensible and operationally sustainable set of DIF flags than traditional
+  approaches. Together, these results establish e-values as a powerful and robust evidential tool
+  for DIF detection in modern assessment contexts.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1177/00131644261433236
+labels:
+- methodology
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Educational and Psychological Measurement
+  year: 2026
+  url: https://doi.org/10.1177/00131644261433236
+  doi: 10.1177/00131644261433236
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

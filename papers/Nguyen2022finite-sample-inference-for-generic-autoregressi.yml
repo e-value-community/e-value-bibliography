@@ -1,0 +1,28 @@
+title: Finite sample inference for generic autoregressive models
+authors: Hien Duy Nguyen
+year: 2022
+arxiv: '2009.11124'
+abstract: >-
+  Autoregressive models are a class of time series models that are important in both applied and
+  theoretical statistics. Typically, inferential devices such as confidence sets and hypothesis
+  tests for time series models require nuanced asymptotic arguments and constructions. We present
+  a simple alternative to such arguments that allow for the construction of finite sample valid
+  inferential devices, using a data splitting approach. We prove the validity of our
+  constructions, as well as the validity of related sequential inference tools. A set of
+  simulation studies are presented to demonstrate the applicability of our methodology.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2009.11124
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: Proceedings of Forum Math-for-Industry
+    year: 2022
+    url: https://www.imi.kyushu-u.ac.jp/wp-content/uploads/2022/07/mil_87.pdf
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2009.11124
+    arxiv: '2009.11124'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

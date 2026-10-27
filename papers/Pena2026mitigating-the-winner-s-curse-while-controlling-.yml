@@ -1,0 +1,34 @@
+title: 'Mitigating the Winner''s Curse While Controlling Multiplicity: e-Process Methods for Anytime-Valid
+  Inference in Dose-Ranging Trials'
+authors: Victor K. de la Pena, Fangyuan Lin, Demissie Alemayehu, Victor H. de la Pena
+year: 2026
+arxiv: '2607.07699'
+abstract: >-
+  Phase II dose-ranging trials often report the largest observed dose-control effect while
+  inspecting accumulating data repeatedly. This creates two coupled distortions: selection
+  optimism from choosing the empirical winner, known as the winner's curse, and Type I error
+  inflation from multiplicity across doses and interim looks. We develop an anytime-valid
+  procedure for testing whether the best true dose effect exceeds a clinically meaningful margin.
+  The mathematical starting point is a recent selection-premium identity for the running maximum:
+  for dose-control scores, the expected gain from re-selecting the current leader becomes a
+  predictable selection charge. Subtracting this charge gives a residual with nonpositive drift
+  under the composite null; applying a one-sided mixture-exponential construction then yields an
+  e-process and hence an anytime-valid global test. The resulting rule has a transparent ledger
+  form: raw best effect minus selection charge minus monitoring margin, and a ``GO'' decision is
+  made only when the remaining evidence still exceeds the clinical margin. We give plug-in
+  implementations for Gaussian and binary outcomes, prove finite-sample Type I control and anytime
+  lower confidence bounds for the best dose effect, and illustrate the method through a worked
+  example and simulations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.07699
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.07699
+  arxiv: '2607.07699'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,35 @@
+title: A unified recipe for deriving (time-uniform) PAC-Bayes bounds
+authors: Ben Chugg, Hongjian Wang, Aaditya Ramdas
+year: 2023
+arxiv: '2302.03421'
+abstract: >-
+  We present a unified framework for deriving PAC-Bayesian generalization bounds. Unlike most
+  previous literature on this topic, our bounds are anytime-valid (i.e., time-uniform), meaning
+  that they hold at all stopping times, not only for a fixed sample size. Our approach combines
+  four tools in the following order: (a) nonnegative supermartingales or reverse submartingales,
+  (b) the method of mixtures, (c) the Donsker-Varadhan formula (or other convex duality
+  principles), and (d) Ville's inequality. Our main result is a PAC-Bayes theorem which holds for
+  a wide class of discrete stochastic processes. We show how this result implies time-uniform
+  versions of well-known classical PAC-Bayes bounds, such as those of Seeger, McAllester, Maurer,
+  and Catoni, in addition to many recent bounds. We also present several novel bounds. Our
+  framework also enables us to relax traditional assumptions; in particular, we consider
+  nonstationary loss functions and non-i.i.d. data. In sum, we unify the derivation of past bounds
+  and ease the search for future bounds: one may simply check if our supermartingale or
+  submartingale conditions are met and, if so, be guaranteed a (time-uniform) PAC-Bayes bound.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2302.03421
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: Journal of Machine Learning Research
+    year: 2023
+    url: https://jmlr.org/papers/v24/23-0401.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2302.03421
+    arxiv: '2302.03421'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

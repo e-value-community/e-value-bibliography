@@ -1,0 +1,33 @@
+title: >-
+  Dynamic Causal Relationships in Stock Market: A Three-Dimensional Granger Causality Network
+  Approach
+authors: Panmeng Huang, Yuan Liu, Huanghao Chen, Jerome Yen, Naixue Xiong, Hui Bu
+year: 2026
+doi: 10.4236/jss.2026.144046
+abstract: >-
+  Traditional Granger-causality framework relies only on the movement of asset prices. However,
+  clustering of stocks needs more information to identify the strength of their bonding, including
+  but not limited to trading volume and volatility. In order to build a more robust portfolio
+  formation framework, in this paper, a three-dimensional Granger-causality framework is proposed
+  to study the dynamic causal relationships among stocks in the Hong Kong (SAR, China) stock
+  market (HKG). Toda-Yamamoto Granger test (TY-Granger test) was conducted by using the
+  constituent stocks of the Hang Seng Index (HSI). The data set contains the prices, trading
+  volume, and volatility from February 2020 to December 2024, where 60 monthly Granger (involving
+  approximately 20 trading days per month) causality networks were constructed. By combining each
+  daily Granger causality matrix within that month using an e-value-based method, stocks were
+  classified via multi-layer directed causal network feature extraction by Gaussian Mixture Model
+  (GMM) based unsupervised clustering into three different types of clusters: Influential,
+  Affected, and Isolated. Such classification has proven to be useful in supporting the formation
+  of portfolio under different market conditions.
+abstract_status: source_abstract
+abstract_source: https://www.scirp.org/journal/paperinformation?paperid=151158
+labels:
+- applications
+- e-values
+publications:
+  - name: Open Journal of Social Sciences
+    year: 2026
+    url: https://doi.org/10.4236/jss.2026.144046
+    doi: 10.4236/jss.2026.144046
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

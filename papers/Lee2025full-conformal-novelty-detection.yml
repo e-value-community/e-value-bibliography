@@ -1,0 +1,31 @@
+title: Full-conformal novelty detection
+authors: Junu Lee, Ilia Popov, Zhimei Ren
+year: 2025
+arxiv: '2501.02703'
+abstract: >-
+  This paper presents a powerful methodology for flexible full-data nonparametric novelty
+  detection that offers distribution-free false discovery rate (FDR) control guarantees. Building
+  on the full conformal inference framework and the concept of e-values, we introduce full
+  conformal e-values to quantify evidence for novelty relative to a given reference dataset. These
+  e-values are then utilized by carefully crafted multiple testing procedures to identify a set of
+  novel units out-of-sample with provable finite-sample FDR control. We showcase several
+  instantiations of e-values, including those which employ a data-driven model selection strategy
+  to amplify power. Furthermore, our framework is extended to address distribution shift,
+  accommodating scenarios where novelty detection must be performed on data drawn from a shifted
+  distribution relative to the reference dataset. In all settings, our method can perform
+  powerfully -- outperforming existing novelty detection methods -- even with limited amounts of
+  reference data; this is illustrated by empirical evaluations on synthetic data and an
+  application to a malicious LLM prompts dataset.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.02703
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.02703
+  arxiv: '2501.02703'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

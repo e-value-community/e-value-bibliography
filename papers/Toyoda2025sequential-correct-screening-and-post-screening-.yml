@@ -1,0 +1,29 @@
+title: Sequential Correct Screening and Post-Screening Inference
+authors: Masaki Toyoda, Yoshimasa Uematsu
+year: 2025
+arxiv: '2508.14596'
+abstract: >-
+  Selecting the top-$m$ variables with the $m$ largest population parameters from a larger set of
+  candidates is a fundamental problem in statistics. In this paper, we propose a novel methodology
+  called Sequential Correct Screening (SCS), which sequentially screens out variables that are not
+  among the top-$m$. A key feature of our method is its anytime validity; it provides a sequence
+  of variable subsets that, with high probability, always contain the true top-$m$ variables.
+  Furthermore, we develop a post-screening inference (PSI) procedure to construct confidence
+  intervals for the selected parameters. Importantly, this procedure is designed to control the
+  false coverage rate (FCR) whenever it is conducted -- an aspect that has been largely overlooked
+  in the existing literature. We establish theoretical guarantees for both SCS and PSI, and
+  demonstrate their performance through simulation studies and an application to a real-world
+  dataset on suicide rates.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2508.14596
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2508.14596
+    arxiv: '2508.14596'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

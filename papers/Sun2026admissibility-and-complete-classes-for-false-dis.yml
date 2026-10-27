@@ -1,0 +1,33 @@
+title: Admissibility and Complete Classes for False Discovery Rate Control with E-values
+authors: Liulei Sun, Ruodu Wang
+year: 2026
+arxiv: '2607.14380'
+abstract: >-
+  The false discovery rate (FDR) is the most widely used error metric in modern multiple testing.
+  We provide a comprehensive analysis of the admissibility of e-value-based procedures with FDR
+  control. We consider both simultaneous and point procedures and introduce strong and weak
+  notions of dominance. Every simultaneous procedure is strongly, and hence weakly, dominated by
+  an admissible weighted-mean closed e-Benjamini--Hochberg ($\overline{\mathrm{eBH}}$) procedure,
+  and thus weighted-mean $\overline{\mathrm{eBH}}$ procedures form a complete class. Every
+  constant-free weighted-mean $\overline{\mathrm{eBH}}$ procedure is admissible at every level,
+  and we propose two ways for choosing constant-free weights based on side information, such as
+  pre-screening data. Within the symmetric class, the usual mean $\overline{\mathrm{eBH}}$
+  procedure is the largest element if and only if the FDR level is small enough; otherwise this
+  class has no largest element. We also obtain results on the admissibility of symmetric
+  weighted-mean $\overline{\mathrm{eBH}}$ procedures with non-zero constant terms. Point e-testing
+  procedures have a parallel theory of admissibility. These results highlight the central role of
+  weighted-mean $\overline{\mathrm{eBH}}$ procedures in multiple testing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.14380
+labels:
+- methodology
+- theory
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.14380
+  arxiv: '2607.14380'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

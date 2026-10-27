@@ -1,0 +1,43 @@
+title: Anytime-Valid Federated Conformal RAG for LLM Swarms
+authors: Prasanjit Dubey, Xiaoming Huo
+year: 2026
+arxiv: '2605.29139'
+abstract: >-
+  Question-answering services built on retrieval-augmented generation (RAG), in which a language
+  model answers from retrieved documents, are inspected continuously and upgraded repeatedly, so
+  their reliability guarantee must survive both. We study federated conformal RAG: nodes holding
+  private corpora score candidate answers with a shared language model and send compressed scores
+  to a hub that returns an answer set; a miss omits the true answer. We formulate monitoring as a
+  sequential test: alarm when misses exceed a certified bound on the miss rate (the allowance).
+  But a conformal certificate covers one frozen configuration at one look fixed in advance, so it
+  gives no anytime-valid alarm; a threshold calibrated for one model certifies nothing about its
+  replacement; and re-certifying each upgrade at full error level compounds failures. We propose
+  Anytime-FC-RAG with three auditable rules: pick each configuration before its fresh calibration,
+  charge every certificate attempt to one trajectory-wide budget $δ_{\rm cal}$, and fix threshold,
+  allowance and bet before each query. One betting wealth $E_t$, growing in expectation only when
+  misses exceed the allowance, never resets across deployments. Our certified adaptive-refresh
+  theorem shows that, with evidence budget $δ_e$, alarming when $E_t$ reaches $1/δ_e$ has
+  false-alarm probability at most $δ_e + δ_{\rm cal}$ under a random number of history-selected,
+  evidence-driven refreshes of model, retriever, corpus, score or threshold; $δ_{\rm cal}$ pays
+  for wrong certificates. With an exact order-statistic certificate the bound is
+  distribution-free, architecture-agnostic and about misses, not per-input coverage or
+  distribution shift as such. On Qwen2.5/MMLU-Pro the alarm separated audited-harmful from benign
+  shifts completely at a 5% budget; in a model swap, only fresh calibration kept a downgrade's
+  miss rate in check.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.29139
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Mathematical Foundations and Operational Integration of ML for Uncertainty-Aware Decision-Making
+    Poster
+  year: 2026
+  url: https://openreview.net/forum?id=mMKrM44oJQ
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.29139
+  arxiv: '2605.29139'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

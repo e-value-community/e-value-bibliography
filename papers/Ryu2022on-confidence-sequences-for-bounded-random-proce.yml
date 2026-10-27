@@ -1,0 +1,34 @@
+title: On Confidence Sequences for Bounded Random Processes via Universal Gambling Strategies
+authors: J. Jon Ryu, Alankrita Bhatt
+year: 2024
+doi: 10.1109/tit.2024.3448461
+arxiv: '2207.12382'
+abstract: >-
+  This paper considers the problem of constructing a confidence sequence, which is a sequence of
+  confidence intervals that hold uniformly over time, for estimating the mean of bounded
+  real-valued random processes. This paper revisits the gambling-based approach established in the
+  recent literature from a natural \emph{two-horse race} perspective, and demonstrates new
+  properties of the resulting algorithm induced by Cover (1991)'s universal portfolio. The main
+  result of this paper is a new algorithm based on a mixture of lower bounds, which closely
+  approximates the performance of Cover's universal portfolio with constant per-round time
+  complexity. A higher-order generalization of a lower bound on a logarithmic function in (Fan et
+  al., 2015), which is developed as a key technique for the proposed algorithm, may be of
+  independent interest.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2207.12382
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: IEEE Transactions on Information Theory
+  year: 2024
+  url: https://doi.org/10.1109/TIT.2024.3448461
+  doi: 10.1109/tit.2024.3448461
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2207.12382
+  arxiv: '2207.12382'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

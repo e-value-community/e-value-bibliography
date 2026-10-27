@@ -1,0 +1,30 @@
+title: FDR Control for High-Dimensional Graphical Models via e-Values
+authors: Ni Zhao, Xin Zhou, Zemin Zheng, Jia Zhou
+year: 2025
+doi: 10.1002/sta4.70123
+abstract: >-
+  ABSTRACT Graphical models are indispensable for capturing complex dependencies in
+  high‐dimensional data across bioinformatics, neuroscience and social sciences. Despite
+  substantial methodological advances in graphical modelling, false discovery rate (FDR) control
+  for graph structure inference remains challenging due to pervasive dependence among test
+  statistics, which violates assumptions of traditional ‐value–based methods. In this paper, we
+  propose a new FDR control method for high‐dimensional graphical models via ‐values (GEBH). By
+  leveraging ‐values, the key advantage is that our method can accommodate arbitrary dependence
+  structures among test statistics. Building on GEBH, we further develop GEBH exploiting the
+  partially penalized regression (GEBH‐P), which applies to a wider range of graphical
+  applications by relaxing the sparsity constraints in the underlying graph. Theoretical
+  guarantees are established for both methods. The usefulness of our methods is validated via
+  simulations and real data analysis.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/sta4.70123
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Stat
+  year: 2025
+  url: https://doi.org/10.1002/sta4.70123
+  doi: 10.1002/sta4.70123
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

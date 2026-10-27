@@ -1,0 +1,35 @@
+title: On the choice of the splitting ratio for the split likelihood ratio test
+authors: David Strieder, Mathias Drton
+year: 2022
+doi: 10.1214/22-ejs2099
+arxiv: '2203.06748'
+abstract: >-
+  The recently introduced framework of universal inference provides a new approach to constructing
+  hypothesis tests and confidence regions that are valid in finite samples and do not rely on any
+  specific regularity assumptions on the underlying statistical model. At the core of the
+  methodology is a split likelihood ratio statistic, which is formed under data splitting and
+  compared to a cleverly selected universal critical value. As this critical value can be very
+  conservative, it is interesting to mitigate the potential loss of power by careful choice of the
+  ratio according to which data are split. Motivated by this problem, we study the split
+  likelihood ratio test under local alternatives and introduce the resulting class of noncentral
+  split chi-square distributions. We investigate the properties of this new class of distributions
+  and use it to numerically examine and propose an optimal choice of the data splitting ratio for
+  tests of composite hypotheses of different dimensions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.06748
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-values
+publications:
+  - name: Electronic Journal of Statistics
+    year: 2022
+    url: https://doi.org/10.1214/22-EJS2099
+    doi: 10.1214/22-ejs2099
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2203.06748
+    arxiv: '2203.06748'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

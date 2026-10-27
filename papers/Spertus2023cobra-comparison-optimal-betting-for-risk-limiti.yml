@@ -1,0 +1,37 @@
+title: 'COBRA: Comparison-Optimal Betting for Risk-limiting Audits'
+authors: Jacob Spertus
+year: 2024
+doi: 10.1007/978-3-031-48806-1_7
+arxiv: '2304.01010'
+abstract: >-
+  Risk-limiting audits (RLAs) can provide routine, affirmative evidence that reported election
+  outcomes are correct by checking a random sample of cast ballots. An efficient RLA requires
+  checking relatively few ballots. Here we construct highly efficient RLAs by optimizing
+  supermartingale tuning parameters--$\textit{bets}$--for ballot-level comparison audits. The
+  exactly optimal bets depend on the true rate of errors in cast-vote records (CVRs)--digital
+  receipts detailing how machines tabulated each ballot. We evaluate theoretical and simulated
+  workloads for audits of contests with a range of diluted margins and CVR error rates. Compared
+  to bets recommended in past work, using these optimal bets can dramatically reduce expected
+  workloads--by 93% on average over our simulated audits. Because the exactly optimal bets are
+  unknown in practice, we offer some strategies for approximating them. As with the ballot-polling
+  RLAs described in ALPHA and RiLACs, adapting bets to previously sampled data or diversifying
+  them over a range of suspected error rates can lead to substantially more efficient audits than
+  fixing bets to $\textit{a priori}$ values, especially when those values are far from correct. We
+  sketch extensions to other designs and social choice functions, and conclude with some
+  recommendations for real-world comparison audits.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2304.01010
+labels:
+- applications
+- e-values
+publications:
+- name: Financial Cryptography and Data Security. FC 2023 International Workshops:95–109
+  year: 2023
+  url: https://doi.org/10.1007/978-3-031-48806-1_7
+  doi: 10.1007/978-3-031-48806-1_7
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2304.01010
+  arxiv: '2304.01010'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

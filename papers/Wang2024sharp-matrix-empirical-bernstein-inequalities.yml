@@ -1,0 +1,33 @@
+title: Sharp Matrix Empirical Bernstein Inequalities
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2025
+doi: 10.52202/085713-5680
+arxiv: '2411.09516'
+abstract: >-
+  We present two sharp, closed-form empirical Bernstein inequalities for symmetric random matrices
+  with bounded eigenvalues. By sharp, we mean that both inequalities adapt to the unknown variance
+  in a tight manner: the deviation captured by the first-order $1/\sqrt{n}$ term asymptotically
+  matches the matrix Bernstein inequality exactly, including constants, the latter requiring
+  knowledge of the variance. Our first inequality holds for the sample mean of independent
+  matrices, and our second inequality holds for a mean estimator under martingale dependence at
+  stopping times.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2411.09516
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://doi.org/10.52202/085713-5680
+  doi: 10.52202/085713-5680
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2411.09516
+  arxiv: '2411.09516'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

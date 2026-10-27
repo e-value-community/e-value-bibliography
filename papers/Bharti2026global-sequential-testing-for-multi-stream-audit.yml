@@ -1,0 +1,31 @@
+title: Global Sequential Testing for Multi-Stream Auditing
+authors: Beepul Bharti, Ambar Pal, Jeremias Sulam
+year: 2026
+arxiv: '2602.21479'
+abstract: >-
+  Across many risk-sensitive areas, it is critical to continuously audit machine learning systems
+  as we receive more data to quickly determine if they are performing as designed. This auditing
+  task can be modeled as a sequential hypothesis testing problem with $k$ data streams and a
+  global null hypothesis that asserts the system operates as intended across all $k$ streams.
+  Under the alternative, the standard global sequential test, which uses a Bonferroni correction,
+  has an expected stopping time of $O\left(\ln \frac{k}α\right)$ for large $k$ and significance
+  level $α$. In this work, we demonstrate that efficient sequential tests, relying on merging
+  martingales via averaging and products rules, provide improved stopping times, and thus more
+  powerful tests against the null. Using these results, we show that a balanced test can match the
+  Bonferroni rate of $O\left(\ln \frac{k}α\right)$ in the sparse regime (just a few non-null
+  streams) while achieving $O\left(\frac{1}{k}\ln \frac{1}α\right)$ under dense alternatives (many
+  non-null steams). We validate our theory through experiments on both synthetic and real-world
+  data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.21479
+labels:
+- methodology
+- confidence sequences
+- probability theory
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2602.21479
+    arxiv: '2602.21479'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

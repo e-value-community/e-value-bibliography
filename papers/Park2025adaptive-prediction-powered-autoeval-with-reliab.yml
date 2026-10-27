@@ -1,0 +1,38 @@
+title: Adaptive Prediction-Powered AutoEval with Reliability and Efficiency Guarantees
+authors: Sangwoo Park, Matteo Zecchin, Osvaldo Simeone
+year: 2025
+doi: 10.52202/085713-5303
+arxiv: '2505.18659'
+abstract: >-
+  Selecting artificial intelligence (AI) models, such as large language models (LLMs), from
+  multiple candidates requires accurate performance estimation. This is ideally achieved through
+  empirical evaluations involving abundant real-world data. However, such evaluations are costly
+  and impractical at scale. To address this challenge, autoevaluation methods leverage synthetic
+  data produced by automated evaluators, such as LLMs-as-judges, reducing variance but potentially
+  introducing bias. Recent approaches have employed semi-supervised prediction-powered inference
+  (PPI) to correct for the bias of autoevaluators. However, the use of autoevaluators may lead in
+  practice to a degradation in sample efficiency compared to conventional methods using only
+  real-world data. In this paper, we propose R-AutoEval+, a novel framework that provides
+  finite-sample reliability guarantees on the model evaluation, while also ensuring an enhanced
+  (or at least no worse) sample efficiency compared to conventional methods. The key innovation of
+  R-AutoEval+ is an adaptive construction of the model evaluation variable, which dynamically
+  tunes its reliance on synthetic data, reverting to conventional methods when the autoevaluator
+  is insufficiently accurate. Experiments on the use of LLMs-as-judges for the optimization of
+  quantization settings for the weights of an LLM, for prompt design in LLMs, and for test-time
+  reasoning budget allocation in LLMs confirm the reliability and efficiency of R-AutoEval+.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.18659
+labels:
+- applications
+- e-values
+publications:
+  - name: Advances in Neural Information Processing Systems
+    year: 2025
+    url: https://doi.org/10.52202/085713-5303
+    doi: 10.52202/085713-5303
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2505.18659
+    arxiv: '2505.18659'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

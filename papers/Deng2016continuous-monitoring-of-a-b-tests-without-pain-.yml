@@ -1,0 +1,38 @@
+title: 'Continuous Monitoring of A/B Tests without Pain: Optional Stopping in Bayesian Testing'
+authors: Alex Deng, Jiannan Lu, Shouyuan Chen
+year: 2016
+doi: 10.1109/dsaa.2016.33
+arxiv: '1602.05549'
+abstract: >-
+  A/B testing is one of the most successful applications of statistical theory in modern Internet
+  age. One problem of Null Hypothesis Statistical Testing (NHST), the backbone of A/B testing
+  methodology, is that experimenters are not allowed to continuously monitor the result and make
+  decision in real time. Many people see this restriction as a setback against the trend in the
+  technology toward real time data analytics. Recently, Bayesian Hypothesis Testing, which
+  intuitively is more suitable for real time decision making, attracted growing interest as an
+  alternative to NHST. While corrections of NHST for the continuous monitoring setting are well
+  established in the existing literature and known in A/B testing community, the debate over the
+  issue of whether continuous monitoring is a proper practice in Bayesian testing exists among
+  both academic researchers and general practitioners. In this paper, we formally prove the
+  validity of Bayesian testing with continuous monitoring when proper stopping rules are used, and
+  illustrate the theoretical results with concrete simulation illustrations. We point out common
+  bad practices where stopping rules are not proper and also compare our methodology to NHST
+  corrections. General guidelines for researchers and practitioners are also provided.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1602.05549
+labels:
+- applications
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: IEEE International Conference on Data Science and Advanced Analytics
+  year: 2016
+  url: https://doi.org/10.1109/dsaa.2016.33
+  doi: 10.1109/dsaa.2016.33
+- name: arXiv
+  year: 2016
+  url: https://arxiv.org/abs/1602.05549
+  arxiv: '1602.05549'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

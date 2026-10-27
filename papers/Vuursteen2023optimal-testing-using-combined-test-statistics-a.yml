@@ -1,0 +1,37 @@
+title: Optimal testing using combined test statistics across independent studies
+authors: Lasse Vuursteen, Botond Szabó, Aad van der Vaart, Harry van Zanten
+year: 2023
+doi: 10.52202/075280-3536
+arxiv: '2310.19541'
+abstract: >-
+  Combining test statistics from independent trials or experiments is a popular method of
+  meta-analysis. However, there is very limited theoretical understanding of the power of the
+  combined test, especially in high-dimensional models considering composite hypotheses tests. We
+  derive a mathematical framework to study standard {meta-analysis} testing approaches in the
+  context of the many normal means model, which serves as the platform to investigate more complex
+  models. We introduce a natural and mild restriction on the meta-level combination functions of
+  the local trials. This allows us to mathematically quantify the cost of compressing $m$ trials
+  into real-valued test statistics and combining these. We then derive minimax lower and matching
+  upper bounds for the separation rates of standard combination methods for e.g. p-values and
+  e-values, quantifying the loss relative to using the full, pooled data. We observe an elbow
+  effect, revealing that in certain cases combining the locally optimal tests in each trial
+  results in a sub-optimal {meta-analysis} method and develop approaches to achieve the global
+  optima. We also explore the possible gains of allowing limited coordination between the trial
+  designs. Our results connect meta-analysis with bandwidth constraint distributed inference and
+  build on recent information theoretic developments in the latter field.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.19541
+labels:
+- methodology
+- e-values
+publications:
+  - name: Advances in Neural Information Processing Systems
+    year: 2023
+    url: https://doi.org/10.52202/075280-3536
+    doi: 10.52202/075280-3536
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2310.19541
+    arxiv: '2310.19541'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

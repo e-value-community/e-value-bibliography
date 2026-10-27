@@ -1,0 +1,33 @@
+title: Interactive Martingale Tests for the Global Null
+authors: Boyan Duan, Aaditya Ramdas, Sivaraman Balakrishnan, Larry Wasserman
+year: 2020
+doi: 10.1214/20-ejs1790
+arxiv: '1909.07339'
+abstract: >-
+  Global null testing is a classical problem going back about a century to Fisher's and Stouffer's
+  combination tests. In this work, we present simple martingale analogs of these classical tests,
+  which are applicable in two distinct settings: (a) the online setting in which there is a
+  possibly infinite sequence of $p$-values, and (b) the batch setting, where one uses prior
+  knowledge to preorder the hypotheses. Through theory and simulations, we demonstrate that our
+  martingale variants have higher power than their classical counterparts even when the
+  preordering is only weakly informative. Finally, using a recent idea of "masking" $p$-values, we
+  develop a novel interactive test for the global null that can take advantage of covariates and
+  repeated user guidance to create a data-adaptive ordering that achieves higher detection power
+  against structured alternatives.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1909.07339
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Electronic Journal of Statistics
+  year: 2020
+  url: https://doi.org/10.1214/20-ejs1790
+  doi: 10.1214/20-ejs1790
+- name: arXiv
+  year: 2019
+  url: https://arxiv.org/abs/1909.07339
+  arxiv: '1909.07339'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

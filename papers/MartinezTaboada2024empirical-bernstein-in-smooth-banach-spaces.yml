@@ -1,0 +1,34 @@
+title: Empirical Bernstein in smooth Banach spaces
+authors: Diego Martinez-Taboada, Aaditya Ramdas
+year: 2026
+doi: 10.1214/25-aap2277
+arxiv: '2409.06060'
+abstract: >-
+  Existing concentration bounds for bounded vector-valued random variables include extensions of
+  the scalar Hoeffding and Bernstein inequalities. While the latter is typically tighter, it
+  requires knowing a bound on the variance of the random variables. We derive a new vector-valued
+  empirical Bernstein inequality, which makes use of an empirical estimator of the variance
+  instead of the true variance. The bound holds in 2-smooth separable Banach spaces, which include
+  finite dimensional Euclidean spaces and separable Hilbert spaces. The resulting confidence sets
+  are instantiated for both the batch setting (where the sample size is fixed) and the sequential
+  setting (where the sample size is a stopping time). The confidence set width asymptotically
+  exactly matches that achieved by Bernstein in the leading term.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.06060
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: The Annals of Applied Probability
+  year: 2026
+  url: https://doi.org/10.1214/25-aap2277
+  doi: 10.1214/25-aap2277
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.06060
+  arxiv: '2409.06060'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

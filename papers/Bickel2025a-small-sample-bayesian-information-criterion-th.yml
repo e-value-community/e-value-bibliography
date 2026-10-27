@@ -1,0 +1,32 @@
+title: A small-sample Bayesian information criterion that does not overstate the evidence, with an application
+  to calibrating p-values from likelihood-ratio tests
+authors: David R. Bickel
+year: 2025
+doi: 10.1007/s00362-025-01682-1
+abstract: >-
+  Abstract This paper proposes a simple correction to the Bayesian information criterion (BIC) for
+  small samples to ensure that it neither overstates nor understates the evidence against a null
+  hypothesis or other tested model. The new correction raises the likelihood ratio in the BIC to
+  the power of 1 minus the reciprocal of the sample size ( $$1-1/\textrm{n}, \textrm{n}>1$$ 1 - 1
+  / n , n > 1 ). That is equivalent to multiplying the loglikelihood term of the BIC by a factor
+  of $$1-1/\textrm{n}.$$ 1 - 1 / n . The correction is applied to the problem of calibrating
+  p-values by transforming them to estimated Bayes factors. The corresponding calibration in the
+  most common case is simply sqrt(n)/exp((1−1/n)*qchisq(1−p,df=1)/2) in R syntax, where the
+  p-value is from a likelihood-ratio test. That intersects the class of betting scores called
+  e-values and, more specifically, admissible calibrators. While all admissible calibrators
+  neither overstate nor understate the evidence against the null hypothesis, previous admissible
+  calibrators are not model-selection consistent since they do not increasingly favor the null
+  hypothesis when it is true. The proposed calibrator is consistent under general conditions, for
+  its corrected BIC is asymptotically equivalent to the BIC.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1007/s00362-025-01682-1
+labels:
+- methodology
+- e-values
+publications:
+- name: Statistical Papers
+  year: 2025
+  url: https://doi.org/10.1007/s00362-025-01682-1
+  doi: 10.1007/s00362-025-01682-1
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

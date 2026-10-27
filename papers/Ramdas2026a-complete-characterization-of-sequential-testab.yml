@@ -1,0 +1,33 @@
+title: A complete characterization of sequential testability and change detectability in i.i.d. models
+authors: Aaditya Ramdas
+year: 2026
+arxiv: '2609.05752'
+abstract: >-
+  We give a necessary and sufficient condition for the existence of power-one sequential tests in
+  an i.i.d. composite testing problem. A level-\(α\) test with power one against every alternative
+  exists if and only if the alternatives are separated from the null by a countable family of
+  finite-block events. We provide other equivalent conditions using randomized fixed-sample tests,
+  bounded finite-block scores, e-processes, reduced-filtration test supermartingales, and a
+  countable cover whose finite-block weak-$*$ closed convex hulls are positively separated in
+  total variation. As a bonus, the constructive proof yields tests have pointwise expected sample
+  size \(O_Q(\log(1/α))\). Exactly the same conditions also characterize i.i.d.\ change
+  detectability under optional-horizon average-run-length control: for every \(η>0\), they are
+  equivalent to an alarm family \((T_γ)_{γ\ge1}\) satisfying \(\Prob_{P^\infty}(T_γ\leσ)\le
+  \E_{P^\infty}σ/γ\) for every null law and every stopping time \(σ\). In fact, when these
+  conditions hold, we can construct a single e-detector such that every null-law average run
+  length lies between \(γ\) and \((1+η)γ+1\), and having robust Lorden delay \(O_Q(\logγ)\).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.05752
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.05752
+  arxiv: '2609.05752'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

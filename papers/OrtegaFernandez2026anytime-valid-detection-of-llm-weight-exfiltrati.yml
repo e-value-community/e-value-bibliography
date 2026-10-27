@@ -1,0 +1,29 @@
+title: Anytime-valid detection of LLM weight exfiltration
+authors: Ines Ortega-Fernandez, Mateusz Kowalczyk, Keri Warr
+year: 2026
+arxiv: '2610.11843'
+abstract: >-
+  A compromised LLM inference server can leak model weights by encoding payload bits in otherwise
+  plausible token choices. A replay of the same prompt in a trusted server can expose such
+  deviations, but benign numerical nondeterminism also causes token mismatches. Patient attackers
+  can therefore hide within normal variation unless evidence is combined across responses. We
+  introduce a prompt-level e-process that calibrates whole-response mismatch events on trusted
+  benign traffic and accumulates evidence sequentially while, under a calibration-transfer
+  assumption, controlling the probability of any false alarm over an unbounded monitoring horizon.
+  We evaluate it on four models against a seed-blind attack and a stronger seed-aware attack that
+  hides payload bits only in near-ties to remain stealthy, analyzing the channel capacity vs
+  detectability trade-off. Compared with a hard per-token alarm, the e-process combines weak
+  evidence across responses while providing explicit anytime false-alarm control.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.11843
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.11843
+  arxiv: '2610.11843'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

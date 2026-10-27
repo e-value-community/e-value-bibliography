@@ -1,0 +1,34 @@
+title: 'Incentive Aware AI Regulations: A Credal Characterisation'
+authors: Anurag Singh, Julian Rodemann, Rajeev Verma, Siu Lun Chau, Krikamol Muandet
+year: 2026
+abstract: >-
+  The rapid proliferation of AI applications has intensified debate on effective regulation of
+  these black-box services. Effective regulation must balance two competing goals: (1) deterring
+  non-compliant providers from entering the market, while (2) retaining compliant ones. We call
+  this ideal the perfect market outcome (PMO). Regulators face two compounding obstacles that make
+  PMO difficult to achieve: providers hold private information and can act strategically to evade
+  compliance, while any evidence drawn or derived from a finite sample carries statistical
+  uncertainty in proving non-compliance. As this information asymmetry and statistical uncertainty
+  is inherent to any effective regulation, we formalise them through a mechanism design framework
+  that explicitly accounts for such statistical uncertainty. This yields a sharp characterisation:
+  a mechanism achieves PMO if and only if the set of non-compliant evidence distributions forms a
+  closed, convex set of probability measures, known in imprecise probability as a credal set. This
+  result serves as a diagnostic tool to determine whether PMO is achievable under a given
+  regulation. We further show that PMO-achieving mechanisms can be constructed from a collection
+  of hypothesis tests, and validate our theoretical contributions through experiments on
+  spurious-feature and fairness-based regulations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.05175
+labels:
+- applications
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.05175
+  arxiv: '2603.05175'
+arxiv: '2603.05175'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

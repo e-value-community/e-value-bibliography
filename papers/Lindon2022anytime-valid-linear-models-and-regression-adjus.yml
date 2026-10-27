@@ -1,0 +1,40 @@
+title: Anytime-Valid Inference in Linear Models with Applications to Regression-Adjusted Causal Inference
+authors: Michael Lindon, Dae Woong Ham, Martin Tingley, Iavor Bojinov
+year: 2026
+doi: 10.1080/01621459.2026.2692052
+arxiv: '2210.08589'
+abstract: >-
+  Linear models are foundational tools in statistics and ubiquitous across the applied sciences.
+  However, conventional statistical inference -- such as $t$-tests and $F$-tests -- are only valid
+  at fixed sample sizes, making them unsuitable for sequential settings such as online A/B
+  testing. We develop an anytime-valid theory of inference for the linear model, introducing
+  sequential analogues of classical tests and confidence sets that provide Type-I error control
+  and coverage guarantees uniformly over all sample sizes. Our construction is based on likelihood
+  ratios of invariantly sufficient statistics, yielding simple closed-form expressions of ordinary
+  least squares estimators and standard errors. The resulting tests are optimal in the GROW/REGROW
+  sense for both frequentist and Bayesian alternative hypotheses. We then relax the linear model
+  assumptions to provide heteroskedasticity-robust asymptotic sequential tests and confidence
+  sequences, which enable sequential regression-adjusted inference for causal estimands in
+  randomized controlled experiments. This formally allows experiments to be continuously monitored
+  for significance, stopped early, and safeguards against statistical malpractices in data
+  collection. We demonstrate the practical utility of our approach through simulations and
+  applications to real A/B test data from Netflix.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.08589
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: Journal of the American Statistical Association
+  year: 2026
+  url: https://doi.org/10.1080/01621459.2026.2692052
+  doi: 10.1080/01621459.2026.2692052
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2210.08589
+  arxiv: '2210.08589'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

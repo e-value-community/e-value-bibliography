@@ -1,0 +1,32 @@
+title: 'RiLACS: Risk-Limiting Audits via Confidence Sequences'
+authors: Ian Waudby-Smith, Philip B. Stark, Aaditya Ramdas
+year: 2021
+doi: 10.1007/978-3-030-86942-7_9
+arxiv: '2107.11323'
+abstract: >-
+  Accurately determining the outcome of an election is a complex task with many potential sources
+  of error, ranging from software glitches in voting machines to procedural lapses to outright
+  fraud. Risk-limiting audits (RLA) are statistically principled "incremental" hand counts that
+  provide statistical assurance that reported outcomes accurately reflect the validly cast votes.
+  We present a suite of tools for conducting RLAs using confidence sequences -- sequences of
+  confidence sets which uniformly capture an electoral parameter of interest from the start of an
+  audit to the point of an exhaustive recount with high probability. Adopting the SHANGRLA
+  framework, we design nonnegative martingales which yield computationally and statistically
+  efficient confidence sequences and RLAs for a wide variety of election types.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2107.11323
+labels:
+- applications
+- e-values
+- confidence sequences
+publications:
+- name: Electronic Voting
+  year: 2021
+  url: https://doi.org/10.1007/978-3-030-86942-7_9
+  doi: 10.1007/978-3-030-86942-7_9
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2107.11323
+  arxiv: '2107.11323'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

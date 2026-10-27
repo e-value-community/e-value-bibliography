@@ -1,0 +1,35 @@
+title: A safe Hosmer-Lemeshow test
+authors: Alexander Henzi, Marius Puke, Timo Dimitriadis, Johanna Ziegel
+year: 2024
+doi: 10.51387/23-nejsds56
+arxiv: '2203.00426'
+abstract: >-
+  This article proposes an alternative to the Hosmer-Lemeshow (HL) test for evaluating the
+  calibration of probability forecasts for binary events. The approach is based on e-values, a new
+  tool for hypothesis testing. An e-value is a random variable with expected value less or equal
+  to one under a null hypothesis. Large e-values give evidence against the null hypothesis, and
+  the multiplicative inverse of an e-value is a p-value. Our test uses online isotonic regression
+  to estimate the calibration curve as a `betting strategy' against the null hypothesis. We show
+  that the test has power against essentially all alternatives, which makes it theoretically
+  superior to the HL test and at the same time resolves the well-known instability problem of the
+  latter. A simulation study shows that a feasible version of the proposed eHL test can detect
+  slight miscalibrations in practically relevant sample sizes, but trades its universal validity
+  and power guarantees against a reduced empirical power compared to the HL test in a classical
+  simulation setup.We illustrate our test on recalibrated predictions for credit card defaults
+  during the Taiwan credit card crisis, where the classical HL test delivers equivocal results.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.00426
+labels:
+- applications
+- e-values
+publications:
+- name: The New England Journal of Statistics in Data Science
+  year: 2023
+  url: https://doi.org/10.51387/23-nejsds56
+  doi: 10.51387/23-nejsds56
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2203.00426
+  arxiv: '2203.00426'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

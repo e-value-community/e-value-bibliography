@@ -1,0 +1,35 @@
+title: 'Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference'
+authors: Zichen Wang, Haoyang Hong, Chuanhao Li, Haoxuan Li, Zhiheng Zhang, Huazheng Wang
+year: 2025
+doi: 10.52202/085713-3982
+arxiv: '2510.07646'
+abstract: >-
+  In multi-armed bandits with network interference (MABNI), the action taken by one node can
+  influence the rewards of others, creating complex interdependence. While existing research on
+  MABNI largely concentrates on minimizing regret, it often overlooks the crucial concern that an
+  excessive emphasis on the optimal arm can undermine the inference accuracy for sub-optimal arms.
+  Although initial efforts have been made to address this trade-off in single-unit scenarios, these
+  challenges have become more pronounced in the context of MABNI. In this paper, we establish, for
+  the first time, a theoretical Pareto frontier characterizing the trade-off between regret
+  minimization and inference accuracy in adversarial (design-based) MABNI. We further introduce an
+  anytime-valid asymptotic confidence sequence along with a corresponding algorithm,
+  $\texttt{EXP3-N-CS}$, specifically designed to balance the trade-off between regret minimization
+  and inference accuracy in this setting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.07646
+labels:
+- methodology
+- applications
+- confidence sequences
+- online learning
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/ad08767706825033b99122332293033d-Abstract-Conference.html
+  doi: 10.52202/085713-3982
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2510.07646
+  arxiv: '2510.07646'
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

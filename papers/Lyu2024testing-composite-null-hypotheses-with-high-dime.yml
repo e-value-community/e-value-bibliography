@@ -1,0 +1,35 @@
+title: 'Testing composite null hypotheses with high-dimensional dependent data: a computationally scalable
+  FDR-controlling procedure'
+authors: Pengfei Lyu, Xianyang Zhang, Hongyuan Cao
+year: 2024
+arxiv: '2404.05808'
+abstract: >-
+  Testing composite null hypotheses is fundamental to many scientific applications, including
+  mediation and replicability analyses, and becomes particularly challenging in high-throughput
+  settings involving tens of thousands of features. Existing high-dimensional composite null
+  hypotheses testing often ignores the dependence structure among features, leading to overly
+  conservative or liberal results. To address this limitation, we develop a four-state hidden
+  Markov model (HMM) for bivariate $p$-value sequences arising from two-study replicability
+  analysis. This model captures local dependence among features and accommodates study-specific
+  heterogeneity. Based on the HMM, we propose a multiple testing procedure that asymptotically
+  controls the false discovery rate (FDR). Extending this framework to more than two studies is
+  computationally intensive, with complexity growing exponentially in the number of studies $n$.
+  To address this scalability issue, we introduce a novel e-value framework that reduces
+  computational complexity to quadratic in $n$, while preserving asymptotic FDR control. Extensive
+  simulations demonstrate that our method achieves higher power than existing approaches at the
+  same FDR levels. When applied to genome-wide association studies (GWAS), the proposed approach
+  identifies replicable SNP-level signals that are not detected at the same significance threshold
+  by competing methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2404.05808
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2404.05808
+  arxiv: '2404.05808'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

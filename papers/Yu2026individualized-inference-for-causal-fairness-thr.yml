@@ -1,0 +1,27 @@
+title: Individualized Inference for Causal Fairness through Conformal Mediation Analysis
+authors: Cheng Yu, Zhimei Ren
+year: 2026
+abstract: >-
+  Ensuring causal fairness is a critical concern across a wide range of applications. However,
+  assessing fairness at the individual level and identifying units that have experienced unfair
+  outcomes remain challenging tasks. In this paper, we focus on the direct effect of a sensitive
+  attribute on an outcome, potentially mediated by other variables, and propose a novel framework
+  for individualized statistical inference. Our approach integrates causal mediation analysis with
+  conformal prediction to enable inference on causal fairness at the individual level. To control
+  the false discovery rate (FDR) in selecting individuals subjected to unfair treatment, we
+  further develop a multiple testing procedure based on conformalized e-values with conditional
+  calibration. We formalize the notion of individual causal fairness and demonstrate the utility
+  and novelty of our methodology through extensive simulations and two real-world applications.
+abstract_status: source_abstract
+abstract_source: https://ww3.aievolution.com/JSMAnnual2026/Events/viewEv?ev=8837
+labels:
+- methodology
+- applications
+- e-values
+- multiple testing
+publications:
+- name: STAI-X 2026 (Poster Track) Poster
+  year: 2026
+  url: https://openreview.net/forum?id=doXT493avp
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

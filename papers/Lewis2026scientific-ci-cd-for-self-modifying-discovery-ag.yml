@@ -1,0 +1,38 @@
+title: 'Scientific CI/CD for Self-Modifying Discovery Agents: Statistical Gödel Gates, Capacity Budgets,
+  and Domain Verifiers'
+authors: David Scott Lewis
+year: 2026
+abstract: >-
+  Self-evolving scientific agents can improve by rewriting prompts, tools, workflows, memory,
+  search policies, and eventually evaluators or learned parameters. This capability creates a
+  deployment bottleneck that ordinary benchmark reporting does not address: an edit can improve
+  visible scores while silently degrading calibration, robustness, scientific validity, or future
+  learnability. We propose Scientific CI/CD , a governance architecture that treats every
+  self-modification as a high-risk pull request. A candidate edit is promoted only after passing
+  three gates: (i) a Statistical Gödel Gate using anytime-valid e-values or confidence sequences
+  on protected holdouts; (ii) a Capacity Budget Gate that prices model, tool, memory, data-access,
+  and autonomy expansion; and (iii) a Domain Verifier that checks conformal calibration,
+  scientific invariants, and claim-evidence provenance. We define accepted-edit regret, lifetime
+  harmful-adoption rate, evaluator-corruption gap, calibration preservation, rollback utility, and
+  cost-adjusted verified discovery. Three experiments instantiate the gates: a sequential
+  self-edit stream, a capacity-expanding model-selection benchmark, and a dry-lab RNA-seq twin.
+  Across 200-proposal streams, naive repeated testing accepted harmful edits in 6.1% of promoted
+  changes, while the spending-based e-Gödel gate reduced this to 0.008%. Capacity budgeting
+  reduced hidden-risk overfitting in self-expanding polynomial agents, and the domain verifier
+  rejected harmful biomedical workflow edits that passed mechanical or statistical checks. The
+  result is a concrete merge contract for self-evolving scientific agents: improve, but only under
+  valid evidence, bounded capacity, domain constraints, reproducible provenance, and rollback.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/82618
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=4ob0d33A2l
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

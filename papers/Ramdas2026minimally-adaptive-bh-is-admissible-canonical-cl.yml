@@ -1,0 +1,26 @@
+title: Minimally adaptive BH is admissible, canonical closed BH is not
+authors: Aaditya Ramdas
+year: 2026
+abstract: >-
+  We study the (in)admissibility of minimally adaptive Benjamini--Hochberg (MABH) and Goeman's
+  recent canonical closed-BH under superuniform null p-values and positive regression dependence.
+  We prove that MABH is admissible in the space of (possibly randomized) methods whose expected
+  discovery count is monotone in the p-values, a very strong form of admissibility. In contrast,
+  we construct a deterministic and monotone strict improvement of closed BH for every $m\ge4$ and
+  $0<\alpha<1/2$, that runs in $O(m^2)$ time, showing that closed BH is inadmissible even within
+  poly-time, \emph{count-monotone}, deterministic procedures. Appendices explore nuances around
+  other definitions of monotonicity, allowing non-monotonicity or randomization.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.25740/tf843rn7918
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.25740/tf843rn7918
+  doi: 10.25740/tf843rn7918
+doi: 10.25740/tf843rn7918
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,27 @@
+title: 'Multiple testing in game-theoretic probability: pictures and questions'
+authors: Vladimir Vovk
+year: 2024
+arxiv: '2403.11767'
+abstract: >-
+  The usual way of testing probability forecasts in game-theoretic probability is via construction
+  of test martingales. The standard assumption is that all forecasts are output by the same
+  forecaster. In this paper I will discuss possible extensions of this picture to testing
+  probability forecasts output by several forecasters. This corresponds to multiple hypothesis
+  testing in statistics. One interesting phenomenon is that even a slight relaxation of the
+  requirement of family-wise validity leads to a very significant increase in the efficiency of
+  testing procedures. The main goal of this paper is to report results of preliminary simulation
+  studies and list some directions of further research.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2403.11767
+labels:
+- theory
+- e-values
+- multiple testing
+- probability theory
+publications:
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2403.11767
+    arxiv: '2403.11767'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

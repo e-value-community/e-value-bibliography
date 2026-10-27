@@ -1,0 +1,25 @@
+title: 'Testing by Betting: A Strategy for Statistical and Scientific Communication'
+authors: Glenn Shafer
+year: 2021
+doi: 10.1111/rssa.12647
+abstract: >-
+  Abstract The most widely used concept of statistical inference—the p-value—is too complicated
+  for effective communication to a wide audience. This paper introduces a simpler way of reporting
+  statistical evidence: report the outcome of a bet against the null hypothesis. This leads to a
+  new role for likelihood, to alternatives to power and confidence, and to a framework for
+  meta-analysis that accommodates both planned and opportunistic testing of statistical hypotheses
+  and probabilistic forecasts. This framework builds on the foundation for mathematical
+  probability developed in previous work by Vladimir Vovk and myself.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1111/rssa.12647
+labels:
+- philosophy
+- methodology
+- e-values
+publications:
+  - name: 'Journal of the Royal Statistical Society Series A: Statistics in Society'
+    year: 2021
+    url: https://doi.org/10.1111/rssa.12647
+    doi: 10.1111/rssa.12647
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,34 @@
+title: E-statistics, group invariance and anytime-valid testing
+authors: Muriel Felipe Pérez-Ortiz, Tyron Lardy, Rianne de Heide, Peter Grünwald
+year: 2024
+doi: 10.1214/24-aos2394
+arxiv: '2208.07610'
+abstract: >-
+  We study worst-case-growth-rate-optimal (GROW) e-statistics for hypothesis testing between two
+  group models. It is known that under a mild condition on the action of the underlying group G on
+  the data, there exists a maximally invariant statistic. We show that among all e-statistics,
+  invariant or not, the likelihood ratio of the maximally invariant statistic is GROW, both in the
+  absolute and in the relative sense, and that an anytime-valid test can be based on it. The GROW
+  e-statistic is equal to a Bayes factor with a right Haar prior on G. Our treatment avoids
+  nonuniqueness issues that sometimes arise for such priors in Bayesian contexts. A crucial
+  assumption on the group G is its amenability, a well-known group-theoretical condition, which
+  holds, for instance, in scale-location families. Our results also apply to finite-dimensional
+  linear regression.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2208.07610
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+publications:
+  - name: The Annals of Statistics
+    year: 2024
+    url: https://doi.org/10.1214/24-AOS2394
+    doi: 10.1214/24-aos2394
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2208.07610
+    arxiv: '2208.07610'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

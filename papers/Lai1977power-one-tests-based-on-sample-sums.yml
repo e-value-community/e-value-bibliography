@@ -1,0 +1,22 @@
+title: Power-One Tests Based on Sample Sums
+authors: Tze Leung Lai
+year: 1977
+doi: 10.1214/aos/1176343943
+abstract: >-
+  This paper studies the properties of open-ended power-one tests of $H_0: \theta \leqq \theta_0$
+  versus $H_1: \theta > \theta_0$ or of $H: \theta = \theta_0$ versus $K: \theta \neq \theta_0$
+  based on sample sums stopped at moving boundaries. The behavior of the expected sample size is
+  analyzed and certain asymptotic results as $\theta \rightarrow \theta_0$ are obtained in the
+  case of a location parameter and also in the case of an exponential family of distributions.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aos/1176343943
+labels:
+- methodology
+- e-processes
+publications:
+  - name: The Annals of Statistics
+    year: 1977
+    url: https://doi.org/10.1214/aos/1176343943
+    doi: 10.1214/aos/1176343943
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

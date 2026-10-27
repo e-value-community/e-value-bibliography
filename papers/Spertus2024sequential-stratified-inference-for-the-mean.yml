@@ -1,0 +1,32 @@
+title: Sequential stratified inference for the mean
+authors: Jacob V. Spertus, Mayuri Sridhar, Philip B. Stark
+year: 2024
+arxiv: '2409.06680'
+abstract: >-
+  We develop conservative tests for the mean of a bounded population under stratified sampling and
+  apply them to risk-limiting post-election audits. The tests are "anytime valid" under sequential
+  sampling, allowing optional stopping in each stratum. Our core method expresses a global
+  hypothesis about the population mean as a union of intersection hypotheses describing
+  within-stratum means. It tests each intersection hypothesis using a test supermartingale (TSM)
+  combined across strata by multiplication. A $P$-value for each intersection hypothesis is the
+  reciprocal of that TSM, and the largest $P$-value in the union is a $P$-value for the global
+  hypothesis. This approach has two primary moving parts: the rule selecting which stratum to draw
+  from next, and the form of the TSM within each stratum. These rules may vary over intersection
+  hypotheses. We construct intersection tests with the smallest expected sample size and propagate
+  them to approximate an efficient global test. In instances that arise in auditing and other
+  applications, its expected sample size is substantially smaller than that of previous methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.06680
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2409.06680
+    arxiv: '2409.06680'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,32 @@
+title: The E-Posterior
+authors: Peter Grünwald
+year: 2023
+doi: 10.1098/rsta.2022.0146
+arxiv: '2301.01335'
+abstract: >-
+  We develop a representation of a decision maker's uncertainty based on e-variables. Like the
+  Bayesian posterior, this *e-posterior* allows for making predictions against arbitrary loss
+  functions that may not be specified ex ante. Unlike the Bayesian posterior, it provides risk
+  bounds that have frequentist validity irrespective of prior adequacy: if the e-collection (which
+  plays a role analogous to the Bayesian prior) is chosen badly, the bounds get loose rather than
+  wrong, making *e-posterior minimax* decision rules safer than Bayesian ones. The resulting
+  *quasi-conditional paradigm* is illustrated by re-interpreting a previous influential partial
+  Bayes-frequentist unification, *Kiefer-Berger-Brown-Wolpert conditional frequentist tests*, in
+  terms of e-posteriors.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2301.01335
+labels:
+- philosophy
+- methodology
+- e-values
+publications:
+- name: Philosophical Transactions of the Royal Society A
+  year: 2023
+  url: https://doi.org/10.1098/rsta.2022.0146
+  doi: 10.1098/rsta.2022.0146
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2301.01335
+  arxiv: '2301.01335'
+database_added: '2026-10-20'
+database_updated: '2026-10-23'

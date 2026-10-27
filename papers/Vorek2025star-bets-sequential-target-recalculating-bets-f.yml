@@ -1,0 +1,40 @@
+title: 'STaR-Bets: Sequential Target-Recalculating Bets for Tighter Confidence Intervals'
+authors: Václav Voráček, Francesco Orabona
+year: 2025
+doi: 10.52202/085713-5407
+arxiv: '2505.22422'
+abstract: >-
+  The construction of confidence intervals for the mean of a bounded random variable is a
+  classical problem in statistics with numerous applications in machine learning and virtually all
+  scientific fields. In particular, obtaining the tightest possible confidence intervals is vital
+  every time the sampling of the random variables is expensive. The current state-of-the-art
+  method to construct confidence intervals is by using betting algorithms. This is a very
+  successful approach for deriving optimal confidence sequences, even matching the rate of law of
+  iterated logarithms. However, in the fixed horizon setting, these approaches are either
+  sub-optimal or based on heuristic solutions with strong empirical performance but without a
+  finite-time guarantee. Hence, no betting-based algorithm guaranteeing the optimal
+  $\mathcal{O}(\sqrt{\frac{σ^2\log\frac1δ}{n}})$ width of the confidence intervals are known. This
+  work bridges this gap. We propose a betting-based algorithm to compute confidence intervals that
+  empirically outperforms the competitors. Our betting strategy uses the optimal strategy in every
+  step (in a certain sense), whereas the standard betting methods choose a constant strategy in
+  advance. Leveraging this fact results in strict improvements even for classical concentration
+  inequalities, such as the ones of Hoeffding or Bernstein. Moreover, we also prove that the width
+  of our confidence intervals is optimal up to an $1+o(1)$ factor diminishing with $n$. The code
+  is available at https://github.com/vvoracek/STaR-bets-confidence-interval.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.22422
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://doi.org/10.52202/085713-5407
+  doi: 10.52202/085713-5407
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.22422
+  arxiv: '2505.22422'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

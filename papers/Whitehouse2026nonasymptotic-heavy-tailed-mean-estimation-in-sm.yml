@@ -1,0 +1,36 @@
+title: Nonasymptotic heavy-tailed mean estimation in smooth Banach spaces
+authors: Justin Whitehouse, Ben Chugg, Diego Martinez-Taboada, Aaditya Ramdas
+year: 2026
+abstract: >-
+  We consider the problem of nonasymptotic mean estimation for heavy-tailed random variables
+  taking values in a smooth Banach space. In particular, we extend and improve a simple
+  truncation-based mean estimator by Catoni and Giulini. We show that this estimator enjoys
+  finite-sample, high probability deviation bounds that hold uniformly over the class of
+  distributions with a $p$th central moment bounded above by a known constant $v > 0$ for $p \in
+  (1, 2]$. Our main contributions exploit connections between truncation-based mean estimation and
+  the concentration of martingales with bounded increments in smooth Banach spaces. We prove two
+  types of time-uniform bounds on the distance between the estimator and unknown mean:
+  line-crossing inequalities, which can be optimized for a fixed sample size $n$, and iterated
+  logarithm inequalities, which match the tightness of line-crossing inequalities at all points in
+  time up to a doubly logarithmic factor in $n$. Our results do not depend on the dimension of the
+  Banach space, hold under martingale dependence, and all employed constants are known and small.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2411.11271
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: Stochastic Processes and their Applications
+  year: 2026
+  url: https://doi.org/10.1016/j.spa.2026.104959
+  doi: 10.1016/j.spa.2026.104959
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2411.11271
+  arxiv: '2411.11271'
+doi: 10.1016/j.spa.2026.104959
+arxiv: '2411.11271'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

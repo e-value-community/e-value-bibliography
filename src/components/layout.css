@@ -1,0 +1,5 @@
+/* Enhanced markdown link styling */
+.markdown-content a,
+div[dangerouslySetInnerHTML] a {
+  font-weight: 500;
+}

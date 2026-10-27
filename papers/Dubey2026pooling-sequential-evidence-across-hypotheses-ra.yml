@@ -1,0 +1,39 @@
+title: 'Pooling Sequential Evidence Across Hypotheses: Rate-Optimal Multiple Testing at a Fixed Horizon'
+authors: Prasanjit Dubey, Xiaoming Huo
+year: 2026
+arxiv: '2609.27465'
+abstract: >-
+  We study sequential testing of a fixed family of hypotheses when observations are costly and a
+  sampling horizon is specified in advance. The challenge is to pool evidence for earlier
+  decisions when the number and identities of false hypotheses are unknown, while controlling the
+  probability of any false rejection at level $α$. Existing merges attain the pooled growth rate
+  at a single number of false hypotheses: averaging when one is false, multiplying when all are.
+  Under an independent-stream model with common simple null and alternative distributions, we test
+  each intersection with a prior-weighted mixture of products of marginal likelihood ratios.
+  Closed testing combines these elementary-symmetric-polynomial mixtures to identify individual
+  false hypotheses. Design-specific boundary calibration gives finite-horizon family-wise error
+  control, with exact finite-state guarantees or a confidence qualification for Monte Carlo
+  calibration. The prior-matched mixture uniquely maximizes expected log evidence at each horizon.
+  Mixtures assigning positive weight to every nonempty subset of streams attain log-growth rate
+  $lD$ when $l$ streams follow the alternative. Here $D$ is the mean log likelihood ratio per
+  alternative observation, and a round supplies one observation per stream. This rate attains the
+  first-order intersection-delay lower bound as $α\downarrow0$ at fixed dimension, configuration,
+  weights, and a long enough horizon. Power for an individual hypothesis cannot exceed the best
+  single-stream power at a given deadline, but closure removes the multiplicity penalty when all
+  are false. Gaussian, basket-trial, language-model and advertising studies illustrate both. The
+  primary basket boundaries are 40-52% below $1/α$. Across 41 simulated configurations, the median
+  reduction in capped mean patient outcomes relative to prespecified interim-look Bonferroni tests
+  is 31%.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.27465
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2609.27465
+    arxiv: '2609.27465'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

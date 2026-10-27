@@ -1,0 +1,34 @@
+title: Power one sequential tests exist for weakly compact P against P^c
+authors: Ashwin Ram, Aaditya Ramdas
+year: 2026
+arxiv: '2604.03218'
+abstract: >-
+  We study power-one sequential testing for an i.i.d. law on a Polish sample space. Given a
+  nonempty composite null class $\Pcal\subseteq\mathcal M_1(\X)$, we ask when there exists a
+  level-$α$ stopping rule that rejects almost surely under every alternative in a prescribed class
+  $\Qcal\subseteq\Pcal^c$. Our main sufficient condition is local weak lower semicontinuity and
+  positivity of the information projection functional \( Φ_\Pcal(Q):=\inf_{P\in\Pcal}\KL(Q\|P). \)
+  In particular, if $\Pcal$ is weakly compact, then for every $α\in(0,1)$ there is a single
+  level-$α$ sequential test with power one against the entire complement $\Pcal^c$. The proof
+  combines Csiszár's nonasymptotic Sanov bound for weakly closed convex empirical-measure sets
+  with a Lindelöf countable-subcover argument. We also show that weak lower semicontinuity is
+  sufficient but not necessary by giving examples where discontinuous finite-sample events
+  separate alternatives that weak neighborhoods cannot detect. Finally, we construct an
+  $e$-process that is asymptotically relatively growth-rate optimal under weak compactness. We
+  verify the weak-lower-semicontinuity condition for weakly compact nulls, $f$-divergence balls,
+  several integral probability metric balls, Wasserstein balls on proper spaces, and a number of
+  non-weakly-compact semiparametric examples.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.03218
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.03218
+  arxiv: '2604.03218'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

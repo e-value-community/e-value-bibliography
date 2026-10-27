@@ -1,0 +1,29 @@
+title: Predicting fixed-sample test decisions enables anytime-valid inference
+authors: Chris Holmes, Stephen Walker
+year: 2026
+arxiv: '2602.13872'
+abstract: >-
+  Statistical hypothesis tests typically use prespecified sample sizes, yet data often arrive
+  sequentially. Interim analyses invalidate classical error guarantees, while existing sequential
+  methods require rigid testing preschedules or incur substantial losses in statistical power. We
+  introduce a simple procedure that transforms any fixed-sample hypothesis test into an
+  anytime-valid test while ensuring Type-I error control and near-optimal power with substantial
+  sample savings when the null hypothesis is false. At each step, the procedure predicts the
+  probability that a classical test would reject the null hypothesis at its fixed-sample size,
+  treating future observations as missing data under the null hypothesis. Thresholding this
+  probability yields an anytime-valid stopping rule. In areas such as clinical trials, stopping
+  early and safely can ensure that subjects receive the best treatments and accelerate the
+  development of effective therapies.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.13872
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.13872
+  arxiv: '2602.13872'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

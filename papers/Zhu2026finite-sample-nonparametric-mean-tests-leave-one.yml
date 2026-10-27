@@ -1,0 +1,32 @@
+title: 'Finite-sample nonparametric mean tests: Leave-one-out duality and asymptotic optimality'
+authors: Yifan Zhu, John C. Duchi
+year: 2026
+abstract: >-
+  We study finite-sample valid tests of the one-sided mean hypothesis $H_0:μ\leq 1$ against
+  $H_1:μ>1$ for nonnegative random variables. To do so, we develop a leave-one-out dual
+  certificate framework, where certain pointwise inequalities imply p-value validity under the
+  conditional mean null $\mathbb{E}[X_i\mid\mathbf{X}_{-i}]\leq 1$, and which also gives
+  conditions that allow combining dual certificates for p-values to show that their pointwise
+  minimum is also a valid p-value. The framework proves finite-sample validity of Wang and Zhao's
+  nonparametric likelihood-ratio statistic $T_{\mathrm{nplr}}$, yields a new p-value
+  $T_{\mathrm{bin}+}$ extending the Clopper--Pearson binomial test to general nonnegative random
+  variables, and shows that the pointwise minimum $\min\{T_{\mathrm{nplr}},T_{\mathrm{bin}+}\}$ is
+  itself a valid and more powerful p-value. We establish sharp optimality results for such testing
+  problems in two regimes: both $T_{\mathrm{nplr}}$ and $T_{\mathrm{bin}+}$ attain a universal
+  detectability boundary for the null $H_0$ without moment or tail assumptions, and
+  $T_{\mathrm{bin}+}$ attains a nonparametric power lower bound under $n^{-1/2}$-local
+  alternatives to $H_0$. Efficient algorithms and numerical experiments demonstrate substantial
+  finite-sample power gains over existing valid methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.05360
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.05360
+  arxiv: '2609.05360'
+arxiv: '2609.05360'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

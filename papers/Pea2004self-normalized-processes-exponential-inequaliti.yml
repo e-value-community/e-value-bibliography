@@ -1,0 +1,36 @@
+title: 'Self-normalized processes: exponential inequalities, moment bounds and iterated logarithm laws'
+authors: Victor H. de la Peña, Michael J. Klass, Tze Leung Lai
+year: 2004
+doi: 10.1214/009117904000000397
+abstract: >-
+  Self-normalized processes arise naturally in statistical applications. Being unit free, they are
+  not affected by scale changes. Moreover, self-normalization often eliminates or weakens moment
+  assumptions. In this paper we present several exponential and moment inequalities, particularly
+  those related to laws of the iterated logarithm, for self-normalized random variables including
+  martingales. Tail probability bounds are also derived. For random variables Bt>0 and At, let
+  Yt(λ)=exp{λAt−λ2Bt2/2}. We develop inequalities for the moments of At/Bt or supt≥0At/{Bt(log
+  logBt)1/2} and variants thereof, when EYt(λ)≤1 or when Yt(λ) is a supermartingale, for all λ
+  belonging to some interval. Our results are valid for a wide class of random processes including
+  continuous martingales with At=Mt and $B_{t}=\sqrt {\langle M\rangle _{t}}$ , and sums of
+  conditionally symmetric variables di with At=∑i=1tdi and $B_{t}=\sqrt{\sum_{i=1}^{t}d_{i}^{2}}$.
+  A sharp maximal inequality for conditionally symmetric random variables and for continuous local
+  martingales with values in Rm, m≥1, is also established. Another development in this paper is a
+  bounded law of the iterated logarithm for general adapted sequences that are centered at certain
+  truncated conditional expectations and self-normalized by the square root of the sum of squares.
+  The key ingredient in this development is a new exponential supermartingale involving ∑i=1tdi
+  and ∑i=1tdi2. A compact law of the iterated logarithm for self-normalized martingales is also
+  derived in this connection.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/009117904000000397
+labels:
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: The Annals of Probability
+  year: 2004
+  url: https://doi.org/10.1214/009117904000000397
+  doi: 10.1214/009117904000000397
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

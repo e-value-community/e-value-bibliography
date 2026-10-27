@@ -1,0 +1,26 @@
+title: Protected probabilistic classification
+authors: Vladimir Vovk, Ivan Petej, Alex Gammerman
+year: 2021
+arxiv: '2107.01726'
+abstract: >-
+  This paper proposes a way of protecting probabilistic prediction models against changes in the
+  data distribution, concentrating on the case of classification and paying particular attention
+  to binary classification. This is important in applications of machine learning, where the
+  quality of a trained prediction algorithm may drop significantly in the process of its
+  exploitation. Our techniques are based on recent work on conformal test martingales and older
+  work on prediction with expert advice, namely tracking the best expert.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2107.01726
+labels:
+- applications
+- e-values
+publications:
+  - name: Symposium on Conformal and Probabilistic Prediction and Applications
+    year: 2021
+    url: https://proceedings.mlr.press/v152/vovk21c.html
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2107.01726
+    arxiv: '2107.01726'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

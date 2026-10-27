@@ -1,0 +1,32 @@
+title: 'On Stopping Times of Power-one Sequential Tests: Tight Lower and Upper Bounds'
+authors: Shubhada Agrawal, Ashwin Ram, Aaditya Ramdas
+year: 2025
+arxiv: '2504.19952'
+abstract: >-
+  We present two general lower bounds for stopping times of sequential tests between arbitrary
+  composite nulls $\mathcal P$ and alternatives $\mathcal Q$. The first lower bound is for the
+  ``Wald setting'' where the type-1 error level $α$ approaches zero for a fixed alternative $Q \in
+  \mathcal Q$, and equals $\log(1/α)$ divided by a certain infimum KL divergence between $\mathcal
+  P$ and $Q$, termed $\operatorname{KL_{inf}}$. The second lower bound applies to the ``Farrell
+  setting'', where $α$ is fixed and $\operatorname{KL_{inf}}$ approaches $0$ along a sequence of
+  alternatives such that the required expected sample size along that sequence is of order at
+  least $\operatorname{KL^{-1}_{inf}} \log \log \operatorname{KL^{-1}_{inf}}$. Our main
+  contribution is the generality of these bounds, which hold in non-parametric, composite
+  settings, without requiring a dominating reference measure, substantially generalizing the known
+  parametric results. We also provide sufficient conditions for matching upper bounds and show
+  that these are met in several nontrivial non-parametric cases.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.19952
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.19952
+  arxiv: '2504.19952'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

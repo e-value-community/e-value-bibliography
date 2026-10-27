@@ -1,0 +1,22 @@
+title: ITERATED LOGARITHM INEQUALITIES
+authors: D. A. Darling, Herbert Robbins
+year: 1967
+doi: 10.1073/pnas.57.5.1188
+abstract: >-
+  1. Introduction—Let x,x 1, x 2 … be a sequence of independent, identically distributed random
+  variables with mean 0, variance 1, and moment generating function ϕ(t) = E(etz) finite in some
+  neighborhood of t= 0, and put S n = x 1, + … + x n, \(\bar x\) n = S n/n. For any sequence of
+  positive constants a n, n ≥ 1, let P m = P(|\(\bar x\) n| ≥ a n for some n ≥ m).
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.57.5.1188
+labels:
+- methodology
+- theory
+- confidence sequences
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 1967
+    url: https://doi.org/10.1073/pnas.57.5.1188
+    doi: 10.1073/pnas.57.5.1188
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

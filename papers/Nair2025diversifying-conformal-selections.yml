@@ -1,0 +1,35 @@
+title: Diversifying Conformal Selections
+authors: Yash Nair, Ying Jin, James Yang, Emmanuel Candes
+year: 2025
+arxiv: '2506.16229'
+abstract: >-
+  When selecting from a list of potential candidates, it is important to ensure not only that the
+  selected items are of high quality, but also that they are sufficiently dissimilar so as to both
+  avoid redundancy and to capture a broader range of desirable properties. In drug discovery,
+  scientists aim to select potent drugs from a library of unsynthesized candidates, but recognize
+  that it is wasteful to repeatedly synthesize highly similar compounds. In job hiring, recruiters
+  may wish to hire candidates who will perform well on the job, while also considering factors
+  such as socioeconomic background, prior work experience, gender, or race. We study the problem
+  of using any prediction model to construct a maximally diverse selection set of candidates while
+  controlling the false discovery rate (FDR) in a model-free fashion. Our method, diversity-aware
+  conformal selection (DACS), achieves this by designing a general optimization procedure to
+  construct a diverse selection set subject to a simple constraint involving conformal e-values
+  which depend on carefully chosen stopping times. The key idea of DACS is to use optimal stopping
+  theory to adaptively choose the set of e-values which (approximately) maximizes the expected
+  diversity measure. We give an example diversity metric for which our procedure can be run
+  exactly and efficiently. We also develop a number of computational heuristics which greatly
+  improve its running time for generic diversity metrics. We demonstrate the empirical performance
+  of our method both in simulation and on job hiring and drug discovery datasets.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2506.16229
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2506.16229
+  arxiv: '2506.16229'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

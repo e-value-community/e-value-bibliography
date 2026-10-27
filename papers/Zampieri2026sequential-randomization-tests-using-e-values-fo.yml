@@ -1,0 +1,37 @@
+title: Sequential randomization tests using e-values for clinical trial monitoring across endpoint types
+authors: Fernando G. Zampieri, Arthur M. Albuquerque, Aaditya Ramdas
+year: 2026
+doi: 10.1186/s12874-026-03048-z
+arxiv: '2512.04366'
+abstract: >-
+  Sequential monitoring of randomized trials traditionally relies on parametric assumptions or
+  asymptotic approximations. We discuss a family of nonparametric sequential tests - collectively
+  called e-RT - for binary, event-only, and continuous endpoints. All active variants derive
+  validity from the randomization mechanism. Using a betting framework, each test constructs a
+  test martingale by sequentially wagering on randomized assignments or observed event labels
+  before using the current label in the wealth update. Under the null hypothesis of no treatment
+  effect, the expected wealth cannot grow, guaranteeing anytime-valid Type I error control
+  regardless of stopping rule. The default e-RT posture is effect-size agnostic: monitoring can
+  begin without specifying a hypothesized treatment effect. Alternatively, fixed design-calibrated
+  wagers, including growth-rate-optimal (GROW) wagers, may be used as optional efficiency tools
+  when a clinically meaningful design alternative is credible. We present simulation studies
+  demonstrating calibration and power, and discuss the principled asymmetry in betting strategies
+  across outcome types. These methods provide a conservative, assumption-light complement to
+  model-based sequential analyses.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.04366
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: BMC Medical Research Methodology
+  year: 2026
+  url: https://doi.org/10.1186/s12874-026-03048-z
+  doi: 10.1186/s12874-026-03048-z
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.04366
+  arxiv: '2512.04366'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,25 @@
+title: Testing Exchangeability between Real and Synthetic Data
+authors: Helena Löfström, Lars Carlsson, Ernst Ahlberg
+year: 2024
+abstract: >-
+  This study introduces a method to evaluate synthetic data quality by focusing on the
+  exchangeability of real and synthetic datasets. This is done through the use of a test
+  martingale, which provides a statistical guarantee of the similarity of the synthetic data’s
+  representation of the original data distribution. The method was tested on six real-world
+  datasets and their synthetic counterparts, revealing that traditional metrics such as
+  statistical similarities and model performance may be misleading. The results indicate that the
+  martingale test frequently rejects the hypothesis of data exchangeability, underscore the need
+  for more robust evaluation methods. The martingale-based evaluation offers a straightforward yet
+  effective tool to ensure that synthetic data accurately reflects the original dataset, which is
+  essential for effective model training and validation.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v230/lofstrom24b.html
+labels:
+- methodology
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2024
+  url: https://raw.githubusercontent.com/mlresearch/v230/main/assets/lofstrom24b/lofstrom24b.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

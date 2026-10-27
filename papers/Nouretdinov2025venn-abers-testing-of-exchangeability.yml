@@ -1,0 +1,32 @@
+title: Venn-Abers Testing of Exchangeability
+authors: Ilia Nouretdinov
+year: 2025
+abstract: >-
+  A recurrent problem in many domains is the accurate and rapid detection of a change in the
+  distribution of observed variables. This is important since our algorithms have been trained for
+  a certain data distribution, and if the distribution has changed, the results will not be
+  accurate and/or valid any longer. Instances of this problem, which are generally referred to as
+  change-point detection, are found in fault detection in vehicle control systems, detection of
+  the onset of an epidemic, and many other applications. Recently, new methods based on reliable
+  machine learning have shown important advantages of this statistical task. Conformal Test
+  Martingales (CTM) allow one to avoid this limitation and obtain valid results without
+  information about used distributions. This is done with the assumption that the data are i.i.d.
+  (or exchangeable) in online mode, and the corresponding martingale accumulates evidence against
+  this assumption. This work aims to extend the conformal framework and consider the other family
+  of reliable machine learning methods, the Venn-Abers method of probabilistic prediction, to test
+  the data for change points. This work shows how Venn-Abers testing of exchangeability (VATE) can
+  be founded on the ground of $e$-value theory, including recently developed
+  $e$-pseudomartingales, and studies its advantages and drawbacks, compared to CTM. Our conclusion
+  is that the efficiency of this approach is related to the type of causality in the data set.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v266/nouretdinov25a.html
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2025
+  url: https://raw.githubusercontent.com/mlresearch/v266/main/assets/nouretdinov25a/nouretdinov25a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

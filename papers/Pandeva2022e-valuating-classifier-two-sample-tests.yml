@@ -1,0 +1,29 @@
+title: E-Valuating Classifier Two-Sample Tests
+authors: Teodora Pandeva, Tim Bakker, Christian A. Naesseth, Patrick Forré
+year: 2024
+arxiv: '2210.13027'
+abstract: >-
+  We introduce a powerful deep classifier two-sample test for high-dimensional data based on
+  E-values, called E-value Classifier Two-Sample Test (E-C2ST). Our test combines ideas from
+  existing work on split likelihood ratio tests and predictive independence tests. The resulting
+  E-values are suitable for anytime-valid sequential two-sample tests. This feature allows for
+  more effective use of data in constructing test statistics. Through simulations and real data
+  applications, we empirically demonstrate that E-C2ST achieves enhanced statistical power by
+  partitioning datasets into multiple batches beyond the conventional two-split (training and
+  testing) approach of standard classifier two-sample tests. This strategy increases the power of
+  the test while keeping the type I error well below the desired significance level.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.13027
+labels:
+- methodology
+- e-values
+publications:
+  - name: Transactions on Machine Learning Research
+    year: 2024
+    url: https://openreview.net/forum?id=dwFRov8xhr
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2210.13027
+    arxiv: '2210.13027'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

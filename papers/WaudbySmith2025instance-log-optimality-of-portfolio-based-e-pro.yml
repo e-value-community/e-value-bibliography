@@ -1,0 +1,32 @@
+title: Instance-Log-Optimality of Portfolio-Based E-Processes and their Sequential Hypothesis Tests
+authors: Ian Waudby-Smith, Ricardo J. Sandoval, Michael I. Jordan
+year: 2025
+arxiv: '2504.02818'
+abstract: >-
+  We consider the problem of sequential hypothesis testing using $e$-processes. For a rich class
+  of composite testing problems---which include bounded mean testing, equal mean testing for
+  bounded random tuples, and some key ingredients of two-sample and independence testing as
+  special cases---we show that any $e$-process satisfying a certain sublinear regret bound is
+  asymptotically and almost surely instance-log-optimal for a composite alternative. This is a
+  strong notion of optimality that has not previously been established for the aforementioned
+  problems, and we provide explicit test supermartingales and $e$-processes satisfying this notion
+  in a more general case. Furthermore, we derive matching lower and upper bounds on the expected
+  rejection time in the high-confidence regime for the resulting sequential tests in all of these
+  cases. The proofs of these results make weak, algorithm-agnostic moment assumptions and rely on
+  a proof technique involving the aforementioned regret and a family of numeraire portfolios.
+  Finally, we discuss how all of these theorems hold in a distribution-uniform sense, a notion of
+  log-optimality that is stronger still and seems to be new to the literature.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.02818
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.02818
+  arxiv: '2504.02818'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

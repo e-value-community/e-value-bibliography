@@ -1,0 +1,32 @@
+title: Feedback-Enhanced Online Multiple Testing with Applications to Conformal Selection
+authors: Lin Lu, Yuyang Huo, Haojie Ren, Zhaojun Wang, Changliang Zou
+year: 2026
+arxiv: '2509.03297'
+abstract: >-
+  This work studies online multiple testing with feedback, where decisions are made sequentially,
+  and the true state of the hypothesis is revealed after decisions are made, either instantly or
+  with a delay, and under either full or bandit feedback. We propose Generalized alpha-investing
+  with feedback (GAIF) along with its adaptive variants, a feedback-enhanced framework that
+  dynamically adjusts thresholds using revealed outcomes, ensuring finite-sample false discovery
+  rate (FDR)/marginal FDR (mFDR) control. We further extend GAIF to online conformal testing by
+  constructing valid conformal $p$-values and developing feedback-enhanced testing rules with
+  finite-sample mFDR control. We also propose a feedback-driven score selection criterion to
+  adaptively choose the candidate score that is most effective for the testing procedure, together
+  with a theoretical analysis of its optimality.} Numerical simulations and real-data applications
+  demonstrate the effectiveness of our methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2509.03297
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Journal of Machine Learning Research
+    year: 2026
+    url: https://jmlr.org/papers/v27/25-2123.html
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2509.03297
+    arxiv: '2509.03297'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

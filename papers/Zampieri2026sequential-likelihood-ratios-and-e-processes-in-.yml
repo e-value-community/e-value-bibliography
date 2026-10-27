@@ -1,0 +1,46 @@
+title: Sequential likelihood ratios and e-processes in the analysis of the RENOVATE trial
+authors: >-
+  Fernando G. Zampieri, Alexandre B. Cavalcanti, Peter M. B. Cahusac, Leticia Kawano-Dourado,
+  Michael O. Harhay, Israel S. Maia
+year: 2026
+doi: 10.1093/annalsats/aaoag042
+abstract: >-
+  Abstract Rationale Adaptive platform trials enrolling heterogeneous populations face a critical
+  challenge: when treatment effects differ across subgroups and enrollment is non-concurrent,
+  pooled analyses can produce misleading results due to shifting patient composition over time.
+  Objectives To quantify treatment effect heterogeneity in the RENOVATE trial using evidential
+  methods and e-processes, and to demonstrate how temporal shifts in enrollment composition can
+  create statistical artifacts in sequential monitoring. Methods Secondary analysis of the
+  RENOVATE trial, which randomized 1766 adults with acute respiratory failure to high-flow nasal
+  oxygen (HFNO) versus noninvasive ventilation (NIV) across five populations:
+  non-immunocompromised hypoxemia (n = 485), immunocompromised hypoxemia (n = 50), COPD
+  exacerbation (n = 77), cardiogenic pulmonary edema (n = 272), and COVID-19 (n = 882). We
+  computed sequential likelihood ratio (SLR) processes within each group for the primary outcome
+  (death or intubation at 7 days), testing a 5% absolute risk reduction hypothesis. We compared
+  group-specific trajectories with pooled analysis to visualize how enrollment composition
+  influenced evidence accumulation. Sensitivity analyses used conditional e-processes (which
+  eliminate the baseline rate parameter) and randomization-based e-processes (assumption-free).
+  Results Treatment effects varied substantially across populations. Cardiogenic edema showed
+  strong evidence of HFNO benefit (absolute risk difference −11.0%; S-3 interval −15.8% to −3.8%;
+  final support S = 3.36). COVID-19 showed a point estimate suggesting harm (+4.3%; S-3 interval
+  −1.3% to + 9.8%; S = −3.23). The pooled SLR displayed a V-shaped artifact, with support dropping
+  to S = −5.5 during the COVID-dominated enrollment period, then reversing to S = +5.6 as
+  lower-risk patients entered. Alternative analyses were aligned with SLR but did not suffer from
+  artifact interpretation due to baseline risk change. Conclusions Sequential evidential analysis
+  reveals substantial treatment effect heterogeneity, which is masked by pooled analysis, with
+  enrollment composition mechanistically driving the evidence trajectories. E-processes provide a
+  diagnostic tool for platform trials, making visible the interaction between enrollment dynamics
+  and treatment heterogeneity that conventional pooled estimates cannot reveal. Clinical Trial
+  Registration NCT03643939 Primary Source of Funding Brazilian Ministry of Health
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/annalsats/aaoag042
+labels:
+- applications
+- e-processes
+publications:
+  - name: Annals of the American Thoracic Society
+    year: 2026
+    url: https://doi.org/10.1093/annalsats/aaoag042
+    doi: 10.1093/annalsats/aaoag042
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,37 @@
+title: Sequential Change Point Detection with FDR Control in Reconfigurable Sensor Networks
+authors: Seungwon Lee, Yunxiao Chen, Xiaoou Li
+year: 2026
+doi: 10.1109/tit.2026.3669453
+arxiv: '2504.06526'
+abstract: >-
+  This paper investigates sequential change-point detection in reconfigurable sensor networks. In
+  this problem, data from multiple sensors are observed sequentially. Each sensor can have a
+  unique change point, and the data distribution differs before and after the change. We aim to
+  detect these changes as quickly as possible once they have occurred while controlling the false
+  discovery rate at all times. Our setting is more realistic than traditional settings in that (1)
+  the set of active sensors - i.e., those from which data can be collected - can change over time
+  through the deactivation of existing sensors and the addition of new sensors, and (2)
+  dependencies can occur both between sensors and across time points. We propose powerful
+  e-value-based detection procedures that control the false discovery rate uniformly over time.
+  Numerical experiments demonstrate that, with the same false discovery rate target, our
+  procedures achieve superior performance compared to existing methods, exhibiting lower false
+  non-discovery rates and reduced detection delays.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.06526
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+- multiple testing
+publications:
+- name: IEEE Transactions on Information Theory
+  year: 2026
+  url: https://doi.org/10.1109/tit.2026.3669453
+  doi: 10.1109/tit.2026.3669453
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.06526
+  arxiv: '2504.06526'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

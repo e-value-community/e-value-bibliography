@@ -1,0 +1,36 @@
+title: 'Test-then-Punish: A Statistical Approach to Repeated Games'
+authors: Aymeric Capitaine, Antoine Scheid, Etienne Boursier, Alain Durmus, Michael I. Jordan
+year: 2026
+arxiv: '2603.05619'
+abstract: >-
+  We study discounted infinitely repeated games in which players agree on a cooperative mixed
+  action profile but, at each step, observe only the realized pure actions. This form of imperfect
+  monitoring breaks classical trigger strategies, since deviations cannot be identified with
+  certainty. To address this problem, we study how hypothesis testing can be used to sustain
+  cooperation. First, we develop a framework that embeds statistical inference directly into
+  strategic behavior. We introduce relaxed equilibrium notions that allow players to ignore
+  vanishing probability histories arising from rare but extreme realizations of the monitoring
+  process. Within this framework, we formalize a generic test then punish strategy: players commit
+  ex ante to a cooperative mixed action profile, continuously test whether observed play is
+  consistent with this prescription, and permanently switch to punishment once sufficient
+  statistical evidence of deviation accumulates. Under mild conditions on the testing procedure,
+  this construction sustains any feasible and individually rational payoff for sufficiently
+  patient players, yielding a Folk theorem type result under imperfect monitoring. We then propose
+  two explicit implementations of this strategy. The first relies on anytime valid sequential
+  tests, providing uniform control of Type I error over an infinite horizon and a finite expected
+  detection time for payoff-relevant deviations. However, this strategy only accounts for
+  stationary deviations and yields a Nash equilibrium. The second uses testing over batches with a
+  fixed size, accommodating arbitrary deviations and achieving subgame perfect Nash equilibrium,
+  at the cost of losing global anytime guarantees on false punishments.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.05619
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2603.05619
+    arxiv: '2603.05619'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

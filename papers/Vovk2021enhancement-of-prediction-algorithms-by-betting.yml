@@ -1,0 +1,19 @@
+title: Enhancement of prediction algorithms by betting
+authors: Vladimir Vovk
+year: 2021
+arxiv: '2105.08669'
+abstract: >-
+  This note proposes a procedure for enhancing the quality of probabilistic prediction algorithms
+  via betting against their predictions. It is inspired by the success of the conformal test
+  martingales that have been developed recently.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2105.08669
+labels:
+- applications
+publications:
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2105.08669
+    arxiv: '2105.08669'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,26 @@
+title: An information-theoretic lower bound in time-uniform estimation
+authors: John C. Duchi, Saminul Haque
+year: 2024
+arxiv: '2402.08794'
+abstract: >-
+  We present an information-theoretic lower bound for the problem of parameter estimation with
+  time-uniform coverage guarantees. Via a new a reduction to sequential testing, we obtain
+  stronger lower bounds that capture the hardness of the time-uniform setting. In the case of
+  location model estimation, logistic regression, and exponential family models, our
+  $Ω(\sqrt{n^{-1}\log \log n})$ lower bound is sharp to within constant factors in typical
+  settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2402.08794
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- information theory
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2402.08794
+  arxiv: '2402.08794'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

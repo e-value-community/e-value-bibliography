@@ -1,0 +1,34 @@
+title: Anytime-Valid LLM Leaderboards via Benchmark-weighted and Block-Factorized e-Processes
+authors: Hongfu Gao, Songxin Zhang, Zejian Xie, Bingyi Jing, Zhou Wang, Yiming Liu
+year: 2026
+arxiv: '2609.32248'
+abstract: >-
+  Large language model (LLM) leaderboards compare model capabilities by ranking models according
+  to their mean performance on fixed benchmarks. However, variability in evaluation outcomes
+  across runs may produce unsupported claims of model superiority on the benchmark, a risk
+  compounded by leaderboard updates. In this paper, we propose BB-EDGE (Benchmark-Weighted and
+  Block-Factorized e-processes for Directed Graph Evaluation), a principled framework that
+  represents an LLM leaderboard as a directed graph whose edges certify pairwise mean-performance
+  advantages, with anytime-valid family-wise error rate (FWER) control. Concretely, for each
+  direction, BB-EDGE constructs an empirical-Bernstein e-process by factorizing evidence over
+  protocol-defined blocks and assigning stakes proportional to the corresponding block weights,
+  then applies direct e-Holm across these $e$-processes to certify directional advantages as
+  edges. Theoretically, we characterize weight-proportional linear stakes under heterogeneous
+  benchmark-average nulls and prove anytime FWER control under arbitrary within-block and
+  cross-pair dependence. BB-EDGE further supports anytime-valid Top-$k$ certification and
+  simultaneous rank intervals. Extensive experiments on synthetic data and four real-world
+  benchmarks demonstrate that BB-EDGE maintains anytime FWER control while achieving high
+  efficiency.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.32248
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.32248
+  arxiv: '2609.32248'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

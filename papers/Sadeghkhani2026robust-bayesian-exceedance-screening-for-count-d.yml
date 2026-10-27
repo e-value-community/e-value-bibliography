@@ -1,0 +1,36 @@
+title: Robust Bayesian exceedance screening for count data
+authors: Abdolnasser Sadeghkhani
+year: 2026
+doi: 10.1007/s41060-026-01312-5
+abstract: >-
+  Abstract Rare-event screening in count data often concerns latent upper-tail risk rather than
+  large observed counts alone. We develop a robust Bayesian procedure whose parameter-conditional
+  tail functional is $$\theta _i(\vartheta ) =\Pr _{\vartheta }(Y_i^{\textrm{rep}}>\tau _i\mid
+  x_i)$$ θ i ( ϑ ) = Pr ϑ ( Y i rep > τ i ∣ x i ) , where $$x_i$$ x i is the covariate vector;
+  posterior averaging yields the posterior predictive exceedance probability $$\bar{\theta }_i
+  =\mathbb {E}\{\theta _i(\vartheta )\mid \mathcal {D}_n\}$$ θ ¯ i = E { θ i ( ϑ ) ∣ D n } . The
+  working model is negative binomial, with latent-scale robustification and bounded-influence
+  computation used to reduce the impact of excess zeros, isolated large counts, and multiplicative
+  contamination on fitted tail probabilities. The analysis separates posterior tail-risk ranking
+  from formal discovery. Ranking is based on posterior mean exceedance probabilities, whereas
+  multiplicity-controlled selection is obtained through an e-value layer. Under the Bayes-marginal
+  null induced by the same hierarchical model, posterior odds are Bayes factors and hence valid
+  e-values for e-BH false-discovery-rate control under arbitrary dependence. Under a working-model
+  interpretation, the same quantities are treated as evidence scores unless calibrated, and the
+  theory is formulated around a Kullback–Leibler pseudo-true exceedance target. Simulations show
+  improved tail-probability calibration and fewer contamination-driven false discoveries under
+  misspecification, with the expected efficiency loss under clean data. An application to the RAND
+  Health Insurance Experiment illustrates high-utilization screening and identifies a subgroup
+  enriched for large outpatient-visit counts.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1007/s41060-026-01312-5
+labels:
+- applications
+- e-values
+publications:
+  - name: International Journal of Data Science and Analytics
+    year: 2026
+    url: https://doi.org/10.1007/s41060-026-01312-5
+    doi: 10.1007/s41060-026-01312-5
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

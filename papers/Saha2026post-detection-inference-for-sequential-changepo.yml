@@ -1,0 +1,36 @@
+title: Post-detection inference for sequential changepoint localization
+authors: Aytijhya Saha, Aaditya Ramdas
+year: 2026
+doi: 10.1093/jrsssb/qkag069
+arxiv: '2502.06096'
+abstract: >-
+  This paper addresses a fundamental but largely unexplored challenge in sequential changepoint
+  analysis: conducting inference following a detected change. We develop a very general framework
+  to construct confidence sets for the unknown changepoint using only the data observed up to a
+  data-dependent stopping time at which an arbitrary sequential detection algorithm declares a
+  change. Our framework is nonparametric, making no assumption on the composite post-change class,
+  the observation space, or the sequential detection procedure used, and is non-asymptotically
+  valid. We also extend it to handle composite pre-change classes under a suitable assumption, and
+  also derive confidence sets for the change magnitude in parametric settings. We provide
+  theoretical guarantees on the width of our confidence intervals. Extensive simulations
+  demonstrate that the produced sets have reasonable size, and slightly conservative coverage. In
+  summary, we present the first general method for sequential changepoint localization, which is
+  theoretically sound and broadly applicable in practice.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.06096
+labels:
+- methodology
+- e-values
+- e-processes
+- e-detectors
+publications:
+  - name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+    year: 2026
+    url: https://doi.org/10.1093/jrsssb/qkag069
+    doi: 10.1093/jrsssb/qkag069
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2502.06096
+    arxiv: '2502.06096'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

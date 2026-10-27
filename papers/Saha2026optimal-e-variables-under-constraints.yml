@@ -1,0 +1,27 @@
+title: Optimal e-variables under constraints
+authors: Aytijhya Saha, Aaditya Ramdas
+year: 2026
+arxiv: '2604.21680'
+abstract: >-
+  E-variables enable safe and anytime-valid inference, with log-optimal e-variables given by the
+  likelihood ratio of the least favorable distributions (LFDs) when they exist in composite
+  settings. While this unconstrained theory is well understood, one may need/wish to impose
+  additional structural constraints, including differential privacy, quantization, boundedness, or
+  moment restrictions. We show that under these constraints, log-optimal constrained e-variables
+  can often be constructed by a simple \emph{optimize-then-constrain} principle: first compute the
+  unconstrained log-optimal e-variable, then impose the constraint via an appropriate
+  transformation. Thus, the constrained growth-rate optimization problem does not require solving
+  for a different LFD pair; the constrained optimal solution is just a post-processing of the
+  unconstrained optimal solution.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.21680
+labels:
+- theory
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.21680
+  arxiv: '2604.21680'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

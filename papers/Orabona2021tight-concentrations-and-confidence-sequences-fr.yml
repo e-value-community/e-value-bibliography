@@ -1,0 +1,34 @@
+title: Tight Concentrations and Confidence Sequences from the Regret of Universal Portfolio
+authors: Francesco Orabona, Kwang-Sung Jun
+year: 2024
+doi: 10.1109/tit.2023.3330187
+arxiv: '2110.14099'
+abstract: >-
+  A classic problem in statistics is the estimation of the expectation of random variables from
+  samples. This gives rise to the tightly connected problems of deriving concentration
+  inequalities and confidence sequences, that is confidence intervals that hold uniformly over
+  time. Previous work has shown how to easily convert the regret guarantee of an online betting
+  algorithm into a time-uniform concentration inequality. In this paper, we show that we can go
+  even further: We show that the regret of universal portfolio algorithms give rise to new
+  implicit time-uniform concentrations and state-of-the-art empirically calculated confidence
+  sequences. In particular, our numerically obtained confidence sequences can never be vacuous,
+  even with a single sample, and satisfy the law of iterated logarithm.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2110.14099
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- online learning
+publications:
+- name: IEEE Transactions on Information Theory
+  year: 2024
+  url: https://doi.org/10.1109/tit.2023.3330187
+  doi: 10.1109/tit.2023.3330187
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2110.14099
+  arxiv: '2110.14099'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

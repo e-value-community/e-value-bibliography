@@ -1,0 +1,59 @@
+title: 'Calibration Is Not Enough: An Anytime Monitor for Trustworthy Abstention'
+authors: Mohamed Alaya
+year: 2026
+abstract: >-
+  Version 2 (9 September 2026) — erratum. An independent audit found several statements in v1 that
+  the paper's own logs and results did not support — stale prose from an earlier run of the same
+  experiment, not a change to the method. Corrected: the batch baseline's overall answered risk in
+  Section 6.4 (was misstated as 0.164; the artifact says 0.112); a false claim that k-NN was worst
+  on two conditions in Section 6.3 (it is never worst); an overclaim that TRIBUNAL was "the only
+  method" beating two baselines in Section 6.2; Figure 3's theory sweep, which had been scored
+  partly on the calibration half — re-scored on held-out data only, TRIBUNAL is worse than MSP at
+  p=0 and overtakes it around p=0.2-0.3, not p=0.15; Section 6.5 and Figure 6, which described an
+  earlier LLM run (kappa=0) rather than the one actually behind the published results (kappa=4,
+  where TRIBUNAL is worse than plain sequence probability); the LLM accuracy figure, corrected
+  from a held-out-half value (0.152) to the true full-500 figure (0.138); and an unconditional
+  claim in Section 5 / Appendix A.3 that the anytime monitor "cannot stay silent forever" once
+  risk rises, corrected to state the threshold below which it has no detection power — the LLM
+  experiment is shown to be a live example of exactly that limit, not a success case as v1
+  described it. The two central results are unchanged and were independently re-verified: Theorem
+  4.1's separation bound and the anytime monitor's false-alarm guarantee both check out, and the
+  core CIFAR-10 numbers reproduce bit-for-bit from the released checkpoint. Full erratum detail is
+  in the paper's own preface. A predictor that abstains when it is likely wrong is far more useful
+  than one that is merely accurate on average, but abstention is only as good as the confidence
+  signal it runs on. We show that the signal almost everyone uses is structurally inadequate. For
+  any selector that abstains by thresholding a single calibrated confidence score, there is an
+  irreducible floor on the area under its risk–coverage curve: on inputs that are confident and
+  wrong because the model has never seen anything like them, no amount of calibration helps. A
+  selector that also reads an epistemic signal escapes this floor. The catch is that the
+  calibration the floor survives is the only kind a post-hoc method can actually obtain: a score
+  can be calibrated on the reference data it is given and still be badly miscalibrated on the
+  off-support inputs it was never shown, and no amount of post-hoc recalibration repairs that.
+  That impossibility is our first result. Our second is a tool for deployment. The standard
+  distribution-free fix, calibrating a fixed abstention threshold on held-out data, quietly stops
+  working under distribution shift: the system keeps certifying a risk bound it no longer meets.
+  We give an anytime-valid, false-alarm-controlled monitor for selective risk — a betting process
+  whose false-alarm probability is provably at most δ and which raises an alarm once the risk it
+  is tracking creeps up. Over 300 stationary streams its empirical false-alarm rate is 0.000, and
+  on a shifting stream where a calibrated baseline silently runs at 1.5× its promised risk, the
+  monitor fires. Third, we give a concrete post-hoc score, TRIBUNAL, that studentizes a frozen
+  model's confidence by the worst-case doubt its own evidence cannot rule out. It improves
+  selective risk where the theory says it should, on overconfident models facing
+  out-of-distribution and corrupted inputs, and it collapses to plain confidence where the model
+  is already well separated. We report that null result rather than hide it. Everything runs on a
+  frozen model with one extra forward pass. Working paper, self-archived. Code, checkpoints and
+  full results are described in the paper; the frozen-model experiments use CIFAR-10/100 ResNet-18
+  and a Qwen2.5-1.5B-Instruct LLM run.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.22681950
+labels:
+- philosophy
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.22681950
+  doi: 10.5281/zenodo.22681950
+doi: 10.5281/zenodo.22681950
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,29 @@
+title: On Confidence Sequences
+authors: Tze Leung Lai
+year: 1976
+doi: 10.1214/aos/1176343406
+abstract: >-
+  This paper is concerned with confidence sequences, i.e., sequences of confidence regions which
+  contain the true parameter for every sample size simultaneously at a prescribed level of
+  confidence. By making use of generalized likelihood ratio martingales, confidence sequences are
+  constructed for the unknown parameters of the binomial, Poisson, uniform, gamma and other
+  distributions. It is proved that for the exponential family of distributions, the method of
+  using generalized likelihood ratio martingales leads to a sequence of intervals which have the
+  desirable property of eventually shrinking to the population parameter. The problem of nuisance
+  parameters is considered, and in this connection, boundary crossing probabilities are obtained
+  for the sequence of Student's $t$-statistics, and a limit theorem relating to the boundary
+  crossing probabilities for the Wiener process is proved.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aos/1176343406
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: The Annals of Statistics
+  year: 1976
+  url: https://doi.org/10.1214/aos/1176343406
+  doi: 10.1214/aos/1176343406
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

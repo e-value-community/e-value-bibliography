@@ -1,0 +1,39 @@
+title: Une approche par graphes des tests conformes en grande dimension utilisant des e-values basées
+  sur la centralité, avec application à la détection d’anomalies
+authors: Stéphane Chrétien, Jacques Anderson Kouassi, Guillaume Metzler
+year: 2026
+abstract: >-
+  La détection d’anomalies peut être formulée naturellement comme un test d’hypothèse statistique
+  : étant donné un ensemble de données d’entraînement échantillonnées à partir d’une distribution
+  inconnue P, on souhaite déterminer si une nouvelle observation est issue de P ou d’une
+  distribution Q ≠ P. Ce problème est notoirement difficile, car spécifier un modèle paramétrique
+  sous l’hypothèse nulle est souvent irréaliste dans les contextes modernes de grande dimension.
+  L’inférence conforme offre un cadre puissant pour ce type de test sans hypothèse de
+  distribution, en fournissant des p-valeurs valides sous des hypothèses minimales Bates et al.
+  (2023). Dans ce travail, nous proposons un nouveau test conforme basé sur une représentation en
+  graphe des k plus proches voisins (k-nn) des données d’entraînement. Notre méthode exploite des
+  mesures de centralité dans le graphe pour construire une e-value quantifiant la conformité d’un
+  point candidat par rapport à l’ensemble d’apprentissage. Cette e-value est ensuite transformée
+  en une p-valeur conforme, ce qui permet d’obtenir un test valide à taille finie pour détecter
+  des changements de distribution et des anomalies. L’approche par graphe k-NN est
+  particulièrement adaptée aux données de grande dimension, car elle permet de capturer les
+  structures de variété intrinsèquement de faible dimension et offre une manière flexible de
+  définir des scores de conformité reflétant la géométrie locale des données. Nous évaluons notre
+  méthode sur des jeux de données synthétiques et réels, y compris des données textuelles de
+  grande dimension, en démontrant sa capacité à détecter des changements de distribution subtils
+  tout en contrôlant rigoureusement l’erreur de type I. Les principaux avantages de notre approche
+  sont les suivants : (i) elle ne nécessite pas de modèle statistique prédéfini pour tester
+  l’hypothèse nulle, ce qui est crucial pour les applications en intelligence artificielle, (ii)
+  elle est mathématiquement rigoureuse, et (iii) elle est simple à implémenter en pratique avec
+  seulement quelques lignes de code.
+abstract_status: source_abstract
+abstract_source: https://guillaumemetzler.github.io/articles/2026/cap2026.pdf
+labels:
+- methodology
+- e-values
+publications:
+- name: Conférence pour l’Apprentissage Automatique (CAp), Montpellier, France
+  year: 2026
+  url: https://guillaumemetzler.github.io/articles/2026/cap2026.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,38 @@
+title: Efficient Sequential Evaluation of Large Language Models
+authors: Chia-Yu Hsu, Shubhanshu Shekhar
+year: 2026
+arxiv: '2607.17409'
+abstract: >-
+  We study the problem of sequentially evaluating a new large language model (LLM) on a fixed
+  question set using historical performance data from prior LLMs. Our goal is to construct a
+  confidence sequence (CS) for the model's capability on this question set and to design active
+  querying rules that shrink the CS width as quickly as possible. For CS construction, we invert a
+  family of test supermartingales and focus on two representative approaches: a reverse
+  information projection (RIPr)-based approach and a testing-by-betting-based approach. We first
+  study these approaches under an oracle setting, and demonstrate the oracle optimality of the
+  RIPr-based construction. We then propose a growth-oriented querying rule that aims to maximize
+  the worst-case one-step expected log-increment over the endpoints of the current CS. In
+  practice, we build these test supermartingales and the querying rule on predictions of
+  question-level correctness learned from historical data. We then analyze the shrinkage behavior
+  of the resulting CSs and identify two key factors that slow the shrinkage rate of CSs:
+  accumulated prediction mismatch and the spikiness of the querying distribution. Finally,
+  motivated by this analysis, we propose several mixture querying rules that combine
+  growth-oriented querying, prediction refinement, and uniform exploration, trying to mitigate the
+  effects that slow the shrinkage rate. We provide experiments comparing different querying rules
+  for the RIPr-based and testing-by-betting-based CSs across several synthetic testing datasets.
+  Interestingly, we observe that the simplest querying rule, uniform sampling, can sometimes
+  outperform more adaptive querying rules for both methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.17409
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.17409
+  arxiv: '2607.17409'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

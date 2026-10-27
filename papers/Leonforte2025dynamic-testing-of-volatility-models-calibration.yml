@@ -1,0 +1,26 @@
+title: Dynamic testing of volatility models’ calibration using E-values
+authors: Davide Carmelo Di Leonforte, Nina Deliu
+year: 2025
+doi: 10.1016/j.spl.2025.110515
+abstract: >-
+  We propose a novel framework for dynamic model choice in financial volatility forecasting using
+  e-values. E-values provide a valid, yet flexible statistical framework for sequential testing,
+  making them particularly suitable for testing model adequacy in real-time settings. Focusing on
+  the probabilistic calibration of GARCH volatility models, we show empirically how e-values can
+  effectively identify if and when a volatility model is or becomes miscalibrated. Finally, we
+  present new insights on the why , after inspecting the realised e-process and its relationship
+  with the historical returns of the Apple asset. In particular, we believe that e-values may be
+  regarded as an early warning tool of market instability (linking it to the leverage effect and
+  market asymmetries) and as early predictors of high-volatility clusters.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1016/j.spl.2025.110515
+labels:
+- applications
+- e-values
+publications:
+  - name: Statistics & Probability Letters
+    year: 2025
+    url: https://doi.org/10.1016/j.spl.2025.110515
+    doi: 10.1016/j.spl.2025.110515
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

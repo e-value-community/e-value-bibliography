@@ -1,0 +1,36 @@
+title: Admissible anytime-valid sequential inference must rely on nonnegative martingales
+authors: Aaditya Ramdas, Johannes Ruf, Martin Larsson, Wouter Koolen
+year: 2022
+arxiv: '2009.03167'
+abstract: >-
+  Confidence sequences, anytime p-values (called p-processes in this paper), and e-processes all
+  enable sequential inference for composite and nonparametric classes of distributions at
+  arbitrary stopping times. Examining the literature, one finds that at the heart of all these
+  (quite different) approaches has been the identification of nonnegative (super)martingales.
+  Thus, informally, nonnegative (super)martingales are known to be sufficient for
+  \emph{anytime-valid} sequential inference, even in composite and nonparametric settings. Our
+  central contribution is to show that nonnegative martingales are also universal -- after
+  appropriately defining \emph{admissibility}, we show that all admissible constructions of
+  confidence sequences, p-processes, or e-processes must necessarily utilize nonnegative
+  martingales. Our proofs utilize several modern mathematical tools for composite testing and
+  estimation problems: max-martingales, Snell envelopes, transfinite induction, and new Doob-Lévy
+  martingales make appearances in previously unencountered ways. Informally, if one wishes to
+  perform anytime-valid sequential inference, then any existing approach can be recovered or
+  dominated using nonnegative martingales. We provide several nontrivial examples, with special
+  focus on testing symmetry, where our new constructions render past methods inadmissible. We also
+  prove the subGaussian supermartingale to be admissible.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2009.03167
+labels:
+- methodology
+- theory
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2009.03167
+    arxiv: '2009.03167'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

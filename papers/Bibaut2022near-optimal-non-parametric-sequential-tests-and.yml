@@ -1,0 +1,36 @@
+title: Near-Optimal Non-Parametric Sequential Tests and Confidence Sequences with Possibly Dependent Observations
+authors: Aurelien Bibaut, Nathan Kallus, Michael Lindon
+year: 2022
+arxiv: '2212.14411'
+abstract: >-
+  Sequential tests and their implied confidence sequences, which are valid at arbitrary stopping
+  times, promise flexible statistical inference and on-the-fly decision making. However, strong
+  guarantees are limited to parametric sequential tests that under-cover in practice or
+  concentration-bound-based sequences that over-cover and have suboptimal rejection times. In this
+  work, we consider classic delayed-start normal-mixture sequential probability ratio tests, and
+  we provide the first asymptotic type-I-error and expected-rejection-time guarantees under
+  general non-parametric data generating processes, where the asymptotics are indexed by the
+  test's burn-in time. The type-I-error results primarily leverage a martingale strong invariance
+  principle and establish that these tests (and their implied confidence sequences) have type-I
+  error rates asymptotically equivalent to the desired (possibly varying) $α$-level. The
+  expected-rejection-time results primarily leverage an identity inspired by Itô's lemma and imply
+  that, in certain asymptotic regimes, the expected rejection time is asymptotically equivalent to
+  the minimum possible among $α$-level tests. We show how to apply our results to sequential
+  inference on parameters defined by estimating equations, such as average treatment effects.
+  Together, our results establish these (ostensibly parametric) tests as general-purpose,
+  non-parametric, and near-optimal. We illustrate this via numerical simulations and a real-data
+  application to A/B testing at Netflix.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2212.14411
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2212.14411
+  arxiv: '2212.14411'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

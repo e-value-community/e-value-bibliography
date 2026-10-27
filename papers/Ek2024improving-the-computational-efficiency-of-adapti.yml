@@ -1,0 +1,38 @@
+title: Improving the Computational Efficiency of Adaptive Audits of IRV Elections
+authors: Alexander Ek, Michelle Blom, Philip B. Stark, Peter J. Stuckey, Damjan Vukcevic
+year: 2025
+doi: 10.1007/978-3-031-72244-8_3
+arxiv: '2407.16465'
+abstract: >-
+  AWAIRE is one of two extant methods for conducting risk-limiting audits of instant-runoff voting
+  (IRV) elections. In principle AWAIRE can audit IRV contests with any number of candidates, but
+  the original implementation incurred memory and computation costs that grew superexponentially
+  with the number of candidates. This paper improves the algorithmic implementation of AWAIRE in
+  three ways that make it practical to audit IRV contests with 55 candidates, compared to the
+  previous 6 candidates. First, rather than trying from the start to rule out all candidate
+  elimination orders that produce a different winner, the algorithm starts by considering only the
+  final round, testing statistically whether each candidate could have won that round. For those
+  candidates who cannot be ruled out at that stage, it expands to consider earlier and earlier
+  rounds until either it provides strong evidence that the reported winner really won or a full
+  hand count is conducted, revealing who really won. Second, it tests a richer collection of
+  conditions, some of which can rule out many elimination orders at once. Third, it exploits
+  relationships among those conditions, allowing it to abandon testing those that are unlikely to
+  help. We provide real-world examples with up to 36 candidates and synthetic examples with up to
+  55 candidates, showing how audit sample size depends on the margins and on the tuning
+  parameters. An open-source Python implementation is publicly available.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.16465
+labels:
+- applications
+- e-processes
+publications:
+- name: Electronic Voting
+  year: 2025
+  url: https://doi.org/10.1007/978-3-031-72244-8_3
+  doi: 10.1007/978-3-031-72244-8_3
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.16465
+  arxiv: '2407.16465'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

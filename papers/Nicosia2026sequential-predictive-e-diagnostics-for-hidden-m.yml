@@ -1,0 +1,30 @@
+title: Sequential predictive e-diagnostics for hidden Markov models of animal movement
+authors: Aurelien Nicosia
+year: 2026
+doi: 10.64898/2026.07.07.737005
+abstract: >-
+  Abstract Hidden Markov models are standard for inferring behavioural states from animal movement
+  data, but checking whether a fitted latent-state model predicts held-out movement well remains
+  difficult. We develop sequential predictive e-diagnostics that evaluate a fitted movement HMM as
+  a generator of validation trajectories. Each diagnostic specifies a predictable alternative
+  density, and its ratio to the fitted model’s observable one-step predictive density defines an
+  e-value increment. The denominator is obtained by filtering over latent states, not by
+  conditioning on a decoded path. Under a fixed train/validation protocol, the cumulative product
+  is an e-process, giving anytime-valid thresholds under optional stopping and predictable
+  switching. The construction extends to weighted and state-localized evidence, feature-level
+  circular-linear checks, and blockwise summaries. Controlled simulations show calibration under
+  the fitted-generator null and sensitivity to targeted misspecifications. A leave-one-animal-out
+  elk case study illustrates pooled, individual-specific and state-localized predictive model
+  criticism in a standard movement-HMM workflow.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.64898/2026.07.07.737005
+labels:
+- applications
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.64898/2026.07.07.737005
+  doi: 10.64898/2026.07.07.737005
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

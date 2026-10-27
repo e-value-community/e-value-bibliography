@@ -1,0 +1,34 @@
+title: 'Network knockoffs: controlling false discovery in dyadic space'
+authors: Justin Van Ee, Yoichiro Kanno, Jacob Rash, Mevin Hooten
+year: 2026
+arxiv: '2606.00346'
+abstract: >-
+  Phenomena such as epidemiological processes, hydrologic systems, social platforms, utility
+  services, and supply chains can be represented as topological networks. A central question about
+  these networks concerns connectivity and the permeability of edges. Dyadic regression and
+  related approaches have been proposed to identify network features associated with pairwise
+  node-level differences. In high-dimensional settings, it is important to control the number of
+  spuriously selected features. However, controlling the false discovery rate for dyadic outcomes
+  is challenging because dependence among dyads invalidates classic asymptotic procedures and
+  complicates standard data splitting and knockoff approaches. We propose a novel knockoff
+  variable selection procedure that simulates synthetic features directly on the topological
+  network prior to constructing the augmented design matrix in dyadic space. Empirically, our
+  method controls the false discovery rate for both node- and edge-level features. The
+  Benjamini-Hochberg, Benjamini-Yekutieli, Storey Q-value, data-splitting, and standard knockoff
+  procedures were all anticonservative. We applied our network knockoffs to assess the
+  impassability of over 1000 stream barriers in North Carolina for Salvelinus fontinalis. Compared
+  to data splitting and traditional knockoff approaches, our proposed approach selected a higher
+  proportion of barriers previously assessed to impede fish movement.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.00346
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.00346
+    arxiv: '2606.00346'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

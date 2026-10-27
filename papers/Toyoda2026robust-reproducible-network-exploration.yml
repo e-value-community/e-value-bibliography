@@ -1,0 +1,34 @@
+title: Robust Reproducible Network Exploration
+authors: Masaki Toyoda, Yoshimasa Uematsu
+year: 2026
+doi: 10.1080/07350015.2025.2561147
+arxiv: '2405.17117'
+abstract: >-
+  We propose a novel methodology for discovering the presence of relationships realized as binary
+  time series between variables in high dimension. To make it visually intuitive, we regard the
+  existence of a relationship as an edge connection, and call a collection of such edges a
+  network. Our objective is thus rephrased as uncovering the network by selecting relevant edges,
+  referred to as the network exploration. Our methodology is based on multiple testing for the
+  presence or absence of each edge, designed to ensure statistical reproducibility via controlling
+  the false discovery rate (FDR). In particular, we carefully construct $p$-variables, and apply
+  the Benjamini-Hochberg (BH) procedure. We show that the BH with our $p$-variables controls the
+  FDR under arbitrary dependence structure with any sample size and dimension, and has asymptotic
+  power one under mild conditions. The validity is also confirmed by simulations and a real data
+  example.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2405.17117
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Journal of Business & Economic Statistics
+    year: 2026
+    url: https://doi.org/10.1080/07350015.2025.2561147
+    doi: 10.1080/07350015.2025.2561147
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2405.17117
+    arxiv: '2405.17117'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

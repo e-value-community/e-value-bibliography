@@ -1,0 +1,24 @@
+title: Asymptotically Lossless Exact and Pivotal E-Values
+authors: Hengzhi He, Guang Cheng
+year: 2026
+arxiv: '2609.27923'
+abstract: >-
+  Consider testing a finite composite null $\cP={P_1,\ldots,P_L}$ against a simple alternative $Q$
+  using $n$ i.i.d. observations. Let $\ell_n$ denote the supremum of the expected log e-value over
+  e-variables that are exact under every $P_i$ and pivotal across the nulls. Zhang, Ramdas, and
+  Wang (2024) showed that $\ell_n$ is superadditive and asked whether $\ell_n/n$ converges to the
+  upper bound $\min_i D(Q|P_i)$ under their joint atomlessness and absolute continuity
+  assumptions. We prove that it does. The proof draws on techniques developed by Zhang, Ramdas,
+  and Wang (2024) and by Farooq, Fritz, Haapasalo, and Tomamichel (2024).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.27923
+labels:
+- theory
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.27923
+  arxiv: '2609.27923'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

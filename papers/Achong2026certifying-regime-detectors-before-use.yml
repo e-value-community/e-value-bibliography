@@ -1,0 +1,44 @@
+title: Certifying Regime Detectors Before Use
+authors: Diego Urdaneta Achong, Claudio Martel Flores, Melis Boztosun, Everett Zhang
+year: 2026
+doi: 10.2139/ssrn.7100358
+abstract: >-
+  Value-at-risk forecasts are backtested before they are trusted; regime detectors, whose labels
+  and triggers enter inference and allocation just as directly, face no analogous pre-use
+  validation. We propose one. A certication protocol treats a frozen detector as a measurement
+  instrument and, for a single pre-declared claim, measures ve operating characteristics: power
+  against a declared signal family (by controlled signal injection), false-alarm behavior under
+  dependence-preserving resampled nulls, equivalence of outputs across calendar, volume, and
+  event-time bars within a preregistered margin, detector-output information about the declared
+  target, and the net value of that information under a declared cost convention. The protocol
+  returns a certicate with a disposition and a gate-level failure prole, and refuses comparisons
+  between detectors whose targets dier. We rst certify a Holm-corrected variance-ratio cascade on
+  BTCUSDT one-minute perpetual futures (20212025; n = 2,415,148 bars) and withhold the verdict,
+  for measured reasons: the cascade cannot detect variance-ratio departures ≤ 0.10 anywhere on the
+  preregistered 96-cell grid; its nominal 5% rule produced zero false alarms in 100 null
+  replicates, a size distortion traceable to a mis-centered asymptotic reference; cross-clock
+  equivalence certies at q=2 but fails at the primary horizon q=5; and trigger information has a
+  net value whose sign depends on the cost-attribution convention. We then show the diagnosis is
+  actionable: recentering the decision statistic on the empirical null lowers the certied minimum
+  detectable eect roughly tenfoldfrom 0.15 to 0.02 at q=2restores size control, and yields the
+  protocol's rst admissible certicate, for a bounded and now adequately powered exclusion of
+  positive short-horizon serial dependence. Casting each gate as an e-value makes admission
+  anytime-valid: one product certicate bounds the probability of ever falsely admitting a
+  detector, under optional stopping, with no error budget across gates or monitoring times. A
+  three-family exhibit (rolling-quantile, hidden-Markov, variance-ratio) yields cost-dominated,
+  instrumentfailed, and target-mismatched dispositionsfailure reasons no performance comparison
+  reports. Every value traces to frozen, version-pinned artifacts, with conrmatory and exploratory
+  provenance separated per table cell.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7100358
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7100358
+  doi: 10.2139/ssrn.7100358
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

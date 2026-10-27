@@ -1,0 +1,31 @@
+title: >-
+  Behavioral inference from non-stationary policies: Theory and application to ridehailing drivers
+  during COVID-19 lockdowns
+authors: Matthew Battifarano, Sean Qian
+year: 2023
+doi: 10.1016/j.trc.2023.104118
+abstract: >-
+  In the aftermath of a disruptive event like the onset of the COVID-19 pandemic, it is important
+  for policymakers to quickly understand how people are changing their behavior and their goals in
+  response to the event. Choice modeling is often applied to infer the relationship between
+  preference and behavior, but it assumes that the underlying relationship is stationary: that
+  decisions are drawn from the same model over time. However, when observed decisions outcomes are
+  non-stationary in time because, for example, the agent is changing their behavioral policy over
+  time, existing methods fail to recognize the intent behind these changes. To this end, we
+  introduce a non-parametric sequentially-valid online statistical hypothesis test to identify
+  entities in the urban environment that ride-sourcing drivers increasingly sought out or avoided
+  over the initial months of the COVID-19 pandemic. We recover concrete and intuitive behavioral
+  patterns across drivers to demonstrate that this procedure can be used to detect behavioral
+  trends as they are emerging.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1016/j.trc.2023.104118
+labels:
+- applications
+- e-processes
+publications:
+  - name: 'Transportation Research Part C: Emerging Technologies'
+    year: 2023
+    url: https://doi.org/10.1016/j.trc.2023.104118
+    doi: 10.1016/j.trc.2023.104118
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,37 @@
+title: Efficient Adaptive Experimentation with Noncompliance
+authors: Miruna Oprescu, Brian M Cho, Nathan Kallus
+year: 2025
+doi: 10.52202/085713-1414
+arxiv: '2505.17468'
+abstract: >-
+  We study the problem of estimating the average treatment effect (ATE) in adaptive experiments
+  where treatment can only be encouraged—rather than directly assigned—via a binary instrumental
+  variable. Building on semiparametric efficiency theory, we derive the efficiency bound for ATE
+  estimation under arbitrary, history-dependent instrument-assignment policies, and show it is
+  minimized by a variance-aware allocation rule that balances outcome noise and compliance
+  variability. Leveraging this insight, we introduce AMRIV—an Adaptive, Multiply-Robust estimator
+  for Instrumental-Variable settings with variance-optimal assignment. AMRIV pairs (i) an online
+  policy that adaptively approximates the optimal allocation with (ii) a sequential,
+  influence-function–based estimator that attains the semiparametric efficiency bound while
+  retaining multiply-robust consistency. We establish asymptotic normality, explicit convergence
+  rates, and anytime-valid asymptotic confidence sequences that enable sequential inference.
+  Finally, we demonstrate the practical effectiveness of our approach through empirical studies,
+  showing that adaptive instrument assignment, when combined with the AMRIV estimator, yields
+  improved efficiency and robustness compared to existing baselines.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.17468
+labels:
+- methodology
+- applications
+- confidence sequences
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/3ca380c5fe9f174a71a230478741169f-Abstract-Conference.html
+  doi: 10.52202/085713-1414
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.17468
+  arxiv: '2505.17468'
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

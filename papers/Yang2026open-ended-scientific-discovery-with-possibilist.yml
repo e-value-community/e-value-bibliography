@@ -1,0 +1,29 @@
+title: Open-ended Scientific Discovery with Possibilistic Reasoning
+authors: Anita Yang, Siu Lun Chau, Tomoya Wakayama, Krikamol Muandet, Masaki Adachi
+year: 2026
+arxiv: '2610.11289'
+abstract: >-
+  Autonomous scientific discovery with LLMs requires generating and testing hypotheses adaptively
+  as evidence accumulates while maintaining statistical validity. Existing anytime-valid methods
+  can handle data-dependent hypotheses, but open-ended discovery poses a deeper challenge: the
+  best discovered hypothesis may still be the best of a bad lot, with better explanations yet
+  undiscovered, while even background knowledge such as physical laws may require revision in
+  light of new findings. In response, we formalize the problem as Abductive Autonomous Scientific
+  Discovery (AASD) using possibility theory. We introduce abductive utility, a computable measure
+  of discovery progress, and possibility frontier search, the first algorithm for AASD, which
+  maintains anytime validity and achieves $\varepsilon$-optimal abductive utility asymptotically
+  under suitable conditions. Experiments on synthetic and real-world scientific-discovery tasks
+  show strong performance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.11289
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.11289
+    arxiv: '2610.11289'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

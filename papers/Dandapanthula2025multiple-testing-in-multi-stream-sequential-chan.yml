@@ -1,0 +1,35 @@
+title: Multiple testing in multi-stream sequential change detection
+authors: Sanjit Dandapanthula, Aaditya Ramdas
+year: 2025
+arxiv: '2501.04130'
+abstract: >-
+  Multi-stream sequential change detection involves simultaneously monitoring many data streams
+  and raising an alarm when their distributions change. We study the multiple testing issues that
+  arise naturally in this setting. We first point out a fundamental tension between the criteria
+  used in change detection and multiple testing: any procedure with finite average run length
+  (ARL) must have worst-case false discovery rate (FDR) and family-wise error rate equal to one.
+  Given this conflict, we find a middle ground by introducing the error over patience (EOP) class
+  of Type I error metrics, which measure error relative to expected monitoring time. To control
+  the EOP, we propose procedures combining e-detectors, which generalize Shiryaev-Roberts and
+  CUSUM methods, with the recent e-Benjamini-Hochberg and e-Bonferroni methods for multiple
+  testing. Our EOP guarantees hold uniformly over changepoints and stopping times with finite
+  expectation, allowing dependence when each e-detector remains valid using information from all
+  streams. If finite ARL is forfeited, using e-processes instead yields ordinary FDR and
+  per-family error control at stopping times. We also prove power and delay bounds for Gaussian
+  changes, establish first-order minimax optimality, and compare our procedures with existing
+  methods in numerical experiments.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.04130
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.04130
+  arxiv: '2501.04130'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

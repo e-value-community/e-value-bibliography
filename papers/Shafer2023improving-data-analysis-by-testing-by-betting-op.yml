@@ -1,0 +1,38 @@
+title: 'Improving Data Analysis by Testing by Betting: Optional Continuation and Descriptive Statistics'
+authors: Glenn Shafer
+year: 2024
+doi: 10.51387/23-nejsds55
+arxiv: '2308.14959'
+abstract: >-
+  When testing a statistical hypothesis, is it legitimate to deliberate on the basis of initial
+  data about whether and how to collect further data? Game-theoretic probability's fundamental
+  principle for testing by betting says yes, provided that you are testing by betting and do not
+  risk more capital than initially committed. Standard statistical theory uses Cournot's
+  principle, which does not allow such optional continuation. Cournot's principle can be extended
+  to allow optional continuation when testing is carried out by multiplying likelihood ratios, but
+  the extension lacks the simplicity and generality of testing by betting. Game-theoretic
+  probability can also help us with descriptive data analysis. To obtain a purely and honestly
+  descriptive analysis using competing probability distributions, we have them bet against each
+  other using the Kelly principle. The place of confidence intervals is then taken by a sets of
+  distributions that do relatively well in the competition. In the simplest implementation, these
+  sets coincide with R. A. Fisher's likelihood intervals.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2308.14959
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- applications
+- e-values
+- confidence sequences
+publications:
+  - name: The New England Journal of Statistics in Data Science
+    year: 2023
+    url: https://doi.org/10.51387/23-NEJSDS55
+    doi: 10.51387/23-nejsds55
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2308.14959
+    arxiv: '2308.14959'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

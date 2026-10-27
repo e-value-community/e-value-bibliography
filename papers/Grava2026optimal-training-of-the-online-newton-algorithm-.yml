@@ -1,0 +1,23 @@
+title: Optimal Training of the Online Newton Algorithm based on Conformal CUSUM
+authors: Thomas Grava, Frédéric Vrins
+year: 2026
+abstract: >-
+  We apply conformal CUSUM to identify the training period of the Online Newton Algorithm in a
+  continuous learning setup.Numerical simulations demonstrate the ability of our approach, called
+  Lean-ONS, to efficiently detect change-points and identify a relevant training set, which
+  improves prediction performance compared to standard alternatives in the literature.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.14428/esann/2026.es2026-91
+labels:
+- methodology
+- e-processes
+- e-detectors
+publications:
+- name: European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning
+    (ESANN 2026), pp. 205–210
+  year: 2026
+  url: https://doi.org/10.14428/esann/2026.es2026-91
+  doi: 10.14428/esann/2026.es2026-91
+doi: 10.14428/esann/2026.es2026-91
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

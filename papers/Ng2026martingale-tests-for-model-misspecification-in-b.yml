@@ -1,0 +1,26 @@
+title: Martingale Tests for Model Misspecification in Bayesian Sequence Prediction
+authors: Kee Siong Ng, Sigfrido D. Ciletti
+year: 2026
+abstract: >-
+  Universal Bayesian sequence predictors like Context Tree Weighting (CTW) offer strong asymptotic
+  convergence guarantees but remain vulnerable to structural misspecification and finite-sample
+  miscalibration issues when deployed in complex, non-stationary environments. This paper
+  introduces an online monitoring framework for Bayesian sequence prediction in the form of a
+  suite of test martingales designed to continuously audit CTW and related methods. The
+  martingales are constructed using betting functions on prequential and conformal p-values,
+  including a universal betting function based on the Transformer architecture. We show that this
+  approach can effectively isolate diverse failure modes in CTW, including static marginal errors
+  and hidden temporal dependencies. Further, we provide an active recalibration mechanism for CTW
+  that can dynamically respond to martingale alerts.
+abstract_status: source_abstract
+abstract_source: https://mentalmodels4life.net/wp-content/uploads/2026/05/martingale_tests_for_model_misspecification_in_bayesian_sequence_prediction.pdf
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://mentalmodels4life.net/wp-content/uploads/2026/05/martingale_tests_for_model_misspecification_in_bayesian_sequence_prediction.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,31 @@
+title: Testing by Betting while Borrowing and Bargaining
+authors: Hongjian Wang, Wouter M. Koolen, Aaditya Ramdas
+year: 2024
+arxiv: '2407.11465'
+abstract: >-
+  Testing by betting has been a cornerstone of the game-theoretic statistics literature. One bets
+  against the null hypothesis, and the accumulated wealth $W_t$ quantifies the evidence against
+  the null hypothesis after $t$ rounds, and the null can be rejected at level $α$ whenever $W_t
+  \geq 1/α$. A key assumption permeating the literature is that one cannot bet more money than
+  they currently have (the wealth must stay nonnegative). In this work, we examine the
+  consequences of allowing the bettor to borrow money in each round (for example after going
+  bankrupt). Specifically, we ask how the threshold of $1/α$ must be accordingly adjusted to
+  retain the desired level $α$. Our findings are twofold. First, if the new rejection rule is $W_t
+  \geq g(α,L_t)$ where $L_t$ is the total liability at time $t$, then we show that $g(α,0)>1/α$ if
+  $g(α,L_t)<\infty$ for any $L_t > 0$; in words, we must pay for the possibility of borrowing,
+  even if in fact we do not borrow. Second, and in contrast to the first, if one employs a path
+  dependent threshold $h(α,W_0,L_1,\dots,W_{t-1},L_t)$, that is a function of past leverage
+  ratios, then there is in fact no extra price to pay for the possibility of borrowing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.11465
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.11465
+  arxiv: '2407.11465'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

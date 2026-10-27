@@ -1,0 +1,37 @@
+title: Testing trained models as null hypotheses to assess their absolute performance, with applications
+  to testing neural networks as null hypotheses
+authors: David R. Bickel
+year: 2026
+doi: 10.1016/bs.host.2026.05.002
+abstract: >-
+  Testing a trained neural network traditionally involves quantifying its performance in terms of
+  measuring its average errors. Measures of performance that take into account how well the
+  probabilities are calibrated include proper scoring rules such as the Brier score and
+  logarithmic loss. Since such measures are difficult to interpret without comparing their values
+  to those of other trained neural networks, those measures of predictive performance may be
+  considered relative. By contrast, scientists apply statistical methods of testing a null
+  hypothesis without comparing it to any other null hypothesis. The p-value used in those tests
+  may be considered as an absolute measure of the predictive performance of a null hypothesis in
+  the sense that it is interpretable without considering the p-values used to test other
+  hypotheses. A more recent absolute measure of the predictive performance of a null hypothesis is
+  the e-value, which overcomes many objections that have been raised against the p-value and which
+  can incorporate a prior probability that the null hypothesis is true. Viewing a trained neural
+  network as a null hypothesis enables testing it using the p-value and e-value as absolute
+  performance measures, alternatives to the traditional relative measures. This chapter proposes
+  various methods of using the p-value and e-value as absolute measures of predictive performance
+  of a trained neural network or other trained model. The chapter includes a guide for how to use
+  those methods to solve problems of classification and problems of regression. While the methods
+  apply generally to supervised learning problems, the focus of the examples is on neural
+  networks.
+abstract_status: source_abstract
+abstract_source: https://www.sciencedirect.com/science/article/abs/pii/S0169716126000477
+labels:
+- applications
+- e-values
+publications:
+- name: Handbook of Statistics
+  year: 2026
+  url: https://doi.org/10.1016/bs.host.2026.05.002
+  doi: 10.1016/bs.host.2026.05.002
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,44 @@
+title: Exact grid-free confidence-region computation from dependent p-value functions under arbitrary
+  dependence
+authors: Yaohui Lin
+year: 2026
+doi: 10.1080/00949655.2026.2723318
+arxiv: '2608.22265'
+abstract: >-
+  Repeated sample splitting, cross-fitting, conformal ensembling, and related randomized workflows
+  often produce multiple dependent valid p-value functions for the same target. Existing p-merging
+  theory guarantees pointwise validity under arbitrary dependence, but turning the merged output
+  into a confidence region typically requires repeated evaluation on a grid over the parameter
+  space. This inversion step can be computationally costly, approximation-dependent, and
+  increasingly difficult to scale. We study when confidence regions can instead be computed
+  exactly from split-wise regions without gridding the parameter space. Our main structural result
+  shows that mergers induced by step calibrators form a broad exactly executable class at the
+  region level, and a partial converse within the calibrator-induced family indicates that exact
+  executability is closely tied to step structure. Within this class, we develop exact voting
+  algorithms, including an adaptive multi-quantile contour aggregator that avoids pre-specifying a
+  single order-statistic threshold while preserving finite-sample validity under arbitrary
+  dependence. Simulation studies on repeated-split regression and conformal prediction, together
+  with real-data regression examples, show that the proposed methods provide stable,
+  robustness-oriented exact inference with substantial runtime gains over grid-inversion
+  comparators. A grid-resolution benchmark shows that fixed-k voting and adaptive multi-quantile
+  voting are essentially insensitive to inversion-grid refinement, while a multidimensional
+  single-threshold stress test illustrates the dimensional blow-up faced by grid-inversion
+  baselines in a simple box-geometry setting. Taken together, the results show that
+  arbitrary-dependence contour merging can be turned into an exactly executable region-computation
+  framework rather than merely a pointwise validity device.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.22265
+labels:
+- methodology
+- e-values
+publications:
+- name: Journal of Statistical Computation and Simulation
+  year: 2026
+  url: https://doi.org/10.1080/00949655.2026.2723318
+  doi: 10.1080/00949655.2026.2723318
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2608.22265
+  arxiv: '2608.22265'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,33 @@
+title: Bayes, E-values and Testing
+authors: Nicholas G. Polson, Vadim Sokolov, Daniel Zantedeschi
+year: 2026
+arxiv: '2602.04146'
+abstract: >-
+  E-values and E-processes (nonnegative supermartingales) provide anytime-valid evidence for
+  sequential testing via Ville's inequality, yet their connection to Bayesian reasoning,
+  representational structure, and computational feasibility are often conflated in the literature.
+  We develop a typed framework that separates sequential evidence into three layers: (i)
+  representation (Radon-Nikodym / likelihood-ratio geometry), (ii) validity (supermartingale
+  certificates under optional stopping), and (iii) decision (boundary design and efficiency
+  calibration). Our main results are: (a) under log-loss and Bayes-risk minimization, the
+  likelihood ratio is the unique evidence representation within the coherent predictive subclass;
+  (b) the likelihood-ratio stopping time satisfies E_1[tau_b] = (log b)/mu + O(sqrt(log b)) under
+  Cramer conditions, while validity-only thresholds admit no such growth-rate guarantee; and (c)
+  regret-optimal codes (e.g., NML/MDL) do not in general yield valid E-processes, while
+  prequential codes do. Monte Carlo experiments confirm the theoretical predictions. The framework
+  applies to online model validation, adaptive experimentation, conformal prediction, and
+  sequential changepoint detection.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.04146
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.04146
+  arxiv: '2602.04146'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

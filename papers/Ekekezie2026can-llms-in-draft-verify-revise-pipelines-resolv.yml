@@ -1,0 +1,37 @@
+title: Can LLMs in Draft-Verify-Revise Pipelines Resolve Deictic Ambiguity?
+authors: Obinna I. Ekekezie
+year: 2026
+arxiv: '2609.12162'
+abstract: >-
+  Draft-verify-revise is a common LLM orchestration pattern for scaling inference-time compute.
+  One LLM drafts, a second critiques the draft and provides feedback, and a third uses that
+  feedback to revise the draft into the final output. As context cascades between stages, LLMs at
+  different stages can resolve a context-dependent expression such as "previous" differently. When
+  that happens, the expression undergoes a deictic shift, a change in what it refers to. This
+  phenomenon was studied with a synthetic dataset of 10 base examples, each rendered in three
+  conditions. Holding the shared components constant, the conditions varied whether the draft
+  stage LLM (the assistant) or the verify stage LLM (the grader) resolved the expression
+  correctly, and how much independent reasoning the revise stage LLM (the meta-evaluator) needed
+  to determine which reading was correct. Six models from three providers were tested across 21
+  reasoning effort configurations using e-values for sequential testing, in a primary experiment
+  and an ablation experiment that removed error classification labels from the grader's feedback.
+  A separate LLM analyzed the meta-evaluator's stated rationale for each wrong verdict. Balanced
+  accuracy (the unweighted mean of sensitivity and specificity) ranged from 0.156, below chance,
+  to near-perfect. GPT-5.2 rose from 0.156 without reasoning to 0.942 at its highest reasoning
+  effort level, while Gemini 3 Pro stayed above 0.94 at every level. Gemini 3 Pro at low reasoning
+  effort outscored GPT-5.2 at xhigh reasoning effort for roughly 5% of the cost per trial. When
+  the meta-evaluator erred, it tended to rely on surface cues rather than operational reasoning.
+  Context engineers implementing draft-verify-revise pipelines should be wary of deictic shifts
+  and make the intended referent explicit at each stage.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.12162
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2609.12162
+    arxiv: '2609.12162'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

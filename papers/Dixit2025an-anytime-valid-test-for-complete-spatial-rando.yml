@@ -1,0 +1,30 @@
+title: An Anytime Valid Test for Complete Spatial Randomness
+authors: Vaidehi Dixit, Christopher K. Wikle, Scott H. Holan
+year: 2025
+arxiv: '2504.02960'
+abstract: >-
+  A relevant question when analyzing spatial point patterns is that of spatial randomness. More
+  specifically, before any model can be fit to a point pattern a first step is to test the data
+  for departures from complete spatial randomness (CSR). Traditional techniques employ distance or
+  quadrat counts based methods to test for CSR based on batched data. In this paper, we consider
+  the practical scenario of testing for CSR when the data are available sequentially (i.e.,
+  online). We present a sequential testing methodology called as {\em PRe-process} that is based
+  on e-values and is a fast, efficient and nonparametric method. Simulation experiments with the
+  truth departing from CSR in two different scenarios show that the method is effective in
+  capturing inhomogeneity over time. Two real data illustrations considering lung cancer cases in
+  the Chorley-Ribble area, England from 1974 - 1983 and locations of earthquakes in the state of
+  Oklahoma, USA from 2000 - 2011 demonstrate the utility of the PRe-process in sequential testing
+  of CSR.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.02960
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.02960
+  arxiv: '2504.02960'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

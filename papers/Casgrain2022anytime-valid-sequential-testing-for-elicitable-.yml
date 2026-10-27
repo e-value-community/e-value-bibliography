@@ -1,0 +1,33 @@
+title: Sequential testing for elicitable functionals via supermartingales
+authors: Philippe Casgrain, Martin Larsson, Johanna Ziegel
+year: 2024
+arxiv: '2204.05680'
+abstract: >-
+  We design sequential tests for a large class of nonparametric null hypotheses based on
+  elicitable and identifiable functionals. Such functionals are defined in terms of scoring
+  functions and identification functions, which are ideal building blocks for constructing
+  nonnegative supermartingales under the null. This in turn yields sequential tests via Ville's
+  inequality. Using regret bounds from Online Convex Optimization, we obtain rigorous guarantees
+  on the asymptotic power of the tests for a wide range of alternative hypotheses. Our results
+  allow for bounded and unbounded data distributions, assuming that a sub-$ψ$ tail bound is
+  satisfied.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2204.05680
+labels:
+- methodology
+- e-values
+- e-processes
+- online learning
+- probability theory
+publications:
+- name: Bernoulli
+  year: 2024
+  url: https://doi.org/10.3150/23-bej1634
+  doi: 10.3150/23-bej1634
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2204.05680
+  arxiv: '2204.05680'
+doi: 10.3150/23-bej1634
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

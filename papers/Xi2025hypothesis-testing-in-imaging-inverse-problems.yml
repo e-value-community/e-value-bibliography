@@ -1,0 +1,31 @@
+title: Hypothesis Testing in Imaging Inverse Problems
+authors: Yiming Xi, Konstantinos Zygalakis, Marcelo Pereyra
+year: 2025
+arxiv: '2505.22481'
+abstract: >-
+  This paper proposes a framework for semantic hypothesis testing tailored to imaging inverse
+  problems. Modern imaging methods struggle to support hypothesis testing, a core component of the
+  scientific method that is essential for the rigorous interpretation of experiments and robust
+  interfacing with decision-making processes. There are three main reasons why image-based
+  hypothesis testing is challenging. First, the difficulty of using a single observation to
+  simultaneously reconstruct an image, formulate hypotheses, and quantify their statistical
+  significance. Second, the hypotheses encountered in imaging are mostly of semantic nature,
+  rather than quantitative statements about pixel values. Third, it is challenging to control test
+  error probabilities because the null and alternative distributions are often unknown. Our
+  proposed approach addresses these difficulties by leveraging concepts from self-supervised
+  computational imaging, vision-language models, and non-parametric hypothesis testing with
+  e-values. We demonstrate our proposed framework through numerical experiments related to
+  image-based phenotyping, where we achieve excellent power while robustly controlling Type I
+  errors.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.22481
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.22481
+  arxiv: '2505.22481'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

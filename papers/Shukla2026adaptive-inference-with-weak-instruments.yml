@@ -1,0 +1,32 @@
+title: Adaptive Inference with Weak Instruments
+authors: Apurv Shukla, Debabrota Basu
+year: 2026
+abstract: >-
+  Inference with weak instruments presents a choice between the two-stage least squares (2SLS)
+  yielding tight confidence intervals with low coverage, and the test-based methods, like
+  Anderson–Rubin, producing vacuously wide but valid intervals. We show that this trade-off is
+  unnecessary. First, we show that a convex combination of a bias-controlled estimator, like
+  ordinary least squares, and a valid estimator, like 2SLS, preserves coverage. Second, to yield
+  tight intervals, we propose StAR that uses e-process diagnostics to adaptively set these
+  weights. StAR's weights involve a multivariate e-value aggregating relevance of all the
+  instruments, and the confidence width of the e-process gating against premature reliance on any
+  instrument. We prove three finite-sample results: (i) StAR's coverage, (ii) StAR's width that
+  transitions from OLS-like at weak instruments to IV-efficient at strong instruments at an
+  explicit rate, and (iii) an oracle inequality for StAR showing that it achieves an error rate
+  within a constant factor of the oracle rate. Our experiments on synthetic data shows that StAR
+  maintains $\ge 96\%$ coverage and produces 6× tighter intervals than Anderson–Rubin at weak
+  instruments. Our experiments on clinical AI and econometric data shows that StAR yields valid
+  and informative CIs, and accurately detects collective instrument strength.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/80065
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=1ZkhDvJjNA
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

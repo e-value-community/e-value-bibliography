@@ -1,0 +1,35 @@
+title: Randomness, exchangeability, and conformal prediction
+authors: Vladimir Vovk
+year: 2026
+doi: 10.1007/978-3-032-15120-9_6
+arxiv: '2501.11689'
+abstract: >-
+  This paper argues for a wider use of the functional theory of randomness, a modification of the
+  algorithmic theory of randomness getting rid of unspecified additive constants. Both theories
+  are useful for understanding relationships between the assumptions of IID data and data
+  exchangeability. While the assumption of IID data is standard in machine learning, conformal
+  prediction relies on data exchangeability. Nouretdinov, V'yugin, and Gammerman showed, using the
+  language of the algorithmic theory of randomness, that conformal prediction is a universal
+  method under the assumption of IID data. In this paper (written for the Alex Gammerman
+  Festschrift) I will selectively review connections between exchangeability and the property of
+  being IID, early history of conformal prediction, my encounters and collaboration with Alex and
+  other interesting people, and a translation of Nouretdinov et al.'s results into the language of
+  the functional theory of randomness, which moves it closer to practice. Namely, the translation
+  says that every confidence predictor that is valid for IID data can be transformed to a
+  conformal predictor without losing much in predictive efficiency.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.11689
+labels:
+- applications
+- e-values
+publications:
+  - name: Lecture Notes in Computer Science
+    year: 2026
+    url: https://doi.org/10.1007/978-3-032-15120-9_6
+    doi: 10.1007/978-3-032-15120-9_6
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2501.11689
+    arxiv: '2501.11689'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

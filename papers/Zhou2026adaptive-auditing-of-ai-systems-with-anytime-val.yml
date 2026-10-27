@@ -1,0 +1,37 @@
+title: Adaptive auditing of AI systems with anytime-valid guarantees
+authors: Siyu Zhou, Patrick Vossler, Venkatesh Sivaraman, Yifan Mai, Jean Feng
+year: 2026
+arxiv: '2605.07002'
+abstract: >-
+  A major bottleneck in characterizing the failure modes of generative AI systems is the cost and
+  time of annotation and evaluation. Consequently, adaptive testing paradigms have gained
+  popularity, where one opportunistically decides which cases and how many to annotate based on
+  past results. While this framework is highly practical, its extreme flexibility makes it
+  difficult to draw statistically rigorous conclusions, as it violates classical assumptions: the
+  number of observations is typically limited (often 10 to 50 cases) and decisions regarding
+  sampling and stopping are made in the midst of data collection rather than based a pre-specified
+  rule. To characterize what statistical inferences can be drawn from highly adaptive audits, we
+  introduce a hypothesis testing framework from two 'dueling' perspectives: (i) the model's null
+  that asserts there is no failure mode with performance below a target threshold versus (ii) the
+  auditor's null that asserts they have a sampling strategy that will uncover a failure mode.
+  Leveraging Safe Anytime-Valid Inference (SAVI), we formalize the auditor as conducting 'testing
+  by betting', which translates into simultaneous e-processes for testing the dueling null
+  hypotheses. Furthermore, if the auditor is sufficiently powerful, we prove that these two
+  hypotheses are asymptotically inverses of each other, in that passage of a stringent audit does
+  in fact certify the AI system as being globally robust. Empirically, we demonstrate that our
+  proposed testing procedures maintain anytime-valid type-I error control, outperform
+  pre-specified testing methods, and can reach statistically rigorous conclusions sometimes with
+  as few as 20 observations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.07002
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.07002
+  arxiv: '2605.07002'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

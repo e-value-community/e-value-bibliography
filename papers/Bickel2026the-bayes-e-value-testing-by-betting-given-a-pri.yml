@@ -1,0 +1,42 @@
+title: 'The Bayes e-Value: Testing by Betting Given a Prior Probability of the Null Hypothesis'
+authors: David R. Bickel
+year: 2026
+doi: 10.5281/zenodo.17763764
+abstract: >-
+  The player called ``Skeptic'' bets $\$1$ against the simple nullhypothesis that a random sample
+  $X$ will be drawn from a distributionof probability density function $f_{0}$, knowing that it
+  will otherwisebe drawn from a distribution of probability density function $f_{1}$.Skeptic also
+  knows the prior probability of the null hypothesis tobe $\pi_{0}$, a number in
+  $\left[0,1\right]$. In return for the$\$1$, Skeptic chooses to receive the payout that is
+  log-optimalaccording to the prior predictive distribution of probability densityfunction
+  $f=\pi_{0}f_{0}+\left(1-\pi_{0}\right)f_{1}$. That payoutis the e-variable
+  $E=f\left(X\right)/f_{0}\left(X\right)$. With $x$as the observed sample, the e-value that
+  realizes $E$ is $e=f\left(x\right)/f_{0}\left(x\right)$,where $f\left(x\right)$ is known as the
+  marginal likelihood. Considering$e$ as the degree to which the null hypothesis is disproven
+  resolvescertain pathologies in evidence theory while reflecting the priorprobability of the null
+  hypothesis. To generalize that, let $E_{\left(0\right)}$ denote any e-variablethat tests a
+  simple or composite null hypothesis, and let $e_{\left(0\right)}$be its e-value for $X=x$. The
+  corresponding Bayes e-variable is
+  $E_{\pi_{0}}=\pi_{0}+\left(1-\pi_{0}\right)E_{\left(0\right)}$,and its realization, the Bayes
+  e-value, is $e_{\pi_{0}}=\pi_{0}+\left(1-\pi_{0}\right)e_{\left(0\right)}$. The special case of
+  $E_{\left(0\right)}=f_{1}\left(X\right)/f_{0}\left(X\right)$and the resulting Bayes factor
+  $e_{\left(0\right)}=f_{1}\left(x\right)/f_{0}\left(x\right)$yield $E_{\pi_{0}}=E$ and
+  $e_{\pi_{0}}=e$, respectively. In another special case, arguably important in many scientific
+  applications,including testing a Bayesian model known to be false, is $\pi_{0}=0$,leading to
+  $E_{\pi_{0}}=E_{\left(0\right)}$ and $e_{\pi_{0}}=e_{\left(0\right)}$.By contrast, the posterior
+  probability of the null hypothesis wouldin that case be 0 regardless of the data, rendering it
+  useless fordata analysis. For $\pi_{0}>0$, as is suitable for many applications in
+  psychology,biomedicine, genetics, and genomics, $e_{\pi_{0}}$ is regularizedtoward 1 to the
+  extent that the null hypothesis has high prior probability.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.17763764
+labels:
+- methodology
+- e-values
+publications:
+- name: Journal of Statistical Theory and Practice
+  year: 2026
+  url: https://doi.org/10.1007/s42519-026-00600-4
+  doi: 10.1007/s42519-026-00600-4
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,41 @@
+title: Huber-robust likelihood ratio tests for composite nulls and alternatives
+authors: Aytijhya Saha, Aaditya Ramdas
+year: 2026
+doi: 10.1109/tit.2025.3641166
+arxiv: '2408.14015'
+abstract: >-
+  We propose an e-value based framework for testing arbitrary composite nulls against composite
+  alternatives, when an $ε$ fraction of the data can be arbitrarily corrupted. Our tests are
+  inherently sequential, being valid at arbitrary data-dependent stopping times, but they are new
+  even for fixed sample sizes, giving type-I error control without any regularity conditions. We
+  first prove that least favourable distribution (LFD) pairs, when they exist, yield optimal
+  e-values for testing arbitrary composite nulls against composite alternatives. Then we show that
+  if an LFD pair exists for some composite null and alternative, then the LFDs of Huber's
+  $ε$-contamination or total variation (TV) neighborhoods around that specific pair form the
+  optimal LFD pair for the corresponding robustified composite hypotheses. Furthermore, where LFDs
+  do not exist, we develop new robust composite tests for general settings. Our test statistics
+  are a nonnegative supermartingale under the (robust) null, even under a sequentially adaptive
+  (non-i.i.d.) contamination model where the conditional distribution of each observation given
+  the past data lies within an $ε$ TV ball of some distribution in the original composite null.
+  When LFDs exist, our supermartingale grows to infinity exponentially fast under any distribution
+  in the ($ε$ TV-corruption of the) alternative at the optimal rate. When LFDs do not exist, we
+  provide an asymptotic growth rate analysis, showing that as $ε\to 0$, the exponent converges to
+  the corresponding Kullback-Leibler divergence, recovering the classical optimal non-robust rate.
+  Simulations validate the theory and demonstrate reasonable practical performance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2408.14015
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: IEEE Transactions on Information Theory
+  year: 2026
+  url: https://doi.org/10.1109/tit.2025.3641166
+  doi: 10.1109/tit.2025.3641166
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2408.14015
+  arxiv: '2408.14015'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

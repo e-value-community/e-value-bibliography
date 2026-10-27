@@ -1,0 +1,29 @@
+title: Confidence Estimation via Sequential Likelihood Mixing
+authors: Johannes Kirschner, Andreas Krause, Michele Meziu, Mojmir Mutny
+year: 2025
+arxiv: '2502.14689'
+abstract: >-
+  We present a universal framework for constructing confidence sets based on sequential likelihood
+  mixing. Building upon classical results from sequential analysis, we provide a unifying
+  perspective on several recent lines of work, and establish fundamental connections between
+  sequential mixing, Bayesian inference and regret inequalities from online estimation. The
+  framework applies to any realizable family of likelihood functions and allows for non-i.i.d.
+  data and anytime validity. Moreover, the framework seamlessly integrates standard approximate
+  inference techniques, such as variational inference and sampling-based methods, and extends to
+  misspecified model classes, while preserving provable coverage guarantees. We illustrate the
+  power of the framework by deriving tighter confidence sequences for classical settings,
+  including sequential linear regression and sparse estimation, with simplified proofs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.14689
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.14689
+  arxiv: '2502.14689'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

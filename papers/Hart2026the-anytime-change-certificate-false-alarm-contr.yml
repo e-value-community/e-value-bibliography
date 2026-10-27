@@ -1,0 +1,28 @@
+title: 'The Anytime Change Certificate: False-alarm control, a late-change penalty, and a bounded erasure
+  budget for continuous monitoring'
+authors: Justin D. Hart
+year: 2026
+abstract: >-
+  Working paper, not peer reviewed. The paper's main theorems carry a comparator certificate (Lean
+  and nanoda kernels): https://github.com/jdhart81/viridis-canon/tree/main/certificates/Run-129.
+  Results are conditional on the stated assumptions and are not field-validated. Original
+  description (August 2026): Proof-reconciled generated exploration of a heavy-tailed
+  anytime-valid change-time mixture with explicit iid/model-mismatch controls and model-limited
+  erasure accounting. This public working-corpus release includes the reviewed manuscript and
+  paired Lean evidence. It is not peer reviewed or empirically validated; significance and novelty
+  have not been independently established.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.21971041
+labels:
+- methodology
+- applications
+- e-processes
+- e-detectors
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.21971041
+  doi: 10.5281/zenodo.21971041
+doi: 10.5281/zenodo.21971041
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

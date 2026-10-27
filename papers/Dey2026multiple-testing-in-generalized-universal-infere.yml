@@ -1,0 +1,32 @@
+title: Multiple Testing in Generalized Universal Inference
+authors: Neil Dey, Ryan Martin, Jonathan P. Williams
+year: 2026
+doi: 10.1016/j.spl.2025.110559
+arxiv: '2412.01008'
+abstract: >-
+  Compared to p-values, e-values provably guarantee safe, valid inference. If the goal is to test
+  multiple hypotheses simultaneously, one can construct e-values for each individual test and then
+  use the recently developed e-BH procedure to properly correct for multiplicity. Standard e-value
+  constructions, however, require distributional assumptions that may not be justifiable. This
+  paper demonstrates that the generalized universal inference framework can be used along with the
+  e-BH procedure to control frequentist error rates in multiple testing when the quantities of
+  interest are minimizers of risk functions, thereby avoiding the need for distributional
+  assumptions. We demonstrate the validity and power of this approach via a simulation study,
+  testing the significance of a predictor in quantile regression.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2412.01008
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Statistics & Probability Letters
+  year: 2026
+  url: https://doi.org/10.1016/j.spl.2025.110559
+  doi: 10.1016/j.spl.2025.110559
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2412.01008
+  arxiv: '2412.01008'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

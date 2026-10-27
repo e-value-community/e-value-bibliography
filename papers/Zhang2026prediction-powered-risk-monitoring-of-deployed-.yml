@@ -1,0 +1,30 @@
+title: Prediction-Powered Risk Monitoring of Deployed Models for Detecting Harmful Distribution Shifts
+authors: Guangyi Zhang, Yunlong Cai, Guanding Yu, Osvaldo Simeone
+year: 2026
+arxiv: '2602.02229'
+abstract: >-
+  We study the problem of monitoring model performance in dynamic environments where labeled data
+  are limited. To this end, we propose prediction-powered risk monitoring (PPRM), a semi-supervised
+  risk-monitoring approach based on prediction-powered inference (PPI). PPRM constructs
+  anytime-valid lower bounds on the running risk by combining synthetic labels with a small set of
+  true labels. Harmful shifts are detected via a threshold-based comparison with an upper bound on
+  the nominal risk, satisfying assumption-free finite-sample guarantees on the type-I error. We
+  demonstrate the effectiveness of PPRM through extensive experiments on image classification,
+  large language model (LLM), and telecommunications monitoring tasks.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v306/zhang26g.html
+labels:
+- methodology
+- applications
+- confidence sequences
+- e-processes
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/zhang26g.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.02229
+  arxiv: '2602.02229'
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

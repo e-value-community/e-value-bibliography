@@ -1,0 +1,28 @@
+title: 'Retrain or not retrain: Conformal test martingales for change-point detection'
+authors: Vladimir Vovk, Ivan Petej, Ilia Nouretdinov, Ernst Ahlberg, Lars Carlsson, Alex Gammerman
+year: 2021
+arxiv: '2102.10439'
+abstract: >-
+  We argue for supplementing the process of training a prediction algorithm by setting up a scheme
+  for detecting the moment when the distribution of the data changes and the algorithm needs to be
+  retrained. Our proposed schemes are based on exchangeability martingales, i.e., processes that
+  are martingales under any exchangeable distribution for the data. Our method, based on conformal
+  prediction, is general and can be applied on top of any modern prediction algorithm. Its
+  validity is guaranteed, and in this paper we make first steps in exploring its efficiency.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2102.10439
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+publications:
+  - name: Symposium on Conformal and Probabilistic Prediction and Applications
+    year: 2021
+    url: https://proceedings.mlr.press/v152/vovk21b.html
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2102.10439
+    arxiv: '2102.10439'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,37 @@
+title: 'DNetEx: FDR-controlled differential network analysis for knowledge discovery from graphs'
+authors: Mojtaba Nikahd, Ala Emrani, Seyed Abolfazl Motahari
+year: 2026
+doi: 10.1007/s10618-026-01245-4
+abstract: >-
+  This paper studies change detection in graph structures through differential network analysis
+  between two Gaussian Graphical Models (GGMs), where the underlying graphs are unknown and only
+  samples from each model are available. We consider the setting in which only a small subset of
+  edges differs between the two GGMs, while the base graphs themselves may be dense. This
+  framework is substantially more general than existing approaches that rely on restrictive
+  structural assumptions such as sparsity of the base graphs. We propose DNetEx, a novel framework
+  for identifying structural changes between GGMs with false discovery rate (FDR) control. DNetEx
+  combines sample splitting, data screening, and statistical validation within an e-value and e-BH
+  multiple testing framework. We establish theoretical guarantees showing that the proposed method
+  asymptotically controls the FDR under mild conditions without imposing restrictive assumptions
+  on the underlying graphical structures. In addition, the proposed screening mechanism improves
+  computational efficiency and scalability by reducing the number of candidate edges considered
+  during inference, while a tunable screening parameter provides a practical trade-off between
+  statistical power and computational cost. Extensive experiments on synthetic datasets
+  demonstrate that DNetEx achieves accurate FDR control and strong detection power, including
+  settings where competing approaches fail to control the FDR. In a real-world fMRI connectivity
+  study, DNetEx successfully identifies meaningful differential edges between neurotypical
+  individuals and individuals with autism spectrum disorder, whereas competing methods detect
+  none.
+abstract_status: source_abstract
+abstract_source: https://link.springer.com/article/10.1007/s10618-026-01245-4
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Data Mining and Knowledge Discovery
+    year: 2026
+    url: https://doi.org/10.1007/s10618-026-01245-4
+    doi: 10.1007/s10618-026-01245-4
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

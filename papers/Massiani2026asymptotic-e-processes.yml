@@ -1,0 +1,36 @@
+title: Asymptotic e-processes
+authors: Pierre-François Massiani, Sebastian Schulze, Mattes Mollenhauer
+year: 2026
+arxiv: '2604.19353'
+abstract: >-
+  We investigate the concept of an asymptotic e-process, which is a doubly-indexed stochastic
+  process $(E_{m,n})_{m,n\in\mathbb{N}}$ that possesses, asymptotically for an approximation index
+  $m\to\infty$, the properties of an e-process along a monitoring time index $n$. This constitutes
+  the first in-depth study of this recently introduced concept, which is relevant in asymptotic
+  sequential anytime-valid inference. Our theory is motivated by practical applications in
+  sequential hypothesis testing, in which e-variables and e-processes can only be constructed
+  approximately from observations due to model misspecification or estimation errors. Technically,
+  asymptotic e-processes satisfy an asymptotic version of Ville's inequality, which bounds
+  excursion probabilities of $(E_{m,n})_{m,n\in\mathbb{N}}$ uniformly over $n$ up to a monitoring
+  time horizon $r_m$. We show the necessity of allowing for finite values of $r_m$, recovering
+  truly anytime-valid guarantees asymptotically if $r_m\to\infty$. We derive various properties of
+  asymptotic e-processes, and study their connections to asymptotic supermartingales. We also
+  investigate general methods for their construction such as calibration, the cumulative product
+  of asymptotic e-variables, and the monitoring an of an e-process that depends on an estimated
+  parameter. The latter construction constitutes a generalization of a recent approach within the
+  context of asymptotic post-hoc inference.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.19353
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.19353
+  arxiv: '2604.19353'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

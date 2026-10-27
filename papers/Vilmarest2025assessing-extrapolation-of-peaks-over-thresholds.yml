@@ -1,0 +1,28 @@
+title: Assessing Extrapolation of Peaks Over Thresholds with Martingale Testing
+authors: Joseph de Vilmarest, Olivier Wintenberger
+year: 2025
+abstract: >-
+  We present the winning strategy for the EVA2025 Data Challenge, which aimed to estimate the
+  probability of extreme precipitation events. These events occurred at most once in the dataset
+  making the challenge fundamentally one of extrapolating extreme values. Given the scarcity of
+  extreme events, we argue that a simple, robust modeling approach is essential. We adopt
+  univariate models instead of multivariate ones and model Peaks Over Thresholds using Extreme
+  Value Theory. Specifically, we fit an exponential distribution to model exceedances of the
+  target variable above a high quantile (after seasonal adjustment). The novelty of our approach
+  lies in using martingale testing to evaluate the extrapolation power of the procedure and to
+  agnostically select the level of the high quantile. While this method has several limitations,
+  we believe that framing extrapolation as a game opens the door to other agnostic approaches in
+  Extreme Value Analysis.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.03116
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.03116
+  arxiv: '2512.03116'
+arxiv: '2512.03116'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

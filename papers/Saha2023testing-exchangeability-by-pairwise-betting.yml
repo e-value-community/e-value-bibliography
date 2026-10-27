@@ -1,0 +1,39 @@
+title: Testing exchangeability by pairwise betting
+authors: Aytijhya Saha, Aaditya Ramdas
+year: 2024
+arxiv: '2310.14293'
+abstract: >-
+  In this paper, we address the problem of testing exchangeability of a sequence of random
+  variables, $X_1, X_2,\cdots$. This problem has been studied under the recently popular framework
+  of testing by betting. But the mapping of testing problems to game is not one to one: many games
+  can be designed for the same test. Past work established that it is futile to play single game
+  betting on every observation: test martingales in the data filtration are powerless. Two avenues
+  have been explored to circumvent this impossibility: betting in a reduced filtration (wealth is
+  a test martingale in a coarsened filtration), or playing many games in parallel (wealth is an
+  e-process in the data filtration). The former has proved to be difficult to theoretically
+  analyze, while the latter only works for binary or discrete observation spaces. Here, we
+  introduce a different approach that circumvents both drawbacks. We design a new (yet simple)
+  game in which we observe the data sequence in pairs. Despite the fact that betting on individual
+  observations is futile, we show that betting on pairs of observations is not. To elaborate, we
+  prove that our game leads to a nontrivial test martingale, which is interesting because it has
+  been obtained by shrinking the filtration very slightly. We show that our test controls type-1
+  error despite continuous monitoring, and achieves power one for both binary and continuous
+  observations, under a broad class of alternatives. Due to the shrunk filtration, optional
+  stopping is only allowed at even stopping times, not at odd ones: a relatively minor price. We
+  provide a wide array of simulations that align with our theoretical findings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.14293
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2024
+    url: https://proceedings.mlr.press/v238/saha24b.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2310.14293
+    arxiv: '2310.14293'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

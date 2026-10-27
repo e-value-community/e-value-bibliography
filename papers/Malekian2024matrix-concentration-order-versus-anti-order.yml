@@ -1,0 +1,26 @@
+title: 'Matrix Concentration: Order versus Anti-order'
+authors: Reihaneh Malekian, Aaditya Ramdas
+year: 2024
+arxiv: '2408.05998'
+abstract: >-
+  The matrix Markov inequality by Ahlswede was stated using the Loewner anti-order between
+  positive definite matrices. Wang use this to derive several other Chebyshev and Chernoff-type
+  inequalities (Hoeffding, Bernstein, empirical Bernstein) in the Loewner anti-order, including
+  self-normalized matrix martingale inequalities. These imply upper tail bounds on the maximum
+  eigenvalue, such as those developed by Tropp and howard et al. The current paper develops
+  analogs of all these inequalities in the Loewner order, rather than anti-order, by deriving a
+  new matrix Markov inequality. These yield upper tail bounds on the minimum eigenvalue that are a
+  factor of d tighter than the above bounds on the maximum eigenvalue.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2408.05998
+labels:
+- methodology
+- confidence sequences
+- probability theory
+publications:
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2408.05998
+    arxiv: '2408.05998'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

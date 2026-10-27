@@ -1,0 +1,27 @@
+title: E-values and sequential power-one tests for monotonicity and unimodality
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2026
+arxiv: '2604.20612'
+abstract: >-
+  We develop e-values and e-processes testing the null hypothesis that a distribution over
+  nonnegative integers is monotone, and that a distribution over integers is unimodal given a
+  certain mode. Our e-processes lead to tests of power one under any non-null distribution with a
+  sequence of i.i.d. observations, and consistent set-valued mode estimators that eventually equal
+  the true set of modes. Additionally, we characterize the set of all e-values, and therefore the
+  set of all valid tests, with one monotone and unimodal observation, as well as the most powerful
+  e-value for a fixed alternative. We then show that many of our results can be generalized to
+  continuous random variables, relating them to the existing results in the shape-constrained
+  inference literature.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.20612
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.20612
+  arxiv: '2604.20612'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

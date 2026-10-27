@@ -1,0 +1,45 @@
+title: 'Testing exchangeability: Fork-convexity, supermartingales and e-processes'
+authors: Aaditya Ramdas, Johannes Ruf, Martin Larsson, Wouter M. Koolen
+year: 2022
+doi: 10.1016/j.ijar.2021.06.017
+arxiv: '2102.00630'
+abstract: >-
+  Suppose we observe an infinite series of coin flips $X_1,X_2,\ldots$, and wish to sequentially
+  test the null that these binary random variables are exchangeable. Nonnegative supermartingales
+  (NSMs) are a workhorse of sequential inference, but we prove that they are powerless for this
+  problem. First, utilizing a geometric concept called fork-convexity (a sequential analog of
+  convexity), we show that any process that is an NSM under a set of distributions, is also
+  necessarily an NSM under their "fork-convex hull". Second, we demonstrate that the fork-convex
+  hull of the exchangeable null consists of all possible laws over binary sequences; this implies
+  that any NSM under exchangeability is necessarily nonincreasing, hence always yields a powerless
+  test for any alternative. Since testing arbitrary deviations from exchangeability is information
+  theoretically impossible, we focus on Markovian alternatives. We combine ideas from universal
+  inference and the method of mixtures to derive a "safe e-process", which is a nonnegative
+  process with expectation at most one under the null at any stopping time, and is upper bounded
+  by a martingale, but is not itself an NSM. This in turn yields a level $α$ sequential test that
+  is consistent; regret bounds from universal coding also demonstrate rate-optimal power. We
+  present ways to extend these results to any finite alphabet and to Markovian alternatives of any
+  order using a "double mixture" approach. We provide an array of simulations, and give general
+  approaches based on betting for unstructured or ill-specified alternatives. Finally, inspired by
+  Shafer, Vovk, and Ville, we provide game-theoretic interpretations of our e-processes and
+  pathwise results.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2102.00630
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- theory
+- e-processes
+- probability theory
+publications:
+  - name: International Journal of Approximate Reasoning
+    year: 2022
+    url: https://doi.org/10.1016/j.ijar.2021.06.017
+    doi: 10.1016/j.ijar.2021.06.017
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2102.00630
+    arxiv: '2102.00630'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

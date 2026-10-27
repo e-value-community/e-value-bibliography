@@ -1,0 +1,32 @@
+title: Confidence and Discoveries with E-values
+authors: Vladimir Vovk, Ruodu Wang
+year: 2023
+doi: 10.1214/22-STS874
+abstract: >-
+  We discuss systematically two versions of confidence regions: those based on p-values and those
+  based on e-values, a recent alternative to p-values. Both versions can be applied to multiple
+  hypothesis testing, and in this paper we are interested in procedures that control the number of
+  false discoveries under arbitrary dependence between the base p- or e-values. We introduce a
+  procedure that is based on e-values and show that it is efficient both computationally and
+  statistically using simulated and real-world datasets. Comparison with the corresponding
+  standard procedure based on p-values is not straightforward, but there are indications that the
+  new one performs significantly better in some situations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1912.13292
+labels:
+- methodology
+- e-values
+- confidence sequences
+- multiple testing
+publications:
+  - name: Statistical Science
+    year: 2023
+    url: https://doi.org/10.1214/22-STS874
+    doi: 10.1214/22-STS874
+  - name: arXiv
+    year: 2019
+    url: https://arxiv.org/abs/1912.13292
+    arxiv: '1912.13292'
+arxiv: '1912.13292'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

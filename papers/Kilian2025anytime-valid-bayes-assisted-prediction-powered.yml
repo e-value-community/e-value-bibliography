@@ -1,0 +1,32 @@
+title: 'Anytime-valid, Bayes-assisted, Prediction-Powered Inference'
+authors: Valentin Kilian, Stefano Cortinovis, François Caron
+year: 2025
+doi: 10.52202/085713-0033
+arxiv: '2505.18000'
+abstract: >-
+  Given a large pool of unlabelled data and a smaller amount of labels, prediction-powered
+  inference (PPI) leverages machine learning predictions to increase the statistical efficiency of
+  confidence interval procedures based solely on labelled data, while preserving fixed-time
+  validity. In this paper, we extend the PPI framework to the sequential setting, where labelled
+  and unlabelled datasets grow over time. Exploiting Ville's inequality and the method of mixtures,
+  we propose prediction-powered confidence sequence procedures that are asymptotically valid
+  uniformly over time and naturally accommodate prior knowledge on the quality of the predictions
+  to further boost efficiency. We carefully illustrate the design choices behind our method and
+  demonstrate its effectiveness in real and synthetic examples.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.18000
+labels:
+- methodology
+- confidence sequences
+- e-processes
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/01830c92c6558179fa6d7fb1edff692c-Abstract-Conference.html
+  doi: 10.52202/085713-0033
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.18000
+  arxiv: '2505.18000'
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

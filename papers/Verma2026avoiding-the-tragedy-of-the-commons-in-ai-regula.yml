@@ -1,0 +1,27 @@
+title: Avoiding the Tragedy of the Commons in AI Regulation via Dynamic Licensing
+authors: Rajeev Verma, Anurag Singh, Christian A. Naesseth, Eric Nalisnick, Krikamol Muandet
+year: 2026
+abstract: >-
+  AI technologies introduce ill-defined and hard-to-measure risks that pose fundamental challenges
+  for effective enforcement. Consequently, traditional approaches to regulation are ill-suited to
+  governing AI systems. Regulatory markets, or regulation-as-a-service (RaaS), aim to drive
+  innovation in overcoming these challenges by modeling a ground-up market incentive structure to
+  realize the normative welfare requirements set up by legislative and governing bodies. However,
+  the challenges unique to AI also make the regulators vulnerable in the regulatory market, where
+  the market pressure could lead to systemic failures or race to the bottom. We study dynamic
+  licenses to convert the ground-up experienced outcomes into an enforcement signal that results
+  in a separating equilibrium of welfare-following and welfare-violating models. We operationalize
+  this via the ‘testing by betting’ framework that results in a statistically sound mechanism to
+  overcome the definition, measurement, and enforcement challenges of AI regulation from the
+  ground-up.
+abstract_status: source_abstract
+abstract_source: https://openreview.net/pdf/673211cb2a216fd189b6d9d55484243622e7a095.pdf
+labels:
+- applications
+- e-processes
+publications:
+- name: ICLR 2026 Workshop on AI for Mechanism Design and Strategic Decision Making
+  year: 2026
+  url: https://openreview.net/forum?id=QCEYqHijVO
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

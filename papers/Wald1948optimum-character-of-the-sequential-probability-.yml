@@ -1,0 +1,27 @@
+title: Optimum Character of the Sequential Probability Ratio Test
+authors: A. Wald, J. Wolfowitz
+year: 1948
+doi: 10.1214/aoms/1177730197
+abstract: >-
+  Let $S_0$ be any sequential probability ratio test for deciding between two simple alternatives
+  $H_0$ and $H_1$, and $S_1$ another test for the same purpose. We define $(i, j = 0, 1):$
+  $\alpha_i(S_j) =$ probability, under $S_j$, of rejecting $H_i$ when it is true; $E_i^j (n) =$
+  expected number of observations to reach a decision under test $S_j$ when the hypothesis $H_i$
+  is true. (It is assumed that $E^1_i (n)$ exists.) In this paper it is proved that, if
+  $\alpha_i(S_1) \leq \alpha_i(S_0)\quad(i = 0,1)$, it follows that $E_i^0 (n) \leq E_i^1
+  (n)\quad(i = 0, 1)$. This means that of all tests with the same power the sequential probability
+  ratio test requires on the average fewest observations. This result had been conjectured earlier
+  ([1], [2]).
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aoms/1177730197
+labels:
+- methodology
+- theory
+- e-processes
+publications:
+  - name: The Annals of Mathematical Statistics
+    year: 1948
+    url: https://doi.org/10.1214/aoms/1177730197
+    doi: 10.1214/aoms/1177730197
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

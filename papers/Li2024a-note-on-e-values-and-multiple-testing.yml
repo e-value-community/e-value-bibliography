@@ -1,0 +1,29 @@
+title: A note on e-values and multiple testing
+authors: Guanxun Li, Xianyang Zhang
+year: 2025
+doi: 10.1093/biomet/asae050
+arxiv: null
+abstract: >-
+  Summary We discover a connection between the Benjamini–Hochberg procedure and the
+  e-Benjamini–Hochberg procedure (Wang & Ramdas, 2022) with a suitably defined set of e-values.
+  This insight extends to Storey’s procedure and generalized versions of the Benjamini–Hochberg
+  procedure and the model-free multiple testing procedure of Barber & Candés (2015) with a general
+  form of rejection rules. We further summarize these findings in a unified form. These
+  connections open up new possibilities for designing multiple testing procedures in various
+  contexts by aggregating e-values from different procedures or assembling e-values from different
+  data subsets.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/biomet/asae050
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Biometrika
+  year: 2024
+  url: https://doi.org/10.1093/biomet/asae050
+  doi: 10.1093/biomet/asae050
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

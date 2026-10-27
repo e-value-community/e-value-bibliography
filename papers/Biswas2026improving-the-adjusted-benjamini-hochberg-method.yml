@@ -1,0 +1,35 @@
+title: Improving the adjusted Benjamini--Hochberg method using e-values in knockoff-assisted variable
+  selection
+authors: Aniket Biswas, Aaditya Ramdas
+year: 2026
+arxiv: '2602.11610'
+abstract: >-
+  Considering the knockoff-based multiple testing framework of Barber and Candès [2015], we
+  revisit the method of Sarkar and Tang [2022] and identify it as a specific case of an
+  un-normalized e-value weighted Benjamini-Hochberg procedure. Building on this insight, we extend
+  the method to use bounded p-to-e calibrators that enable more refined and flexible weight
+  assignments. Our approach generalizes the method of Sarkar and Tang [2022], which emerges as a
+  special case corresponding to an extreme calibrator. Within this framework, we propose three
+  procedures: an e-value weighted Benjamini-Hochberg method, its adaptive extension using an
+  estimate of the proportion of true null hypotheses, and an adaptive weighted Benjamini-Hochberg
+  method. We establish control of the false discovery rate (FDR) for the proposed methods. While
+  we do not formally prove that the proposed methods outperform those of Barber and Candès [2015]
+  and Sarkar and Tang [2022], simulation studies and real-data analysis demonstrate large and
+  consistent improvement over the latter in all cases, and better performance than the knockoff
+  method in scenarios with low target FDR, a small number of signals, and weak signal strength.
+  Simulation studies and a real-data application in HIV-1 drug resistance analysis demonstrate
+  strong finite sample FDR control and exhibit improved, or at least competitive, power relative
+  to the aforementioned methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.11610
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.11610
+  arxiv: '2602.11610'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

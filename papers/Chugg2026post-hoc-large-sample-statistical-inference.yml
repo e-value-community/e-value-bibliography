@@ -1,0 +1,31 @@
+title: Post-Hoc Large-Sample Statistical Inference
+authors: Ben Chugg, Etienne Gauthier, Michael I. Jordan, Aaditya Ramdas, Ian Waudby-Smith
+year: 2026
+arxiv: '2603.08002'
+abstract: >-
+  We derive inferential procedures for large sample sizes that remain valid under data-dependent
+  significance levels (so-called "post-hoc valid inference"). Classical statistical tools require
+  that the significance level -- the "type-I error" -- is selected prior to seeing or analyzing
+  any data. This restriction leads to some drawbacks. For instance, if an analyst generates an
+  inconclusive confidence interval, repeating the process with a larger significance level is not
+  an option -- the result is final. Recently, e-values have emerged as the solution to this
+  problem, being both necessary and sufficient tools for performing various forms of post-hoc
+  inference. All such results, however, have thus far been nonasymptotic. As a result, they
+  inherit familiar limitations of nonasymptotic inferential procedures such as requiring strong
+  moment assumptions and being conservative in general. This paper develops a theory of post-hoc
+  inference in the asymptotic setting, yielding asymptotic post-hoc confidence sets and asymptotic
+  post-hoc p-values that make weaker assumptions and are sharper than their nonasymptotic
+  counterparts.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.08002
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.08002
+  arxiv: '2603.08002'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

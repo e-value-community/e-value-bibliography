@@ -1,0 +1,28 @@
+title: Visual tests using several safe confidence intervals
+authors: Timothée Mathieu
+year: 2025
+arxiv: '2503.03567'
+abstract: >-
+  We propose a new statistical hypothesis testing framework which decides visually, using
+  confidence intervals, whether the means of two samples are equal or if one is larger than the
+  other. With our method, the user can at the same time visualize the confidence region of the
+  means and do a test to decide if the means of the two populations are significantly different or
+  not by looking whether the two confidence intervals overlap. To design this test we use
+  confidence intervals constructed using e-variables, which provide a measure of evidence in
+  hypothesis testing. We propose both a sequential test and a non-sequential test based on the
+  overlap of confidence intervals and for each of these tests we give finite-time error bounds on
+  the probabilities of error. We also illustrate the practicality of our method by applying it to
+  the comparison of sequential learning algorithms.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2503.03567
+labels:
+- methodology
+- e-values
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2503.03567
+    arxiv: '2503.03567'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

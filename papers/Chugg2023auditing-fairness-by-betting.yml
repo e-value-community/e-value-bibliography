@@ -1,0 +1,34 @@
+title: Auditing Fairness by Betting
+authors: Ben Chugg, Santiago Cortes-Gomez, Bryan Wilder, Aaditya Ramdas
+year: 2023
+doi: 10.52202/075280-0266
+arxiv: '2305.17570'
+abstract: >-
+  We provide practical, efficient, and nonparametric methods for auditing the fairness of deployed
+  classification and regression models. Whereas previous work relies on a fixed-sample size, our
+  methods are sequential and allow for the continuous monitoring of incoming data, making them
+  highly amenable to tracking the fairness of real-world systems. We also allow the data to be
+  collected by a probabilistic policy as opposed to sampled uniformly from the population. This
+  enables auditing to be conducted on data gathered for another purpose. Moreover, this policy may
+  change over time and different policies may be used on different subpopulations. Finally, our
+  methods can handle distribution shift resulting from either changes to the model or changes in
+  the underlying population. Our approach is based on recent progress in anytime-valid inference
+  and game-theoretic statistics-the "testing by betting" framework in particular. These
+  connections ensure that our methods are interpretable, fast, and easy to implement. We
+  demonstrate the efficacy of our approach on three benchmark fairness datasets.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.17570
+labels:
+- applications
+- e-values
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2023
+  url: https://doi.org/10.52202/075280-0266
+  doi: 10.52202/075280-0266
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2305.17570
+  arxiv: '2305.17570'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

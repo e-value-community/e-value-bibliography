@@ -1,0 +1,31 @@
+title: Admissible ways of merging p-values under arbitrary dependence
+authors: Vladimir Vovk, Bin Wang, Ruodu Wang
+year: 2022
+doi: 10.1214/21-aos2109
+arxiv: '2007.14208'
+abstract: >-
+  Methods of merging several p-values into a single p-value are important in their own right and
+  widely used in multiple hypothesis testing. This paper is the first to systematically study the
+  admissibility (in Wald's sense) of p-merging functions and their domination structure, without
+  any information on the dependence structure of the input p-values. As a technical tool we use
+  the notion of e-values, which are alternatives to p-values recently promoted by several authors.
+  We obtain several results on the representation of admissible p-merging functions via e-values
+  and on (in)admissibility of existing p-merging functions. By introducing new admissible
+  p-merging functions, we show that some classic merging methods can be strictly improved to
+  enhance power without compromising validity under arbitrary dependence.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2007.14208
+labels:
+- methodology
+- e-values
+publications:
+- name: The Annals of Statistics
+  year: 2022
+  url: https://doi.org/10.1214/21-aos2109
+  doi: 10.1214/21-aos2109
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2007.14208
+  arxiv: '2007.14208'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

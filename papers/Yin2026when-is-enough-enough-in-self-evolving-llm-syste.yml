@@ -1,0 +1,34 @@
+title: When Is Enough Enough in Self-Evolving LLM Systems?
+authors: Enoch Yin, Bin Liu, Zhengling Qi
+year: 2026
+arxiv: '2610.04756'
+abstract: >-
+  Self-evolving large language model (LLM) systems repeatedly propose, evaluate, and incorporate
+  updates to prompts, skills, or other persistent artifacts. Despite their growing effectiveness,
+  these systems typically operate under a predetermined iteration or compute budget, without a
+  principled criterion to determine when further evolution is no longer worthwhile. This can lead
+  to two undesirable consequences: unnecessary computation after performance has saturated and the
+  risk of returning late updates that overfit or exploit the evaluation signal. These issues
+  motivate us to study two fundamental questions: when should a self-evolving system stop, and
+  what should it output once it stops? We address the first by formulating an online sequential
+  testing problem and constructing an anytime-valid restart detector using the per-item paired
+  evaluation outcomes already produced by self-evolving LLM systems. We address the second by
+  formulating a change-point estimation problem and using the estimated transition to select an
+  earlier artifact for output. The resulting procedure is plug-and-play and requires no
+  modification of the underlying self-evolving algorithms. Across two self-evolving frameworks,
+  three LLM model families, and five benchmarks, our method substantially reduces computation
+  costs while maintaining comparable unseen-test performance. For example, on SearchQA with
+  SkillOpt and DeepSeek V4 Flash, our method stops at round 4 rather than the full budget of 40,
+  reducing token usage by 91.6% while achieving 82.43% unseen-test accuracy versus 82.00% under
+  the full-budget run.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.04756
+labels:
+- applications
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.04756
+    arxiv: '2610.04756'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

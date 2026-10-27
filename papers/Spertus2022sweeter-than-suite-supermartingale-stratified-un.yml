@@ -1,0 +1,35 @@
+title: 'Sweeter than SUITE: Supermartingale Stratified Union-Intersection Tests of Elections'
+authors: Jacob V. Spertus, Philip B. Stark
+year: 2022
+doi: 10.1007/978-3-031-15911-4_7
+arxiv: '2207.03379'
+abstract: >-
+  Stratified sampling can be useful in risk-limiting audits (RLAs), for instance, to accommodate
+  heterogeneous voting equipment or laws that mandate jurisdictions draw their audit samples
+  independently. We combine the union-intersection tests in SUITE, the reduction of RLAs to
+  testing whether the means of a collection of lists are all $\leq 1/2$ of SHANGRLA, and the
+  nonnegative supermartingale (NNSM) tests in ALPHA to improve the efficiency and flexibility of
+  stratified RLAs. A simple, non-adaptive strategy for combining stratumwise NNSMs decreases the
+  measured risk in the 2018 pilot hybrid audit in Kalamazoo, Michigan, USA by more than an order
+  of magnitude, from 0.037 for SUITE to 0.003 for our method. We give a simple, computationally
+  inexpensive, adaptive rule for deciding which stratum to sample next that reduces audit workload
+  by as much as 74% in examples. We also present NNSM-based tests that are computationally
+  tractable even when there are many strata, illustrated with a simulated audit stratified across
+  California's 58 counties.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2207.03379
+labels:
+- applications
+- e-values
+- probability theory
+publications:
+- name: Electronic Voting
+  year: 2022
+  url: https://doi.org/10.1007/978-3-031-15911-4_7
+  doi: 10.1007/978-3-031-15911-4_7
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2207.03379
+  arxiv: '2207.03379'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

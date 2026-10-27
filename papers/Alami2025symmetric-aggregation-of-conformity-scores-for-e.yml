@@ -1,0 +1,36 @@
+title: Symmetric Aggregation of Conformity Scores for Efficient Uncertainty Sets
+authors: Nabil Alami, Jad Zakharia, Souhaib Ben Taieb
+year: 2026
+doi: 10.1609/aaai.v40i24.39040
+arxiv: '2512.06945'
+abstract: >-
+  Access to multiple predictive models trained for the same task, whether in regression or
+  classification, is increasingly common in many applications. Aggregating their predictive
+  uncertainties to produce reliable and efficient uncertainty quantification is therefore a
+  critical but still underexplored challenge, especially within the framework of conformal
+  prediction (CP). While CP methods can generate individual prediction sets from each model,
+  combining them into a single, more informative set remains a challenging problem. To address
+  this, we propose SACP (Symmetric Aggregated Conformal Prediction), a novel method that
+  aggregates nonconformity scores from multiple predictors. SACP transforms these scores into
+  e-values and combines them using any symmetric aggregation function. This flexible design
+  enables a robust, data-driven framework for selecting aggregation strategies that yield sharper
+  prediction sets. We also provide theoretical insights that help justify the validity and
+  performance of the SACP approach. Extensive experiments on diverse datasets show that SACP
+  consistently improves efficiency and often outperforms state-of-the-art model aggregation
+  baselines.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.06945
+labels:
+- methodology
+- e-values
+publications:
+- name: AAAI Conference on Artificial Intelligence
+  year: 2026
+  url: https://doi.org/10.1609/aaai.v40i24.39040
+  doi: 10.1609/aaai.v40i24.39040
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.06945
+  arxiv: '2512.06945'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

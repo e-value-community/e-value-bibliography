@@ -1,0 +1,30 @@
+title: Test Martingales for bounded random variables
+authors: Harrie Hendriks
+year: 2021
+arxiv: '2109.08923'
+abstract: >-
+  Given a positive random variable $X$, $X\ge0$ a.s., a null hypothesis $H_0:E(X)\leμ$ and a
+  random sample of infinite size of $X$, we construct test supermartingales for $H_0$, i.e.
+  positive processes that are supermartingale if the null hypothesis is satisfied. We test
+  hypothesis $H_0$ by testing the supermartingale hypothesis on a test supermartingale. We
+  construct test supermartingales that lead to tests with power 1. We derive confidence lower
+  bounds. For bounded random variables we extend the techniques to two-sided tests of $H_0:E(X)=μ$
+  and to the construction of confidence intervals. In financial auditing random sampling is
+  proposed as one of the possible techniques to gather enough evidence to justify rejection of the
+  null hypothesis that there is a 'material' misstatement in a financial report. The goal of our
+  work is to provide a mathematical context that could represent such process of gathering
+  evidence by means of repeated random sampling, while ensuring an intended significance level.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2109.08923
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2109.08923
+  arxiv: '2109.08923'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

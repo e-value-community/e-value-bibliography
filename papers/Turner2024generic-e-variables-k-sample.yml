@@ -1,0 +1,35 @@
+title: Generic E-variables for exact sequential k-sample tests that allow for optional stopping
+authors: Rosanne J. Turner, Alexander Ly, Peter D. Grünwald
+year: 2024
+doi: 10.1016/j.jspi.2023.106116
+arxiv: '2106.02693'
+abstract: >-
+  We develop E-variables for testing whether two or more data streams come from the same source or
+  not, and more generally, whether the difference between the sources is larger than some minimal
+  effect size. These E-variables lead to exact, nonasymptotic tests that remain safe, i.e. keep
+  their type-I error guarantees, under flexible sampling scenarios such as optional stopping and
+  continuation. In special cases our E-variables also have an optimal 'growth' property under the
+  alternative. While the construction is generic, we illustrate it through the special case of k x
+  2 contingency tables, where we also allow for the incorporation of different restrictions on a
+  composite alternative. Comparison to p-value analysis in simulations and a real-world example
+  show that E-variables, through their flexibility, often allow for early stopping of data
+  collection, thereby retaining similar power as classical methods, while also retaining the
+  option of extending or combining data afterwards.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2106.02693
+labels:
+- applications
+- e-values
+- e-processes
+- probability theory
+publications:
+  - name: Journal of Statistical Planning and Inference
+    year: 2024
+    url: https://doi.org/10.1016/j.jspi.2023.106116
+    doi: 10.1016/j.jspi.2023.106116
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2106.02693
+    arxiv: '2106.02693'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

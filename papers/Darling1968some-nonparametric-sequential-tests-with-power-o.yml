@@ -1,0 +1,21 @@
+title: SOME NONPARAMETRIC SEQUENTIAL TESTS WITH POWER ONE
+authors: D. A. Darling, Herbert Robbins
+year: 1968
+doi: 10.1073/pnas.61.3.804
+abstract: >-
+  Proceedings of the National Academy of Sciences (PNAS), a peer reviewed journal of the National
+  Academy of Sciences (NAS) - an authoritative source of high-impact, original research that
+  broadly spans the biological, physical, and social sciences.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.61.3.804
+labels:
+- methodology
+- e-processes
+- probability theory
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 1968
+    url: https://doi.org/10.1073/pnas.61.3.804
+    doi: 10.1073/pnas.61.3.804
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

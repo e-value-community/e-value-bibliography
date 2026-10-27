@@ -1,0 +1,39 @@
+title: 'One-at-a-time knockoffs: controlled false discovery rate with higher power'
+authors: Charlie K. Guan, Zhimei Ren, Daniel W. Apley
+year: 2026
+doi: 10.1093/biomtc/ujag119
+arxiv: '2502.18750'
+abstract: >-
+  We propose one-at-a-time knockoffs (OATK), a new methodology for detecting important explanatory
+  variables in linear regression models while controlling the false discovery rate (FDR). For each
+  explanatory variable, OATK generates a knockoff design matrix that preserves the Gram matrix by
+  replacing one-at-a-time only the single corresponding column of the original design matrix. OATK
+  is a substantial relaxation and simplification of the knockoff filter by Barber and Candès (BC),
+  which simultaneously generates all columns of the knockoff design matrix to satisfy a much
+  larger set of constraints. To test each variable's importance, statistics are then constructed
+  by comparing the original vs. knockoff coefficients. Under a mild correlation assumption on the
+  original design matrix, OATK asymptotically controls the FDR at any desired level. Moreover,
+  OATK consistently achieves (often substantially) higher power than BC and other approaches
+  across a variety of simulation examples and a real genetics dataset. Generating knockoffs
+  one-at-a-time also has substantial computational advantages and facilitates additional
+  enhancements, such as conditional calibration or derandomization, to further improve power and
+  consistency of FDR control. OATK can be viewed as the conditional randomization test (CRT)
+  generalized to fixed-design linear regression problems, and can generate fine-grained p-values
+  for each hypothesis.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.18750
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Biometrics
+  year: 2026
+  url: https://doi.org/10.1093/biomtc/ujag119
+  doi: 10.1093/biomtc/ujag119
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.18750
+  arxiv: '2502.18750'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

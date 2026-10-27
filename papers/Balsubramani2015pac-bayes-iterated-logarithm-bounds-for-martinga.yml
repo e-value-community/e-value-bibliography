@@ -1,0 +1,24 @@
+title: PAC-Bayes Iterated Logarithm Bounds for Martingale Mixtures
+authors: Akshay Balsubramani
+year: 2015
+arxiv: '1506.06573'
+abstract: >-
+  We give tight concentration bounds for mixtures of martingales that are simultaneously uniform
+  over (a) mixture distributions, in a PAC-Bayes sense; and (b) all finite times. These bounds are
+  proved in terms of the martingale variance, extending classical Bernstein inequalities, and
+  sharpening and simplifying prior work.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1506.06573
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2015
+    url: https://arxiv.org/abs/1506.06573
+    arxiv: '1506.06573'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

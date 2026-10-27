@@ -1,0 +1,32 @@
+title: Anytime-valid and asymptotically efficient inference driven by predictive recursion
+authors: Vaidehi Dixit, Ryan Martin
+year: 2025
+doi: 10.1093/biomet/asae066
+arxiv: '2309.13441'
+abstract: >-
+  Distinguishing two candidate models is a fundamental and practically important statistical
+  problem. Error rate control is crucial to the testing logic but, in complex nonparametric
+  settings, can be difficult to achieve, especially when the stopping rule that determines the
+  data collection process is not available. This paper proposes an e-process construction based on
+  the predictive recursion (PR) algorithm originally designed to recursively fit nonparametric
+  mixture models. The resulting PRe-process affords anytime valid inference and is asymptotically
+  efficient in the sense that its growth rate is first-order optimal relative to PR's mixture
+  model.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2309.13441
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-processes
+publications:
+- name: Biometrika
+  year: 2024
+  url: https://doi.org/10.1093/biomet/asae066
+  doi: 10.1093/biomet/asae066
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2309.13441
+  arxiv: '2309.13441'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,36 @@
+title: Confidence sequences with composite likelihoods
+authors: Luigi Pace, Alessandra Salvan, Nicola Sartori
+year: 2023
+doi: 10.1002/cjs.11749
+abstract: >-
+  Abstract In dominated parametric statistical models, confidence sequences provide conservatively
+  valid frequentist inference directly from a likelihood ratio. They ensure a specific mode of
+  replicability when inference is performed on accumulating data: inferential conclusions that are
+  compatible with a guaranteed probability when the sample is enlarged, in the form of overlapping
+  confidence regions. Here we consider both Robbins' mixture confidence sequences and running
+  maximum likelihood confidence sequences recently considered by Wasserman, Ramdas, and
+  Balakrishnan. We compare through simulation the replicability properties of the two kinds of
+  confidence sequences, evaluating, along a prospected enlargement of the sample, the frequency of
+  incompatible estimation intervals and the frequency of failure of simultaneous coverage of the
+  true parameter value. Moreover, we propose a shortcut to extend the application of mixture
+  confidence sequences to pseudo‐likelihoods, in particular to composite likelihood. The main
+  assumption required is that normal asymptotic theory offers a good approximation to the density
+  of the maximizer of the pseudo‐likelihood. When inference is about a scalar parameter of
+  interest, the computation of the proposed sequence of confidence intervals is straightforward.
+  The method is illustrated by an example with replicability properties evaluated through
+  simulation.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/cjs.11749
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- multiple testing
+publications:
+  - name: Canadian Journal of Statistics
+    year: 2022
+    url: https://doi.org/10.1002/cjs.11749
+    doi: 10.1002/cjs.11749
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

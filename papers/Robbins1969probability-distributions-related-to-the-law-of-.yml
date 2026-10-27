@@ -1,0 +1,25 @@
+title: PROBABILITY DISTRIBUTIONS RELATED TO THE LAW OF THE ITERATED LOGARITHM
+authors: H. Robbins, D. Siegmund
+year: 1969
+doi: 10.1073/pnas.62.1.11
+abstract: >-
+  Let W ( t ) denote a standard Wiener process for 0 ≤ t < ∞. We compute the probability that W (
+  t ) ≥ t ½ A ( t ) for some t ≥ 1 (or for some t ≥ 0) for a certain class of functions A ( t ),
+  including functions which are ∼ (2 log log t ) ½ as t → ∞. We also give an invariance principle
+  which states that this probability is the limit as m → ∞ of the probability that s n ≥ n ½ A (
+  n/m ) for some n ≥ m (or for some n ≥ 1), where s n is the sum of n independent and identically
+  distributed random variables with mean 0 and variance 1.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.62.1.11
+labels:
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: Proceedings of the National Academy of Sciences
+  year: 1969
+  url: https://doi.org/10.1073/pnas.62.1.11
+  doi: 10.1073/pnas.62.1.11
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

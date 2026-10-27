@@ -1,0 +1,38 @@
+title: 'e-GAI: e-value-based Generalized α-Investing for Online False Discovery Rate Control'
+authors: Yifan Zhang, Zijian Wei, Haojie Ren, Changliang Zou
+year: 2025
+arxiv: '2506.01452'
+abstract: >-
+  Online multiple hypothesis testing has attracted a lot of attention in many applications, e.g.,
+  anomaly status detection and stock market price monitoring. The state-of-the-art generalized
+  $α$-investing (GAI) algorithms can control online false discovery rate (FDR) on p-values only
+  under specific dependence structures, a situation that rarely occurs in practice. The e-LOND
+  algorithm (Xu & Ramdas, 2024) utilizes e-values to achieve online FDR control under arbitrary
+  dependence but suffers from a significant loss in power as testing levels are derived from
+  pre-specified descent sequences. To address these limitations, we propose a novel framework on
+  valid e-values named e-GAI. The proposed e-GAI can ensure provable online FDR control under more
+  general dependency conditions while improving the power by dynamically allocating the testing
+  levels. These testing levels are updated not only by relying on both the number of previous
+  rejections and the prior costs, but also, differing from the GAI framework, by assigning less
+  $α$-wealth for each rejection from a risk aversion perspective. Within the e-GAI framework, we
+  introduce two new online FDR procedures, e-LORD and e-SAFFRON, and provide strategies for the
+  long-term performance to address the issue of $α$-death, a common phenomenon within the GAI
+  framework. Furthermore, we demonstrate that e-GAI can be generalized to conditionally
+  super-uniform p-values. Both simulated and real data experiments demonstrate the advantages of
+  both e-LORD and e-SAFFRON in FDR control and power.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2506.01452
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: International Conference on Machine Learning
+    year: 2025
+    url: https://proceedings.mlr.press/v267/zhang25cd.html
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2506.01452
+    arxiv: '2506.01452'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

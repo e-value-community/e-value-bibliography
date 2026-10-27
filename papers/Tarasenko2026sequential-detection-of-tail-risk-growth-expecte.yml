@@ -1,0 +1,34 @@
+title: Sequential detection of tail-risk growth (Expected Shortfall) in nonstationary measurement streams
+  under time-uniform false-alarm control for monitoring coal industry equipment
+authors: A. A. Tarasenko, E. V. Prokopenko, A. S. Ashcheulova
+year: 2026
+abstract: >-
+  We study online detection of tail-risk growth in nonstationary measurement streams, where rare
+  large deviations are critical. This setting arises in continuous equipment monitoring, where
+  failures are preceded by rare extreme events. In vibration diagnostics and impact-load
+  monitoring, mean-level indicators may change only slightly, while short acceleration impulses
+  appear; these impulses excite the system’s natural frequencies and lead to an increase of
+  extremes in a high-frequency band and in the envelope spectrum. In hydraulic systems, a similar
+  pattern is observed as bursts of pressure surges, while the baseline level may drift with the
+  operating regime. The proposed procedure is designed for early detection of tail thickening in
+  such extreme indicators and provides a time-uniform control of the false-alarm probability via
+  the parameter α. The risk is quantified by Expected Shortfall ES₁₋ᵦ. To separate tail behavior
+  from slow level drift, we build an adaptive threshold qₜ and analyze exceedances (Xₜ − qₜ)₊,
+  truncated by a constant B for robustness. Based on normalized truncated exceedances we construct
+  an evidence process Lₜ (an e-process). Under a nominal conditional bound E[Zₜ | ℱₜ₋₁] ≤ m₀ we
+  prove time-uniform false alarm control: P_H0(supₜ≥0 Lₜ ≥ 1/α) ≤ α for any α ∈ (0, 1). We present
+  a limited-memory mixture procedure over change points; simulations with a tail change illustrate
+  controlled detection delay and no premature alarms under the nominal regime.
+abstract_status: source_abstract
+abstract_source: https://www.ugolinfo.ru/index.php?article=202608113&lang=en
+labels:
+- applications
+- e-processes
+publications:
+- name: Ugol’
+  year: 2026
+  url: https://doi.org/10.18796/0041-5790-2026-8-113-118
+  doi: 10.18796/0041-5790-2026-8-113-118
+doi: 10.18796/0041-5790-2026-8-113-118
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

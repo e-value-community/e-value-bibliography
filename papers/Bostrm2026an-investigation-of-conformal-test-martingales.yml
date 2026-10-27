@@ -1,0 +1,34 @@
+title: An Investigation of Conformal Test Martingales
+authors: Henrik Boström
+year: 2026
+abstract: >-
+  Conformal test martingales are used for testing the assumption of exchangeability, which is
+  central for the validity guarantees of conformal predictors. All algorithms for computing
+  conformal test martingales share the fundamental property of allowing the false alarm rate to be
+  controlled by a user-specified significance level. However, the ability to detect violations of
+  the exchangeability assumption may vary largely across algorithms and distributions. Three
+  algorithms for computing conformal test martingales, i.e., Simple Jumper, Sleeper/Stayer and
+  Sleeper/Drifter, are analyzed and three central components are identified; the investment
+  strategy, the betting function and the wake-up scheme. By combining the options of these
+  components, a total of nine novel algorithms are obtained, complementary to the three previously
+  proposed algorithms. Results from a large-scale investigation using both synthetic and
+  real-world datasets are presented. The results on the former show that while all combinations
+  successfully keep the false alarm rate below the requested significance level, which follows
+  from the theoretical guarantees, the relative effectiveness of the algorithms is shown to depend
+  on the type of distribution shift, i.e., whether there is a change in mean or variance (or both)
+  and whether the change is abrupt or continuous. While the original Sleeper/Stayer algorithm is
+  shown to be the most effective of the twelve considered combinations in a majority of cases, the
+  results also show that the novel combinations are competitive in some cases.
+abstract_status: source_abstract
+abstract_source: https://link.springer.com/chapter/10.1007/978-3-032-15120-9_7
+labels:
+- methodology
+- e-processes
+publications:
+- name: The Importance of Being Learnable
+  year: 2026
+  url: https://doi.org/10.1007/978-3-032-15120-9_7
+  doi: 10.1007/978-3-032-15120-9_7
+doi: 10.1007/978-3-032-15120-9_7
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

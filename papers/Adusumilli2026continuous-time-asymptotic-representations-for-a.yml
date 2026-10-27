@@ -1,0 +1,31 @@
+title: Continuous time asymptotic representations for adaptive experiments
+authors: Karun Adusumilli
+year: 2026
+arxiv: '2601.00739'
+abstract: >-
+  This article develops a continuous-time asymptotic framework for analyzing adaptive experiments
+  -- settings in which data collection and treatment assignment evolve dynamically in response to
+  incoming information. A key challenge in analyzing fully adaptive experiments, where the
+  assignment policy is updated after each observation, is that the sequence of policy rules often
+  lack a well-defined asymptotic limit. To address this, we focus instead on the empirical
+  allocation process, which captures the fraction of observations assigned to each treatment over
+  time. We show that, under general conditions, any adaptive experiment and its associated
+  empirical allocation process can be approximated by a limit experiment defined by Gaussian
+  diffusions with unknown drifts and a corresponding continuous-time allocation process. This
+  limit representation facilitates the analysis of optimal decision rules by reducing the
+  dimensionality of the state-space and leveraging the tractability of Gaussian diffusions. We
+  apply the framework to derive optimal estimators, analyze in-sample regret for adaptive
+  experiments, and construct e-processes for anytime-valid inference. Notably, we introduce the
+  first definition of any-time and any-experiment valid inference for multi-treatment settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.00739
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2601.00739
+    arxiv: '2601.00739'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

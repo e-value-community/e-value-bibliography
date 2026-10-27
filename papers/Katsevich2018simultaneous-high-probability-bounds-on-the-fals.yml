@@ -1,0 +1,40 @@
+title: >-
+  Simultaneous high-probability bounds on the false discovery proportion in structured, regression,
+  and online settings
+authors: Eugene Katsevich, Aaditya Ramdas
+year: 2020
+doi: 10.1214/19-aos1938
+arxiv: '1803.06790'
+abstract: >-
+  While traditional multiple testing procedures prohibit adaptive analysis choices made by users,
+  Goeman and Solari (2011) proposed a simultaneous inference framework that allows users such
+  flexibility while preserving high-probability bounds on the false discovery proportion (FDP) of
+  the chosen set. In this paper, we propose a new class of such simultaneous FDP bounds, tailored
+  for nested sequences of rejection sets. While most existing simultaneous FDP bounds are based on
+  closed testing using global null tests based on sorted p-values, we additionally consider the
+  setting where side information can be leveraged to boost power, the variable selection setting
+  where knockoff statistics can be used to order variables, and the online setting where decisions
+  about rejections must be made as data arrives. Our finite-sample, closed form bounds are based
+  on repurposing the FDP estimates from false discovery rate (FDR) controlling procedures designed
+  for each of the above settings. These results establish a novel connection between the parallel
+  literatures of simultaneous FDP bounds and FDR control methods, and use proof techniques
+  employing martingales and filtrations that are new to both these literatures. We demonstrate the
+  utility of our results by augmenting a recent knockoffs analysis of the UK Biobank dataset.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1803.06790
+labels:
+- methodology
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+  - name: The Annals of Statistics
+    year: 2018
+    url: https://doi.org/10.1214/19-AOS1938
+    doi: 10.1214/19-aos1938
+  - name: arXiv
+    year: 2018
+    url: https://arxiv.org/abs/1803.06790
+    arxiv: '1803.06790'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

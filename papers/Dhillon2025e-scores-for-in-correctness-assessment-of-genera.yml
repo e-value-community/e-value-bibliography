@@ -1,0 +1,29 @@
+title: E-Scores for (In)Correctness Assessment of Generative Model Outputs
+authors: Guneet S. Dhillon, Javier González, Teodora Pandeva, Alicia Curth
+year: 2025
+arxiv: '2510.25770'
+abstract: >-
+  While generative models, especially large language models (LLMs), are ubiquitous in today's
+  world, principled mechanisms to assess their (in)correctness are limited. Using the conformal
+  prediction framework, previous works construct sets of LLM responses where the probability of
+  including an incorrect response, or error, is capped at a user-defined tolerance level. However,
+  since these methods are based on p-values, they are susceptible to p-hacking, i.e., choosing the
+  tolerance level post-hoc can invalidate the guarantees. We therefore leverage e-values to
+  complement generative model outputs with e-scores as measures of incorrectness. In addition to
+  achieving the guarantees as before, e-scores further provide users with the flexibility of
+  choosing data-dependent tolerance levels while upper bounding size distortion, a post-hoc notion
+  of error. We experimentally demonstrate their efficacy in assessing LLM outputs under different
+  forms of correctness: mathematical factuality and property constraints satisfaction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.25770
+labels:
+- applications
+- e-values
+- post-hoc inference
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2510.25770
+    arxiv: '2510.25770'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

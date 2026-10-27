@@ -1,0 +1,34 @@
+title: An online generalization of the (e-)Benjamini–Hochberg procedure
+authors: Lasse Fischer, Ziyu Xu, Aaditya Ramdas
+year: 2024
+doi: null
+arxiv: '2407.20683'
+abstract: >-
+  In online multiple testing, the hypotheses arrive one by one, and at each time we must
+  immediately reject or accept the current hypothesis solely based on the data and hypotheses
+  observed so far. Many online procedures have been proposed, but none of them are generalizations
+  of the Benjamini-Hochberg (BH) procedure based on p-values, or of the e-BH procedure that uses
+  e-values. In this paper, we consider a relaxed problem setup that allows the current hypothesis
+  to be rejected at any later step. We show that this relaxation allows us to define -- what we
+  justify extensively to be -- the natural and appropriate online extension of the BH and e-BH
+  procedures. We show that the FDR guarantees for BH (resp. e-BH) and online BH (resp. online
+  e-BH) are identical under positive, negative or arbitrary dependence, at fixed and stopping
+  times. Further, the online BH (resp. online e-BH) rule recovers the BH (resp. e-BH) rule as a
+  special case when the number of hypotheses is known to be fixed. Of independent interest, our
+  proof techniques also allow us to prove that numerous existing online procedures, which were
+  known to control the FDR at fixed times, also control the FDR at stopping times.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.20683
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.20683
+  arxiv: '2407.20683'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,27 @@
+title: Closed-form empirical Bernstein confidence sequences for scalars and matrices
+authors: Ben Chugg, Aaditya Ramdas
+year: 2025
+arxiv: '2512.21300'
+abstract: >-
+  We derive a new closed-form variance-adaptive confidence sequence (CS) for estimating the
+  average conditional mean of a sequence of bounded random variables. Empirically, it yields the
+  tightest closed-form CS we have found for tracking time-varying means, across sample sizes up to
+  $\approx 10^6$. When the observations happen to have the same conditional mean, our CS is
+  asymptotically tighter than the recent closed-form CS of Waudby-Smith and Ramdas [38]. It also
+  has other desirable properties: it is centered at the unweighted sample mean and has limiting
+  width (multiplied by $\sqrt{t/\log t}$) independent of the significance level. We extend our
+  results to provide a CS with the same properties for random matrices with bounded eigenvalues.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.21300
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.21300
+  arxiv: '2512.21300'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

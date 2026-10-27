@@ -1,0 +1,37 @@
+title: 'Rank Confidence Sequences: Anytime-valid Leaderboards'
+authors: Hamed Khosravi, Xiaoming Huo
+year: 2026
+arxiv: '2609.32211'
+abstract: >-
+  Leaderboards rank models by their average scores on benchmark items, and they are consulted
+  repeatedly while the evaluation is still running. Existing confidence intervals for a model's
+  rank control their error rate only if they are computed once, after a number of items chosen in
+  advance. If they are recomputed as results arrive, and the evaluation stops once they look
+  decisive, their error rate exceeds its nominal level. Anytime-valid methods keep their
+  guarantees at all sample sizes simultaneously and hence under any stopping rule. They exist for
+  the accuracy of one model, for one pair of models and for the set of models that may be best.
+  For pairwise battles they also give ranks. None gives ranks when all models are scored on the
+  same items, which makes their scores dependent. We construct rank confidence sequences: for
+  every model, a set of ranks that contains its true rank, simultaneously for all models and at
+  all times, at a chosen error level $α$, in finite samples. The construction combines betting
+  e-processes, one for each ordered pair of models, with closed testing over the possible
+  orderings of the models. It allows any dependence between the models' scores on an item. The
+  method has two advantages. A leaderboard can be inspected after every item without inflating its
+  error rate. The evaluation of each model can stop as soon as the question asked about it is
+  answered, which saves compute. When results are examined only once, halfway through or later,
+  little power is lost relative to fixed-sample methods. The paper quantifies these advantages in
+  simulations and on public leaderboard data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.32211
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.32211
+  arxiv: '2609.32211'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

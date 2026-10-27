@@ -1,0 +1,35 @@
+title: 'CADS: Measuring the Incremental Contribution of LLM Proposers in Sequential Biological Screens'
+authors: Guanxing Chen, Nihui Shao, Haohuai He, Zhenchao Tang, Pengwei Hu, Zhi-An Huang
+year: 2026
+arxiv: '2610.24597'
+abstract: >-
+  Large language models are increasingly used to guide sequential biological screens, yet standard
+  evaluations rely on raw hit counts that conflate a proposer's value with the discovery capacity
+  of the underlying algorithmic harness. Adaptive sampling and corrupted experimental readouts
+  also leave standard feedback comparisons without a false-discovery guarantee. We present
+  Certified Agentic Discovery Screens (CADS), an error-controlled measurement framework that
+  quantifies a proposer's incremental value against an identical LLM-free loop. By integrating
+  capped likelihood-ratio bounds, e-processes, and complete-family e-BH, CADS controls the
+  terminal false discovery rate under the stated null and corruption conditions despite arbitrary
+  dependence, adaptive sampling, and optional stopping. In DepMap-backed simulations, CADS exposes
+  two evaluation artifacts: the LLM-free harness alone clears the feedback gate, and raw origin
+  counts overstate LLM contributions because LLM picks displace fallback discoveries. On the
+  initial 20 seeds, supplying tested-candidate history to Qwen2.5-7B shifts its net contribution
+  from +0.35, with a 95% interval covering zero, to +2.90, with the interval above zero. This
+  initial net effect did not persist in a 50-seed matched-quota replication. These results support
+  net gain over an LLM-free loop, measured between separately certified sets, as the appropriate
+  measure of proposer contribution.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.24597
+labels:
+- methodology
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.24597
+  arxiv: '2610.24597'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

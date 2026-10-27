@@ -1,0 +1,30 @@
+title: Real-time Program Evaluation using Anytime-valid Rank Tests
+authors: Sam van Meer, Nick W. Koning
+year: 2025
+arxiv: '2504.21595'
+abstract: >-
+  Counterfactual mean estimators such as difference-in-differences and synthetic control have
+  grown into workhorse tools for program evaluation. Inference for these estimators is
+  well-developed in settings where all post-treatment data is available at the time of analysis.
+  However, in settings where data arrives sequentially, these tests do not permit real-time
+  inference, as they require a pre-specified sample size T. We introduce real-time inference for
+  program evaluation through anytime-valid rank tests. Our methodology relies on interpreting the
+  absence of a treatment effect as exchangeability of the treatment estimates. We then convert
+  these treatment estimates into sequential ranks, and construct optimal finite-sample valid
+  sequential tests for exchangeability. We illustrate our methods in the context of
+  difference-in-differences and synthetic control. In simulations, they control size even under
+  mild exchangeability violations. While our methods suffer slight power loss at T, they allow for
+  early rejection (before T) and preserve the ability to reject later (after T).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.21595
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.21595
+  arxiv: '2504.21595'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

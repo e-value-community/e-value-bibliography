@@ -1,0 +1,29 @@
+title: 'Gaussian Differentially Private e-values: Construction, Threshold Calibration, and Multiple Testing'
+authors: Qi Kuang, Bowen Gang, Yin Xia
+year: 2026
+arxiv: '2605.29388'
+abstract: >-
+  This paper develops a framework for differentially private $e$-values under Gaussian
+  differential privacy ($μ$-GDP). We characterize the canonical noise mechanism, establishing that
+  optimal multiplicative perturbation follows a Gaussian distribution. Using this distribution, we
+  derive a globally sharp rejection threshold that strictly improves upon the standard Markov
+  bound. Asymptotic analysis shows that in low-sensitivity regimes, the calibrated private test
+  achieves a net power gain over the non-private baseline. For multiple testing, we introduce a
+  recursive peeling algorithm that adaptively concentrates the privacy budget on the most
+  promising hypotheses. This construction guarantees rigorous $μ$-GDP and yields valid private
+  $e$-values compatible with standard multiple testing procedures. Simulations and a genome-wide
+  association study confirm that the method controls the false discovery rate while improving upon
+  naive all-noisy privatization and recovering power close to non-private benchmarks.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.29388
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.29388
+  arxiv: '2605.29388'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

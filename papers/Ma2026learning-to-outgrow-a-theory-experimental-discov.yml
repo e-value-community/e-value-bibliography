@@ -1,0 +1,37 @@
+title: 'Learning to Outgrow a Theory: Experimental Discovery Beyond the Initial Hypothesis Space'
+authors: >-
+  SiYuan Ma, Albert Gao, Chunzheng Zhu, Xin Yan, Wenlong Zhang, Wenxin Zhang, Luqi Gong, Tianlin Li,
+  Qixin Zhang
+year: 2026
+arxiv: '2610.07627'
+abstract: >-
+  Scientific discovery systems typically optimize experiments within a fixed hypothesis space.
+  This creates a failure mode when all available candidates omit the same missing mechanism:
+  candidate disagreement can collapse even while the model class is systematically wrong. We
+  formulate experimental model-class revision, in which a discovery policy jointly proposes a
+  structural edit and a diagnostic experiment that tests whether that edit is necessary. The
+  method couples a class-level distinguishability objective, in which one shared parameterization
+  must explain all selected experiments, with anytime-valid sequential evidence that triggers
+  structural revision only after the current class is rejected. On 400 held-out controlled
+  dynamical environments, the joint policy reaches 89.5% exact recovery with a budget of 32 real
+  experiments, improving the strongest matched baseline by 10.0 percentage points while requiring
+  fewer executed experiments and candidate fits. The learned revision-experiment pairing transfers
+  across unseen mechanism combinations, held-out but expressible primitives, parameter
+  extrapolation, and shifted experiment costs; when the true mechanism is outside the edit
+  grammar, it detects library insufficiency in 88% of cases with a 5.5% false-support rate.
+  Revision gains also transfer to ODEBench and ODEBase model-library tasks, as well as
+  DiscoverPhysics worlds. These results support a view of scientific discovery in which deciding
+  what mechanisms a theory should make expressible and where to collect evidence are treated as a
+  single sequential decision problem.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.07627
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.07627
+    arxiv: '2610.07627'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

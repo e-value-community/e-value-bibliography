@@ -1,0 +1,34 @@
+title: Anytime-Valid Distribution Shift Detection via Predictive Rank Martingales
+authors: Qi Kuang, Yin Xia
+year: 2026
+arxiv: '2609.00536'
+abstract: >-
+  Many sequential distribution shift detectors update a growing reference set with incoming
+  observations. After a change, this update contaminates the reference set with post-change
+  observations and can weaken subsequent evidence. Keeping the calibration sample fixed mitigates
+  this contamination, but repeated reuse induces dependence among fixed-reference ranks, so
+  arguments based on independent conformal \(p\)-values do not apply. We derive the exact
+  conditional null distribution of the next rank given the preceding ranks and use it to construct
+  a predictive rank martingale (PRM). Thresholding a PRM gives distribution-free, finite-sample
+  anytime marginal type I error control. To target specific departures, we apply a pre-specified
+  feature to each rank, center the resulting payoff under the predictive null law, and use Online
+  Newton Step (ONS) to adapt the bet. Order and dispersion features target directional and
+  center-versus-tail changes, respectively. For any Lipschitz feature with nonzero induced
+  contrast under the alternative, we establish a finite-window detection guarantee and show that
+  the test is consistent as the initial calibration size increases. At a fixed calibration size,
+  however, we derive a power ceiling for every distribution-free detection procedure. Across
+  synthetic and real data, our PRM methods achieve better detection performance than conditional
+  conformal test martingale (CCTM).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.00536
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.00536
+  arxiv: '2609.00536'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

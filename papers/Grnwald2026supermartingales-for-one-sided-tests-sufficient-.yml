@@ -1,0 +1,33 @@
+title: 'Supermartingales for One-Sided Tests: Sufficient Monotone Likelihood Ratios are Sufficient'
+authors: Peter Grünwald, Wouter M. Koolen
+year: 2026
+doi: 10.1016/j.spl.2025.110574
+arxiv: '2502.04208'
+abstract: >-
+  The t-statistic is a widely-used scale-invariant statistic for testing the null hypothesis that
+  the mean is zero. Martingale methods enable sequential testing with the t-statistic at every
+  sample size, while controlling the probability of falsely rejecting the null. For one-sided
+  sequential tests, which reject when the t-statistic is too positive, a natural question is
+  whether they also control false rejection when the true mean is negative. We prove that this is
+  the case using monotone likelihood ratios and sufficient statistics. We develop applications to
+  the scale-invariant t-test, the location-invariant $χ^2$-test and sequential linear regression
+  with nuisance covariates.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.04208
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: Statistics & Probability Letters
+  year: 2026
+  url: https://doi.org/10.1016/j.spl.2025.110574
+  doi: 10.1016/j.spl.2025.110574
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.04208
+  arxiv: '2502.04208'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

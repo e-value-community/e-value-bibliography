@@ -1,0 +1,33 @@
+title: Hypothesis Testing with E-values
+authors: Aaditya Ramdas, Ruodu Wang
+year: 2025
+doi: 10.1561/3600000002
+arxiv: '2410.23614'
+abstract: >-
+  This book is written to offer a humble, but unified, treatment of e-values in hypothesis
+  testing. It is organized into three parts: Fundamental Concepts, Core Ideas, and Advanced
+  Topics. The first part includes four chapters that introduce the basic concepts. The second part
+  includes five chapters of core ideas such as universal inference, log-optimality, e-processes,
+  operations on e-values, and e-values in multiple testing. The third part contains seven chapters
+  of advanced topics. The book collates important results from a variety of modern papers on
+  e-values and related concepts, and also contains many results not published elsewhere. It offers
+  a coherent and comprehensive picture on a fast-growing research area, and is ready to use as the
+  basis of a graduate course in statistics and related fields.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2410.23614
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+  - name: Manuscript
+    year: 2025
+    url: https://doi.org/10.1561/3600000002
+    doi: 10.1561/3600000002
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2410.23614
+    arxiv: '2410.23614'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

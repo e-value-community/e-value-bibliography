@@ -1,0 +1,30 @@
+title: Nonparametric E-tests of Symmetry
+authors: Vladimir Vovk, Ruodu Wang
+year: 2024
+doi: 10.51387/24-nejsds60
+arxiv: '2208.08925'
+abstract: >-
+  The notion of an e-value has been recently proposed as a possible alternative to critical
+  regions and p-values in statistical hypothesis testing. In this paper we consider testing the
+  nonparametric hypothesis of symmetry, introduce analogues for e-values of three popular
+  nonparametric tests, define an analogue for e-values of Pitman's asymptotic relative efficiency,
+  and apply it to the three nonparametric tests. We discuss limitations of our simple definition
+  of asymptotic relative efficiency and list directions of further research.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2208.08925
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-values
+publications:
+- name: The New England Journal of Statistics in Data Science
+  year: 2024
+  url: https://doi.org/10.51387/24-NEJSDS60
+  doi: 10.51387/24-nejsds60
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2208.08925
+  arxiv: '2208.08925'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

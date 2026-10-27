@@ -1,0 +1,38 @@
+title: Design-Based Anytime-Valid Inference for Randomized Experiments with Delayed Outcomes and Staggered
+  Entry
+authors: Michael Lindon, Nathan Kallus
+year: 2026
+arxiv: '2603.25971'
+abstract: >-
+  Delayed outcomes are ubiquitous in online experimentation: treatment can affect whether an
+  outcome occurs, when it occurs, and its realized value. To accommodate staggered entry while
+  remaining robust to environmental nonstationarity and unit-level heterogeneity, we adopt a
+  design-based perspective and target the sample cumulative reward in each arm as a function of
+  calendar time. Our confidence sequences allow practitioners to continuously monitor the
+  counterfactual incremental reward, such as revenue, that would have been realized by calendar
+  time $t$ had all entered units been assigned to treatment rather than control. The main
+  technical challenge is the choice of design-based filtration, complicated by the presence of
+  asynchronous potential outcome times. We show that the IPW treatment-effect estimation error is
+  not a martingale with respect to any filtration, while each arm-specific IPW estimation error is
+  a martingale with respect to a carefully chosen arm-specific event-time filtration. We therefore
+  construct a confidence sequence for the treatment effect by combining two arm-level confidence
+  sequences with a union bound, and further demonstrate that this can outperform the traditional
+  design-based variance upper bound. Finally, we characterize the class of augmentations for which
+  the per-arm AIPW estimation error remains a martingale.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.25971
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/lindon26a.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.25971
+  arxiv: '2603.25971'
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

@@ -1,0 +1,39 @@
+title: 'Beyond Binary Success: Sample-Efficient and Statistically Rigorous Robot Policy Comparison'
+authors: David Snyder, Apurva Badithela, Nikolai Matni, George Pappas, Anirudha Majumdar, Masha Itkina,
+  Haruki Nishimura
+year: 2026
+doi: 10.15607/rss.2026.xxii.076
+arxiv: '2603.13616'
+abstract: >-
+  Generalist robot manipulation policies are becoming increasingly capable, but are limited in
+  evaluation to a small number of hardware rollouts. This strong resource constraint in real-world
+  testing necessitates both more informative performance measures and reliable and efficient
+  evaluation procedures to properly assess model capabilities and benchmark progress in the field.
+  This work presents a novel framework for robot policy comparison that is sample-efficient,
+  statistically rigorous, and applicable to a broad set of evaluation metrics used in practice.
+  Based on safe, anytime-valid inference (SAVI), our test procedure is sequential, allowing the
+  evaluator to stop early when sufficient statistical evidence has accumulated to reach a decision
+  at a pre-specified level of confidence. Unlike previous work developed for binary success, our
+  unified approach addresses a wide range of informative metrics: from discrete partial credit
+  task progress to continuous measures of episodic reward or trajectory smoothness, spanning both
+  parametric and nonparametric comparison problems. Through extensive validation on simulated and
+  real-world evaluation data, we demonstrate up to 70% reduction in evaluation burden compared to
+  standard batch methods and up to 50% reduction compared to state-of-the-art sequential
+  procedures designed for binary outcomes, with no loss of statistical rigor. Notably, our
+  empirical results show that competing policies can be separated more quickly when using
+  fine-grained task progress than binary success metrics.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.13616
+labels:
+- applications
+publications:
+- name: 'Robotics: Science and Systems XXII (RSS 2026), paper 076'
+  year: 2026
+  url: https://doi.org/10.15607/rss.2026.xxii.076
+  doi: 10.15607/rss.2026.xxii.076
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.13616
+  arxiv: '2603.13616'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

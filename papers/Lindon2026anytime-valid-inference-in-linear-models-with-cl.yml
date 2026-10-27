@@ -1,0 +1,40 @@
+title: 'Anytime-Valid Inference in Linear Models with Clustered Outcomes: Exact Multivariate Tests and
+  Cluster-Robust Confidence Sequences'
+authors: Michael Lindon
+year: 2026
+arxiv: '2610.25613'
+abstract: >-
+  We extend anytime-valid inference for linear models from independent scalar outcomes to units
+  that contribute a vector of dependent outcomes. We develop a parametric and a nonparametric
+  treatment. For the Gaussian multivariate linear model with an unstructured error covariance, we
+  derive a closed-form Bayes factor under the right-Haar prior and a matrix-normal mixture
+  alternative and prove that it is an exact e-value at every sample size and a test martingale in
+  the invariant filtration. To our knowledge, this Bayes factor is new in the generality
+  considered here: a d x q coefficient matrix, nuisance regressors and an arbitrary fixed
+  positive-definite prior precision under the right-Haar nuisance prior. It yields sequential
+  Hotelling and MANOVA tests with exact confidence sequences. Under a common within-cluster
+  design, the cluster-robust Wald statistic of a pooled regression is equal to Hotelling's T^2
+  statistic computed from the per-cluster least-squares summaries, giving an exact Gaussian
+  benchmark with G-1 degrees of freedom. For general clustered population least-squares
+  projections, the corresponding sandwich statistic is an asymptotic e-process, without Gaussian,
+  common-design or linearity assumptions. Each treatment includes growth and first-order expected
+  stopping-time results; under stronger regularity, direct comparisons of expected log evidence
+  identify a fixed mixture precision that maximizes expected log growth through constant order
+  within a specified family, for a specified frequentist alternative. Applied to randomized
+  experiments with several outcomes, the robust procedure gives asymptotically anytime-valid joint
+  tests, confidence ellipsoids and simultaneous confidence sequences for the vector of average
+  treatment effects from ordinary least-squares estimates and cluster-robust standard errors.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.25613
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.25613
+  arxiv: '2610.25613'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

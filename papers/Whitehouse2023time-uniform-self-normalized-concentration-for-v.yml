@@ -1,0 +1,36 @@
+title: Time-Uniform Self-Normalized Concentration for Vector-Valued Processes
+authors: Justin Whitehouse, Zhiwei Steven Wu, Aaditya Ramdas
+year: 2026
+doi: 10.1214/25-aap2246
+arxiv: '2310.09100'
+abstract: >-
+  Self-normalized processes arise naturally in many learning-related tasks. While self-normalized
+  concentration has been extensively studied for scalar-valued processes, there are few results
+  for multidimensional processes outside of the sub-Gaussian setting. In this work, we construct a
+  general, self-normalized inequality for multivariate processes that satisfy a simple yet broad
+  sub-$ψ$ tail condition, which generalizes assumptions based on cumulant generating functions.
+  From this general inequality, we derive an upper law of the iterated logarithm for sub-$ψ$
+  vector-valued processes, which is tight up to small constants. We show how our inequality can be
+  leveraged to derive a variety of novel, self-normalized concentration inequalities under both
+  light and heavy-tailed observations. Further, we provide applications in prototypical
+  statistical tasks, such as parameter estimation in online linear regression, autoregressive
+  modeling, and bounded mean estimation via a new (multivariate) empirical Bernstein concentration
+  inequality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.09100
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: The Annals of Applied Probability
+  year: 2026
+  url: https://doi.org/10.1214/25-aap2246
+  doi: 10.1214/25-aap2246
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2310.09100
+  arxiv: '2310.09100'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

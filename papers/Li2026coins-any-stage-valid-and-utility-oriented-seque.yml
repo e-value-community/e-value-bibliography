@@ -1,0 +1,32 @@
+title: 'COINS: Any-Stage-Valid and Utility-Oriented Sequential Conformal Prediction'
+authors: Wangcheng Li, Nan Qiao, Xu Guo, Wenguang Sun
+year: 2026
+abstract: >-
+  In clinical diagnosis, sequential screening, and cascaded prediction systems, information is
+  often acquired in stages, with intermediate predictions guiding whether to act on the available
+  evidence or defer action to gather further information. We study sequential predictive inference
+  in these settings, aiming to construct a sequence of prediction sets that supports timely,
+  resource-efficient decisions while remaining reliable throughout the acquisition process. Our
+  objective is to maximize process-level utility subject to any-stage validity, which controls the
+  probability of miscoverage anywhere in the prediction sequence. We develop COINS, a conformal
+  framework for constructing such sequences, and establish a universality theorem identifying the
+  common exclusion structure underlying all nested, calibration-symmetric, any-stage valid
+  prediction sequences. Building on COINS, we develop Vopt-COINS for data-driven optimization of
+  prediction sequences under task-specific utilities based on prediction-set size, stopping time
+  and acquisition costs. Branchwise and localized extensions further support individualized
+  acquisition and calibration. Numerical studies demonstrate the effectiveness and practical
+  benefits of the proposed framework for reliable, resource-efficient sequential prediction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.07112
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.07112
+  arxiv: '2609.07112'
+arxiv: '2609.07112'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

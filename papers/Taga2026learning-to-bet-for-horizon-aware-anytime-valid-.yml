@@ -1,0 +1,36 @@
+title: Learning to Bet for Horizon-Aware Anytime-Valid Testing
+authors: Ege Onur Taga, Samet Oymak, Shubhanshu Shekhar
+year: 2026
+arxiv: '2603.19551'
+abstract: >-
+  We develop horizon-aware anytime-valid tests and confidence sequences for bounded means under a
+  strict deadline $N$. Using the betting/e-process framework, we cast horizon-aware betting as a
+  finite-horizon optimal control problem with state space $(t, \log W_t)$, where $t$ is the time
+  and $W_t$ is the test martingale value. We first show that in certain interior regions of the
+  state space, policies that deviate significantly from Kelly betting are provably suboptimal,
+  while Kelly betting reaches the threshold with high probability. We then identify sufficient
+  conditions showing that outside this region, more aggressive betting than Kelly can be better if
+  the bettor is behind schedule, and less aggressive can be better if the bettor is ahead. Taken
+  together these results suggest a simple phase diagram in the $(t, \log W_t)$ plane, delineating
+  regions where Kelly, fractional Kelly, and aggressive betting may be preferable. Guided by this
+  phase diagram, we introduce a Deep Reinforcement Learning approach based on a universal Deep
+  Q-Network (DQN) agent that learns a single policy from synthetic experience and maps simple
+  statistics of past observations to bets across horizons and null values. In limited-horizon
+  experiments, the learned DQN policy yields state-of-the-art results.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.19551
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/taga26a.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.19551
+  arxiv: '2603.19551'
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

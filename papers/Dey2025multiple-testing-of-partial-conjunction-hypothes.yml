@@ -1,0 +1,35 @@
+title: Multiple Testing of Partial Conjunction Hypotheses for Assessing Replicability Across Dependent
+  Studies
+authors: Monitirtha Dey, Trambak Banerjee, Prajamitra Bhuyan, Arunabha Majumdar
+year: 2025
+arxiv: '2511.04130'
+abstract: >-
+  Replicability is central to scientific progress, and the partial conjunction (PC) hypothesis
+  testing framework provides an objective tool to quantify it across disciplines. Existing PC
+  methods assume independent studies. Yet many modern applications, such as genome-wide
+  association studies (GWAS) with sample overlap, violate this assumption, leading to dependence
+  among study-specific summary statistics. Failure to account for this dependence can drastically
+  inflate type I errors when combining inferences. We propose e-Filter, a powerful procedure
+  grounded on the theory of e-values. It involves a filtering step that retains a set of the most
+  promising PC hypotheses, and a selection step where PC hypotheses from the filtering step are
+  marked as discoveries whenever their e-values exceed a selection threshold. We establish the
+  validity of e-Filter for FWER and FDR control under unknown study dependence. A comprehensive
+  simulation study demonstrates its excellent power gains over competing methods. We apply
+  e-Filter to a GWAS replicability study to identify consistent genetic signals for low-density
+  lipoprotein cholesterol (LDL-C). Here, the participating studies exhibit varying levels of
+  sample overlap, rendering existing methods unsuitable for combining inferences. A subsequent
+  pathway enrichment analysis shows that e-Filter replicated signals achieve stronger statistical
+  enrichment on biologically relevant LDL-C pathways than competing approaches.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2511.04130
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2511.04130
+  arxiv: '2511.04130'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

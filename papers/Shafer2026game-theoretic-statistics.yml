@@ -1,0 +1,23 @@
+title: Game-theoretic statistics
+authors: Glenn Shafer
+year: 2026
+doi: 10.14760/snap-2026-009-en
+abstract: >-
+  Statistical modelling is the art of connecting abstract models with scientific or practical
+  questions, so that the models' probabilities throw light on these questions. Standard
+  statistical theory summarizes the results with p-values. Unfortunately, p-values are widely
+  misunderstood. Game-theoretic statistics replaces them with e-values, also called betting
+  scores. The model makes a forecast, the statistician makes an imaginary bet against it, and the
+  e-value is the factor by which she multiplies her stake.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.14760/snap-2026-009-en
+labels:
+- methodology
+- e-values
+publications:
+  - name: Snapshots of Modern Mathematics from Oberwolfach 9/2026
+    year: 2026
+    url: https://doi.org/10.14760/snap-2026-009-en
+    doi: 10.14760/snap-2026-009-en
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

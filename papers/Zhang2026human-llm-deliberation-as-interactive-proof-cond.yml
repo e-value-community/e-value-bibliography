@@ -1,0 +1,31 @@
+title: 'Human-LLM Deliberation as Interactive Proof: Conditions for Verifiability Without Transparency'
+authors: Baotong Zhang, Dean Foster, João Sedoc
+year: 2026
+arxiv: '2609.24895'
+abstract: >-
+  When an LLM supplies an argument a user could not produce, how can the user decide whether to
+  accept its claim? Inspired by interactive proofs, we pair a computationally unbounded LLM prover
+  with a resource-bounded human verifier. The verifier checks requested details without seeing the
+  LLM's internals; passed checks accumulate evidence toward an acceptance threshold. Given
+  task-supplied bounds on false passes and human checking errors, we prove anytime-valid soundness
+  against adaptive provers: the probability of ever accepting a false claim is at most a chosen
+  error level. For a true claim, acceptance within the budget has probability at least the product
+  of per-round probabilities that the LLM responds adequately and the human checks correctly,
+  provided the threshold is reachable in time. Each additional check guards against false claims
+  but gives a true claim another chance to fail. Which review lengths meet both error targets
+  depends on the verifier's effort, cognitive load, expertise, and fatigue. With equal resources,
+  we identify conditions under which the bounds certify a review by local checks but not a
+  one-shot check. In LLM-only simulations on GPQA Diamond and Humanity's Last Exam, whether
+  answers accepted without revision were more accurate varied by task and model pair.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.24895
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2609.24895
+    arxiv: '2609.24895'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

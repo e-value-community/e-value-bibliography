@@ -1,0 +1,35 @@
+title: Universal inference for variance components
+authors: Yiqiao Zhang, Karl Oskar Ekvall, Aaron J. Molstad
+year: 2026
+doi: 10.1002/sta4.70141
+arxiv: '2509.00255'
+abstract: >-
+  We consider universal inference in variance components models, focusing on settings where the
+  parameter is near or at the boundary of the parameter set. Two cases, which are not handled by
+  existing state-of-the-art methods, are of particular interest: (i) inference on a variance
+  component when other variance components are near or at the boundary, and (ii) inference on
+  near-unity proportions of variability, that is, one variance component divided by the sum of all
+  variance components. Case (i) is relevant, for example, for the construction of componentwise
+  confidence intervals, as often used by practitioners. Case (ii) is particularly relevant when
+  making inferences about heritability in modern genetics. For both cases, we show how to
+  construct confidence intervals that are uniformly valid in finite samples. We propose algorithms
+  which, by exploiting the structure of variance components models, lead to substantially faster
+  computing than naive implementations of universal inference. The usefulness of the proposed
+  methods is illustrated by simulations and a data example with crossed random effects, which are
+  known to be complicated for conventional inference procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2509.00255
+labels:
+- methodology
+- e-values
+publications:
+- name: Stat
+  year: 2026
+  url: https://doi.org/10.1002/sta4.70141
+  doi: 10.1002/sta4.70141
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2509.00255
+  arxiv: '2509.00255'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

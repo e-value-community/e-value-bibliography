@@ -1,0 +1,40 @@
+title: Martingale methods for sequential estimation of convex functionals and divergences
+authors: Tudor Manole, Aaditya Ramdas
+year: 2023
+doi: 10.1109/tit.2023.3250099
+arxiv: '2103.09267'
+abstract: >-
+  We present a unified technique for sequential estimation of convex divergences between
+  distributions, including integral probability metrics like the kernel maximum mean discrepancy,
+  $\varphi$-divergences like the Kullback-Leibler divergence, and optimal transport costs, such as
+  powers of Wasserstein distances. This is achieved by observing that empirical convex divergences
+  are (partially ordered) reverse submartingales with respect to the exchangeable filtration,
+  coupled with maximal inequalities for such processes. These techniques appear to be
+  complementary and powerful additions to the existing literature on both confidence sequences and
+  convex divergences. We construct an offline-to-sequential device that converts a wide array of
+  existing offline concentration inequalities into time-uniform confidence sequences that can be
+  continuously monitored, providing valid tests or confidence intervals at arbitrary stopping
+  times. The resulting sequential bounds pay only an iterated logarithmic price over the
+  corresponding fixed-time bounds, retaining the same dependence on problem parameters (like
+  dimension or alphabet size if applicable). These results are also applicable to more general
+  convex functionals -- like the negative differential entropy, suprema of empirical processes,
+  and V-Statistics -- and to more general processes satisfying a key leave-one-out property.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2103.09267
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: IEEE Transactions on Information Theory
+    year: 2023
+    url: https://doi.org/10.1109/TIT.2023.3250099
+    doi: 10.1109/tit.2023.3250099
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2103.09267
+    arxiv: '2103.09267'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

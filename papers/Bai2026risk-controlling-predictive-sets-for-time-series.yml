@@ -1,0 +1,35 @@
+title: >-
+  Risk-Controlling Predictive Sets for Time-Series Events Under Selective Observation with
+  Finite-Sample Guarantees
+authors: Siyang Bai, Zheng Fang, Jie Chen
+year: 2026
+doi: 10.3390/axioms15090706
+abstract: >-
+  Selective labels create a support failure for prediction along dependent stochastic processes:
+  alert-triggered events are observed, whereas silent periods are usually unlabeled. We model this
+  mechanism as predictable inclusion on a filtered probability space and show that population risk
+  is non-identifiable when any silent region has zero labeling probability. Selective-observation
+  weighted risk control (SOWRC) combines alert labels with randomized audits through
+  Horvitz–Thompson losses and a martingale-mixture boundary. It provides finite-sample
+  calibration-population control under arbitrary temporal dependence subject to predictable design
+  choices, conditional ignorability, positivity, bounded losses, and deterministic design
+  envelopes, together with a prospective guarantee under an externally certified deployment-drift
+  envelope and explicit error allocation. Extensions cover anytime monitoring, multiple losses,
+  adaptive budgets, and estimated propensities. Synthetic maintenance and financial studies, a
+  complete-log replay on a real dependent sensor series with 100 audit-mask replications, and 4000
+  selection-level validation runs demonstrate support recovery and conservative probabilistic risk
+  control on deterministic threshold grids.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.3390/axioms15090706
+labels:
+- methodology
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: Axioms
+    year: 2026
+    url: https://doi.org/10.3390/axioms15090706
+    doi: 10.3390/axioms15090706
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,34 @@
+title: On the error control of invariant causal prediction
+authors: Jinzhou Li, Jelle J Goeman
+year: 2024
+arxiv: '2401.03834'
+abstract: >-
+  Invariant causal prediction provides a useful framework for identifying causal predictors of a
+  response using heterogeneous data from multiple environments. One valuable property of the
+  original invariant causal prediction method is that it guarantees no false causal discoveries
+  with high probability. Such a guarantee, however, can be overly conservative in some
+  applications, resulting in few or no causal discoveries. This raises a natural question: can
+  invariant causal prediction be equipped with less conservative error guarantees and thereby
+  extract more causal information from the data? In this paper, we address this question by
+  focusing on two widely used and more liberal guarantees: false discovery rate control and
+  simultaneous true discovery bounds. A key step in our approach is to reformulate invariant
+  causal prediction as a multiple testing problem. We then adopt the e-Closure principle to obtain
+  (simultaneous) false discovery rate control, together with new p-to-e calibrators tailored to
+  this setting. We also derive simultaneous true discovery bounds via closed testing, which
+  provide additional causal information without requiring extra assumptions and retain all
+  discoveries from the original invariant causal prediction method. Through simulations and a real
+  data application on educational attainment of teenagers in the United States, we show that these
+  more liberal error control guarantees can improve the practical usefulness of invariant causal
+  prediction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.03834
+labels:
+- methodology
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2401.03834
+    arxiv: '2401.03834'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,37 @@
+title: >-
+  When Can Conformal Risk Control Certify LLM Outputs? Bounds, Impossibility, and Adaptation for
+  Structured Generation
+authors: Varun Kotte
+year: 2026
+arxiv: '2606.29054'
+abstract: >-
+  Large language models (LLMs) deployed for structured generation (NER, JSON extraction, QA, and
+  classification) lack formal reliability guarantees, and standard heuristic abstention policies
+  violate user-specified risk targets on 7.5--12.5% of settings, with no per-deployment guarantee.
+  We characterize when conformal risk control (CRC) can certify structured LLM outputs and when it
+  provably cannot. First, we prove a sharpened, attained feasibility frontier: when base risk
+  μexceeds target α, any distribution-free method must abstain on at least (μ-α)/(M-α) of inputs,
+  yielding a closed-form feasibility test that decides whether CRC can work before running it.
+  Second, we establish a proven certification phase diagram across Hoeffding, empirical Bernstein,
+  and a betting-based e-CRC bound, verified over 716 configurations (six open-weight models
+  3B--72B, eight datasets, six scores): at strict targets (α<= 0.20) the certified sets are nested
+  (51/72/80 certified; Hoeffding-to-Bernstein the largest upgrade, +41%; e-CRC best under
+  calibration scarcity), while at relaxed targets the Hoeffding-Bernstein ordering reverses at a
+  closed-form frontier. Third, we show a negative shift result with a constructive counterpart:
+  under cross-dataset shift the target is violated on 14 of 16 transfers by static CRC and every
+  tested adaptive-conformal-inference (ACI) step size, yet a full-feedback anytime-valid monitor
+  certifies 0 of 16 while remaining non-vacuous. Relaxing the target to α= 0.40 unlocks practical
+  certification (28% NER, 13% QA, 19% CLS). The framework gives a three-step deployment recipe:
+  check feasibility, select the bound and score, then re-check under shift.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.29054
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.29054
+    arxiv: '2606.29054'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

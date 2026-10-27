@@ -1,0 +1,39 @@
+title: Conformal online model aggregation
+authors: Matteo Gasparin, Aaditya Ramdas
+year: 2024
+doi: null
+arxiv: '2403.15527'
+abstract: >-
+  Conformal prediction equips machine learning models with a reasonable notion of uncertainty
+  quantification without making strong distributional assumptions. It wraps around any prediction
+  model and converts point predictions into set predictions with a predefined marginal coverage
+  guarantee. However, conformal prediction only works if we fix the underlying machine learning
+  model in advance. A relatively unaddressed issue in conformal prediction is that of model
+  selection and/or aggregation: given a set of prediction models, which one should we
+  conformalize? This paper suggests that instead of performing model selection, it can be prudent
+  and practical to perform conformal set aggregation in an online, adaptive fashion. We propose a
+  wrapper that takes in several conformal prediction sets (themselves wrapped around black-box
+  prediction models), and outputs a single adaptively-combined prediction set. Our method, called
+  conformal online model aggregation (COMA), is based on combining the prediction sets from
+  several algorithms by weighted voting, and can be thought of as a sort of online stacking of the
+  underlying conformal sets. As long as the input sets have (distribution-free) coverage
+  guarantees, COMA retains coverage guarantees, under a negative correlation assumption between
+  errors and weights. We verify that the assumption holds empirically in all settings considered.
+  COMA is well-suited for decentralized or distributed settings, where different users may have
+  different models, and are only willing to share their prediction sets for a new test point in a
+  black-box fashion. As we demonstrate, it is also well-suited to settings with distribution drift
+  and shift, where model selection can be imprudent.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2403.15527
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-processes
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2403.15527
+  arxiv: '2403.15527'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

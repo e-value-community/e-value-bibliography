@@ -1,0 +1,27 @@
+title: A Conformal Martingales Approach for Recurrent Concept Drift
+authors: Charalambos Eliades, Harris Papadopoulos
+year: 2025
+abstract: >-
+  In many Concept Drift scenarios, previously seen data distributions reappear. This type of drift
+  is known as Recurrent Concept Drift and is especially common in environments with seasonality,
+  user-behavior cycles, or regime changes. This work extends our previously proposed Inductive
+  Conformal Martingales(ICM) concept drift approach so that it can reuse earlier models, thus
+  saving computational resources and data. Upon drift detection, the proposed approach selects a
+  model from a pool of all earlier models if (i) ICM fails to reject exchangeability between a
+  recent-data window and the window immediately following that model’s training set, and (ii) the
+  model’s F1 score on the current window exceeds a threshold derived from its historical
+  performance. It only trains a new model when no stored model satisfies both criteria.
+  Experiments on three public data streams (STAGGER, Airlines and ELEC) cut retraining events by
+  up to 94% and reduce wasted training instances by 22%-33%, while limiting accuracy loss to less
+  than 3 percentage points relative to always retraining.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v266/eliades25a.html
+labels:
+- methodology
+- applications
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2025
+  url: https://raw.githubusercontent.com/mlresearch/v266/main/assets/eliades25a/eliades25a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

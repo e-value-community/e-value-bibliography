@@ -1,0 +1,36 @@
+title: Multiple testing under negative dependence
+authors: Ziyu Chi, Aaditya Ramdas, Ruodu Wang
+year: 2025
+doi: 10.3150/24-bej1768
+arxiv: '2212.09706'
+abstract: >-
+  The multiple testing literature has primarily dealt with three types of dependence assumptions
+  between p-values: independence, positive regression dependence, and arbitrary dependence. In
+  this paper, we provide what we believe are the first theoretical results under various notions
+  of negative dependence (negative Gaussian dependence, negative regression dependence, negative
+  association, negative orthant dependence and weak negative dependence). These include the Simes
+  global null test and the Benjamini-Hochberg procedure, which are known experimentally to be
+  anti-conservative under negative dependence. The anti-conservativeness of these procedures is
+  bounded by factors smaller than that under arbitrary dependence (in particular, by factors
+  independent of the number of hypotheses). We also provide new results about negatively dependent
+  e-values, and provide several examples as to when negative dependence may arise. Our proofs are
+  elementary and short, thus amenable to extensions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2212.09706
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Bernoulli
+    year: 2024
+    url: https://doi.org/10.3150/24-BEJ1768
+    doi: 10.3150/24-bej1768
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2212.09706
+    arxiv: '2212.09706'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

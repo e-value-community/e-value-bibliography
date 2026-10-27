@@ -1,0 +1,29 @@
+title: Improving online FDR procedures via online analogs of e-closure and compound e-values
+authors: Ziyu Xu, Lasse Fischer, Aaditya Ramdas
+year: 2026
+arxiv: '2603.24792'
+abstract: >-
+  In many scientific applications, hypotheses are generated and tested continuously in a stream.
+  We develop a framework for improving online multiple testing procedures with false discovery
+  rate (FDR) control under arbitrary dependence. Our approach is two-fold: we construct methods
+  via the online e-closure principle, as well as a novel formulation of online compound e-values
+  that is defined through donations. This yields strict power improvements over state-of-the-art
+  e-value and p-value procedures while retaining FDR control. We further derive algorithms that
+  compute the decision at time $t$ in $O(\log t)$ time, and we demonstrate improved empirical
+  performance on synthetic and real data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.24792
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Conference on Uncertainty in Artificial Intelligence
+    year: 2026
+    url: https://proceedings.mlr.press/v337/xu26a.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2603.24792
+    arxiv: '2603.24792'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

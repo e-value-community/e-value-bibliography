@@ -1,0 +1,37 @@
+title: Multiple testing with anytime-valid Monte Carlo p-values
+authors: Lasse Fischer, Timothy Barry, Aaditya Ramdas
+year: 2026
+doi: 10.1214/26-ejs2514
+arxiv: '2404.15586'
+abstract: >-
+  In contemporary problems involving genetic or neuroimaging data, thousands of hypotheses need to
+  be tested. Due to their high power, and finite sample guarantees on type-I error under weak
+  assumptions, Monte Carlo permutation tests are often considered as gold standard for these
+  settings. However, the enormous computational effort required for (thousands of) permutation
+  tests is a major burden. In this paper, we integrate recently constructed anytime-valid
+  permutation p-values into a broad class of multiple testing procedures, including the
+  Benjamini-Hochberg procedure. This allows to fully adapt the number of permutations to the
+  underlying data and thus, for example, to the number of rejections made by the multiple testing
+  procedure. Even though this data-adaptive stopping can induce dependencies between the p-values
+  that violate the usual assumptions of the Benjamini-Hochberg procedure, we prove that our
+  approach controls the false discovery rate under mild assumptions. Furthermore, our method
+  provably decreases the required number of permutations substantially without compromising power.
+  On a real genomics data set, our method reduced the computational time from more than three days
+  to less than four minutes while increasing the number of rejections.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2404.15586
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Electronic Journal of Statistics
+    year: 2026
+    url: https://doi.org/10.1214/26-ejs2514
+    doi: 10.1214/26-ejs2514
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2404.15586
+    arxiv: '2404.15586'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

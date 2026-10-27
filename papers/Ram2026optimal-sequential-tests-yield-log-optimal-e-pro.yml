@@ -1,0 +1,31 @@
+title: Optimal sequential tests yield log-optimal e-processes
+authors: Ashwin Ram, Aaditya Ramdas
+year: 2026
+arxiv: '2605.12720'
+abstract: >-
+  It has been recently shown that e-processes are sufficient for sequential testing in the
+  following sense: every level-$α$ sequential test can be obtained by thresholding an e-process at
+  $1/α$. However, in the above result, neither does the test have to be asymptotically optimal (in
+  terms of stopping times) nor does the e-process have to be asymptotically log-optimal. It has
+  separately been shown that asymptotically log-optimal e-processes yield asymptotically optimal
+  sequential tests. In this paper, we prove the converse, arguably completing the story: it is
+  possible to aggregate asymptotically optimal sequential tests into asymptotically log-optimal
+  e-processes. This is accomplished by using a new class of WAIT e-processes: those that are
+  Weighted Aggregates of Indicators of stopping Times that begin at zero, are nondecreasing and
+  increase to infinity under the alternative at the optimal rate. Importantly, the paper discusses
+  several nuances in the varied definitions of asymptotic (log-)optimality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.12720
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.12720
+  arxiv: '2605.12720'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

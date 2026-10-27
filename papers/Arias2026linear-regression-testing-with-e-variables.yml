@@ -1,0 +1,35 @@
+title: Linear regression testing with e-variables
+authors: S. U. Arias
+year: 2026
+abstract: >-
+  $\textit{P}$-values have been the main tool for designing statistical tests for almost a
+  century. The novel theory of $\textit{e}$-values offers an alternative approach, providing
+  testing procedures that allow safe optional stopping of data collection, and safety guarantees
+  for data-dependent significance levels. We systematically compare two types of
+  $\textit{e}$-variables that have been proposed for linear regression testing: the Model-X (MX)
+  and the Simple Linear Regression (S-LR) $\textit{e}$-variable. These $\textit{e}$-variables
+  differ fundamentally in their design principles. The MX $\textit{e}$-variable was originally
+  developed for conditional independence testing and relies on knowledge of part of the underlying
+  distribution of the $covariates$. In contrast, the S-LR $\textit{e}$-variable was specifically
+  designed for linear regression testing, exploiting linearity and distributional assumptions on
+  the $target$ variable. We analyze and mathematically compare these $\textit{e}$-variables in a
+  setting in which both methods are simultaneously applicable. A key instance of this setting is
+  provided by randomized controlled trials. For simple alternative hypotheses, we prove that,
+  asymptotically as the sample size tends to infinity, MX never outperforms S-LR in terms of
+  $\textit{e}$-power. However, we show that MX can provide robust tests with theoretical safety
+  guarantees of great practical relevance. Surprisingly, we find that in a generalized ANCOVA
+  setting, the asymptotic $\textit{e}$-power difference is very small, of order $O(||\delta||^6)$
+  as the effect size vector $\delta$ tends to zero. All our findings naturally extend to the
+  adaptations of S-LR and MX $\textit{e}$-variables for testing the full (composite) linear
+  alternative hypothesis, which are directly applicable to linear regression testing in practice.
+abstract_status: source_abstract
+abstract_source: https://ir.cwi.nl/pub/36665
+labels:
+- methodology
+- e-values
+publications:
+  - name: MSc thesis
+    year: 2026
+    url: https://ir.cwi.nl/pub/36665
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

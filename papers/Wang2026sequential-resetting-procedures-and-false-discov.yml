@@ -1,0 +1,31 @@
+title: Sequential resetting procedures and false discovery rate
+authors: Qiuqi Wang, Ruodu Wang, Zhenyuan Zhang
+year: 2026
+arxiv: '2610.09339'
+abstract: >-
+  Data arrive sequentially, each associated with a null hypothesis. We develop testing procedures
+  to locate intervals in which some null hypotheses fail, with false discovery rate (FDR) control.
+  The new procedures are called sequential resetting procedures, and they are based on e-values
+  and test supermartingales. We also develop a refined version of the procedures by dropping less
+  informative data points before the block minimum of the test supermartingale in each rejection
+  block. These procedures have explicit FDR bounds under two settings: a classic setting of
+  independence and the more general setting of possible dependence across null data and non-null
+  data. These FDR bounds are independent of the testing horizon, and the general one has anytime
+  validity, but it has an extra logarithm factor compared with the standard FDR level. We present
+  simulation studies and data experiments with applications of sequential resetting procedures to
+  LLM watermark detection and financial backtesting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.09339
+labels:
+- methodology
+- e-values
+- e-processes
+- multiple testing
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.09339
+  arxiv: '2610.09339'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

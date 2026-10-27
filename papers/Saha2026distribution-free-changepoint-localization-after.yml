@@ -1,0 +1,31 @@
+title: Distribution-free changepoint localization after sequential change detection
+authors: Aytijhya Saha, Aaditya Ramdas
+year: 2026
+arxiv: '2606.01256'
+abstract: >-
+  This paper introduces a distribution-free framework for constructing post-detection confidence
+  sets for changepoints after stopping a sequential change detection procedure. It is well known
+  that conformal test martingales can be used to sequentially detect changes in distribution, but
+  by themselves provide no inference for the time at which a proclaimed change occurred. Past work
+  on post-detection inference requires pre- and post-change classes of distributions to be known,
+  but this paper accomplishes localization of the changepoint without any distributional
+  assumptions. We establish finite-sample coverage guarantees (conditional on correct detection).
+  We provide non-asymptotic bounds on the conditional expected size of the confidence sets. Under
+  suitable asymptotic regimes, we prove that the conditional expected size of the confidence set
+  remains uniformly bounded and demonstrate strong empirical performance on simulated and real
+  data. To the best of our knowledge, this is the first general distribution-free framework for
+  sequential changepoint localization with valid post-detection coverage.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.01256
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.01256
+  arxiv: '2606.01256'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

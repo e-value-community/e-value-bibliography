@@ -1,0 +1,29 @@
+title: Testing Exchangeability for Multiple Sequences of P-values
+authors: Henrik Boström
+year: 2025
+abstract: >-
+  Given a sequence of p-values, conformal test martingales can be used for signaling that the
+  exchangeability assumption is violated, while the false alarm rate is controlled by a user-
+  specified significance level. In some scenarios, multiple p-values are observed at each time
+  step, e.g., p-values may be received from multiple conformal predictors for a single target, or
+  p-values are obtained for multiple targets. In such cases, signaling whenever a violation is
+  detected for any of the sequences, leads to an increased risk of false alarms. Bonferroni
+  correction, which is a standard approach to controlling the error rate when testing multiple
+  hypotheses, is shown to be dominated by the straightforward approach of forming a single
+  conformal test martingale from the martingales generated from the individual sequences of
+  p-values. In addition to testing exchangeability for the individual sequences, approaches for
+  testing them jointly are also investigated. For the latter, the use of aggregation operators to
+  transform multiple sequences of p-values into a single sequence is investigated, as well as a
+  previously proposed approach for detecting covariate shift. Experimental results are presented,
+  highlighting the potential strengths and weaknesses of the different approaches.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v266/bostrom25a.html
+labels:
+- applications
+- e-values
+publications:
+- name: Machine Learning
+  year: 2025
+  url: https://raw.githubusercontent.com/mlresearch/v266/main/assets/bostrom25a/bostrom25a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,27 @@
+title: On the Empirical Validity of the Bayesian Method
+authors:
+- Vladimir Vovk
+- Vladimir V. V’yugin
+year: 1993
+doi: 10.1111/j.2517-6161.1993.tb01482.x
+abstract: >-
+  The ideas in Kolmogorov's programme for algorithmic substantiation of applications of
+  probability make it possible to define a measure of disagreement between the probability
+  distribution representing the attitude of a coherent individual towards a random experiment and
+  the outcome of the experiment. When there is agreement we say that the probability distribution
+  is empirically valid. We prove quantitatively that formulae of Bayesian statistics transform
+  empirically valid probability distributions into other empirically valid distributions.
+abstract_status: source_abstract
+abstract_source: https://academic.oup.com/jrsssb/article/55/1/253/7035831
+labels:
+- philosophy
+- methodology
+- e-values
+- probability theory
+publications:
+  - name: Journal of the Royal Statistical Society Series B
+    year: 1993
+    url: https://doi.org/10.1111/j.2517-6161.1993.tb01482.x
+    doi: 10.1111/j.2517-6161.1993.tb01482.x
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

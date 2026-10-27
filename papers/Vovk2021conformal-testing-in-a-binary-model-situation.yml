@@ -1,0 +1,26 @@
+title: Conformal testing in a binary model situation
+authors: Vladimir Vovk
+year: 2021
+arxiv: '2104.01885'
+abstract: >-
+  Conformal testing is a way of testing the IID assumption based on conformal prediction. The
+  topic of this note is computational evaluation of the performance of conformal testing in a
+  model situation in which IID binary observations generated from a Bernoulli distribution are
+  followed by IID binary observations generated from another Bernoulli distribution, with the
+  parameters of the distributions and changepoint unknown. Existing conformal test martingales can
+  be used for this task and work well in simple cases, but their efficiency can be improved
+  greatly.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2104.01885
+labels:
+- applications
+publications:
+  - name: Symposium on Conformal and Probabilistic Prediction and Applications
+    year: 2021
+    url: https://proceedings.mlr.press/v152/vovk21a.html
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2104.01885
+    arxiv: '2104.01885'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,29 @@
+title: Anytime-valid simulation-based hypothesis testing
+authors: Patrick Forré, Lydia Brenner
+year: 2026
+arxiv: '2610.08210'
+abstract: >-
+  For a given data distribution $(X_t)_{t \in \mathbb{N}} \sim Q$ i.i.d., we investigate the
+  hypothesis testing problem: $H_0: Q = P_0$ vs. $H_1: Q = P_1$, for two different model
+  probability distributions $P_0$ and $P_1$. In contrast to the standard setting, where analytic
+  densities $p_0$ and $p_1$ are given, here, we consider the density-free setting, where we only
+  have access to i.i.d. simulations $(Z^0_t)_{t \in \mathbb{N}} \sim P_0$ and $(Z^1_t)_{t \in
+  \mathbb{N}} \sim P_1$. For this simulation-based hypothesis testing setting, we construct an
+  e-test martingale, resulting in a sequential test with anytime-valid type-I error guarantees,
+  approximate growth optimality, geometrically decaying type-II error bounds, and asymptotic power
+  one. Most ingredients used in our constructions are variants of well known concepts. The value
+  of this paper lies in the compact presentation of an effective, anytime-valid solution for the
+  density-free simulation-based sequential hypothesis testing case.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.08210
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.08210
+  arxiv: '2610.08210'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

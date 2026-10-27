@@ -1,0 +1,35 @@
+title: Anytime nonparametric detection of distributional shifts in financial data via e-process mixtures
+authors: Tomislav Kesić, Goran Oblaković, Mato Njavro, Andrej Novak
+year: 2026
+doi: 10.1007/s10115-026-02836-9
+abstract: >-
+  We introduce Drift Radar, an anytime-valid detector of distributional shifts in multivariate
+  financial streams. The method compares adjacent (or seasonality-matched) windows using a panel
+  of nonparametric two-sample functionals—random Fourier features (RFF) MMD, energy distance,
+  sliced Wasserstein, rank-based dependence (Spearman), and short-lag autocorrelation—each
+  standardized on a stable baseline. Standardized scores are aggregated at every update into a
+  test martingale (e-process), triggering segment-wise calibrated alarms when the evidence exceeds
+  1/α. Two design elements make the approach operational: (i) mixtures across scales (e-values
+  averaged over L ∈ {60,200,600}) to capture both fast and slow drift; and (ii) scheduled restarts
+  (e.g., every 6 h, yielding segment-wise anytime validity at level α) to localize evidence and
+  prevent carryover across segments. On five stylized scenarios (mean, volatility, correlation,
+  tail index, AR(1) shifts), Drift Radar detects promptly where appropriate and, at higher
+  sensitivity, responds to temporal and dependence reconfigurations that elude mean-only
+  detectors. In a BTC/USD 1-minute study around the April 2024 Bitcoin halving, we observe
+  repeated post-event alarms under 6-hour restarts, attribution indicates that the dominant
+  deviations are captured by distance-based components (energy distance, MMD, and sliced W₁), with
+  smaller contributions from rank-dependence and short-lag autocorrelation. Compared to KS/PSI,
+  variance–CUSUM/Page–Hinkley, and an RFF–KCUSUM baseline, Drift Radar provides calibrated,
+  interpretable, and streaming-friendly detection with O(Ld + d²) memory per active scale.
+abstract_status: source_abstract
+abstract_source: https://link.springer.com/article/10.1007/s10115-026-02836-9
+labels:
+- applications
+- e-processes
+publications:
+- name: Knowledge and Information Systems
+  year: 2026
+  url: https://doi.org/10.1007/s10115-026-02836-9
+  doi: 10.1007/s10115-026-02836-9
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: Improved E-Value Thresholds with Applications to Multiple and Sequential Testing
+authors: Jiayi Shen, Houzhen Liu, Qirun Zeng, Manhin Poon, Weiqi Yang, Qixin Zhang, Weiwei Zhuang
+year: 2026
+arxiv: '2610.11186'
+abstract: >-
+  E-values provide a flexible framework for statistical inference, but the universal threshold
+  $1/α$ can be conservative when the null distribution has additional structure. We study how
+  structural restrictions limit the worst-case concentration underlying Markov's inequality, using
+  a nondecreasing density model to constrain tail allocation and an $L$-Lipschitz density model to
+  control local concentration. The nondecreasing model gives the minimax rejection threshold, and
+  the Lipschitz condition yields a sharper closed-form threshold with an $O(L^{-1/2})$ relative
+  improvement over $1/α$. We further show that this threshold is asymptotically sharp as $α\to0$,
+  in the sense that no uniformly valid threshold can improve on it by a fixed positive
+  $L$-dependent amount. We then incorporate the Lipschitz calibration into multiple testing
+  procedures with FDR control and use the same structural information to construct calibrated
+  conditional e-values for anytime-valid sequential inference. Numerical experiments illustrate
+  the resulting gains in discoveries and the trade-offs of the sequential procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.11186
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.11186
+  arxiv: '2610.11186'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

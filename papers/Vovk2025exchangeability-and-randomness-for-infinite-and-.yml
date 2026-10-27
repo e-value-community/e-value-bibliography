@@ -1,0 +1,23 @@
+title: Exchangeability and randomness for infinite and finite sequences
+authors: Vladimir Vovk
+year: 2025
+abstract: >-
+  Randomness (in the sense of being generated in an IID fashion) and exchangeability are standard
+  assumptions in nonparametric statistics and machine learning, and relations between them have
+  been a popular topic of research. This short paper draws the reader's attention to the fact
+  that, while for infinite sequences of observations the two assumptions are almost
+  indistinguishable, the difference between them becomes very significant for finite sequences of
+  a given length.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.22162
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.22162
+  arxiv: '2512.22162'
+arxiv: '2512.22162'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

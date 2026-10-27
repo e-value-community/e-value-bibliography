@@ -1,0 +1,29 @@
+title: Conformal e-testing
+authors: Vladimir Vovk, Ilia Nouretdinov, Alex Gammerman
+year: 2025
+doi: 10.1016/j.patcog.2025.111841
+arxiv: '2006.02329'
+abstract: >-
+  There is a useful counterpart of conformal prediction for e-values, called conformal
+  e-prediction. Conformal prediction can serve as basis for testing the assumption of
+  exchangeability, leading to conformal testing. Similarly, conformal e-prediction can also serve
+  as basis for testing. The resulting conformal e-testing looks very different from but inherits
+  some strengths of conformal testing; it even has some advantages over conformal testing. In this
+  paper we discuss systematically both strengths and limitations of conformal e-testing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2006.02329
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Pattern Recognition
+  year: 2025
+  url: https://doi.org/10.1016/j.patcog.2025.111841
+  doi: 10.1016/j.patcog.2025.111841
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2006.02329
+  arxiv: '2006.02329'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

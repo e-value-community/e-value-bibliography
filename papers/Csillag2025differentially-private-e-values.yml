@@ -1,0 +1,28 @@
+title: Differentially Private E-Values
+authors: Daniel Csillag, Diego Mesquita
+year: 2025
+arxiv: '2510.18654'
+abstract: >-
+  E-values have gained prominence as flexible tools for statistical inference and risk control,
+  enabling anytime- and post-hoc-valid procedures under minimal assumptions. However, many
+  real-world applications fundamentally rely on sensitive data, which can be leaked through
+  e-values. To ensure their safe release, we propose a general framework to transform non-private
+  e-values into differentially private ones. Towards this end, we develop a novel biased
+  multiplicative noise mechanism that ensures our e-values remain statistically valid. We show
+  that our differentially private e-values attain strong statistical power, and are asymptotically
+  as powerful as their non-private counterparts. Experiments across online risk monitoring,
+  private healthcare, and conformal e-prediction demonstrate our approach's effectiveness and
+  illustrate its broad applicability.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.18654
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2510.18654
+  arxiv: '2510.18654'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

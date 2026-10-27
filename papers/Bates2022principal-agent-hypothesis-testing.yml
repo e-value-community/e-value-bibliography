@@ -1,0 +1,38 @@
+title: Principal-agent hypothesis testing
+authors: Stephen Bates, Michael I. Jordan, Michael Sklar, Jake A. Soloff
+year: 2026
+doi: 10.1080/01621459.2026.2724031
+arxiv: '2205.06812'
+abstract: >-
+  Consider the relationship between a regulator (the principal) and an experimenter (the agent)
+  such as a pharmaceutical company. The pharmaceutical company wishes to sell a drug for profit,
+  whereas the regulator wishes to allow only efficacious drugs to be marketed. The efficacy of the
+  drug is not known to the regulator, so the pharmaceutical company must run a costly trial to
+  prove efficacy to the regulator. Critically, the statistical protocol used to establish efficacy
+  affects the behavior of a strategic, self-interested agent; a lower standard of statistical
+  evidence incentivizes the agent to run more trials that are less likely to be effective. The
+  interaction between the statistical protocol and the incentives of the pharmaceutical company is
+  crucial for understanding this system and designing protocols with high social utility. In this
+  work, we discuss how the regulator can set up a protocol with payoffs based on statistical
+  evidence. We show how to design protocols that are robust to an agent's strategic actions, and
+  derive the optimal protocol in the presence of strategic entrants.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2205.06812
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- applications
+- e-values
+- principal-agent
+publications:
+- name: Journal of the American Statistical Association
+  year: 2026
+  url: https://doi.org/10.1080/01621459.2026.2724031
+  doi: 10.1080/01621459.2026.2724031
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2205.06812
+  arxiv: '2205.06812'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

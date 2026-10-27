@@ -1,0 +1,36 @@
+title: On the near-optimality of betting confidence sets for bounded means
+authors: Shubhanshu Shekhar, Aaditya Ramdas
+year: 2023
+arxiv: '2310.01547'
+abstract: >-
+  Constructing nonasymptotic confidence intervals (CIs) for the mean of a univariate distribution
+  from independent and identically distributed (i.i.d.) observations is a fundamental task in
+  statistics. For bounded observations, a classical nonparametric approach proceeds by inverting
+  standard concentration bounds, such as Hoeffding's or Bernstein's inequalities. Recently, an
+  alternative betting-based approach for defining CIs and their time-uniform variants called
+  confidence sequences (CSs), has been shown to be empirically superior to the classical methods.
+  In this paper, we provide theoretical justification for this improved empirical performance of
+  betting CIs and CSs. Our main contributions are as follows: (i) We first compare CIs using the
+  values of their first-order asymptotic widths (scaled by $\sqrt{n}$), and show that the betting
+  CI of Waudby-Smith and Ramdas (2023) has a smaller limiting width than existing empirical
+  Bernstein (EB)-CIs. (ii) Next, we establish two lower bounds that characterize the minimum width
+  achievable by any method for constructing CIs/CSs in terms of certain inverse information
+  projections. (iii) Finally, we show that the betting CI and CS match the fundamental limits,
+  modulo an additive logarithmic term and a multiplicative constant. Overall these results imply
+  that the betting CI~(and CS) admit stronger theoretical guarantees than the existing
+  state-of-the-art EB-CI~(and CS); both in the asymptotic and finite-sample regimes.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.01547
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2310.01547
+  arxiv: '2310.01547'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

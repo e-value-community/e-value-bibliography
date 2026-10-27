@@ -1,0 +1,30 @@
+title: Evaluation Metrics as Averaged Outcomes of Fair Gambles
+authors: Rabanus Derr, Robert C. Williamson
+year: 2024
+arxiv: '2401.14483'
+abstract: >-
+  In the current practices of machine learning, the evaluation of forecasts has become a
+  cornerstone of scientific progress. A multitude of evaluation metrics have been suggested and
+  used to qualify "good" forecasts. What do those metrics share? How are they related? In this
+  work, we use a protocol borrowed from game-theoretic probability to show that a large part of
+  evaluation metrics can be viewed as averaged outcomes of fair gambles. Intuitively, a fair
+  gambler is one which a forecaster would expect to fail. Hence, the gambler's ability to gain
+  disproves the quality of the forecast. Standard evaluation metrics are then variants of choices
+  of such fair gambles. In particular, this choice is structured along two dimensions, one of
+  which separates calibration-type and regret-type metrics. In particular, this framework sheds
+  light on the relationship of calibration and regret showing a theoretical equivalence in their
+  ability to evaluate when being scaled appropriately, but the incomparability of obtained scores.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.14483
+labels:
+- methodology
+- e-values
+- e-processes
+- probability theory
+publications:
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2401.14483
+    arxiv: '2401.14483'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

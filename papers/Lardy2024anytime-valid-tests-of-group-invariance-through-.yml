@@ -1,0 +1,21 @@
+title: Anytime-Valid Tests of Group Invariance through Conformal Prediction
+authors: Tyron Lardy, Muriel Felipe Pérez-Ortiz
+year: 2024
+arxiv: '2401.15461'
+abstract: >-
+  We develop anytime-valid tests of invariance under the action of compact groups. The resulting
+  test statistics are optimal in a logarithmic-growth sense. We apply our method to extend recent
+  anytime-valid tests of independence and to construct tests of normality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2401.15461
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2401.15461
+  arxiv: '2401.15461'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

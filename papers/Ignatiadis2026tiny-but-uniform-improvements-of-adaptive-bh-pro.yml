@@ -1,0 +1,28 @@
+title: Tiny but uniform improvements of adaptive BH procedures via compound e-values
+authors: Nikolaos Ignatiadis, Ruodu Wang, Aaditya Ramdas
+year: 2026
+arxiv: '2603.21424'
+abstract: >-
+  After the seminal Benjamini--Hochberg (BH) procedure for controlling the false discovery rate
+  (FDR) was proposed, dozens of papers have attempted to improve its power by adapting to the
+  unknown proportion of nulls. We observe that most null-proportion estimates are simply compound
+  e-values in disguise, and thus most adaptive FDR procedures can be interpreted as instances of
+  the e-weighted BH (ep-BH) procedure of Ignatiadis, Wang, and Ramdas [2024], i.e., the BH
+  procedure weighted by compound e-values. This lens helps us show that most existing procedures
+  are inadmissible, and we provide uniform improvements to them. While the improvements are small
+  in practice, they still come for free (without additional assumptions), and help unify the
+  literature. We also use our "leave-one-out ep-BH method" to design a new method with
+  finite-sample FDR control for the simultaneous t-test setting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.21424
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.21424
+  arxiv: '2603.21424'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

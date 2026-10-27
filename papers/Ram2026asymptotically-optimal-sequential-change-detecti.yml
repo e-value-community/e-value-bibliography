@@ -1,0 +1,31 @@
+title: Asymptotically optimal sequential change detection for bounded means
+authors: Ashwin Ram, Aaditya Ramdas
+year: 2026
+abstract: >-
+  We consider the problem of quickest changepoint detection under the Average Run Length (ARL)
+  constraint where the pre-change and post-change laws lie in composite families $\mathscr{P}$ and
+  $\mathscr{Q}$ respectively. In such a problem, a massive challenge is characterizing the best
+  possible detection delay when the "hardest" pre-change law in $\mathscr{P}$ depends on the
+  unknown post-change law $Q\in\mathscr{Q}$. And typical simple-hypothesis likelihood-ratio
+  arguments for Page-CUSUM and Shiryaev-Roberts do not at all apply here. To that end, we derive a
+  universal sharp lower bound in full generality for any ARL-calibrated changepoint detector in
+  the low type-I error ($γ\to\infty$ regime) of the order
+  $\log(γ)/\mathrm{KL}_{\mathrm{inf}}(Q,\mathscr{P})$. We show achievability of this universal
+  lower bound by proving a tight matching upper bound (with the same sharp $\logγ$ constant) in
+  the important bounded mean detection setting. In addition, for separated mean shifts, we also we
+  derive a uniform minimax guarantee of this achievability over the alternatives.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.05272
+labels:
+- applications
+- e-processes
+- e-detectors
+- information theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.05272
+  arxiv: '2602.05272'
+arxiv: '2602.05272'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

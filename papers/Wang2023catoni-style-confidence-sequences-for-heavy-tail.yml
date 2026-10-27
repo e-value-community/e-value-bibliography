@@ -1,0 +1,39 @@
+title: Catoni-style confidence sequences for heavy-tailed mean estimation
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2023
+doi: 10.1016/j.spa.2023.05.007
+arxiv: '2202.01250'
+abstract: >-
+  A confidence sequence (CS) is a sequence of confidence intervals that is valid at arbitrary
+  data-dependent stopping times. These are useful in applications like A/B testing, multi-armed
+  bandits, off-policy evaluation, election auditing, etc. We present three approaches to
+  constructing a confidence sequence for the population mean, under the minimal assumption that
+  only an upper bound $σ^2$ on the variance is known. While previous works rely on light-tail
+  assumptions like boundedness or subGaussianity (under which all moments of a distribution
+  exist), the confidence sequences in our work are able to handle data from a wide range of
+  heavy-tailed distributions. The best among our three methods -- the Catoni-style confidence
+  sequence -- performs remarkably well in practice, essentially matching the state-of-the-art
+  methods for $σ^2$-subGaussian data, and provably attains the $\sqrt{\log \log t/t}$ lower bound
+  due to the law of the iterated logarithm. Our findings have important implications for
+  sequential experimentation with unbounded observations, since the $σ^2$-bounded-variance
+  assumption is more realistic and easier to verify than $σ^2$-subGaussianity (which implies the
+  former). We also extend our methods to data with infinite variance, but having $p$-th central
+  moment ($1<p<2$).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2202.01250
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- confidence sequences
+publications:
+  - name: Stochastic Processes and their Applications
+    year: 2023
+    url: https://doi.org/10.1016/j.spa.2023.05.007
+    doi: 10.1016/j.spa.2023.05.007
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2202.01250
+    arxiv: '2202.01250'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

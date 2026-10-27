@@ -1,0 +1,30 @@
+title: Merging sequential e-values via martingales
+authors: Vladimir Vovk, Ruodu Wang
+year: 2024
+doi: 10.1214/24-EJS2228
+abstract: >-
+  We study the problem of merging sequential or independent e-values into one e-value or
+  e-process. We describe a class of e-value merging functions via martingales and show that it
+  dominates all merging methods for sequential e-values. All admissible methods for constructing
+  e-processes can also be obtained in this way. In the case of merging independent e-values, the
+  situation becomes much more complicated, and we provide a general class of such merging
+  functions based on martingales applied to reordered data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2007.06382
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+  - name: Electronic Journal of Statistics
+    year: 2024
+    url: https://doi.org/10.1214/24-EJS2228
+    doi: 10.1214/24-EJS2228
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2007.06382
+    arxiv: '2007.06382'
+arxiv: '2007.06382'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

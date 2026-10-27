@@ -1,0 +1,37 @@
+title: 'Selection-Valid and Anytime-Valid Evidence after Adaptive Model Search: Holdout Stratification,
+  Cross-Fitting, E-Value Aggregation, and Sequential E-Processes'
+authors: Mahsa Keikha
+year: 2026
+doi: 10.2139/ssrn.7537470
+abstract: >-
+  Adaptive analysis creates a recurring tension in model-falsification studies: regime
+  definitions, candidate plans, dependence assumptions, and evidence calibrations may depend on
+  earlier data, while the final rejection claim must remain valid after selection, repeated
+  inspection, and optional stopping. We develop a finite-sample certification architecture around
+  a localized seven-cell rejection witness for a declared binary latent measurement family. The
+  framework covers six increasingly adaptive settings: predeclared drift regimes with familywise
+  error control; arbitrary pilot selection followed by independent holdout certification; finite
+  same-data candidate families with multiplicity control; cross-fitted certification across
+  independent blocks; e-value aggregation of dependent fold-level evidence; and fresh-round
+  sequential accumulation through a predictable reserve-stake e-process. Conditional null
+  expectation at most one for each round e-value yields a nonnegative supermartingale, so Ville's
+  inequality provides an anytime-valid rejection rule under repeated inspection and optional
+  stopping. Exact rational checkpoints quantify the cost of multiplicity, the gain from
+  distributed e-value aggregation in a specified cross-fitted configuration, and an explicit
+  two-round anytime crossing. The results are model-relative: they certify incompatibility with a
+  declared statistical family under stated dependence, freshness, and selection assumptions.
+  Non-rejection remains inconclusive, and the framework does not validate the semantics of a
+  latent state or remove assumptions of the underlying measurement model.
+abstract_status: source_abstract
+abstract_source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7537470
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7537470
+  doi: 10.2139/ssrn.7537470
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

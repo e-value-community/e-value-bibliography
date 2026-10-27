@@ -1,0 +1,30 @@
+title: 'On E-Backtesting: Generalizations and Sample Size Determination'
+authors: Dennis Oestmann, Thorsten Dickhaus
+year: 2026
+abstract: >-
+  We present an approach for determining sample sizes required to detect underestimations of the
+  expected shortfall with a prescribed power when applying the recently proposed e-backtesting
+  procedure. We consider scenarios in which the value-at-risk at level $p$ is always estimated
+  correctly, while the difference between the true expected shortfall and the value-at-risk is
+  underestimated by a given factor $r$. We show that exploiting the structure of the backtest
+  e-statistic proposed for backtesting the expected shortfall at level $p$ enables the derivation
+  of approximate lower bounds for the required sample sizes by considering a sequence of
+  independent and identically distributed Bernoulli random variables. We also discuss potential
+  limitations of this approximation and compare the resulting sample size requirements with those
+  obtained in practical applications using Monte Carlo simulations. Furthermore, we present
+  generalizations of the e-backtesting procedure, in particular to risk measures which constitute
+  Bayes pairs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.05089
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.05089
+  arxiv: '2609.05089'
+arxiv: '2609.05089'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: Anytime-Valid Continuous-Time Confidence Processes for Inhomogeneous Poisson Processes
+authors: Michael Lindon, Nathan Kallus
+year: 2024
+arxiv: '2410.09282'
+abstract: >-
+  Motivated by monitoring the arrival of incoming adverse events such as customer support calls or
+  crash reports from users exposed to an experimental product change, we consider sequential
+  hypothesis testing of continuous-time inhomogeneous Poisson point processes. Specifically, we
+  provide an interval-valued confidence process $C^α(t)$ over continuous time $t$ for the
+  cumulative arrival rate $Λ(t) = \int_0^t λ(s) \mathrm{d}s$ with a continuous-time anytime-valid
+  coverage guarantee $\mathbb{P}[Λ(t) \in C^α(t) \, \forall t >0] \geq 1-α$. We extend our results
+  to compare two independent arrival processes by constructing multivariate confidence processes
+  and a closed-form $e$-process for testing the equality of rates with a time-uniform Type-I error
+  guarantee at a nominal $α$. We characterize the asymptotic growth rate of the proposed
+  $e$-process under the alternative and show that it has power 1 when the average rates of the two
+  Poisson process differ in the limit. We also observe a complementary relationship between our
+  multivariate confidence process and the universal inference $e$-process for testing composite
+  null hypotheses.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2410.09282
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2410.09282
+  arxiv: '2410.09282'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

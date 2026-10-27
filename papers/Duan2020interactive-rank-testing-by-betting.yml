@@ -1,0 +1,41 @@
+title: Interactive rank testing by betting
+authors: Boyan Duan, Aaditya Ramdas, Larry Wasserman
+year: 2022
+arxiv: '2009.05892'
+abstract: >-
+  In order to test if a treatment is perceptibly different from a placebo in a randomized
+  experiment with covariates, classical nonparametric tests based on ranks of
+  observations/residuals have been employed (eg: by Rosenbaum), with finite-sample valid inference
+  enabled via permutations. This paper proposes a different principle on which to base inference:
+  if -- with access to all covariates and outcomes, but without access to any treatment
+  assignments -- one can form a ranking of the subjects that is sufficiently nonrandom (eg: mostly
+  treated followed by mostly control), then we can confidently conclude that there must be a
+  treatment effect. Based on a more nuanced, quantifiable, version of this principle, we design an
+  interactive test called i-bet: the analyst forms a single permutation of the subjects one
+  element at a time, and at each step the analyst bets toy money on whether that subject was
+  actually treated or not, and learns the truth immediately after. The wealth process forms a
+  real-valued measure of evidence against the global causal null, and we may reject the null at
+  level $α$ if the wealth ever crosses $1/α$. Apart from providing a fresh "game-theoretic"
+  principle on which to base the causal conclusion, the i-bet has other statistical and
+  computational benefits, for example (A) allowing a human to adaptively design the test statistic
+  based on increasing amounts of data being revealed (along with any working causal models and
+  prior knowledge), and (B) not requiring permutation resampling, instead noting that under the
+  null, the wealth forms a nonnegative martingale, and the type-1 error control of the
+  aforementioned decision rule follows from a tight inequality by Ville. Further, if the null is
+  not rejected, new subjects can later be added and the test can be simply continued, without any
+  corrections (unlike with permutation p-values).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2009.05892
+labels:
+- applications
+- e-values
+publications:
+  - name: Conference on Causal Learning and Reasoning
+    year: 2022
+    url: https://proceedings.mlr.press/v177/duan22a.html
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2009.05892
+    arxiv: '2009.05892'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

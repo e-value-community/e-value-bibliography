@@ -1,0 +1,37 @@
+title: Sequential E-Value Merging Under Bounded Changes in Input Validity
+authors: Lulah Alnaji
+year: 2026
+doi: 10.3390/sym18101752
+abstract: >-
+  Several sources may produce sequential evidence even though only an unknown source is
+  conditionally valid at each time. We study this problem when the valid source can change
+  predictably at most a prescribed number of times. Other sources are unrestricted, and dependence
+  is arbitrary. For predictable affine betting factors shared across candidate source paths, we
+  prove that the minimum accumulated wealth over all the allowed paths is an e-process. If every
+  betting fraction is strictly positive, each fixed-time rule is admissible among all the
+  finite-valued nonnegative Borel rules under pointwise domination. The proof constructs, through
+  every prescribed data history, a finitely supported null law that attains expectation one; no
+  continuity assumption is imposed, and histories containing zeros are included. A dynamic
+  program evaluates these envelopes using a state consisting of the current source and the number
+  of changes. Mixtures of betting strategies require a different analysis. We give a finite-state
+  pruning procedure that preserves optional-stopping validity and can strictly improve the
+  unpruned mixture envelope. Exact counterexamples show that ignoring the change budget can destroy
+  validity and the safe pruning procedure need not yield an admissible rule. A final-step
+  refinement compares feasible continuations across different current sources. An
+  alternating-source example gives an exact pointwise sharp measure of the evidence that is lost
+  when the allowed number of changes increases.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.3390/sym18101752
+openalex_id: W7223015432
+labels:
+- theory
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Symmetry
+  year: 2026
+  url: https://doi.org/10.3390/sym18101752
+  doi: 10.3390/sym18101752
+database_added: '2026-10-24'
+database_updated: '2026-10-24'

@@ -1,0 +1,30 @@
+title: Towards E-Value Based Stopping Rules for Bayesian Deep Ensembles
+authors: Emanuel Sommer, Rickmer Schulte, Sarah Deubner, Julius Kobialka, David Rügamer
+year: 2026
+arxiv: '2604.18089'
+abstract: >-
+  Bayesian Deep Ensembles (BDEs) represent a powerful approach for uncertainty quantification in
+  deep learning, combining the robustness of Deep Ensembles (DEs) with flexible multi-chain MCMC.
+  While DEs are affordable in most deep learning settings, (long) sampling of Bayesian neural
+  networks can be prohibitively costly. Yet, adding sampling after optimizing the DEs has been
+  shown to yield significant improvements. This leaves a critical practical question: How long
+  should the sequential sampling process continue to yield significant improvements over the
+  initial optimized DE baseline? To tackle this question, we propose a stopping rule based on
+  E-values. We formulate the ensemble construction as a sequential anytime-valid hypothesis test,
+  providing a principled way to decide whether or not to reject the null hypothesis that MCMC
+  offers no improvement over a strong baseline, to early stop the sampling. Empirically, we study
+  this approach for diverse settings. Our results demonstrate the efficacy of our approach and
+  reveal that only a fraction of the full-chain budget is often required.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.18089
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.18089
+  arxiv: '2604.18089'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

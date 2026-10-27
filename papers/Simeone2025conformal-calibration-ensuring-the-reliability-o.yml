@@ -1,0 +1,29 @@
+title: 'Conformal Calibration: Ensuring the Reliability of Black-Box AI in Wireless Systems'
+authors: Osvaldo Simeone, Sangwoo Park, Matteo Zecchin
+year: 2025
+abstract: >-
+  AI is poised to revolutionize telecommunication networks by boosting efficiency, automation, and
+  decision-making. However, the black-box nature of most AI models introduces substantial risk,
+  possibly deterring adoption by network operators. These risks are not addressed by the current
+  prevailing deployment strategy, which typically follows a best-effort train-and-deploy paradigm.
+  This paper reviews conformal calibration, a general framework that moves beyond the state of the
+  art by adopting computationally lightweight, advanced statistical tools that offer formal
+  reliability guarantees without requiring further training or fine-tuning. Conformal calibration
+  encompasses pre-deployment calibration via uncertainty quantification or hyperparameter
+  selection; online monitoring to detect and mitigate failures in real time; and counterfactual
+  post-deployment performance analysis to address "what if" diagnostic questions after deployment.
+  By weaving conformal calibration into the AI model lifecycle, network operators can establish
+  confidence in black-box AI models as a dependable enabling technology for wireless systems.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.09310
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.09310
+  arxiv: '2504.09310'
+arxiv: '2504.09310'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

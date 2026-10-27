@@ -1,0 +1,38 @@
+title: 'Adaptive clinical trials based on design-optimal e-values with automatic curtailment: An application
+  to single-arm trials with binary data'
+authors: Stef Baas, Judith ter Schure, Joost van Rosmalen
+year: 2026
+arxiv: '2605.28653'
+abstract: >-
+  The e-value is gaining traction as a robust alternative to p-values and Bayes factors for
+  quantifying statistical evidence. e-values are a promising method for adaptive clinical trials
+  due to their anytime-validity: e-values ensure type I error rate control at any stopping time,
+  facilitating repeated interim analyses, complex stopping rules, and valid inference under
+  protocol deviations. The e-value literature focuses mostly on asymptotic optimality; however,
+  sample sizes in clinical trials are often limited. To this end, we investigate e-value-based
+  designs with finite-horizon optimality for single-arm multi-stage clinical trials with binary
+  data. This setting is relevant in early-phase cancer trials, but it also facilitates an
+  accessible introduction to the betting interpretation of e-values, which we use to construct
+  e-values that either (1) maximize statistical power, or (2) minimize the expected sample size,
+  with or without constraints on the minimum power. We construct these designs through
+  (constrained) dynamic programming based on the currently observed e-value, the maximum sample
+  size, and the pre-specified significance level. Using exact calculations, we show that, next to
+  robustness, e-value-based designs can provide competitive operating characteristics to standard
+  (non-)adaptive designs with and without futility stopping and outperform growth-rate-optimal
+  e-values in finite samples. In addition, small e-values automatically indicate trial
+  continuation is futile, e.g., an e-value of zero indicates the impossibility of an efficacy
+  conclusion. Hence, e-value-based designs provide a viable alternative to the current
+  state-of-the-art in single-arm binary trials, warranting extension to other adaptive clinical
+  trial settings such as multi-arm multi-stage and response-adaptive designs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.28653
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2605.28653
+  arxiv: '2605.28653'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

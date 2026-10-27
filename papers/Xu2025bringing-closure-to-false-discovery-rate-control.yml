@@ -1,0 +1,33 @@
+title: 'Bringing Closure to False Discovery Rate Control: A General Principle for Multiple Testing'
+authors: Ziyu Xu, Aldo Solari, Lasse Fischer, Rianne de Heide, Aaditya Ramdas, Jelle Goeman
+year: 2025
+arxiv: '2509.02517'
+abstract: >-
+  We present a novel necessary and sufficient principle for multiple testing methods controlling
+  an expected loss. This principle asserts that every such multiple testing method is a special
+  case of a general closed testing procedure based on e-values. It generalizes the Closure
+  Principle, known to underlie all methods controlling familywise error and tail probabilities of
+  false discovery proportions, to a large class of error rates -- in particular to the false
+  discovery rate (FDR). By writing existing methods as special cases of this procedure, we can
+  achieve uniform improvements, as we demonstrate for the e-Benjamini-Hochberg and the
+  Benjamini-Yekutieli procedures, and the self-consistent method of Su (2018). We also show that
+  methods derived using our novel e-Closure Principle generally control their error rate not just
+  for one rejected set, but simultaneously over many, allowing post hoc flexibility for the
+  researcher. Moreover, because all multiple testing methods for the expected loss error metrics
+  covered by our framework are derived from the same procedure, researchers may even choose the
+  error metric post hoc. Under certain conditions, this flexibility even extends to post hoc
+  choice of the nominal error rate.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2509.02517
+labels:
+- methodology
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2509.02517
+  arxiv: '2509.02517'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

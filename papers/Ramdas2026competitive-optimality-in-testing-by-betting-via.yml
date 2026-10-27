@@ -1,0 +1,36 @@
+title: Competitive optimality in testing by betting via Bell-Cover randomization
+authors: Aaditya Ramdas
+year: 2026
+arxiv: '2609.35714'
+abstract: >-
+  Bell and Cover showed that an investor who multiplies the initial unit of capital by an
+  independent uniform random variable on $(0,2)$, and then uses the log-optimal portfolio, wins a
+  head-to-head wealth comparison with probability at least one half against every independently
+  randomized competitor. We explain very simply how this result transfers to testing by betting:
+  for any composite null $\mathcal P$ and simple alternative $Q$, denoting $E^*$ as the
+  corresponding numeraire e-variable, we show that $UE^*$ exceeds any other e-variable $E$ with
+  probability at least half. Interestingly, we show that this competitive optimality result is
+  actually equivalent to the numeraire inequality $\mathbb E_Q[E/E^*]\leq1$, and in general
+  randomization only helps the numeraire and fails to improve the competitive advantage of an
+  arbitrary e-variable. Under optional stopping with or without knowledge of $U$, we emphasize a
+  key distinction between e-process validity and competitive optimality. We also show that
+  competitive optimality comes at the price of expected log wealth and power: thresholding $UE^*$
+  at $1/α$ has sharp size at most $α/2$, but the factor of two actually disappears under optional
+  stopping. Even after correcting for this factor of two, the test is dominated in conditional
+  rejection probability by randomizing the testing threshold (randomized Markov's inequality).
+  Thus, Bell-Cover randomization is optimal for a specific competitive objective, at the cost of
+  others.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.35714
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.35714
+  arxiv: '2609.35714'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,31 @@
+title: 'TO-AUDIT: Evidence-Gated Policy Updates for Closed-Loop Molecular Discovery'
+authors: Murari Ambati
+year: 2026
+abstract: >-
+  A closed-loop discovery system needs evidence for policy updates, not only promising outcomes
+  among selected compounds. We present TO-AUDIT, a checkpoint-level protocol that freezes two
+  selection policies, quantifies unmeasured disagreement, and bounds false advancement under a
+  hard assay-cost cap. Randomized residual corrections support sequential testing despite
+  inaccurate predictions. The analysis distinguishes identification, correction range, estimator
+  variance, and decision efficiency, and permits a predeclared mixture of correction-model
+  evidence on one assay stream. Controlled molecular simulations separate these mechanisms. On
+  identical 320-assay observations under localized reversal, a betting test yields 97/100 positive
+  decisions versus 22/100 for a classical empirical Bernstein bound at the same guaranteed
+  one-sided error level. On disjoint learning histories under joint signal and calibration shift,
+  fitted, centered, and mixed evidence yield 18%, 78%, and 76% positive decisions, respectively.
+  The contribution is an evaluation protocol with matched diagnostic controls, not a new agent
+  architecture or general inference method. Experiments use adaptive ridge campaigns and simulated
+  outcomes, not an end-to-end agent or laboratory benchmark.
+abstract_status: source_abstract
+abstract_source: https://neurips.cc/virtual/2026/172534
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: NeurIPS Agentic AI for Biological Discovery Workshop
+  year: 2026
+  url: https://neurips.cc/virtual/2026/172534
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

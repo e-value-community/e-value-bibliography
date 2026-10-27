@@ -1,0 +1,22 @@
+title: A TCHEBYCHEFF-LIKE INEQUALITY FOR STOCHASTIC PROCESSES
+authors: Lester E. Dubins, Leonard J. Savage
+year: 1965
+doi: 10.1073/pnas.53.2.274
+abstract: >-
+  Proceedings of the National Academy of Sciences (PNAS), a peer reviewed journal of the National
+  Academy of Sciences (NAS) - an authoritative source of high-impact, original research that
+  broadly spans the biological, physical, and social sciences.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1073/pnas.53.2.274
+labels:
+- methodology
+- theory
+- confidence sequences
+- probability theory
+publications:
+  - name: Proceedings of the National Academy of Sciences
+    year: 1965
+    url: https://doi.org/10.1073/pnas.53.2.274
+    doi: 10.1073/pnas.53.2.274
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

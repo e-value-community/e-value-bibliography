@@ -1,0 +1,33 @@
+title: Sharp Empirical Bernstein Bounds for the Variance of Bounded Random Variables
+authors: Diego Martinez-Taboada, Aaditya Ramdas
+year: 2025
+arxiv: '2505.01987'
+abstract: >-
+  We develop novel empirical Bernstein inequalities for the variance of bounded random variables.
+  Our inequalities hold under constant conditional variance and mean, without further assumptions
+  like independence or identical distribution of the random variables, making them suitable for
+  sequential decision making contexts. The results are instantiated for both the batch setting
+  (where the sample size is fixed) and the sequential setting (where the sample size is a stopping
+  time). Our bounds are asymptotically sharp: when the data are iid, our CI adpats optimally to
+  both unknown mean $μ$ and unknown $\mathbb{V}[(X-μ)^2]$, meaning that the first order term of
+  our CI exactly matches that of the oracle Bernstein inequality which knows those quantities. We
+  compare our results to a widely used (non-sharp) concentration inequality for the variance based
+  on self-bounding random variables, showing both the theoretical gains and improved empirical
+  performance of our approach. We finally extend our methods to work in any separable Hilbert
+  space.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.01987
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.01987
+  arxiv: '2505.01987'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

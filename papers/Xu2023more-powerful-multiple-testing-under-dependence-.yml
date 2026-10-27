@@ -1,0 +1,32 @@
+title: More powerful multiple testing under dependence via randomization
+authors: Ziyu Xu, Aaditya Ramdas
+year: 2023
+doi: null
+arxiv: '2305.11126'
+abstract: >-
+  We develop a technique to improve the power of any e-value by a simple randomization involving
+  one independent uniform random variable. Using this framework, we show that two procedures for
+  false discovery rate (FDR) control -- the Benjamini-Yekutieli procedure for dependent p-values,
+  and the e-Benjamini-Hochberg procedure for dependent e-values -- can be improved through
+  randomization. We also improve the Hommel test under dependence, and post-selection inference
+  procedures for confidence intervals with false coverage rate (FCR) that allow for arbitrary
+  selection rules and dependence. Importantly, our randomized improvements are never worse than
+  the originals and are typically strictly more powerful, with marked improvements in simulations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.11126
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Bernoulli
+    year: 2023
+    url: https://www.bernoullisociety.org/publications/bernoulli-journal/bernoulli-journal-papers
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2305.11126
+    arxiv: '2305.11126'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

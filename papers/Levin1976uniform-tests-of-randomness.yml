@@ -1,0 +1,17 @@
+title: Uniform Tests of Randomness
+authors: Leonid A. Levin
+year: 1976
+abstract: ''
+abstract_status: no_formal_abstract
+abstract_source: https://www.cs.bu.edu/fac/lnd/dvi/rnd76.pdf
+labels:
+- methodology
+- e-values
+- information theory
+- probability theory
+publications:
+  - name: Soviet Mathematics Doklady
+    year: 1976
+    url: https://www.cs.bu.edu/fac/lnd/dvi/rnd76.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

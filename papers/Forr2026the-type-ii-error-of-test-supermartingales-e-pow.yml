@@ -1,0 +1,40 @@
+title: 'The Type-II Error of Test Supermartingales: e-Power versus the Chernoff-Stein Exponent'
+authors: Patrick Forré
+year: 2026
+arxiv: '2609.27765'
+abstract: >-
+  In safe hypothesis testing with test supermartingales, Ville's inequality provides anytime-valid
+  type-I error guarantees for every significance level $α\in(0,1]$, if one rejects the null
+  hypothesis whenever the wealth process first exceeds $1/α$. Due to an inherent asymmetry, the
+  type-II error behaves differently. We prove two things about the latter, for a simple null and
+  alternative. First, the mean growth rate $\mathbb{E}_{P_1}[\log E]$, the e-power, that Kelly
+  betting and growth-rate-optimal e-variables maximise, bounds nothing on its own. For every level
+  $c>0$, every $α$ and horizon $t$ we construct e-variables of conditional e-power exactly $c$
+  whose probability of not rejecting by $t$ is arbitrarily close to one. It forces eventual
+  rejection, but no finite-horizon guarantee follows. Second, the quantity that does control the
+  type-II error is the Chernoff-Stein exponent of an e-variable, $Λ(E)=\sup_{s\ge0}\{-\log
+  \mathbb{E}_{P_1}[E^{-s}]\}$, whose range is exactly determined: $\sup_E
+  Λ(E)=\mathrm{KL}(P_0\|P_1)$, the classical Chernoff-Stein exponent, and so the ceiling of its
+  own per-e-variable form. One conditional application of Hoelder's inequality per step gives it,
+  for every test supermartingale on an arbitrary filtered space, with no independence or product
+  structure; the i.i.d. case adds that it is matched, and attained by nothing. The e-power has its
+  own ceiling, $\mathrm{KL}(P_1\|P_0)$, and that one is attained, $P_0$-a.s. uniquely, by the
+  likelihood ratio $R$. The two optima are the same divergence in opposite arguments, at opposite
+  ends of the flattened family $R^β/\mathbb{E}_{P_0}[R^β]$: the ceiling as $β\downarrow0$, $R$ at
+  $β=1$. Which $β$ is best is settled by the horizon, exactly: $R$ is optimal at
+  $t=\log(1/α)/\mathrm{KL}(P_1\|P_0)$ alone, beaten by sharpening $(β>1)$ below it and by
+  flattening above.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.27765
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.27765
+  arxiv: '2609.27765'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,42 @@
+title: >-
+  The multiply iterated law of the iterated logarithm: game-theoretic foundations of sequential
+  detection boundaries
+authors: Akshay Balsubramani
+year: 2026
+arxiv: '2606.28324'
+abstract: >-
+  Anytime-valid confidence sequences and e-processes are built almost universally from one recipe:
+  average exponential test statistics over a prior on the tilting scale, then invoke Ville's
+  inequality on the resulting nonnegative supermartingale. The mixing prior sets the width of the
+  detection boundary and is usually chosen by hand. We recast the recipe as a two-player game with
+  information as currency. A Learner commits to the prior; Nature adaptively produces a mean-zero
+  score process whose difficulty is priced by a cumulant-generating-function charge. The Learner's
+  mixture wealth obeys a single pathwise Gibbs-variational identity that holds along every
+  realized path with no expectation operator; Ville's inequality, the equalizer condition, the
+  GROW characterization, and the saddlepoint formula are all specializations of it. Three messages
+  organize the rest. First, the law of the iterated logarithm (LIL) is the minimax boundary of
+  this sequential-detection game, not arbitrary combinatorial slack. Second, the optimal prior is
+  not a design choice but the forced equalizer strategy -- the unique law that makes every
+  boundary-crossing time equally costly for Nature -- and it yields the sharp first iterated-log
+  correction in closed form, with coefficient 3/2 = 1 + 1/2 (one for the Erdős baseline, one half
+  for the Laplace envelope around the saddle). Third, in the log-log scale chart the equalizer is
+  exactly the Jeffreys prior on the scale-of-scales. The Erdős-Kolmogorov integral test is the
+  criterion that selects it. The two-stage finite-time LIL proof, the Howard-Ramdas mixture and
+  stitching constructions, and betting confidence sequences all read as instances of this
+  equalizer principle. A companion empirical evaluation confirms the central identities and
+  locates the Erdős threshold at the predicted value.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.28324
+labels:
+- methodology
+- theory
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.28324
+    arxiv: '2606.28324'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

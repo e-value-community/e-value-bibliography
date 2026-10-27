@@ -1,0 +1,33 @@
+title: Confidence sequences for sampling without replacement
+authors: Ian Waudby-Smith, Aaditya Ramdas
+year: 2020
+arxiv: '2006.04347'
+abstract: >-
+  Many practical tasks involve sampling sequentially without replacement (WoR) from a finite
+  population of size $N$, in an attempt to estimate some parameter $θ^\star$. Accurately
+  quantifying uncertainty throughout this process is a nontrivial task, but is necessary because
+  it often determines when we stop collecting samples and confidently report a result. We present
+  a suite of tools for designing confidence sequences (CS) for $θ^\star$. A CS is a sequence of
+  confidence sets $(C_n)_{n=1}^N$, that shrink in size, and all contain $θ^\star$ simultaneously
+  with high probability. We present a generic approach to constructing a frequentist CS using
+  Bayesian tools, based on the fact that the ratio of a prior to the posterior at the ground truth
+  is a martingale. We then present Hoeffding- and empirical-Bernstein-type time-uniform CSs and
+  fixed-time confidence intervals for sampling WoR, which improve on previous bounds in the
+  literature and explicitly quantify the benefit of WoR sampling.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2006.04347
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: Advances in Neural Information Processing Systems
+    year: 2020
+    url: https://papers.nips.cc/paper/2020/hash/e96c7de8f6390b1e6c71556e4e0a4959-Abstract.html
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2006.04347
+    arxiv: '2006.04347'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

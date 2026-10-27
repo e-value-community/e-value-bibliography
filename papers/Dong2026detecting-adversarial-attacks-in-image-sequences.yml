@@ -1,0 +1,32 @@
+title: Detecting Adversarial Attacks in Image Sequences with Conformal Test Martingales
+authors: Genghua Dong, Ziyun Li, Henrik Boström
+year: 2026
+abstract: >-
+  Deep neural networks used for image classification remain vulnerable to adversarial examples
+  (AEs), especially under white-box attacks where the attacker can exploit information about the
+  target model. Detecting whether a model is under attack is therefore an important step toward
+  mitigating adversarial manipulation. Most existing AE detectors focus on instance-level or
+  batch-level decisions, i.e., determining whether a single image or a fixed batch contains AEs.
+  In this paper, we study a sequence-level detection setting using conformal test martingales. We
+  formulate several nonconformity scores based on image and target-model quantities, convert them
+  into conformal p-values, and monitor the resulting sequences with conformal test martingale
+  algorithms. The resulting detection procedure is evaluated on ImageNet-100 image sequences with
+  a pretrained ResNet-50 target model and three representative white-box attacks. The experiments
+  show that conformal test martingales can detect attacks even when the monitoring segment
+  contains a relatively small number of adversarial examples, but that detection performance
+  depends strongly on both the nonconformity score and the martingale algorithm. Empirically, no
+  single nonconformity score and algorithm pair works well for all attacks. These findings suggest
+  that applying conformal test martingales to detect attacks may benefit from considering multiple
+  image and target-model quantities and designing nonconformity scores according to the observed
+  attack-induced changes.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v329/dong26a.html
+labels:
+- methodology
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2026
+  url: https://raw.githubusercontent.com/mlresearch/v329/main/assets/dong26a/dong26a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

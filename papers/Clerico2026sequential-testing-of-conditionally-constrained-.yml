@@ -1,0 +1,26 @@
+title: Sequential testing of conditionally constrained hypotheses
+authors: Eugenio Clerico
+year: 2026
+arxiv: '2606.06769'
+abstract: >-
+  We explicitly characterise the full class of e-processes for testing conditional non-parametric
+  hypotheses, defined by finitely many conditional constraints. Our main result is a
+  complete-class theorem: every e-process for such a hypothesis is point-wise dominated by a
+  predictable product of affine one-step e-variables. Therefore, for a broad class of conditional
+  testing problems, arbitrary e-processes can be replaced without loss by test supermartingales.
+  This extends previous complete-class results from single-step constrained testing and bounded
+  one-dimensional conditional mean testing to a broader conditional sequential setting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.06769
+labels:
+- methodology
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.06769
+  arxiv: '2606.06769'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,38 @@
+title: E-backtesting
+authors: Qiuqi Wang, Ruodu Wang, Johanna Ziegel
+year: 2025
+arxiv: '2209.00991'
+abstract: >-
+  In the recent Basel Accords, the Expected Shortfall (ES) replaces the Value-at-Risk (VaR) as the
+  standard risk measure for market risk in the banking sector, making it the most important risk
+  measure in financial regulation. One of the most challenging tasks in risk modeling practice is
+  to backtest ES forecasts provided by financial institutions. To design a model-free backtesting
+  procedure for ES, we make use of the recently developed techniques of e-values and e-processes.
+  Backtest e-statistics are introduced to formulate e-processes for risk measure forecasts, and
+  unique forms of backtest e-statistics for VaR and ES are characterized using recent results on
+  identification functions. For a given backtest e-statistic, a few criteria for optimally
+  constructing the e-processes are studied. The proposed method can be naturally applied to many
+  other risk measures and statistical quantities. We conduct extensive simulation studies and data
+  analysis to illustrate the advantages of the model-free backtesting method, and compare it with
+  the ones in the literature.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2209.00991
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: Management Science
+    year: 2026
+    url: https://www.math.uwaterloo.ca/~wang/papers/2025Wang-Wang-Ziegel-MS.pdf
+  - name: Management Science
+    year: 2025
+    url: https://doi.org/10.1287/mnsc.2023.01659
+    doi: 10.1287/mnsc.2023.01659
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2209.00991
+    arxiv: '2209.00991'
+doi: 10.1287/mnsc.2023.01659
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: A new and flexible class of sharp asymptotic time-uniform confidence sequences
+authors: Felix Gnettner, Claudia Kirch
+year: 2025
+doi: 10.1016/j.spl.2025.110462
+arxiv: '2502.10380'
+abstract: >-
+  Confidence sequences are anytime-valid analogues of classical confidence intervals that do not
+  suffer from multiplicity issues under optional continuation of the data collection. As in
+  classical statistics, asymptotic confidence sequences are a nonparametric tool showing under
+  which high-level assumptions asymptotic coverage is achieved so that they also give a certain
+  robustness guarantee against distributional deviations. In this paper, we propose a new flexible
+  class of confidence sequences yielding sharp asymptotic time-uniform confidence sequences under
+  mild assumptions. Furthermore, we highlight the connection to corresponding sequential testing
+  problems and detail the underlying limit theorem.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.10380
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: Statistics & Probability Letters
+  year: 2025
+  url: https://doi.org/10.1016/j.spl.2025.110462
+  doi: 10.1016/j.spl.2025.110462
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.10380
+  arxiv: '2502.10380'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,33 @@
+title: Adaptive Coverage Policies in Conformal Prediction
+authors: Etienne Gauthier, Francis Bach, Michael I. Jordan
+year: 2026
+arxiv: '2510.04318'
+abstract: >-
+  Traditional conformal prediction methods construct prediction sets such that the true label
+  falls within the set with a user-specified coverage level. However, poorly chosen coverage
+  levels can result in uninformative predictions, either producing overly conservative sets when
+  the coverage level is too high, or empty sets when it is too low. Moreover, the fixed coverage
+  level cannot adapt to the specific characteristics of each individual example, limiting the
+  flexibility and efficiency of these methods. In this work, we leverage recent advances in
+  e-values and post-hoc conformal inference, which allow the use of data-dependent coverage levels
+  while maintaining valid statistical guarantees. We propose to optimize an adaptive coverage
+  policy by training a neural network using a leave-one-out procedure on the calibration set,
+  allowing the coverage level and the resulting prediction set size to vary with the difficulty of
+  each individual example. We support our approach with theoretical coverage guarantees and
+  demonstrate its practical benefits through a series of experiments.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.04318
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2026
+    url: https://proceedings.mlr.press/v300/gauthier26a.html
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2510.04318
+    arxiv: '2510.04318'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

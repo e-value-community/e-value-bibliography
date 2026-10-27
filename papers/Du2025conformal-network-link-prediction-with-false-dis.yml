@@ -1,0 +1,35 @@
+title: Conformal Network Link Prediction with False Discovery Rate Control under Unstructured Missingness
+authors: Wenqin Du, Wanteng Ma, Dong Xia, Yuan Zhang, Wen Zhou
+year: 2026
+doi: 10.1080/10618600.2026.2719794
+arxiv: '2507.07025'
+abstract: >-
+  We propose a new method for predicting multiple missing links in partially observed networks
+  while controlling the false discovery rate (FDR), a largely unresolved challenge in network
+  analysis. The main difficulty lies in handling complex dependencies and unknown missing
+  patterns. We introduce conformal link prediction, a distribution-free procedure grounded in the
+  exchangeability structure of weighted graphon models. Our approach constructs conformal p-values
+  via a novel multi-splitting strategy that restores exchangeability within local test sets,
+  thereby ensuring valid row-wise FDR control, even under unknown missing mechanisms. To achieve
+  FDR control across all missing links, we further develop a new aggregation scheme based on
+  e-values, which accommodates arbitrary dependence across network predictions. Our method
+  requires no assumptions on the missing rates, applies to weighted, unweighted, undirected, and
+  bipartite networks, and enjoys finite-sample theoretical guarantees. Extensive simulations and
+  real-world data study confirm the effectiveness and robustness of the proposed approach.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2507.07025
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Journal of Computational and Graphical Statistics
+  year: 2026
+  url: https://doi.org/10.1080/10618600.2026.2719794
+  doi: 10.1080/10618600.2026.2719794
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2507.07025
+  arxiv: '2507.07025'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

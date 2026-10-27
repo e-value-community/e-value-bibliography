@@ -1,0 +1,35 @@
+title: Confidence sequences with informative, bounded-influence priors
+authors: Stefano Cortinovis, Valentin Kilian, François Caron
+year: 2026
+doi: 10.1214/26-ejs2575
+arxiv: '2506.22925'
+abstract: >-
+  Confidence sequences are collections of confidence regions that simultaneously cover the true
+  parameter for every sample size at a prescribed confidence level. Tightening these sequences is
+  of practical interest and can be achieved by incorporating prior information through the method
+  of mixture martingales. However, confidence sequences built from informative priors are
+  vulnerable to misspecification and may become vacuous when the prior is poorly chosen. We study
+  this trade-off for Gaussian observations with known variance. By combining the method of
+  mixtures with a global informative prior whose tails are polynomial or exponential and the
+  extended Ville's inequality, we construct confidence sequences that are sharper than their
+  non-informative counterparts whenever the prior is well specified, yet remain bounded under
+  arbitrary misspecification. The theory is illustrated with several classical priors.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2506.22925
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Electronic Journal of Statistics
+  year: 2026
+  url: https://doi.org/10.1214/26-ejs2575
+  doi: 10.1214/26-ejs2575
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2506.22925
+  arxiv: '2506.22925'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

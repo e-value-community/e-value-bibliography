@@ -1,0 +1,40 @@
+title: Optimal Gambling Systems for Favorable Games
+authors: Leo Breiman
+year: 1961
+abstract: >-
+  Assume that we are hardened and unscrupulous types with an infinitely wealthy friend. We induce
+  him to match any bet we wish to make on the event that a coin biased in our favor will turn up
+  heads. That is, at every toss we have probability p > 1/2 of doubling the amount of our bet. If
+  we are clever, as well as unscrupulous, we soon begin to worry about how much of our available
+  fortune to bet at every toss. Betting everything we have on heads on every toss will lead to
+  almost certain bankruptcy. On the other hand, if we bet a small, but fixed, fraction (we assume
+  throughout that money is infinitely divisible) of our available fortune at every toss, then the
+  law of large numbers informs us that our fortune converges almost surely to plus infinity. What
+  to do? More generally, let X be a random variable taking values in the set I = {1, * * *, s}
+  such that P{X = i} = pi and let there be a class e of subsets Ai of I, where e = {A1, * * , Ar},
+  with U, A, = I, together with positive numbers (oi, * * *, Or). We play this game by betting
+  amounts jli, * * *, j3, on the events {X E A,} and if the event {X = i} is realized, we receive
+  back the amount FiEA,j,0, where the sum is over all j such that i E Ai. We may assume that our
+  entire fortune is distributed at every play over the betting sets e, because the possibility of
+  holding part of our fortune in reserve is realized by taking A1, say, such that AI = I, and o, =
+  1. Let Sn be the fortune after n plays; we say that the game is favorable if there is a gambling
+  strategy such that almost surely Sn -+ oo. We give in the next section a simple necessary and
+  sufficient condition for a game to be favorable. How much to bet on the various alternatives in
+  a sequence of independent repetitions of a favorable game depends, of course, on what our goal
+  utility is. There are two criterions, among the many possibilities, that seem pre-eminently
+  reasonable. One is the minimal time requirement, that is, we fix an amount x we wish to win and
+  inquire after that gambling strategy which will minimize the expected number of trials needed to
+  win or exceed x. The other is a magnitude condition; we fix at n the number of trials we are
+  going to play and examine the size of our fortune after the n plays.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.21236/ad0402290
+labels:
+- methodology
+- e-values
+- probability theory
+publications:
+  - name: Proceedings of the Fourth Berkeley Symposium on Mathematical Statistics and Probability
+    year: 1961
+    url: https://digicoll.lib.berkeley.edu/record/112884?ln=en
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

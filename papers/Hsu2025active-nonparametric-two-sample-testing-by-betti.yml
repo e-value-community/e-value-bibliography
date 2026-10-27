@@ -1,0 +1,42 @@
+title: Active Nonparametric Two-Sample Testing by Betting on Heterogeneous Data Sources
+authors: Chia-Yu Hsu, Shubhanshu Shekhar
+year: 2026
+doi: 10.1109/isit62367.2026.11654164
+arxiv: '2512.22403'
+abstract: >-
+  We study the problem of active nonparametric sequential two-sample testing over multiple
+  heterogeneous data sources. In each time slot, a decision-maker adaptively selects one of $K$
+  data sources and receives a paired sample generated from that source for testing. The goal is to
+  decide as quickly as possible whether the pairs are generated from the same distribution or not.
+  The gain achieved by such adaptive sampling (in terms of smaller expected stopping time or
+  larger error exponents) has been well-characterized for parametric models via Chernoff's
+  adaptive MLE selection rule [1]. However, analogous results are not known for the case of
+  nonparametric problems, such as two-sample testing, where we place no restrictions on the
+  distributions. Our main contribution is a general active nonparametric testing procedure that
+  combines an adaptive source-selecting strategy within the testing-by-betting framework of [2]
+  that works under minimal distributional assumptions. In each time slot, our scheme proceeds by
+  selecting a source according to a probability that mixes exploitation, favoring sources with the
+  largest empirical distinguishability, and exploration via a vanishing greedy strategy. The
+  (paired) observations so collected are then used to update the "betting-wealth process", which
+  is a stochastic process guaranteed to be a nonnegative martingale under the null. The procedure
+  stops and rejects the null when the wealth process exceeds an appropriate threshold; an event
+  that is unlikely under the null. We show that our test controls the type-I error at a
+  prespecified level-$α$ under the null, and establish its power-one property and a bound on its
+  expected sample size under the alternative. Our results provide a precise characterization of
+  the improvements achievable by a principled adaptive sampling strategy over its passive analog.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.22403
+labels:
+- methodology
+- e-values
+publications:
+- name: IEEE International Symposium on Information Theory
+  year: 2026
+  url: https://doi.org/10.1109/isit62367.2026.11654164
+  doi: 10.1109/isit62367.2026.11654164
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.22403
+  arxiv: '2512.22403'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

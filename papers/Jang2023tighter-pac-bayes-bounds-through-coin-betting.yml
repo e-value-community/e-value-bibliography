@@ -1,0 +1,41 @@
+title: Tighter PAC-Bayes Bounds Through Coin-Betting
+authors: Kyoungseok Jang, Kwang-Sung Jun, Ilja Kuzborskij, Francesco Orabona
+year: 2023
+arxiv: '2302.05829'
+abstract: >-
+  We consider the problem of estimating the mean of a sequence of random elements $f(X_1, θ)$ $,
+  \ldots, $ $f(X_n, θ)$ where $f$ is a fixed scalar function, $S=(X_1, \ldots, X_n)$ are
+  independent random variables, and $θ$ is a possibly $S$-dependent parameter. An example of such
+  a problem would be to estimate the generalization error of a neural network trained on $n$
+  examples where $f$ is a loss function. Classically, this problem is approached through
+  concentration inequalities holding uniformly over compact parameter sets of functions $f$, for
+  example as in Rademacher or VC type analysis. However, in many problems, such inequalities often
+  yield numerically vacuous estimates. Recently, the \emph{PAC-Bayes} framework has been proposed
+  as a better alternative for this class of problems for its ability to often give numerically
+  non-vacuous bounds. In this paper, we show that we can do even better: we show how to refine the
+  proof strategy of the PAC-Bayes bounds and achieve \emph{even tighter} guarantees. Our approach
+  is based on the \emph{coin-betting} framework that derives the numerically tightest known
+  time-uniform concentration inequalities from the regret guarantees of online gambling
+  algorithms. In particular, we derive the first PAC-Bayes concentration inequality based on the
+  coin-betting approach that holds simultaneously for all sample sizes. We demonstrate its
+  tightness showing that by \emph{relaxing} it we obtain a number of previous results in a closed
+  form including Bernoulli-KL and empirical Bernstein inequalities. Finally, we propose an
+  efficient algorithm to numerically calculate confidence sequences from our bound, which often
+  generates nonvacuous confidence bounds even with one sample, unlike the state-of-the-art
+  PAC-Bayes bounds.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2302.05829
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: Conference on Learning Theory
+    year: 2023
+    url: https://proceedings.mlr.press/v195/jang23a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2302.05829
+    arxiv: '2302.05829'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

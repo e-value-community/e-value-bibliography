@@ -1,0 +1,37 @@
+title: Online Monitoring of Distributional Granger Causality
+authors: Jiajing Sun, Abderrahim Taamouti, Yongmiao Hong
+year: 2026
+abstract: >-
+  We study online monitoring of distributional Granger causality after a restricted baseline
+  forecaster has been trained and deployed. The monitoring target is an omitted-block
+  score-orthogonality restriction: candidate predictors should not systematically explain the
+  identification-function errors of the fixed baseline forecast for a conditional quantile,
+  expectile, or related elicitable functional. This formulation makes explicit the distinction
+  between full structural distributional non-causality, conditional calibration of the deployed
+  forecast, and the finite-dimensional instrumented score null that is directly tested. We develop
+  two complementary monitoring devices. The first consists of self-normalized Kolmogorov-Smirnov
+  (KS) and weighted Cramér-von Mises (CvM) statistics for stacked omitted-block score streams.
+  These procedures avoid long-run variance estimation and yield pivotal Brownian critical values
+  under weak dependence; the adjusted-range version uses a Phase-I lag-0 prewhitening
+  transformation together with an approximate long-run diagonalization condition. The second
+  device is a quantile-specific e-process based on conditional calibration of exceedance hits,
+  giving finite-sample false-alarm control under optional stopping for the issued quantile
+  forecast. We derive null limits, local-power limits, sufficient primitive conditions for the
+  quantile and expectile score cases, and anytime-valid e-process guarantees. Monte Carlo evidence
+  and an application to Bitcoin (BTC) spot returns and Deribit option variables are used as
+  finite-sample and empirical illustrations, with the empirical alarms interpreted as episodic
+  evidence of lower-tail predictive content rather than as a stand-alone trading-strategy claim.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.6946144
+labels:
+- applications
+- e-processes
+- probability theory
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.6946144
+  doi: 10.2139/ssrn.6946144
+doi: 10.2139/ssrn.6946144
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

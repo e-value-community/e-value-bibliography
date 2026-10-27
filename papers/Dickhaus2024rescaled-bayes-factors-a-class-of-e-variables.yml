@@ -1,0 +1,23 @@
+title: 'Rescaled Bayes factors: a class of e-variables'
+authors: Thorsten Dickhaus
+year: 2025
+doi: 10.1016/j.spl.2025.110511
+arxiv: '2409.14806'
+abstract: >-
+  A class of e-variables is introduced and analyzed. Some examples are presented.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.14806
+labels:
+- methodology
+- e-values
+publications:
+- name: Statistics & Probability Letters
+  year: 2025
+  url: https://doi.org/10.1016/j.spl.2025.110511
+  doi: 10.1016/j.spl.2025.110511
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.14806
+  arxiv: '2409.14806'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,35 @@
+title: Deep anytime-valid hypothesis testing
+authors: Teodora Pandeva, Patrick Forré, Aaditya Ramdas, Shubhanshu Shekhar
+year: 2024
+arxiv: '2310.19384'
+abstract: >-
+  We propose a general framework for constructing powerful, sequential hypothesis tests for a
+  large class of nonparametric testing problems. The null hypothesis for these problems is defined
+  in an abstract form using the action of two known operators on the data distribution. This
+  abstraction allows for a unified treatment of several classical tasks, such as two-sample
+  testing, independence testing, and conditional-independence testing, as well as modern problems,
+  such as testing for adversarial robustness of machine learning (ML) models. Our proposed
+  framework has the following advantages over classical batch tests: 1) it continuously monitors
+  online data streams and efficiently aggregates evidence against the null, 2) it provides tight
+  control over the type I error without the need for multiple testing correction, 3) it adapts the
+  sample size requirement to the unknown hardness of the problem. We develop a principled approach
+  of leveraging the representation capability of ML models within the testing-by-betting
+  framework, a game-theoretic approach for designing sequential tests. Empirical results on
+  synthetic and real-world datasets demonstrate that tests instantiated using our general
+  framework are competitive against specialized baselines on several tasks.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.19384
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2024
+    url: https://proceedings.mlr.press/v238/pandeva24a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2310.19384
+    arxiv: '2310.19384'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

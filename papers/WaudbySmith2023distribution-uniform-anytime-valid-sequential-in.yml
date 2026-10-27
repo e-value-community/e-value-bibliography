@@ -1,0 +1,36 @@
+title: Distribution-uniform anytime-valid sequential inference and the Robbins-Siegmund distributions
+authors: Ian Waudby-Smith, Edward H. Kennedy, Aaditya Ramdas
+year: 2023
+arxiv: '2311.03343'
+abstract: >-
+  This paper develops a theory of distribution- and time-uniform asymptotics, culminating in the
+  first large-sample anytime-valid inference procedures that are shown to be uniformly valid in a
+  rich class of distributions. Historically, anytime-valid methods -- including confidence
+  sequences, anytime $p$-values, and sequential hypothesis tests -- have been justified
+  nonasymptotically. By contrast, large-sample inference procedures such as those based on the
+  central limit theorem occupy an important part of statistical toolbox due to their simplicity,
+  universality, and the weak assumptions they make. While recent work has derived asymptotic
+  analogues of anytime-valid methods, they were not distribution-uniform (also called
+  \emph{honest}), meaning that their type-I errors may not be uniformly upper-bounded by the
+  desired level in the limit. The theory and methods we outline resolve this tension, and they do
+  so without imposing assumptions that are any stronger than the distribution-uniform fixed-$n$
+  (non-anytime-valid) counterparts or distribution-pointwise anytime-valid special cases. It is
+  shown that certain ``Robbins-Siegmund'' probability distributions play roles in anytime-valid
+  asymptotics analogous to those played by Gaussian distributions in standard asymptotics. As an
+  application, we derive the first anytime-valid test of conditional independence without the
+  Model-X assumption.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2311.03343
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2311.03343
+  arxiv: '2311.03343'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

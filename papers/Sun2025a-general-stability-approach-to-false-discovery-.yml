@@ -1,0 +1,34 @@
+title: A General Stability Approach to False Discovery Rate Control
+authors: Jiajun Sun, Zhanrui Cai, Wei Zhong
+year: 2025
+arxiv: '2512.17401'
+abstract: >-
+  Stability and reproducibility are essential considerations in various applications of
+  statistical methods. False Discovery Rate (FDR) control methods are able to control false
+  signals in scientific discoveries. However, many FDR control methods, such as Model-X knockoff
+  and data-splitting approaches, yield unstable results due to the inherent randomness of the
+  algorithms. To enhance the stability and reproducibility of statistical outcomes, we propose a
+  general stability approach for FDR control in feature selection and multiple testing problems,
+  named FDR Stabilizer. Taking feature selection as an example, our method first aggregates
+  feature importance statistics obtained by multiple runs of the base FDR control procedure into a
+  consensus ranking. Then, we construct a stabilized relaxed e-value for each feature and apply
+  the e-BH procedure to these stabilized e-values to obtain the final selection set. We
+  theoretically derive the finite-sample bounds for the FDR and the power of our method, and show
+  that our method asymptotically controls the FDR without power loss. Moreover, we establish the
+  stability of the proposed method, showing that the stabilized selection set converges to a
+  deterministic limit as the number of repetitions increases. Extensive numerical experiments and
+  applications to real datasets demonstrate that the proposed method generally outperforms
+  existing alternatives.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.17401
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.17401
+  arxiv: '2512.17401'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

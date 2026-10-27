@@ -1,0 +1,24 @@
+title: Treatment of Statistical Estimation Problems in Randomized Smoothing for Adversarial Robustness
+authors: Václav Voráček
+year: 2024
+doi: 10.52202/079017-4242
+abstract: >-
+  Voráček examines the large sampling cost of randomized-smoothing certificates for adversarial
+  robustness. Confidence-sequence procedures decide whether a point is robust at a specified radius
+  using fewer classifier evaluations while maintaining the required statistical guarantees, and
+  the paper establishes optimal sample-complexity behavior for the estimation problem. A randomized
+  version of the Clopper-Pearson interval further strengthens the resulting certificates.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.52202/079017-4242
+labels:
+- methodology
+- applications
+- e-processes
+- confidence sequences
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2024
+  url: https://doi.org/10.52202/079017-4242
+  doi: 10.52202/079017-4242
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,35 @@
+title: A Sequential Test for Log-Concavity
+authors: Aditya Gangrade, Alessandro Rinaldo, Aaditya Ramdas
+year: 2023
+arxiv: '2301.03542'
+abstract: >-
+  On observing a sequence of i.i.d.\ data with distribution $P$ on $\mathbb{R}^d$, we ask the
+  question of how one can test the null hypothesis that $P$ has a log-concave density. This paper
+  proves one interesting negative and positive result: the non-existence of test
+  (super)martingales, and the consistency of universal inference. To elaborate, the set of
+  log-concave distributions $\mathcal{L}$ is a nonparametric class, which contains the set
+  $\mathcal G$ of all possible Gaussians with any mean and covariance. Developing further the
+  recent geometric concept of fork-convexity, we first prove that there do no exist any nontrivial
+  test martingales or test supermartingales for $\mathcal G$ (a process that is simultaneously a
+  nonnegative supermartingale for every distribution in $\mathcal G$), and hence also for its
+  superset $\mathcal{L}$. Due to this negative result, we turn our attention to constructing an
+  e-process -- a process whose expectation at any stopping time is at most one, under any
+  distribution in $\mathcal{L}$ -- which yields a level-$α$ test by simply thresholding at $1/α$.
+  We take the approach of universal inference, which avoids intractable likelihood asymptotics by
+  taking the ratio of a nonanticipating likelihood over alternatives against the maximum
+  likelihood under the null. Despite its conservatism, we show that the resulting test is
+  consistent (power one), and derive its power against Hellinger alternatives. To the best of our
+  knowledge, there is no other e-process or sequential test for $\mathcal{L}$.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2301.03542
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2301.03542
+  arxiv: '2301.03542'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

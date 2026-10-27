@@ -1,0 +1,32 @@
+title: 'Risk-Guided Maintenance of Sports AI Under Seasonal Shift: Empirical-Bayes Recalibration with
+  Anytime-Valid Certification'
+authors: Maha A. Moussa, Khater A. E. Gad, Walid K. Sharabati, H. M. Hamouda
+year: 2026
+abstract: >-
+  Probabilistic artificial-intelligence (AI) models in sports are often reused across seasons
+  despite changes in teams and context. We develop Monotone Empirical-Bayes Transport
+  Recalibration (MEBTR), a model-agnostic maintenance layer that partially pools local calibration
+  maps, requires a prespecified worthwhile Brier-risk improvement before updating, and monitors
+  gains with anytime-valid e-processes. A predictable-support construction sharpens the universal
+  Brier-difference bound using outcome-free bounds known once both forecasts are frozen. Across
+  logistic regression, random forest, histogram gradient boosting (HGB), and multilayer perceptron
+  learners, 400 paired replications retain Raw AI in 94.25–96.00% of exact-identity runs and
+  select local MEBTR in 82.50–85.50% of affine-shift runs, improving guarded Brier risk by
+  3.27–3.47% under shift. In leakage-audited NCAA basketball, prospective HGB recalibration
+  improves Brier from 0.224853 to 0.224395, calibration slope from 0.9489 to 0.9883, and ICI from
+  0.02182 to 0.02050. A 10,000-game bootstrap confirms positive average gain, but the prespecified
+  δ = 0.0005 threshold is not anytime certified. Whole-game-disjoint and repeated-season audits
+  show why the risk guard is necessary: candidate improvements can be small and finite-sample
+  action selection is not oracle model selection.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.20944/preprints202609.0541.v1
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://www.preprints.org/manuscript/202609.0541
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

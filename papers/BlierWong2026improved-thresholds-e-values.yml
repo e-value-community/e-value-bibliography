@@ -1,0 +1,38 @@
+title: Improved thresholds for e-values
+authors: Christopher Blier-Wong, Ruodu Wang
+year: 2026
+doi: 10.1214/26-AOS2626
+arxiv: '2408.11307'
+abstract: >-
+  The rejection threshold used for e-values and e-processes is by default set to $1/α$ for a
+  guaranteed type-I error control at $α$, based on Markov's and Ville's inequalities. This
+  threshold can be wasteful in practical applications. We discuss how this threshold can be
+  improved under additional distributional assumptions on the e-values; some of these assumptions
+  are naturally plausible and empirically observable, without knowing explicitly the form or model
+  of the e-values. For small values of $α$, the threshold can roughly be improved (divided) by a
+  factor of $2$ for decreasing or unimodal densities, and by a factor of $e$ for decreasing or
+  unimodal-symmetric densities of log-transformed e-values. Moreover, we propose to use the
+  supremum of comonotonic e-values, which is shown to preserve the type-I error guarantee. We also
+  propose some preliminary methods to boost e-values in the e-BH procedure under some
+  distributional assumptions while controlling the false discovery rate. Through a series of
+  simulation studies, we demonstrate the effectiveness of our proposed methods in various testing
+  scenarios, showing enhanced power.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2408.11307
+labels:
+- theory
+- applications
+- e-values
+- multiple testing
+- probability theory
+publications:
+  - name: The Annals of Statistics
+    year: 2026
+    url: https://doi.org/10.1214/26-AOS2626
+    doi: 10.1214/26-AOS2626
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2408.11307
+    arxiv: '2408.11307'
+database_added: '2026-10-20'
+database_updated: '2026-10-21'

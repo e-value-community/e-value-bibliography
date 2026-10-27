@@ -1,0 +1,39 @@
+title: Reverse information projections and optimal e-statistics
+authors: Tyron Lardy, Peter Grünwald, Peter Harremoës
+year: 2024
+doi: 10.1109/tit.2024.3444458
+arxiv: '2306.16646'
+abstract: >-
+  Information projections have found important applications in probability theory, statistics, and
+  related areas. In the field of hypothesis testing in particular, the reverse information
+  projection (RIPr) has recently been shown to lead to growth-rate optimal (GRO) e-statistics for
+  testing simple alternatives against composite null hypotheses. However, the RIPr as well as the
+  GRO criterion are undefined whenever the infimum information divergence between the null and
+  alternative is infinite. We show that in such scenarios, under some assumptions, there still
+  exists a measure in the null that is closest to the alternative in a specific sense. Whenever
+  the information divergence is finite, this measure coincides with the usual RIPr. It therefore
+  gives a natural extension of the RIPr to certain cases where the latter was previously not
+  defined. This extended notion of the RIPr is shown to lead to optimal e-statistics in a sense
+  that is a novel, but natural, extension of the GRO criterion. We also give conditions under
+  which the (extension of the) RIPr is a strict sub-probability measure, as well as conditions
+  under which an approximation of the RIPr leads to approximate e-statistics. For this case we
+  provide tight relations between the corresponding approximation rates.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2306.16646
+openalex_id: null
+s2_id: null
+labels:
+- theory
+- e-values
+- information theory
+publications:
+  - name: IEEE Transactions on Information Theory
+    year: 2024
+    url: https://doi.org/10.1109/TIT.2024.3444458
+    doi: 10.1109/tit.2024.3444458
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2306.16646
+    arxiv: '2306.16646'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

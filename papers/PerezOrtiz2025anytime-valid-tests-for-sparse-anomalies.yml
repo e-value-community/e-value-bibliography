@@ -1,0 +1,32 @@
+title: Anytime-Valid Tests for Sparse Anomalies
+authors: Muriel F. Pérez-Ortiz, Rui M. Castro, Ivo V. Stoepker
+year: 2025
+arxiv: '2506.22588'
+abstract: >-
+  We consider the problem of testing sequentially for the presence of sparse anomalies among a
+  large number of data streams. To this end, we design and analyze Anytime-Valid (AV) tests, which
+  retain type-I error control at arbitrary stopping times. Existing results address exclusively
+  the nonsequential case, which exhibits a subtle phase transition between two regimes where tests
+  are either powerless or powerful. In our sequential setting, we argue, two challenges arise: (1)
+  the standard analysis of AV tests cannot be executed in the relevant sample-size regime; and (2)
+  standard constructions of parameter-adaptive AV tests are either analytically intractable or
+  computationally unfeasible. This work addresses these challenges. Borrowing insights from the
+  nonsequential literature, we propose a framework to analyze AV tests and their shortest possible
+  sample sizes. Under this framework, we show that, in the Gaussian location setting, the oracle
+  AV test has a delicate threshold behavior that is related to -- but not implied by -- the phase
+  transition observed in optimal nonsequential tests. Our main results include a computationally
+  efficient, parameter-adaptive AV test; we show that it achieves the same threshold behavior as
+  the oracle AV test. Numerical simulations illustrate these theoretical findings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2506.22588
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2506.22588
+    arxiv: '2506.22588'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

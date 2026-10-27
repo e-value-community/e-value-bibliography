@@ -1,0 +1,24 @@
+title: Universal Inference for Incomplete Discrete Choice Models
+authors: Hiroaki Kaido, Yi Zhang
+year: 2025
+arxiv: '2501.17973'
+abstract: >-
+  A growing number of empirical models exhibit set-valued predictions. This paper develops a
+  tractable inference method with finite-sample validity for such models. The proposed procedure
+  uses a robust version of the universal inference framework by Wasserman et al. (2020) and avoids
+  using moment selection tuning parameters, resampling, or simulations. The method is designed for
+  constructing confidence intervals for counterfactual objects and other functionals of the
+  underlying parameter. It can be used in applications that involve model incompleteness, discrete
+  and continuous covariates, and parameters containing nuisance components.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.17973
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.17973
+  arxiv: '2501.17973'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

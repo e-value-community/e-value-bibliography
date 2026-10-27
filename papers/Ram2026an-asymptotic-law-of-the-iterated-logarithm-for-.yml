@@ -1,0 +1,32 @@
+title: An Asymptotic Law of the Iterated Logarithm for KL-inf
+authors: Ashwin Ram, Aaditya Ramdas
+year: 2026
+arxiv: '2602.05259'
+abstract: >-
+  The population $\mathrm{KL}_{\inf}$ is a fundamental quantity that appears in lower bounds for
+  (asymptotically) optimal regret of pure-exploration stochastic bandit algorithms, and optimal
+  stopping time of sequential tests. Motivated by this, an empirical $\mathrm{KL}_{\inf}$
+  statistic is frequently used in the design of (asymptotically) optimal bandit algorithms and
+  sequential tests. While nonasymptotic concentration bounds for the empirical
+  $\mathrm{KL}_{\inf}$ have been developed, their optimality in terms of constants and rates is
+  questionable, and their generality is limited (usually to bounded observations). The fundamental
+  limits of nonasymptotic concentration are often described by the asymptotic fluctuations of the
+  statistics. With that motivation, this paper presents a tight (upper and lower) law of the
+  iterated logarithm for empirical $\mathrm{KL}_{\inf}$ applying to extremely general (unbounded)
+  data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.05259
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- information theory
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.05259
+  arxiv: '2602.05259'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,28 @@
+title: Minimax Duality in Game-Theoretic Probability
+authors: Rafael Frongillo
+year: 2025
+arxiv: '2512.21026'
+abstract: >-
+  Game-theoretic probability uses the structure of gambles to define a concept like probability,
+  but which is more flexible and robust. We show that results in game-theoretic probability can be
+  thought of as minimax theorems for specific zero-sum games between two players, Gambler and
+  World. The traditional measure-theoretic versions arise when World must play first. This
+  perspective suggests the possibility of a more general minimax theorem from which a wide array
+  of game-theoretic results would follow. After developing a new framing of game-theoretic
+  probability via gamble spaces, we prove such a theorem for finite time. Applying this minimax
+  theorem to games derived from existing measure-theoretic statements, we prove several existing
+  and novel game-theoretic statements. This general minimax theorem can be thought of as a
+  composite Ville's theorem, as we discuss along with future directions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.21026
+labels:
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.21026
+  arxiv: '2512.21026'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

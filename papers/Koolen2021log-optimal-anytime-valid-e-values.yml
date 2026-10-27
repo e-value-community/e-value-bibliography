@@ -1,0 +1,28 @@
+title: Log-optimal anytime-valid e-values
+authors: Wouter M. Koolen, Peter Grünwald
+year: 2022
+doi: 10.1016/j.ijar.2021.09.010
+arxiv: null
+abstract: >-
+  We consider the problem of measuring statistical evidence against a composite null hypothesis.
+  We base our approach on the concept of an E-value, which measures evidence by the multiplication
+  factor achieved by engaging in bets that are fair under the null. We adopt the log-optimality
+  criterion for choosing among all possible E-values, which was considered earlier for a fixed
+  sample size. We extend these ideas to sequential testing under optional stopping, by revisiting
+  anytime-valid E-values. Our main contribution is the formulation of a sequential log-optimality
+  criterion. We study its properties, and work out examples analytically and computationally.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1016/j.ijar.2021.09.010
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- theory
+- e-values
+publications:
+  - name: International Journal of Approximate Reasoning
+    year: 2021
+    url: https://doi.org/10.1016/j.ijar.2021.09.010
+    doi: 10.1016/j.ijar.2021.09.010
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

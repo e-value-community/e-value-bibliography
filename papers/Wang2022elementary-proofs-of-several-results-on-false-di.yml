@@ -1,0 +1,23 @@
+title: Elementary proofs of several results on false discovery rate
+authors: Ruodu Wang
+year: 2022
+arxiv: '2201.09350'
+abstract: >-
+  We collect self-contained elementary proofs of four results in the literature on the false
+  discovery rate of the Benjamini-Hochberg (BH) procedure for independent or positive-regression
+  dependent p-values, the Benjamini-Yekutieli correction for arbitrarily dependent p-values, and
+  the e-BH procedure for arbitrarily dependent e-values. As a corollary, the above proofs also
+  lead to some inequalities of Simes and Hommel.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2201.09350
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2201.09350
+  arxiv: '2201.09350'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

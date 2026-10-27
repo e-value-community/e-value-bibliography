@@ -1,0 +1,24 @@
+title: Reliable Change Point Detection for ACGH data
+authors: Charalambos Eliades, Harris Papadopoulos
+year: 2024
+abstract: >-
+  This study introduces two algorithms based on the Inductive Conformal Martingale (ICM) approach
+  to address the change point (CP) detection problem in array-based Comparative Genomic
+  Hybridization (aCGH) data. The ICM, a distribution-free approach with minimal assumptions, is
+  particularly suitable for this application. We have implemented two ICM-based algorithms; the
+  first utilizes nonconformities from preprocessed data, while the second incorporates the label
+  conditional distribution and the labels’ distribution to enhance detection accuracy. This
+  approach significantly improves our results, demonstrating the potential of ICM in complex
+  genomic data analysis.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v230/eliades24a.html
+labels:
+- methodology
+- applications
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2024
+  url: https://raw.githubusercontent.com/mlresearch/v230/main/assets/eliades24a/eliades24a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

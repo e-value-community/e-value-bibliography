@@ -1,0 +1,22 @@
+title: Enhancing Conformal Prediction Using E-Test Statistics
+authors: Alexander A. Balinsky, Alexander David Balinsky
+year: 2024
+abstract: >-
+  Conformal Prediction (CP) serves as a robust framework that quantifies uncertainty in
+  predictions made by Machine Learning (ML) models. Unlike traditional point predictors, CP
+  generates statistically valid prediction regions, also known as prediction intervals, based on
+  the assumption of data exchangeability. Typically, the construction of conformal predictions
+  hinges on p-values. This paper, however, ventures down an alternative path, harnessing the power
+  of e-test statistics to augment the efficacy of conformal predictions by introducing a
+  BB-predictor (bounded from the below predictor). The BB-predictor can be constructed under even
+  more lenient assumptions than exchangeability.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v230/balinsky24a.html
+labels:
+- methodology
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2024
+  url: https://proceedings.mlr.press/v230/balinsky24a.html
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

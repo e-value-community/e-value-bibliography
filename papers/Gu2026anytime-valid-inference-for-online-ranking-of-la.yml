@@ -1,0 +1,22 @@
+title: Anytime-Valid Inference for Online Ranking of Large Language Models
+authors: Runzhe Gu, Wenguang Sun, Bowen Gang, Xintao Xia
+year: 2026
+abstract: >-
+  Gu, Sun, Gang, and Xia introduce SERPANT, a framework for ranking language models from
+  sequentially collected pairwise preferences. It represents model comparisons as pairwise
+  hypotheses and uses e-processes to control the family-wise error rate at every monitoring time,
+  thereby permitting principled early stopping. A tournament-based adaptive sampling rule improves
+  efficiency, and the framework extends to identifying the top k models.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v306/gu26l.html
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/gu26l.html
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

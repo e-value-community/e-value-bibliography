@@ -1,0 +1,40 @@
+title: Performance of Test Supermartingale Confidence Intervals for the Success Probability of Bernoulli
+  Trials
+authors: Peter Wills, Emanuel Knill, Kevin Coakley, Yanbao Zhang
+year: 2020
+doi: 10.6028/jres.125.003
+arxiv: '1709.04078'
+abstract: >-
+  Given a composite null hypothesis H, test supermartingales are non-negative supermartingales
+  with respect to H with initial value 1. Large values of test supermartingales provide evidence
+  against H. As a result, test supermartingales are an effective tool for rejecting H,
+  particularly when the p-values obtained are very small and serve as certificates against the
+  null hypothesis. Examples include the rejection of local realism as an explanation of Bell test
+  experiments in the foundations of physics and the certification of entanglement in quantum
+  information science. Test supermartingales have the advantage of being adaptable during an
+  experiment and allowing for arbitrary stopping rules. By inversion of acceptance regions, they
+  can also be used to determine confidence sets. We use an example to compare the performance of
+  test supermartingales for computing p-values and confidence intervals to Chernoff-Hoeffding
+  bounds and the "exact" p-value. The example is the problem of inferring the probability of
+  success in a sequence of Bernoulli trials. There is a cost in using a technique that has no
+  restriction on stopping rules, and for a particular test supermartingale, our study quantifies
+  this cost.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1709.04078
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Journal of Research of the National Institute of Standards and Technology
+  year: 2020
+  url: https://doi.org/10.6028/jres.125.003
+  doi: 10.6028/jres.125.003
+- name: arXiv
+  year: 2017
+  url: https://arxiv.org/abs/1709.04078
+  arxiv: '1709.04078'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

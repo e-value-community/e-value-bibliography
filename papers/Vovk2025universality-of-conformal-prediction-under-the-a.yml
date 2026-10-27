@@ -1,0 +1,25 @@
+title: Universality of conformal prediction under the assumption of randomness
+authors: Vladimir Vovk
+year: 2025
+arxiv: '2502.19254'
+abstract: >-
+  Conformal predictors provide set or functional predictions that are valid under the assumption
+  of randomness, i.e., under the assumption of independent and identically distributed data. The
+  question asked in this paper is whether there are predictors that are valid in the same sense
+  under the assumption of randomness and that are more efficient than conformal predictors. The
+  answer is that the class of conformal predictors is universal in that only limited gains in
+  predictive efficiency are possible. The previous work in this area has relied on the algorithmic
+  theory of randomness and so involved unspecified constants, whereas this paper's results are
+  much more practical. They are also shown to be optimal in some respects.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.19254
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2502.19254
+    arxiv: '2502.19254'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

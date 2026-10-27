@@ -1,0 +1,33 @@
+title: Conformal e-prediction
+authors: Vladimir Vovk
+year: 2025
+doi: 10.1016/j.patcog.2025.111674
+arxiv: '2001.05989'
+abstract: >-
+  This paper discusses a counterpart of conformal prediction for e-values, conformal e-prediction.
+  Conformal e-prediction is conceptually simpler and had been developed in the 1990s as a
+  precursor of conformal prediction. When conformal prediction emerged as result of replacing
+  e-values by p-values, it seemed to have important advantages over conformal e-prediction without
+  obvious disadvantages. This paper re-examines relations between conformal prediction and
+  conformal e-prediction systematically from a modern perspective. Conformal e-prediction has
+  advantages of its own, such as the ease of designing conditional conformal e-predictors and the
+  guaranteed validity of cross-conformal e-predictors (whereas for cross-conformal predictors
+  validity is only an empirical fact and can be broken with excessive randomization). Even where
+  conformal prediction has clear advantages, conformal e-prediction can often emulate those
+  advantages, more or less successfully.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2001.05989
+labels:
+- methodology
+- e-values
+publications:
+- name: Pattern Recognition
+  year: 2025
+  url: https://doi.org/10.1016/j.patcog.2025.111674
+  doi: 10.1016/j.patcog.2025.111674
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2001.05989
+  arxiv: '2001.05989'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,35 @@
+title: Sequential Structure-Sensitive Residual Diagnostics for PDE Inverse Problems
+authors: Ieva Kazlauskaite
+year: 2026
+arxiv: '2607.02101'
+abstract: >-
+  Computational models in science and engineering are often assessed by checking whether the
+  residual norm is consistent with the assumed noise level. This can be misleading in smoothing
+  inverse problems: structured model errors may be attenuated in observation space, leaving
+  residual magnitudes below practitioner discrepancy thresholds while coherent residual patterns
+  remain. As a result, residual-norm diagnostics can accept fitted models that still give biased
+  parameters, predictions, or quantities of interest. We propose a structure-sensitive sequential
+  diagnostic based on e-processes. The method uses a portfolio of spatial residual-pattern
+  experts, updates their likelihood-ratio wealth as observations are processed, and rejects the
+  fitted model when the aggregate wealth crosses a prescribed threshold, giving anytime-valid
+  type-I error control for a fixed fitted model. We compare the method with Morozov discrepancy
+  checks, fixed-sample residual tests, and batch projection tests. Across three inverse problems
+  (elliptic diffusion, two-dimensional Stokes flow, and a glaciological ice-stream inversion
+  implemented in the community finite-element model icepack) we demonstrate how standard
+  discrepancy checks accept misspecified fits that produce materially wrong quantities of
+  interest. Structure-sensitive batch tests detect these failures using the full dataset, while
+  the e-process detects them earlier from a fraction of the observations. After rejection, the
+  expert wealth attributes the evidence to residual patterns in the chosen dictionary and provides
+  a basis for exploratory model correction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.02101
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2607.02101
+    arxiv: '2607.02101'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

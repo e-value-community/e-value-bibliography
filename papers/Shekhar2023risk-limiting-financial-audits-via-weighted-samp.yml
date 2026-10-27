@@ -1,0 +1,37 @@
+title: Risk-limiting Financial Audits via Weighted Sampling without Replacement
+authors: Shubhanshu Shekhar, Ziyu Xu, Zachary C. Lipton, Pierre J. Liang, Aaditya Ramdas
+year: 2023
+arxiv: '2305.06884'
+abstract: >-
+  We introduce the notion of a risk-limiting financial auditing (RLFA): given $N$ transactions,
+  the goal is to estimate the total misstated monetary fraction~($m^*$) to a given accuracy $ε$,
+  with confidence $1-δ$. We do this by constructing new confidence sequences (CSs) for the
+  weighted average of $N$ unknown values, based on samples drawn without replacement according to
+  a (randomized) weighted sampling scheme. Using the idea of importance weighting to construct
+  test martingales, we first develop a framework to construct CSs for arbitrary sampling
+  strategies. Next, we develop methods to improve the quality of CSs by incorporating side
+  information about the unknown values associated with each item. We show that when the side
+  information is sufficiently predictive, it can directly drive the sampling. Addressing the case
+  where the accuracy is unknown a priori, we introduce a method that incorporates side information
+  via control variates. Crucially, our construction is adaptive: if the side information is highly
+  predictive of the unknown misstated amounts, then the benefits of incorporating it are
+  significant; but if the side information is uncorrelated, our methods learn to ignore it. Our
+  methods recover state-of-the-art bounds for the special case when the weights are equal, which
+  has already found applications in election auditing. The harder weighted case solves our more
+  challenging problem of AI-assisted financial auditing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.06884
+labels:
+- applications
+- e-values
+- confidence sequences
+publications:
+  - name: Conference on Uncertainty in Artificial Intelligence
+    year: 2023
+    url: https://proceedings.mlr.press/v216/shekhar23a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2305.06884
+    arxiv: '2305.06884'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

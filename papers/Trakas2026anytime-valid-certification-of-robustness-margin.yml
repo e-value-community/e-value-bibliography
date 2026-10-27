@@ -1,0 +1,33 @@
+title: Anytime-Valid Certification of Robustness Margins for Safe Control via E-Values
+authors: Panagiotis S. Trakas, Omid Mirzaeedodangeh, Lars Lindemann
+year: 2026
+arxiv: '2610.23746'
+abstract: >-
+  Robust control uses the error between a known model and the true system as a robustness margin.
+  However, this error is usually unknown: conservative estimates restrict feasibility and
+  performance, while underestimates can result in violations of the control property. We estimate
+  this robustness margin from online data using e-values, a statistical tool for hypothesis
+  testing, in the setting of discrete-time control barrier functions (CBFs). Here, we measure the
+  robustness margin as the difference between the observed CBF and the model-based CBF prediction.
+  We then design a robust CBF controller in three steps by: (1) selecting a set of candidate
+  margins, (2) obtaining validity certificates for these candidates via sequential tests based on
+  e-values, and (3) updating the CBF controller with the smallest certified candidate. The
+  deployed tests accumulate evidence against the hypothesis that an exceedance risk, the
+  probability of the robustness margin exceeding the candidate margin, remains at or above a
+  pre-specified failure probability $α$. Our tests are anytime valid and thus enable the use of
+  certified candidates in the CBF controller, guaranteeing that the probability that the
+  exceedance risk of a certified margin exceeds $α$ is at most a user-chosen confidence $δ$. We
+  validate our approach on navigation problems across different environments with visualizations
+  in NVIDIA Isaac Sim.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.23746
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.23746
+    arxiv: '2610.23746'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

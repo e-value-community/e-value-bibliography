@@ -1,0 +1,24 @@
+title: Sharp Finite-Time Iterated-Logarithm Martingale Concentration
+authors: Akshay Balsubramani
+year: 2014
+arxiv: '1405.2639'
+abstract: >-
+  We give concentration bounds for martingales that are uniform over finite times and extend
+  classical Hoeffding and Bernstein inequalities. We also demonstrate our concentration bounds to
+  be optimal with a matching anti-concentration inequality, proved using the same method. Together
+  these constitute a finite-time version of the law of the iterated logarithm, and shed light on
+  the relationship between it and the central limit theorem.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1405.2639
+labels:
+- theory
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2014
+  url: https://arxiv.org/abs/1405.2639
+  arxiv: '1405.2639'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,43 @@
+title: Post-selection inference for e-value based confidence intervals
+authors: Ziyu Xu, Ruodu Wang, Aaditya Ramdas
+year: 2024
+doi: 10.1214/24-EJS2253
+arxiv: '2203.12572'
+abstract: >-
+  Suppose that one can construct a valid $(1-δ)$-confidence interval (CI) for each of $K$
+  parameters of potential interest. If a data analyst uses an arbitrary data-dependent criterion
+  to select some subset $S$ of parameters, then the aforementioned CIs for the selected parameters
+  are no longer valid due to selection bias. We design a new method to adjust the intervals in
+  order to control the false coverage rate (FCR). The main established method is the "BY
+  procedure" by Benjamini and Yekutieli (JASA, 2005). The BY guarantees require certain
+  restrictions on the selection criterion and on the dependence between the CIs. We propose a new
+  simple method which, in contrast, is valid under any dependence structure between the original
+  CIs, and any (unknown) selection criterion, but which only applies to a special, yet broad,
+  class of CIs that we call e-CIs. To elaborate, our procedure simply reports $(1-δ|S|/K)$-CIs for
+  the selected parameters, and we prove that it controls the FCR at $δ$ for confidence intervals
+  that implicitly invert e-values; examples include those constructed via supermartingale methods,
+  via universal inference, or via Chernoff-style bounds, among others. The e-BY procedure is
+  admissible, and recovers the BY procedure as a special case via a particular calibrator. Our
+  work also has implications for post-selection inference in sequential settings, since it applies
+  at stopping times, to continuously-monitored confidence sequences, and under bandit sampling. We
+  demonstrate the efficacy of our procedure using numerical simulations and real A/B testing data
+  from Twitter.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.12572
+labels:
+- methodology
+- e-values
+- confidence sequences
+- multiple testing
+- post-hoc inference
+publications:
+  - name: Electronic Journal of Statistics
+    year: 2024
+    url: https://doi.org/10.1214/24-EJS2253
+    doi: 10.1214/24-EJS2253
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2203.12572
+    arxiv: '2203.12572'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

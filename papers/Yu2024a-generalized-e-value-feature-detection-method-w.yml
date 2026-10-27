@@ -1,0 +1,33 @@
+title: A generalized e-value feature detection method with FDR control at multiple resolutions
+authors: Chengyao Yu, Ruixing Ming, Min Xiao, Zhanfeng Wang, Bingyi Jing
+year: 2024
+arxiv: '2409.17039'
+abstract: >-
+  Multiple resolutions arise across a range of explanatory features due to domain-specific
+  structures, leading to the formation of feature groups. It follows that the simultaneous
+  detection of significant features and groups aimed at a specific response with false discovery
+  rate (FDR) control stands as a crucial issue, such as the spatial genome-wide association
+  studies. Nevertheless, existing detection methods with multilayer FDR control generally rely on
+  valid p-values or knockoff statistics, which can be not flexible, powerful and stable in several
+  settings. To fix this issue effectively, this article develops a novel method of Stabilized
+  Flexible E-Filter Procedure (SFEFP), by constructing unified generalized e-values, leveraging a
+  generalized e-filter, and adopting a stabilization treatment with power enhancement. This method
+  flexibly incorporates diverse base detection procedures at different resolutions to provide
+  consistent, powerful, and stable results, while controlling FDR at multiple resolutions
+  simultaneously. Statistical properties of multilayer filtering procedure encompassing one-bit
+  property, multilayer FDR control, and stability guarantee are established. We also develop
+  several examples for SFEFP such as the eDS-filter. Simulation studies and the analysis of HIV
+  mutation data demonstrate the efficacy of SFEFP.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.17039
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.17039
+  arxiv: '2409.17039'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

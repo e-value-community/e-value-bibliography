@@ -1,0 +1,38 @@
+title: Backward Conformal Prediction
+authors: Etienne Gauthier, Francis Bach, Michael I. Jordan
+year: 2025
+doi: 10.52202/085713-3470
+arxiv: '2505.13732'
+abstract: >-
+  We introduce $\textit{Backward Conformal Prediction}$, a method that guarantees conformal
+  coverage while providing flexible control over the size of prediction sets. Unlike standard
+  conformal prediction, which fixes the coverage level and allows the conformal set size to vary,
+  our approach defines a rule that constrains how prediction set sizes behave based on the
+  observed data, and adapts the coverage level accordingly. Our method builds on two key
+  foundations: (i) recent results by Gauthier et al. [2025] on post-hoc validity using e-values,
+  which ensure marginal coverage of the form $\mathbb{P}(Y_{\rm test} \in \hat
+  C_n^{\tildeα}(X_{\rm test})) \ge 1 - \mathbb{E}[\tildeα]$ up to a first-order Taylor
+  approximation for any data-dependent miscoverage $\tildeα$, and (ii) a novel leave-one-out
+  estimator $\hatα^{\rm LOO}$ of the marginal miscoverage $\mathbb{E}[\tildeα]$ based on the
+  calibration set, ensuring that the theoretical guarantees remain computable in practice. This
+  approach is particularly useful in applications where large prediction sets are impractical such
+  as medical diagnosis. We provide theoretical results and empirical evidence supporting the
+  validity of our method, demonstrating that it maintains computable coverage guarantees while
+  ensuring interpretable, well-controlled prediction set sizes.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.13732
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://doi.org/10.52202/085713-3470
+  doi: 10.52202/085713-3470
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2505.13732
+  arxiv: '2505.13732'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

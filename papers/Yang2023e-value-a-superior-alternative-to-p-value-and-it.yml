@@ -1,0 +1,39 @@
+title: 'E-value: a superior alternative to P-value and its adjustments in DNA methylation studies'
+authors: Yifan Yang, Haoyuan Liu, Yi Liu, Liyuan Zhou, Xiaoqi Zheng, Rongxian Yue, David L. Mattson, Srividya
+  Kidambi, Mingyu Liang, Pengyuan Liu, Xiaoqing Pan
+year: 2023
+doi: 10.1093/bib/bbad241
+abstract: >-
+  Abstract DNA methylation plays a crucial role in transcriptional regulation. Reduced
+  representation bisulfite sequencing (RRBS) is a technique of increasing use for analyzing
+  genome-wide methylation profiles. Many computational tools such as Metilene, MethylKit, BiSeq
+  and DMRfinder have been developed to use RRBS data for the detection of the differentially
+  methylated regions (DMRs) potentially involved in epigenetic regulations of gene expression. For
+  DMR detection tools, as for countless other medical applications, P-values and their adjustments
+  are among the most standard reporting statistics used to assess the statistical significance of
+  biological findings. However, P-values are coming under increasing criticism relating to their
+  questionable accuracy and relatively high levels of false positive or negative indications.
+  Here, we propose a method to calculate E-values, as likelihood ratios falling into the null
+  hypothesis over the entire parameter space, for DMR detection in RRBS data. We also provide the
+  R package ‘metevalue’ as a user-friendly interface to implement E-value calculations into
+  various DMR detection tools. To evaluate the performance of E-values, we generated various RRBS
+  benchmarking datasets using our simulator ‘RRBSsim’ with eight samples in each experimental
+  group. Our comprehensive benchmarking analyses showed that using E-values not only significantly
+  improved accuracy, area under ROC curve and power, over that of P-values or adjusted P-values,
+  but also reduced false discovery rates and type I errors. In applications using real RRBS data
+  of CRL rats and a clinical trial on low-salt diet, the use of E-values detected biologically
+  more relevant DMRs and also improved the negative association between DNA methylation and gene
+  expression.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/bib/bbad241
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Briefings in Bioinformatics
+  year: 2023
+  url: https://doi.org/10.1093/bib/bbad241
+  doi: 10.1093/bib/bbad241
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

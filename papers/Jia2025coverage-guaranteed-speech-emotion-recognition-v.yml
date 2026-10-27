@@ -1,0 +1,41 @@
+title: Coverage-Guaranteed Speech Emotion Recognition via Calibrated Uncertainty-Adaptive Prediction Sets
+authors: Zijun Jia, Diyin Tang, Hongyu Long, Jinsong Yu
+year: 2025
+doi: 10.1016/j.engappai.2025.111721
+arxiv: '2503.22712'
+abstract: >-
+  Road rage, often triggered by emotional suppression and sudden outbursts, significantly
+  threatens road safety by causing collisions and aggressive behavior. Speech emotion recognition
+  technologies can mitigate this risk by identifying negative emotions early and issuing timely
+  alerts. However, current SER methods, such as those based on hidden markov models and Long
+  short-term memory networks, primarily handle one-dimensional signals, frequently experience
+  overfitting, and lack calibration, limiting their safety-critical effectiveness. We propose a
+  novel risk-controlled prediction framework providing statistically rigorous guarantees on
+  prediction accuracy. This approach employs a calibration set to define a binary loss function
+  indicating whether the true label is included in the prediction set. Using a data-driven
+  threshold $β$, we optimize a joint loss function to maintain an expected test loss bounded by a
+  user-specified risk level $α$. Evaluations across six baseline models and two benchmark datasets
+  demonstrate our framework consistently achieves a minimum coverage of $1 - α$, effectively
+  controlling marginal error rates despite varying calibration-test split ratios (e.g., 0.1). The
+  robustness and generalizability of the framework are further validated through an extension to
+  small-batch online calibration under a local exchangeability assumption. We construct a
+  non-negative test martingale to maintain prediction validity even in dynamic and
+  non-exchangeable environments. Cross-dataset tests confirm our method's ability to uphold
+  reliable statistical guarantees in realistic, evolving data scenarios.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2503.22712
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: Engineering Applications of Artificial Intelligence
+    year: 2025
+    url: https://doi.org/10.1016/j.engappai.2025.111721
+    doi: 10.1016/j.engappai.2025.111721
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2503.22712
+    arxiv: '2503.22712'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

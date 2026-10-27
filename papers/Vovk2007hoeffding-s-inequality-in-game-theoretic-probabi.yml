@@ -1,0 +1,21 @@
+title: Hoeffding's inequality in game-theoretic probability
+authors: Vladimir Vovk
+year: 2007
+arxiv: '0708.2502'
+abstract: >-
+  This note makes the obvious observation that Hoeffding's original proof of his inequality
+  remains valid in the game-theoretic framework. All details are spelled out for the convenience
+  of future reference.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/0708.2502
+labels:
+- theory
+- e-values
+- probability theory
+publications:
+- name: arXiv
+  year: 2007
+  url: https://arxiv.org/abs/0708.2502
+  arxiv: '0708.2502'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

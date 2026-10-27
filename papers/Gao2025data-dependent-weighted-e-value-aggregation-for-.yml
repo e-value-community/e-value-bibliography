@@ -1,0 +1,26 @@
+title: Data-Dependent Weighted E-Value Aggregation for Fusion Learning
+authors: Jiahang Gao, Hongyu Chen, Guanxun Li
+year: 2026
+doi: 10.3390/math14010088
+abstract: >-
+  We propose a data-dependent weighted e-value aggregation framework for synthesizing discoveries
+  across partially overlapping studies. The key idea is to convert within study p-value-based
+  multiple testing results into e-values and aggregate them using data-dependent leave-one-out
+  weights, thereby mitigating the power loss associated with naive averaging. We show that
+  applying the e-Benjamini–Hochberg procedure to the aggregated e-values yields finite-sample
+  control of the global false discovery rate under standard conditions. Simulation studies and
+  real-data analyses demonstrate the effectiveness and practical advantages of the proposed
+  methods.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.3390/math14010088
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: Mathematics
+    year: 2025
+    url: https://doi.org/10.3390/math14010088
+    doi: 10.3390/math14010088
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

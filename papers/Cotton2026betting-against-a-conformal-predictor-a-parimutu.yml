@@ -1,0 +1,29 @@
+title: 'Betting Against a Conformal Predictor: a Parimutuel Account of the Information Gap'
+authors: Peter Cotton
+year: 2026
+abstract: >-
+  The companion paper shows that the log-score regret of a single-shape conformal predictor to the
+  conditional oracle is the mutual information I(R; X) between the residual and the input. Here we
+  rederive that quantity from a betting mechanism rather than from the score. Treat the predictor
+  as the crowd in a parimutuel pool on the residual: bettors put money in, and the pot is split
+  among the winners in proportion to their stake on the realised outcome. In the continuous limit
+  the payoff is the ratio of the bettor’s density to the crowd’s. An entrant who knows only the
+  marginal breaks even, which is marginal coverage stated as wealth. An entrant who conditions on
+  X grows his bankroll at rate exactly I(R; X). The gap is the rent. This is not a metaphor: the
+  nearest-the-pin pool of the microprediction platform, and the continuous density version run in
+  the MidOne contest, are this mechanism, and a conformal predictor is the entrant that prices the
+  pool flat in X. We then give two ways to measure the rent on a fitted predictor: a static lower
+  bound from distance covariance, and a sequential e-process whose growth rate estimates I(R; X)
+  and which is an anytime-valid test for conditional miscoverage.
+abstract_status: source_abstract
+abstract_source: https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf
+labels:
+- methodology
+- e-processes
+- information theory
+publications:
+  - name: Preprint
+    year: 2026
+    url: https://conformalprediction.net/papers/parimutuel/conformal-parimutuel.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

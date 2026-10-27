@@ -1,0 +1,29 @@
+title: E-Values Expand the Scope of Conformal Prediction
+authors: Etienne Gauthier, Francis Bach, Michael I. Jordan
+year: 2025
+arxiv: '2503.13050'
+abstract: >-
+  Conformal prediction is a powerful framework for distribution-free uncertainty quantification.
+  The standard approach to conformal prediction relies on comparing the ranks of prediction
+  scores: under exchangeability, the rank of a future test point cannot be too extreme relative to
+  a calibration set. This rank-based method can be reformulated in terms of p-values. In this
+  paper, we explore an alternative approach based on e-values, known as conformal e-prediction.
+  E-values offer key advantages that cannot be achieved with p-values, enabling new theoretical
+  and practical capabilities. In particular, we present three applications that leverage the
+  unique strengths of e-values: batch anytime-valid conformal prediction, fixed-size conformal
+  sets with data-dependent coverage, and conformal prediction under ambiguous ground truth.
+  Overall, these examples demonstrate that e-value-based constructions provide a flexible
+  expansion of the toolbox of conformal prediction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2503.13050
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2503.13050
+  arxiv: '2503.13050'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

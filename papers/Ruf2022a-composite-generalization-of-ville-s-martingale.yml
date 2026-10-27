@@ -1,0 +1,37 @@
+title: A composite generalization of Ville's martingale theorem using e-processes
+authors: Johannes Ruf, Martin Larsson, Wouter M. Koolen, Aaditya Ramdas
+year: 2023
+doi: 10.1214/23-ejp1019
+arxiv: '2203.04485'
+abstract: >-
+  We provide a composite version of Ville's theorem that an event has zero measure if and only if
+  there exists a nonnegative martingale which explodes to infinity when that event occurs. This is
+  a classic result connecting measure-theoretic probability to the sequence-by-sequence
+  game-theoretic probability, recently developed by Shafer and Vovk. Our extension of Ville's
+  result involves appropriate composite generalizations of nonnegative martingales and
+  measure-zero events: these are respectively provided by ``e-processes'', and a new inverse
+  capital outer measure. We then develop a novel line-crossing inequality for sums of random
+  variables which are only required to have a finite first moment, which we use to prove a
+  composite version of the strong law of large numbers (SLLN). This allows us to show that
+  violation of the SLLN is an event of outer measure zero and that our e-process explodes to
+  infinity on every such violating sequence, while this is provably not achievable with a
+  nonnegative (super)martingale.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.04485
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: Electronic Journal of Probability
+  year: 2023
+  url: https://doi.org/10.1214/23-ejp1019
+  doi: 10.1214/23-ejp1019
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2203.04485
+  arxiv: '2203.04485'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

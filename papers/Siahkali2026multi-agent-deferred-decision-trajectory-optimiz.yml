@@ -1,0 +1,30 @@
+title: >-
+  Multi-Agent Deferred-Decision Trajectory Optimization with Anytime-Valid Target Retention for
+  Moving Candidates
+authors: Farbod Siahkali, Mengxue Hou, Vijay Gupta
+year: 2026
+arxiv: '2610.17003'
+abstract: >-
+  We study multi-agent terminal interception when one of several moving candidates is the unknown
+  target and both target identity and candidate terminal locations are uncertain. We develop a
+  receding-horizon deferred-decision trajectory optimization (DDTO) controller that combines
+  conformal terminal-location prediction, sequential candidate rejection, capacity-constrained
+  assignment, and candidate-contingent planning. Under exchangeability conditions for terminal and
+  identity residuals, with predictable querying, we establish fixed-time terminal-location
+  coverage and anytime-valid target retention. At the final replan, when one control step remains,
+  we bound the joint probability that a tightened-set DDTO plan passes nonlinear rollout
+  verification but capture fails. The closed-loop controller applies fallback guidance to any
+  agent without a verified DDTO plan and, across 100 paired scenarios, captures 79% of targets
+  under the strict control-effort budget and 85% when that budget is relaxed.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.17003
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.17003
+    arxiv: '2610.17003'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

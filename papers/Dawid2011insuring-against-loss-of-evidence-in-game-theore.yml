@@ -1,0 +1,29 @@
+title: Insuring against loss of evidence in game-theoretic probability
+authors: A. Philip Dawid, Steven de Rooij, Glenn Shafer, Alexander Shen, Nikolai Vereshchagin, Vladimir
+  Vovk
+year: 2011
+doi: 10.1016/j.spl.2010.10.013
+arxiv: '1005.1811'
+abstract: >-
+  We consider the game-theoretic scenario of testing the performance of Forecaster by Sceptic who
+  gambles against the forecasts. Sceptic's current capital is interpreted as the amount of
+  evidence he has found against Forecaster. Reporting the maximum of Sceptic's capital so far
+  exaggerates the evidence. We characterize the set of all increasing functions that remove the
+  exaggeration. This result can be used for insuring against loss of evidence.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1005.1811
+labels:
+- theory
+- e-values
+- probability theory
+publications:
+- name: Statistics & Probability Letters
+  year: 2011
+  url: https://doi.org/10.1016/j.spl.2010.10.013
+  doi: 10.1016/j.spl.2010.10.013
+- name: arXiv
+  year: 2010
+  url: https://arxiv.org/abs/1005.1811
+  arxiv: '1005.1811'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,27 @@
+title: Split empirical likelihood via universal inference for bounded means
+authors: Jiade Xu, Zhouping Li
+year: 2026
+doi: 10.1016/j.spl.2026.110877
+abstract: >-
+  Standard empirical likelihood (EL) inference relies on Wilks’ theorem for asymptotic
+  calibration, which often performs poorly under small samples or skewed data and can lead to
+  substantial under-coverage. To address this issue, we propose a split-dual empirical likelihood
+  method for constructing finite-sample valid confidence intervals. Our approach partitions the
+  data into training and test sets: the training set is used to optimize the dual parameter, while
+  the test set evaluates the corresponding betting score. By constraining the dual parameter to a
+  global safe region determined by the data bounds, we ensure nonnegative e-values and hence
+  strict validity without asymptotic approximations. Simulations on bounded distributions show
+  that the proposed method maintains nominal coverage across sample sizes and provides a robust
+  alternative to standard EL and existing betting-based methods.
+abstract_status: source_abstract
+abstract_source: https://www.sciencedirect.com/science/article/pii/S0167715226002415
+labels:
+- methodology
+- e-values
+publications:
+  - name: Statistics & Probability Letters
+    year: 2026
+    url: https://doi.org/10.1016/j.spl.2026.110877
+    doi: 10.1016/j.spl.2026.110877
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

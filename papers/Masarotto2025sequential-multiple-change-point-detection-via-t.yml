@@ -1,0 +1,30 @@
+title: Sequential Multiple Change Point Detection Via the Switch Distribution
+authors: Valentina Masarotto, Abed Razawi
+year: 2025
+abstract: >-
+  We address the problem of detecting changes in the underlying distribution of a sequence of
+  data, contributing a sequential detection algorithm which works in the case of multiple change
+  points. Our procedure is based on model selection principles and employs the so-called switch
+  distribution. To the best of our knowledge, there remains no standard method for online change
+  point detection using model selection. Under mild conditions, we deduce that our approach yields
+  consistent estimators and remains computationally efficient. Recent research in the e-values
+  literature has revisited the problem of online change point detection. A key contribution in
+  this area introduced e-detectors. We demonstrate that the switch test statistic can be expressed
+  like an e-process. This formulation allows to harness key results from online learning and
+  e-processes to bound the worst average delay. Our method is validated in simulated and real
+  datasets.
+abstract_status: source_abstract
+abstract_source: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5139384
+labels:
+- applications
+- e-processes
+- e-detectors
+- online learning
+publications:
+- name: Manuscript
+  year: 2025
+  url: https://doi.org/10.2139/ssrn.5139384
+  doi: 10.2139/ssrn.5139384
+doi: 10.2139/ssrn.5139384
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

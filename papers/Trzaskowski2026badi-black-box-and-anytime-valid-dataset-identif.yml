@@ -1,0 +1,37 @@
+title: 'BADI: Black-box and Anytime-valid Dataset Identification for Large Language Models'
+authors: >-
+  Piotr Trzaskowski, Nima Dindarsafa, Bihe Zhao, Krzysztof Wodnicki, Filip Szympliński, Franziska
+  Boenisch, Adam Dziedzic
+year: 2026
+abstract: >-
+  Large language models (LLMs) are trained on massive, uncurated internet datasets that often
+  include copyrighted material, making training data identification essential for intellectual
+  property protection. Dataset inference (DI) addresses this challenge by extracting diverse
+  training membership features for a suspect set, aggregating them, and applying statistical tests
+  to assess if that suspect set contributed to the model’s training. However, current DI methods
+  face two major limitations that hinder their practical deployment. First, they require gray-box
+  access to token probabilities, while state-of-the-art LLM APIs usually return only generated
+  tokens. We address this issue by approximating per-token probabilities from label-only outputs,
+  making black-box DI feasible. Second, existing DIs rely on p-value for statistical tests that
+  necessitate a fixed suspect set and a predetermined significance level. This either leads to
+  high computational costs for large suspect sets, especially in the black-box setup, or yields
+  inconclusive results for smaller sets, since adding new suspect data points post-hoc might be
+  necessary to provide strong enough evidence, but it invalidates statistical guarantees based on
+  p-values. To overcome this limitation, we introduce a black-box DI framework based on e-values
+  and sequential testing. The e-values offer anytime-valid guarantees and support optional
+  continuation, enabling safe accumulation of evidence, reducing inconclusive outcomes and compute
+  costs. Through these two fundamental advances, our Black-box and Anytime-valid Dataset
+  Identification (BADI) method enables practical data auditing for LLMs, supporting their
+  trustworthy deployment.
+abstract_status: source_abstract
+abstract_source: https://openreview.net/pdf?id=bvE9NXyJeb
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: International Conference on Learning Representations
+    year: 2026
+    url: https://openreview.net/forum?id=bvE9NXyJeb
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

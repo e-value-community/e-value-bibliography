@@ -1,0 +1,34 @@
+title: Reference-Null Calibrated Thresholds for E-Processes with Applications to Conformal Martingales
+authors: Yi Ding, Lan Wei, Xuehu Zhu, Wenlin Dai
+year: 2026
+arxiv: '2609.32678'
+abstract: >-
+  E-processes provide a flexible framework for anytime-valid inference, with the conventional
+  rejection boundary $1/α$ typically justified by Ville's inequality. Such a boundary is universal
+  but can be conservative, as it does not exploit additional information about the null
+  distribution. We propose a reference-null calibration framework that uses independent null
+  samples to construct sharper rejection thresholds while preserving type-I error control. To
+  study the statistical gain from sharper thresholds, we specialize the framework to conformal
+  martingales. Building on histogram-based betting, we incorporate Krichevsky--Trofimov smoothing
+  and develop a restart-mixture construction for distribution shift detection. We establish
+  quantitative results for detection power and detection delay and characterize how the reduction
+  in the rejection boundary translates into power and delay gains relative to the conventional
+  Ville boundary. Numerical experiments corroborate the theoretical findings across a range of
+  distributional changes. Finally, we apply the proposed calibration strategy to an existing
+  e-process for online LLM watermark detection, showing that the method can improve sequential
+  detection performance without modifying the underlying e-process. These results demonstrate that
+  reference-null calibration provides a general and modular way to enhance the efficiency of
+  e-process-based sequential inference.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.32678
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2609.32678
+    arxiv: '2609.32678'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

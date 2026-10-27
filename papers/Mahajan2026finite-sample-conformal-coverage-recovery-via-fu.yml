@@ -1,0 +1,39 @@
+title: >-
+  Finite-Sample Conformal Coverage Recovery via Fusion under Degraded Local Guarantees in Occupancy
+  Map Estimation
+authors: Ritvik Mahajan, Aneesh Raghavan, Karl Henrik Johansson
+year: 2026
+arxiv: '2607.14906'
+abstract: >-
+  Accurate and reliable environmental mapping is a fundamental requirement for multi-robot
+  autonomy. While continuous mapping techniques like Gaussian Process Occupancy Mapping (GPOM)
+  provide rich spatial correlation and uncertainty estimates, they lack formal, finite-sample
+  guarantees on their predictive reliability. Conformal prediction can equip each robot's local
+  map with a distribution-free coverage guarantee, but this local guarantee degrades in practice:
+  temporal correlation along a robot's trajectory breaks the exchangeability on which conformal
+  calibration relies, and each robot observes only a spatially limited, non-uniform portion of the
+  environment. Taking these degraded per-agent guarantees as given, we develop a distributed
+  fusion algorithm that recovers the desired coverage across the team. Robots exchange only
+  lightweight scalar e-values with their neighbors, and a receiver fuses them using a
+  per-neighborhood miscoverage budget and an uncertainty-attenuated fusion operator. We prove that
+  the fused set-valued map recovers the target user-specified coverage level regardless of the
+  communication graph topology or the underlying sensor noise distribution. However, a drawback is
+  that wherever the fused evidence is insufficient, the map declines to commit and returns both
+  labels (free and occupied), leaving a significant fraction of the domain unclassified rather
+  than thresholded into a single decision. Simulated multi-agent mapping experiments demonstrate
+  that the fused predictor reliably meets its theoretical coverage bounds, and illustrate that
+  denser communication topologies significantly enhance map efficiency by shrinking this
+  unclassified fraction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.14906
+labels:
+- applications
+- e-values
+- confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2607.14906
+    arxiv: '2607.14906'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

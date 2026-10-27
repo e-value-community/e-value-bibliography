@@ -1,0 +1,20 @@
+title: Sequential tests for composite hypotheses
+authors: D. R. Cox
+year: 1952
+doi: 10.1017/s030500410002764x
+abstract: >-
+  Abstract A method is given for obtaining sequential tests in the presence of nuisance
+  parameters. It is assumed that a jointly sufficient set of estimators exists for the unknown
+  parameters. A number of special tests are described and their properties discussed.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1017/s030500410002764x
+labels:
+- methodology
+- e-values
+publications:
+  - name: Mathematical Proceedings of the Cambridge Philosophical Society
+    year: 1952
+    url: https://doi.org/10.1017/s030500410002764x
+    doi: 10.1017/s030500410002764x
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

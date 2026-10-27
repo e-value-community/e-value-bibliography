@@ -1,0 +1,33 @@
+title: High-dimensional Inference and FDR Control for Simulated Markov Random Fields
+authors: Haoyu Wei, Xiaoyu Lei, Yixin Han, Huiming Zhang
+year: 2026
+doi: 10.4310/sii.260602005242
+arxiv: '2202.05612'
+abstract: >-
+  Identifying important features linked to a response variable is a fundamental task in various
+  scientific domains. This article explores statistical inference for simulated Markov random
+  fields in high-dimensional settings. We introduce a methodology based on Markov Chain Monte
+  Carlo Maximum Likelihood Estimation (MCMC-MLE) with Elastic-net regularization. Under mild
+  conditions on the MCMC method, our penalized MCMC-MLE method achieves $\ell_{1}$-consistency. We
+  propose a decorrelated score test, establishing both its asymptotic normality and that of a
+  one-step estimator, along with the associated confidence interval. Furthermore, we construct two
+  false discovery rate control procedures via the asymptotic behaviors for both p-values and
+  e-values. Comprehensive numerical simulations confirm the theoretical validity of the proposed
+  methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2202.05612
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Statistics and Its Interface
+  year: 2026
+  url: https://doi.org/10.4310/sii.260602005242
+  doi: 10.4310/sii.260602005242
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2202.05612
+  arxiv: '2202.05612'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

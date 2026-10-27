@@ -1,0 +1,29 @@
+title: 'CITE: Anytime-Valid Statistical Inference in LLM Self-Consistency'
+authors: Hirofumi Ota, Naoto Iwase, Yuki Ichihara, Junpei Komiyama, Masaaki Imaizumi
+year: 2026
+arxiv: '2605.05873'
+abstract: >-
+  Large language models often improve reasoning by sampling multiple outputs and aggregating their
+  final answers, but precise and efficient control of error levels remains a challenging task. In
+  particular, deciding when to stop sampling remains difficult when the stopping rule is
+  data-dependent and the set of possible answers is not known in advance. We study anytime-valid
+  certification of a prespecified target answer as the unique mode of the model's response
+  distribution, a guarantee distinct from answer correctness. We propose the Certification by
+  Intersection-union Testing with E-processes (CITE) algorithm, which provably controls false
+  certification at any prescribed level under arbitrary data-driven stopping, without requiring
+  prior knowledge of the answer category set. We also prove an category-set-size-free
+  stopping-time rate, establish matching minimax lower bounds up to constants in the main regime,
+  and extend the construction to confidence-weighted voting. Simulations and LLM self-consistency
+  experiments show empirical error control and improved certification in diffuse-tail settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.05873
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2605.05873
+    arxiv: '2605.05873'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,31 @@
+title: Anytime-valid simultaneous lower confidence bounds for the true discovery proportion
+authors: Friederike Preusse
+year: 2025
+arxiv: '2505.17803'
+abstract: >-
+  We propose a method that combines the closed testing framework with the concept of safe
+  anytime-valid inference (SAVI) to compute lower confidence bounds for the true discovery
+  proportion in a multiple testing setting. The proposed procedure provides confidence bounds that
+  are valid at every observation time point and that are simultaneous for all possible subsets of
+  hypotheses. While the hypotheses are assumed to be fixed over time, the subsets of interest may
+  vary. Anytime-valid simultaneous confidence bounds allow us to sequentially update the bounds
+  over time and allow for optional stopping. This is a desirable property in practical
+  applications such as neuroscience, where data acquisition is costly and time-consuming. We also
+  present a computational shortcut which makes the application of the proposed procedure feasible
+  when the number of hypotheses under consideration is large. We illustrate the performance of the
+  proposed method in a simulation study and give some practical guidelines on the implementation
+  of the proposed procedure.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.17803
+labels:
+- methodology
+- e-processes
+- confidence sequences
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2505.17803
+    arxiv: '2505.17803'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

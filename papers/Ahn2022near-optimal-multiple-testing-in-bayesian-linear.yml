@@ -1,0 +1,36 @@
+title: Near-optimal multiple testing in Bayesian linear models with finite-sample FDR control
+authors: Taejoo Ahn, Licong Lin, Song Mei
+year: 2022
+arxiv: '2211.02778'
+abstract: >-
+  In high dimensional variable selection problems, statisticians often seek to design multiple
+  testing procedures that control the False Discovery Rate (FDR), while concurrently identifying a
+  greater number of relevant variables. Model-X methods, such as Knockoffs and conditional
+  randomization tests, achieve the primary goal of finite-sample FDR control, assuming a known
+  distribution of covariates. However, whether these methods can also achieve the secondary goal
+  of maximizing discoveries remains uncertain. In fact, designing procedures to discover more
+  relevant variables with finite-sample FDR control is a largely open question, even within the
+  arguably simplest linear models. In this paper, we develop near-optimal multiple testing
+  procedures for high dimensional Bayesian linear models with isotropic covariates. We introduce
+  Model-X procedures that provably control the frequentist FDR from finite samples, even when the
+  model is misspecified, and conjecturally achieve near-optimal power when the data follow the
+  Bayesian linear model. Our proposed procedure, PoEdCe, incorporates three key ingredients:
+  Posterior Expectation, distilled Conditional randomization test (dCRT), and the
+  Benjamini-Hochberg procedure with e-values (eBH). The optimality conjecture of PoEdCe is based
+  on a heuristic calculation of its asymptotic true positive proportion (TPP) and false discovery
+  proportion (FDP), which is supported by methods from statistical physics as well as extensive
+  numerical simulations. Our result establishes the Bayesian linear model as a benchmark for
+  comparing the power of various multiple testing procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2211.02778
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2211.02778
+  arxiv: '2211.02778'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

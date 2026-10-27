@@ -1,0 +1,37 @@
+title: Gaffke's confidence interval for the mean of bounded data is inadmissible but asymptotically efficient
+authors: Jiahao Ming, Aaditya Ramdas, Yi Shen, Ruodu Wang, Ian Waudby-Smith
+year: 2026
+arxiv: '2607.18661'
+abstract: >-
+  Given observations $\mathbf x=(x_1,\dots,x_n)$, Gaffke (2005) defined \[ K_n(\mathbf
+  x)=\mathbb{P}_{\mathbf D}\!\left\{\sum_{i=1}^n x_iD_i\le 1\right\}, \qquad
+  (D_0,D_1,\ldots,D_n)\sim\mathrm{Dirichlet}(1,\ldots,1), \] and conjectured that it is a
+  $p$-value whenever the inputs are independent e-values. Recently, Vlassis and Thomas (2026)
+  proved this conjecture. Inverting the tests for observations in $[0,1]$ gives the confidence
+  interval studied by Learned-Miller and Thomas (2020), which reduces to Clopper--Pearson for
+  Bernoulli data. We give a finite- and large-sample account of Gaffke's test and interval. First,
+  for every $\mathbf x\in[0,\infty)^n$ and every elementary symmetric polynomial $e_k$, \(
+  K_n(\mathbf x)e_k(\mathbf x)\le {n\choose k}, \) so the Gaffke $p$-value never larger than the
+  SymPol $p$-value of Ming et al. (2026). However, Gaffke's p-value is inadmissible. For $n=2$, we
+  construct a valid rule that is strictly smaller on mixed configurations and is the unique
+  admissible rule that dominates $K_2$. A neutral-face extension proves inadmissibility of $K_n$
+  for every $n\ge2$. If one independent uniform random variable is allowed, there is an even
+  simpler full-dimensional improvement: on the upper orthant, where $K_n(\mathbf x)=1/\prod_i
+  x_i$, replace it by $U/\prod_i x_i$. The equal-tail Gaffke confidence interval $I_n$ is
+  nevertheless first-order asymptotically efficient: for iid observations on $[0,1]$ with unknown
+  variance $σ^2>0$, \[ \sqrt n\,\operatorname{Width}(I_n)\longrightarrow
+  2σz_{1-α/2}\qquad\text{almost surely}. \] Our simulations also find that, among a variety of
+  bounded-mean intervals considered, the Gaffke interval is the shortest, including comparisons
+  with a recent empirical Berry--Esseen procedure having the same first-order Gaussian target.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.18661
+labels:
+- methodology
+- e-values
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.18661
+  arxiv: '2607.18661'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

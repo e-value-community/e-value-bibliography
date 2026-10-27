@@ -1,0 +1,33 @@
+title: Nonparametric extensions of randomized response for private confidence sets
+authors: Ian Waudby-Smith, Zhiwei Steven Wu, Aaditya Ramdas
+year: 2023
+arxiv: '2202.08728'
+abstract: >-
+  This work derives methods for performing nonparametric, nonasymptotic statistical inference for
+  population means under the constraint of local differential privacy (LDP). Given bounded
+  observations $(X_1, \dots, X_n)$ with mean $μ^\star$ that are privatized into $(Z_1, \dots,
+  Z_n)$, we present confidence intervals (CI) and time-uniform confidence sequences (CS) for
+  $μ^\star$ when only given access to the privatized data. To achieve this, we study a
+  nonparametric and sequentially interactive generalization of Warner's famous ``randomized
+  response'' mechanism, satisfying LDP for arbitrary bounded random variables, and then provide
+  CIs and CSs for their means given access to the resulting privatized observations. For example,
+  our results yield private analogues of Hoeffding's inequality in both fixed-time and
+  time-uniform regimes. We extend these Hoeffding-type CSs to capture time-varying
+  (non-stationary) means, and conclude by illustrating how these methods can be used to conduct
+  private online A/B tests.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2202.08728
+labels:
+- applications
+- e-processes
+- confidence sequences
+publications:
+  - name: International Conference on Machine Learning
+    year: 2023
+    url: https://proceedings.mlr.press/v202/waudby-smith23a.html
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2202.08728
+    arxiv: '2202.08728'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,27 @@
+title: A New Interpretation of Information Rate
+authors: J. L. Kelly
+year: 1956
+doi: 10.1002/j.1538-7305.1956.tb03809.x
+abstract: >-
+  If the input symbols to a communication channel represent the outcomes of a chance event on
+  which bets are available at odds consistent with their probabilities (i.e., “fair” odds), a
+  gambler can use the knowledge given him by the received symbols to cause his money to grow
+  exponentially. The maximum exponential rate of growth of the gambler's capital is equal to the
+  rate of transmission of information over the channel. This result is generalized to include the
+  case of arbitrary odds. Thus we find a situation in which the transmission rate is significant
+  even though no coding is contemplated. Previously this quantity was given significance only by a
+  theorem of Shannon's which asserted that, with suitable encoding, binary digits could be
+  transmitted over the channel at this rate with an arbitrarily small probability of error.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/j.1538-7305.1956.tb03809.x
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: Bell System Technical Journal
+    year: 1956
+    url: https://doi.org/10.1002/j.1538-7305.1956.tb03809.x
+    doi: 10.1002/j.1538-7305.1956.tb03809.x
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

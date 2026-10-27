@@ -1,0 +1,37 @@
+title: Optimal Anytime-Valid Tests for Composite Nulls
+authors: Shubhanshu Shekhar
+year: 2025
+arxiv: '2512.20039'
+abstract: >-
+  We consider the problem of designing optimal level-$α$ power-one tests for composite nulls.
+  Given a parameter $α\in (0,1)$ and a stream of $\mathcal{X}$-valued observations $\{X_n: n \geq
+  1\} \overset{i.i.d.}{\sim} P$, the goal is to design a level-$α$ power-one test $τ_α$ for the
+  null $H_0: P \in \mathcal{P}_0 \subset \mathcal{P}(\mathcal{X})$. Prior works have shown that
+  any such $τ_α$ must satisfy $\mathbb{E}_P[τ_α] \geq \tfrac{\log(1/α)}{γ^*(P, \mathcal{P}_0)}$,
+  where $γ^*(P, \mathcal{P}_0)$ is the so-called $\mathrm{KL}_{\inf}$ or minimum divergence of $P$
+  to the null class. In this paper, our objective is to develop and analyze constructive schemes
+  that match this lower bound as $α\downarrow 0$. We first consider the finite-alphabet
+  case~($|\mathcal{X}| = m < \infty$), and show that a test based on \emph{universal}
+  $e$-process~(formed by the ratio of a universal predictor and the running null MLE) is optimal
+  in the above sense. The proof relies on a Donsker-Varadhan~(DV) based saddle-point
+  representation of $\mathrm{KL}_{\inf}$, and an application of Sion's minimax theorem. This
+  characterization motivates a general method for arbitrary $\mathcal{X}$: construct an
+  $e$-process based on the empirical solutions to the saddle-point representation over a
+  sufficiently rich class of test functions. We give sufficient conditions for the optimality of
+  this test for compact convex nulls, and verify them for Hölder smooth density models. We end the
+  paper with a discussion on the computational aspects of implementing our proposed tests in some
+  practical settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2512.20039
+labels:
+- methodology
+- e-values
+- e-processes
+- information theory
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2512.20039
+  arxiv: '2512.20039'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

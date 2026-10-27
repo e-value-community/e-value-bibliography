@@ -1,0 +1,35 @@
+title: >-
+  The Exact Ville Identity: From the Absorbing Case to the General Law with an Application to
+  E-Values
+authors: Victor H. de la Pena, Michael J. Klass
+year: 2026
+arxiv: '2607.04620'
+abstract: >-
+  For a nonnegative supermartingale $(M_n)$ with $M_0=1$, let $T_b$ be the first time it reaches a
+  level $b>1$. Ville's inequality gives only the bound $\mathbb P(T_b<\infty)\le 1/b$. We prove
+  the exact identity $\mathbb P(T_b<\infty)=(1-D_b-R_b)/(b+O_b)$, where $O_b$ is the expected
+  overshoot at crossing, $D_b$ is the cumulative predictable supermartingale loss before crossing,
+  and $R_b=\lim_n\mathbb E[M_n{\bf 1}\{T_b>n\}]$ is the residual mass carried by paths that never
+  cross. Thus the slack in Ville's inequality is decomposed completely into overshoot, loss, and
+  survival. The proof is given first in the absorbing case, where non-crossing paths decay to zero
+  and $R_b=0$, and then in full generality using a conservation identity for stopped martingales
+  at extended-valued stopping times. The formula yields Ville's inequality as a corollary, gives a
+  sharp tightness criterion, and is worked out in examples including double-or-absorb processes,
+  multiplicative decay, gambler's ruin, likelihood-ratio martingales, and a bounded martingale
+  with $R_b>0$. Finally, with $b=1/α$, the same identity gives the exact type-I error of a
+  sequential e-value test and identifies when threshold recalibration can safely recover unused
+  significance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.04620
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2607.04620
+    arxiv: '2607.04620'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

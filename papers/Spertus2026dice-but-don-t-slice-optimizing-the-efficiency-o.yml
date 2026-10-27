@@ -1,0 +1,33 @@
+title: 'Dice, but Don’t Slice: Optimizing the Efficiency of ONEAudit'
+authors: Jacob V Spertus, Amanda K Glazer, Philip B Stark
+year: 2026
+doi: 10.1007/978-3-032-05036-6_11
+arxiv: '2507.22179'
+abstract: >-
+  ONEAudit provides more efficient risk-limiting audits than other extant methods when the voting
+  system cannot report a cast-vote record linked to each cast card. It obviates the need for
+  re-scanning; it is simpler and more efficient than 'hybrid' audits; and it is far more efficient
+  than batch-level comparison audits. There may be room to improve the efficiency of ONEAudit
+  further by tuning the statistical tests it uses and by using stratified sampling. We show that
+  tuning the tests by optimizing for the reported batch-level tallies or integrating over a
+  distribution reduces expected workloads by 70-85% compared to the current ONEAudit
+  implementation across a range of simulated elections. The improved tests reduce the expected
+  workload to audit the 2024 Mayoral race in San Francisco, California, by half -- from about 200
+  cards to about 100 cards. In contrast, stratified sampling does not help: it increases workloads
+  by about 25% on average.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2507.22179
+labels:
+- applications
+- e-processes
+publications:
+- name: Electronic Voting
+  year: 2026
+  url: https://doi.org/10.1007/978-3-032-05036-6_11
+  doi: 10.1007/978-3-032-05036-6_11
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2507.22179
+  arxiv: '2507.22179'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

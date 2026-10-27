@@ -1,0 +1,32 @@
+title: Optimal Posterior E-values with Non-Convex Parameter Sets with Applications to Voting Systems
+authors: Adrienne Tuynman, Timothée Mathieu
+year: 2026
+arxiv: '2606.29998'
+abstract: >-
+  We are interested in conducting political polls sequentially, so that one can stop acquiring
+  data as soon as possible while safely yielding statistically significant results. Building off
+  e-values, which have recently become a useful tool to create sequential testing methods, we
+  develop a theory of posterior optimal e-values. We use voting as a convenient example on which
+  to illustrate our method. First, we design statistical tests for Condorcet and Borda voting
+  system, and also for Schulze voting system which we are the first to tackle statistically. Then,
+  we study the construction of optimal sequential e-values in the deceptively simple setting of
+  multivariate Bernoulli data, with general composite null and alternative hypothesis sets
+  $\mathcal{H}_0$ and $\mathcal{H}_1$. We give a way to compute these e-values using an efficient
+  Frank-Wolfe algorithm, giving a pretty general way to compute Reverse Information Projections,
+  even when $\mathcal{H}_0$ corresponds to a non-convex parameter set. Finally, we illustrate the
+  efficiency, both in terms of power and sample size of our method. We compare with state of the
+  art in both simulated and real data experiments, with application to French 2022 presidential
+  election data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.29998
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.29998
+  arxiv: '2606.29998'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

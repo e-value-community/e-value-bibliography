@@ -1,0 +1,33 @@
+title: 'Monitoring for Shifts at Unknown Times: Parameter-Free Conditional Conformal Martingales'
+authors: Tuo Liu, Drew Prinster, Francesco Orabona
+year: 2026
+arxiv: '2610.17343'
+abstract: >-
+  Conditional conformal test martingales provide sequential tests for detecting distribution
+  shifts, using a fixed reference dataset to avoid contamination from test-time samples. Prior
+  work used a penalized betting function via online optimization with smoothing, clipping, and
+  other hyperparameters, which can adapt slowly when a shift occurs after a long stationary
+  period. In this work, we introduce an approach that requires no hyperparameters and provably
+  adapts quickly to shifts occurring at unknown times. Our key idea is to frame the penalized
+  betting problem as portfolio selection in a three-asset market. Then, we use a restarting
+  universal portfolio, with a heavy-tailed wealth allocation over time. We establish anytime
+  false-alarm control and derive optimal finite-sample bounds on detection delay under detectable
+  alternatives. We also develop an FFT-based implementation that computes the portfolio sequence
+  over $T$ rounds in $\mathcal{O}(T^2\ln T)$ time, instead of $\mathcal{O}(T^3)$ of the naive
+  implementation. Synthetic and real-world experiments suggest that the proposed approach adapts
+  rapidly after long periods of null samples, with detection delays depending substantially less
+  on shift time than prior baselines.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.17343
+labels:
+- applications
+- e-processes
+- e-detectors
+- online learning
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.17343
+    arxiv: '2610.17343'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,33 @@
+title: 'Universal Inference Meets Random Projections: A Scalable Test for Log-concavity'
+authors: Robin Dunn, Aditya Gangrade, Larry Wasserman, Aaditya Ramdas
+year: 2025
+doi: 10.1080/10618600.2024.2347338
+arxiv: '2111.09254'
+abstract: >-
+  Shape constraints yield flexible middle grounds between fully nonparametric and fully parametric
+  approaches to modeling distributions of data. The specific assumption of log-concavity is
+  motivated by applications across economics, survival modeling, and reliability theory. However,
+  there do not currently exist valid tests for whether the underlying density of given data is
+  log-concave. The recent universal inference methodology provides a valid test. The universal
+  test relies on maximum likelihood estimation (MLE), and efficient methods already exist for
+  finding the log-concave MLE. This yields the first test of log-concavity that is provably valid
+  in finite samples in any dimension, for which we also establish asymptotic consistency results.
+  Empirically, we find that a random projections approach that converts the d-dimensional testing
+  problem into many one-dimensional problems can yield high power, leading to a simple procedure
+  that is statistically and computationally efficient.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2111.09254
+labels:
+- methodology
+- e-values
+publications:
+  - name: Journal of Computational and Graphical Statistics
+    year: 2024
+    url: https://doi.org/10.1080/10618600.2024.2347338
+    doi: 10.1080/10618600.2024.2347338
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2111.09254
+    arxiv: '2111.09254'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

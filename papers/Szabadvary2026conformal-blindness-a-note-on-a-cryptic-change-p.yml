@@ -1,0 +1,32 @@
+title: 'Conformal Blindness: A Note on $A$-Cryptic change-points'
+authors: Johan Hallberg Szabadváry
+year: 2026
+arxiv: '2601.01147'
+abstract: >-
+  Conformal Test Martingales (CTMs) are a standard method within the Conformal Prediction
+  framework for testing the crucial assumption of data exchangeability by monitoring deviations
+  from uniformity in the p-value sequence. Although exchangeability implies uniform p-values, the
+  converse does not hold. This raises the question of whether a significant break in
+  exchangeability can occur, such that the p-values remain uniform, rendering CTMs blind. We
+  answer this affirmatively, demonstrating the phenomenon of \emph{conformal blindness}. Through
+  explicit construction, for the theoretically ideal ``predictive oracle'' conformity measure
+  (given by the true conditional density), we demonstrate the possibility of an \emph{$A$-cryptic
+  change-point} (where $A$ refers to the conformity measure). Using bivariate Gaussian
+  distributions, we identify a line along which a change in the marginal means does not alter the
+  distribution of the conformity scores, thereby producing perfectly uniform p-values. Simulations
+  confirm that even a massive distribution shift can be perfectly cryptic to the CTM, highlighting
+  a fundamental limitation and emphasising the critical role of the alignment of the conformity
+  measure with potential shifts. By contrasting the predictive oracle with recent results on
+  detection-optimal scores, we emphasise that validity monitoring in safety-critical systems
+  requires careful separation of predictive and diagnostic goals.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.01147
+labels:
+- applications
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2601.01147
+    arxiv: '2601.01147'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

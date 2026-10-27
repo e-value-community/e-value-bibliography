@@ -1,0 +1,30 @@
+title: 'E-values: Calibration, combination and applications'
+authors: Vladimir Vovk, Ruodu Wang
+year: 2021
+doi: 10.1214/20-AOS2020
+abstract: >-
+  Multiple testing of a single hypothesis and testing multiple hypotheses are usually done in
+  terms of p-values. In this paper we replace p-values with their natural competitor, e-values,
+  which are closely related to betting, Bayes factors, and likelihood ratios. We demonstrate that
+  e-values are often mathematically more tractable; in particular, in multiple testing of a single
+  hypothesis, e-values can be merged simply by averaging them. This allows us to develop efficient
+  procedures using e-values for testing multiple hypotheses.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1912.06116
+labels:
+- methodology
+- theory
+- e-values
+- multiple testing
+publications:
+  - name: The Annals of Statistics
+    year: 2021
+    url: https://doi.org/10.1214/20-AOS2020
+    doi: 10.1214/20-AOS2020
+  - name: arXiv
+    year: 2019
+    url: https://arxiv.org/abs/1912.06116
+    arxiv: '1912.06116'
+arxiv: '1912.06116'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

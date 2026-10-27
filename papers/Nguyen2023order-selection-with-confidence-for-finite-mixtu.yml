@@ -1,0 +1,35 @@
+title: Order selection with confidence for finite mixture models
+authors: Hien D Nguyen, Daniel Fryer, Geoffrey McLachlan
+year: 2023
+doi: 10.1007/s42952-022-00195-z
+arxiv: '2103.10640'
+abstract: >-
+  The determination of the number of mixture components (the order) of a finite mixture model has
+  been an enduring problem in statistical inference. We prove that the closed testing principle
+  leads to a sequential testing procedure (STP) that allows for confidence statements to be made
+  regarding the order of a finite mixture model. We construct finite sample tests, via data
+  splitting and data swapping, for use in the STP, and we prove that such tests are consistent
+  against fixed alternatives. Simulation studies and real data examples are used to demonstrate
+  the performance of the finite sample tests-based STP, yielding practical recommendations of
+  their use as confidence estimators in combination with point estimates such as the Akaike
+  information or Bayesian information criteria. In addition, we demonstrate that a modification of
+  the STP yields a method that consistently selects the order of a finite mixture model, in the
+  asymptotic sense. Our STP is not only applicable for order selection of finite mixture models,
+  but is also useful for making confidence statements regarding any sequence of nested models.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2103.10640
+labels:
+- methodology
+- applications
+- multiple testing
+publications:
+  - name: Journal of the Korean Statistical Society
+    year: 2023
+    url: https://doi.org/10.1007/s42952-022-00195-z
+    doi: 10.1007/s42952-022-00195-z
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2103.10640
+    arxiv: '2103.10640'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

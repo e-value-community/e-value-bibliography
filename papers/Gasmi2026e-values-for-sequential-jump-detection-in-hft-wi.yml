@@ -1,0 +1,26 @@
+title: E-values for sequential jump detection in HFT with online FDR guarantees
+authors: Neyl Gasmi, Jules Brion
+year: 2026
+abstract: >-
+  This report documents the efdr-jumps project, whose goal is to detect price discontinuities
+  (jumps) in high-frequency financial data in real time while simultaneously controlling the false
+  discovery rate (FDR) in a sequential fashion. We construct e-values from the jump-robust
+  volatility estimator MedRV (Andersen-Dobrev-Schaumburg, 2012) and feed them into five FDR
+  procedures based on e-values from the Ramdas school: one offline (e-BH) and four online (e-LOND,
+  e-LORD, e-SAFFRON, stopped e-BH). Monte-Carlo experiments (grid_medium, M = 100 replications, n
+  = 500 steps, 3 frequencies, 3 jump regimes) show that the BH-based benchmarks (Yen, 2013;
+  Bajgrowicz-Scaillet, 2016) violate the criterion FDR ≤ α + 2 SE at high frequency (Δt = 5 s:
+  observed FDR = 0.096 against the threshold 0.094 for α = 0.05), whereas e-value-based procedures
+  control the FDR at all frequencies, with a power loss of 9–21 percentage points.
+abstract_status: source_abstract
+abstract_source: https://neylgasmi.github.io/website/docs/publish.pdf
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Technical report
+    year: 2026
+    url: https://neylgasmi.github.io/website/docs/publish.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

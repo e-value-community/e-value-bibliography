@@ -1,0 +1,34 @@
+title: E-Values For Multiplicity Control In Multiverse Analysis
+authors: Paul Rognon-Vael, David Rossell
+year: 2026
+arxiv: '2607.17596'
+abstract: >-
+  Multiverse analysis refers to a common situation where one wishes to assess the association
+  between multiple possible treatment definitions and multiple possible outcome definitions,
+  potentially within multiple sub-populations, among other possible analysis specifications.
+  Multiverse analysis is a useful exploratory tool to assess heterogeneity across the considered
+  specifications, but it is sometimes also used to assess statistical significance. In the latter
+  case, it is critical to acknowledge that multiple comparisons are being performed, and to ensure
+  a valid statistical control of false positive findings. We study the use of e-values within
+  generalized linear models as a tool to control the false discovery rate regardless of the
+  dependence structure of the multiple analyses being performed, while accounting for confounding
+  covariates. We compare the performance of several approaches: universal e-values, soft-rank
+  e-values, and p-to-e calibration. We find that, for problem characteristics typically
+  encountered in multiverse analyses, p-to-e calibration significantly outperforms the other two
+  approaches in terms of statistical power, but said power may be moderate unless the sample size
+  or effect sizes are large enough. An application studying the association between teenager
+  technology use and mental well-being reveals association between depression, low self-steem and
+  peer problems with internet and social media usage.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.17596
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.17596
+  arxiv: '2607.17596'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

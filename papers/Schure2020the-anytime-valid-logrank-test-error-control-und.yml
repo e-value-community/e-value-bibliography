@@ -1,0 +1,35 @@
+title: 'The Anytime-Valid Logrank Test: Error Control Under Continuous Monitoring with Unlimited Horizon'
+authors: J. ter Schure, M. F. Perez-Ortiz, A. Ly, P. Grunwald
+year: 2024
+doi: 10.51387/24-nejsds65
+arxiv: '2011.06931'
+abstract: >-
+  We introduce the anytime-valid (AV) logrank test, a version of the logrank test that provides
+  type-I error guarantees under optional stopping and optional continuation. The test is
+  sequential without the need to specify a maximum sample size or stopping rule, and allows for
+  cumulative meta-analysis with type-I error control. The method can be extended to define
+  anytime-valid confidence intervals. The logrank test is an instance of the martingale tests
+  based on E-variables that have been recently developed. We demonstrate type-I error guarantees
+  for the test in a semiparametric setting of proportional hazards and show how to extend it to
+  ties, Cox' regression and confidence sequences. Using a Gaussian approximation on the logrank
+  statistic, we show that the AV logrank test (which itself is always exact) has a similar
+  rejection region to O'Brien-Fleming alpha-spending but with the potential to achieve 100% power
+  by optional continuation. Although our approach to study design requires a larger sample size,
+  the *expected* sample size is competitive by optional stopping.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2011.06931
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: The New England Journal of Statistics in Data Science
+  year: 2024
+  url: https://doi.org/10.51387/24-nejsds65
+  doi: 10.51387/24-nejsds65
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2011.06931
+  arxiv: '2011.06931'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

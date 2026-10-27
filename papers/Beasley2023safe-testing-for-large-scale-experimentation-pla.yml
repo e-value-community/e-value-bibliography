@@ -1,0 +1,32 @@
+title: Safe Testing for Large-Scale Experimentation Platforms
+authors: Daniel Beasley
+year: 2023
+arxiv: '2310.20450'
+abstract: >-
+  In the past two decades, AB testing has proliferated to optimise products in digital domains.
+  Traditional AB tests use fixed-horizon testing, determining the sample size of the experiment
+  and continuing until the experiment has concluded. However, due to the feedback provided by
+  modern data infrastructure, experimenters may take incorrect decisions based on preliminary
+  results of the test. For this reason, anytime-valid inference (AVI) is seeing increased adoption
+  as the modern experimenters method for rapid decision making in the world of data streaming.
+  This work focuses on Safe Testing, a novel framework for experimentation that enables continuous
+  analysis without elevating the risk of incorrect conclusions. There exist safe testing
+  equivalents of many common statistical tests, including the z-test, the t-test, and the
+  proportion test. We compare the efficacy of safe tests against classical tests and another
+  method for AVI, the mixture sequential probability ratio test (mSPRT). Comparisons are conducted
+  first on simulation and then by real-world data from a large technology company, Vinted, a large
+  European online marketplace for second-hand clothing. Our findings indicate that safe tests
+  require fewer samples to detect significant effects, encouraging its potential for broader
+  adoption.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.20450
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2310.20450
+  arxiv: '2310.20450'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

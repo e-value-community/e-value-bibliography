@@ -1,0 +1,33 @@
+title: Isotonic subgroup selection
+authors: Manuel M. Müller, Henry W. J. Reeve, Timothy I. Cannings, Richard J. Samworth
+year: 2025
+doi: 10.1093/jrsssb/qkae083
+arxiv: '2305.04852'
+abstract: >-
+  Given a sample of covariate-response pairs, we consider the subgroup selection problem of
+  identifying a subset of the covariate domain where the regression function exceeds a
+  pre-determined threshold. We introduce a computationally-feasible approach for subgroup
+  selection in the context of multivariate isotonic regression based on martingale tests and
+  multiple testing procedures for logically-structured hypotheses. Our proposed procedure
+  satisfies a non-asymptotic, uniform Type I error rate guarantee with power that attains the
+  minimax optimal rate up to poly-logarithmic factors. Extensions cover classification, isotonic
+  quantile regression and heterogeneous treatment effect settings. Numerical studies on both
+  simulated and real data confirm the practical effectiveness of our proposal, which is
+  implemented in the R package ISS.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.04852
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+    year: 2025
+    url: https://doi.org/10.1093/jrsssb/qkae083
+    doi: 10.1093/jrsssb/qkae083
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2305.04852
+    arxiv: '2305.04852'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

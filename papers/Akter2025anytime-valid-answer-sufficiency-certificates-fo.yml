@@ -1,0 +1,37 @@
+title: Anytime-Valid Answer Sufficiency Certificates for LLM Generation via Sequential Information Lift
+authors: Sanjeda Akter, Ibne Farabi Shihab, Anuj Sharma
+year: 2025
+arxiv: '2510.06478'
+abstract: >-
+  We introduce Sequential-EDFL (Empirical Dynamic Formal Lift), which applies anytime-valid
+  sequential testing to language model generation stopping. Our approach tracks information lift,
+  defined as the log-likelihood ratio between the full model and deliberately weakened "skeleton"
+  baselines, using self-normalized empirical-Bernstein e-processes that provide formal delta-level
+  error control regardless of stopping time. This delta guarantee controls premature stopping when
+  information lift is insufficient relative to the skeleton, and it does not imply delta control
+  of factual incorrectness or hallucinations. We handle unknown centering through online mean
+  estimation, combine multiple parameters via mixture e-processes, and support adaptive resets
+  under distributional drift. On six benchmarks, Sequential-EDFL reduces generation length by 22
+  to 28 percent relative to sequential baselines while maintaining delta-level control with 12
+  percent computational overhead. We introduce automated skeletons (distilled submodels and
+  randomized logits) and show robustness across skeleton families. Composing EDFL with a
+  lightweight correctness gate (sentence boundaries plus a verifier) improves end-task correctness
+  while preserving anytime-valid guarantees by only delaying stopping. Our certificates control
+  information sufficiency, not factual correctness. Specifically, 10.9 percent of stopped
+  sequences remain incorrect even with the gate (13.2 to 22.7 percent without it). EDFL serves as
+  a first-stage filter that can reduce verification burden: when applied to stopped sequences, the
+  gate validates 83 percent of stops, requiring full verification only for the remaining 17
+  percent, plus all non-stopped sequences. EDFL is not a standalone solution for safety-critical
+  domains.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.06478
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2510.06478
+    arxiv: '2510.06478'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

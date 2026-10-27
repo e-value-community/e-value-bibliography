@@ -1,0 +1,33 @@
+title: Why optional stopping can be a problem for Bayesians
+authors: Rianne de Heide, Peter Grünwald
+year: 2021
+doi: 10.3758/s13423-020-01803-x
+arxiv: '1708.08278'
+abstract: >-
+  Recently, optional stopping has been a subject of debate in the Bayesian psychology community.
+  Rouder (2014) argues that optional stopping is no problem for Bayesians, and even recommends the
+  use of optional stopping in practice, as do Wagenmakers et al. (2012). This article addresses
+  the question whether optional stopping is problematic for Bayesian methods, and specifies under
+  which circumstances and in which sense it is and is not. By slightly varying and extending
+  Rouder's (2014) experiments, we illustrate that, as soon as the parameters of interest are
+  equipped with default or pragmatic priors - which means, in most practical applications of Bayes
+  factor hypothesis testing - resilience to optional stopping can break down. We distinguish
+  between three types of default priors, each having their own specific issues with optional
+  stopping, ranging from no-problem-at-all (Type 0 priors) to quite severe (Type II priors).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1708.08278
+labels:
+- methodology
+- e-values
+- probability theory
+publications:
+- name: Psychonomic Bulletin & Review
+  year: 2021
+  url: https://doi.org/10.3758/s13423-020-01803-x
+  doi: 10.3758/s13423-020-01803-x
+- name: arXiv
+  year: 2017
+  url: https://arxiv.org/abs/1708.08278
+  arxiv: '1708.08278'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

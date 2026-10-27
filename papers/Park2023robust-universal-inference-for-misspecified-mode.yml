@@ -1,0 +1,34 @@
+title: Robust Universal Inference For Misspecified Models
+authors: Beomjo Park, Sivaraman Balakrishnan, Larry Wasserman
+year: 2026
+doi: 10.1093/biomet/asaf070
+arxiv: '2307.04034'
+abstract: >-
+  In statistical inference, it is rarely realistic that the hypothesized statistical model is
+  well-specified, and consequently it is important to understand the effects of misspecification
+  on inferential procedures. When the hypothesized statistical model is misspecified, the natural
+  target of inference is a projection of the data generating distribution onto the model. We
+  present a general method for constructing valid confidence sets for such projections, under weak
+  regularity conditions, despite possible model misspecification. Our method builds upon the
+  universal inference method and is based on inverting a family of split-sample tests of relative
+  fit. We study settings in which our methods yield either exact or approximate, finite-sample
+  valid confidence sets for various projection distributions. We study rates at which the
+  resulting confidence sets shrink around their target of inference and complement these results
+  with a simulation study and a study of causal discovery using a linear causal model with the
+  CausalEffectPairs dataset.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2307.04034
+labels:
+- methodology
+- e-values
+publications:
+- name: Biometrika
+  year: 2025
+  url: https://doi.org/10.1093/biomet/asaf070
+  doi: 10.1093/biomet/asaf070
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2307.04034
+  arxiv: '2307.04034'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

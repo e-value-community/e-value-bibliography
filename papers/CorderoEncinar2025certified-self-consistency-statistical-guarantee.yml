@@ -1,0 +1,34 @@
+title: >-
+  Certified Self-Consistency: Statistical Guarantees and Test-Time Training for Reliable Reasoning
+  in LLMs
+authors: Paula Cordero-Encinar, Andrew B. Duncan
+year: 2025
+arxiv: '2510.17472'
+abstract: >-
+  Recent advances such as self-consistency and test-time reinforcement learning (TTRL) improve the
+  reliability of large language models (LLMs) without additional supervision, yet their underlying
+  mechanisms and statistical guarantees remain poorly understood. We present a unified framework
+  for certifiable inference in LLMs, showing that majority voting provides a statistical
+  certificate of self-consistency: under mild assumptions, the aggregated answer coincides with
+  the mode of the model's terminal distribution with high probability. We derive finite-sample and
+  anytime-valid concentration bounds that quantify this confidence, and introduce the Martingale
+  Majority Certificate (MMC), a sequential stopping rule that adaptively determines when
+  sufficient samples have been drawn. We further prove that label-free post-training methods such
+  as TTRL implicitly sharpen the answer distribution by exponentially tilting it toward its mode,
+  thereby reducing the number of samples required for certification. Building on this insight, we
+  propose new post-training objectives that explicitly optimise this trade-off between sharpness
+  and bias. Together, these results explain and connect two central test-time scaling strategies,
+  self-consistency and TTRL, within a single statistical framework for label-free, certifiable
+  reliability in reasoning LLMs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2510.17472
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2510.17472
+    arxiv: '2510.17472'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

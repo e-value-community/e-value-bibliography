@@ -1,0 +1,26 @@
+title: A Uniform Improvement of the Benjamini-Hochberg Procedure via e-Closure
+authors: Jelle Goeman
+year: 2026
+arxiv: '2606.01854'
+abstract: >-
+  This paper presents closed BH, a uniform improvement of the False Discovery Rate controlling
+  method of Benjamini and Hochberg (BH). Closed BH is valid under the same assumption of Positive
+  Regression Dependency on a Subset (PRDS) as BH, but also under an alternative and weaker minimal
+  sufficient condition. As a uniform improvement, closed BH never rejects fewer hypotheses than
+  BH, but it may reject quite a few more. An increase in power is observed especially when the
+  number of false null hypotheses is large. The novel method is constructed using the e-Closure
+  principle, a recently derived general principle for multiple testing. The method is implemented
+  in the eClosure package in R.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.01854
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.01854
+    arxiv: '2606.01854'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

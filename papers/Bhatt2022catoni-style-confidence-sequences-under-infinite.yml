@@ -1,0 +1,28 @@
+title: Catoni-style Confidence Sequences under Infinite Variance
+authors: Sujay Bhatt, Guanhua Fang, Ping Li, Gennady Samorodnitsky
+year: 2022
+arxiv: '2208.03185'
+abstract: >-
+  In this paper, we provide an extension of confidence sequences for settings where the variance
+  of the data-generating distribution does not exist or is infinite. Confidence sequences furnish
+  confidence intervals that are valid at arbitrary data-dependent stopping times, naturally having
+  a wide range of applications. We first establish a lower bound for the width of the Catoni-style
+  confidence sequences for the finite variance case to highlight the looseness of the existing
+  results. Next, we derive tight Catoni-style confidence sequences for data distributions having a
+  relaxed bounded~$p^{th}-$moment, where~$p \in (1,2]$, and strengthen the results for the finite
+  variance case of~$p =2$. The derived results are shown to better than confidence sequences
+  obtained using Dubins-Savage inequality.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2208.03185
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2208.03185
+  arxiv: '2208.03185'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

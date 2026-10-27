@@ -1,0 +1,39 @@
+title: Measuring evidence against exchangeability and group invariance with E-values
+authors: Nick W. Koning
+year: 2026
+doi: 10.1214/26-aos2627
+arxiv: '2310.01153'
+abstract: >-
+  We study e-values for quantifying evidence against exchangeability and general invariance of a
+  random variable under a compact group. We start by characterizing such e-values, and explaining
+  how they nest traditional group invariance tests as a special case. We show they can be easily
+  designed for an arbitrary test statistic, and computed through Monte Carlo sampling. We prove a
+  result that characterizes optimal e-values for group invariance against optimality targets that
+  satisfy a mild orbit-wise decomposition property. We apply this to design
+  expected-utility-optimal e-values for group invariance, which include both
+  Neyman-Pearson-optimal tests and log-optimal e-values. Moreover, we generalize the notion of
+  rank- and sign-based testing to compact groups, by using a representative inversion kernel. In
+  addition, we characterize e-processes for group invariance for arbitrary filtrations, and
+  provide tools to construct them. We also describe test martingales under a natural filtration,
+  which are simpler to construct. Peeking beyond compact groups, we encounter e-values and
+  e-processes based on ergodic theorems. These nest e-processes based on de Finetti's theorem for
+  testing exchangeability.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.01153
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-values
+- post-hoc inference
+publications:
+- name: The Annals of Statistics
+  year: 2026
+  url: https://doi.org/10.1214/26-aos2627
+  doi: 10.1214/26-aos2627
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2310.01153
+  arxiv: '2310.01153'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

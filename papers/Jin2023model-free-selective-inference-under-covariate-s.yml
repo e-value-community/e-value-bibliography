@@ -1,0 +1,38 @@
+title: Model-free selective inference under covariate shift via weighted conformal p-values
+authors: Ying Jin, Emmanuel J. Candès
+year: 2026
+doi: 10.1093/biomet/asaf066
+arxiv: '2307.09291'
+abstract: >-
+  This paper introduces novel weighted conformal p-values and methods for model-free selective
+  inference. The problem is as follows: given test units with covariates $X$ and missing responses
+  $Y$, how do we select units for which the responses $Y$ are larger than user-specified values
+  while controlling the proportion of false positives? Can we achieve this without any modeling
+  assumptions on the data and without any restriction on the model for predicting the responses?
+  Last, methods should be applicable when there is a covariate shift between training and test
+  data, which commonly occurs in practice. We answer these questions by first leveraging any
+  prediction model to produce a class of well-calibrated weighted conformal p-values, which
+  control the type-I error in detecting a large response. These p-values cannot be passed on to
+  classical multiple testing procedures since they may not obey a well-known positive dependence
+  property. Hence, we introduce weighted conformalized selection (WCS), a new procedure which
+  controls false discovery rate (FDR) in finite samples. Besides prediction-assisted candidate
+  selection, WCS (1) allows to infer multiple individual treatment effects, and (2) extends to
+  outlier detection with inlier distributions shifts. We demonstrate performance via simulations
+  and applications to causal inference, drug discovery, and outlier detection datasets.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2307.09291
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Biometrika
+  year: 2025
+  url: https://doi.org/10.1093/biomet/asaf066
+  doi: 10.1093/biomet/asaf066
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2307.09291
+  arxiv: '2307.09291'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

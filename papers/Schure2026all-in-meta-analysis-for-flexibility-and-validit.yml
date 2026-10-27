@@ -1,0 +1,32 @@
+title: ALL-IN meta-analysis for flexibility and validity in prospective and retrospective evidence synthesis
+authors: Judith ter Schure, Alain Amstutz, Matthias Briel, Amir Aamodt Kazemi, Inge Christoffer Olsen
+year: 2026
+arxiv: '2608.02105'
+abstract: >-
+  ALL-IN meta-analysis was developed and first applied during the COVID-19 pandemic. While this
+  setting inspired its name, ALL-IN can also benefit non-pandemic circumstances. Conventional
+  meta-analysis loses its coverage when updated repeatedly over time and when the decisions to
+  initiate new trials and synthesize them depend on the results within the meta-analysis
+  (accumulation bias). ALL-IN meta-analysis is anytime-valid. In its simplest form, ALL-IN
+  meta-analysis stays familiar to run and read based on forest plots with confidence intervals
+  that are wider than standard ones. Within collaborative prospective meta-analysis, the payoff is
+  flexibility and speed, with fast sharing of individual participant data or harmonized aggregate
+  data. Outside of this setting, the payoff is validity, when the decisions that shape the
+  evidence (when to stop trials and whether new ones start) are typically outside the control of
+  the meta-analyst. On the one hand, ALL-IN meta-analysis becomes inefficient when there is a
+  maximum sample size or a stopping rule that the meta-analyist can control. On the other hand, it
+  enables adaptations for any evidence synthesis to halfway become living, prospective or even
+  real-time on interim trial results, without complicating the statistics.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.02105
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2608.02105
+  arxiv: '2608.02105'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

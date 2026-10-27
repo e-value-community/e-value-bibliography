@@ -1,0 +1,33 @@
+title: 'E-Values for Exponential Families: the General Case'
+authors: Yunda Hao, Peter Grünwald
+year: 2026
+doi: 10.3150/26-bej1981
+arxiv: '2409.11134'
+abstract: >-
+  We analyze common types of e-variables and e-processes for composite exponential family nulls:
+  the optimal e-variable based on the reverse information projection (RIPr), the conditional
+  (COND) e-variable, and the universal inference (UI) and sequen\-tialized RIPr e-processes. We
+  characterize the RIPr prior for simple and Bayes-mixture based alternatives, either precisely
+  (for Gaussian nulls and alternatives) or in an approximate sense (general exponential families).
+  We provide conditions under which the RIPr e-variable is (again exactly vs. approximately) equal
+  to the COND e-variable. Based on these and other interrelations which we establish, we determine
+  the e-power of the four e-statistics as a function of sample size, exactly for Gaussian and up
+  to $o(1)$ in general. For $d$-dimensional null and alternative, the e-power of UI tends to be
+  smaller by a term of $(d/2) \log n + O(1)$ than that of the COND e-variable, which is the clear
+  winner.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.11134
+labels:
+- methodology
+- e-values
+publications:
+- name: Bernoulli
+  year: 2026
+  url: https://doi.org/10.3150/26-bej1981
+  doi: 10.3150/26-bej1981
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2409.11134
+  arxiv: '2409.11134'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

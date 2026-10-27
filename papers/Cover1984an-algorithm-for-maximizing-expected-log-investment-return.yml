@@ -1,0 +1,29 @@
+title: An Algorithm for Maximizing Expected Log Investment Return
+authors: Thomas M. Cover
+year: 1984
+doi: 10.1109/TIT.1984.1056869
+abstract: >-
+  Let the random (stock market) vector X ≥ 0 be drawn according to a known distribution function
+  F(x), x ∈ R^m. A log-optimal portfolio b* is any portfolio b achieving maximal expected log
+  return W* = sup_b E ln b′X, where the supremum is over the simplex b ≥ 0, Σ_i b_i = 1. An
+  algorithm is presented for finding b*. The algorithm consists of replacing the portfolio b by
+  the expected portfolio b′, b′_i = E(b_i X_i/b′X), corresponding to the expected proportion of
+  holdings in each stock after one market period. The improvement in W(b) after each iteration is
+  lower-bounded by the Kullback-Leibler information number D(b′||b) between the current and
+  updated portfolios. Thus the algorithm monotonically improves the return W. An upper bound on W*
+  is given in terms of the current portfolio and the gradient, and the convergence of the
+  algorithm is established.
+abstract_status: source_abstract
+abstract_source: https://isl.stanford.edu/~cover/papers/transIT/0369cove.pdf
+labels:
+- methodology
+- e-values
+- online learning
+- information theory
+publications:
+  - name: IEEE Transactions on Information Theory
+    year: 1984
+    url: https://doi.org/10.1109/TIT.1984.1056869
+    doi: 10.1109/TIT.1984.1056869
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

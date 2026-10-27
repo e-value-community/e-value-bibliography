@@ -1,0 +1,32 @@
+title: Family-wise Error Rate Control with E-values
+authors: Will Hartog, Lihua Lei
+year: 2025
+arxiv: '2501.09015'
+abstract: >-
+  The closure principle is a standard tool for achieving strong family-wise error rate (FWER)
+  control in multiple testing problems. We develop an e-value-based closed testing framework that
+  inherits nice properties of e-values, which are common in settings of sequential hypothesis
+  testing or universal inference for irregular parametric models. We prove that e-value-based
+  closed testing strongly controls the post-hoc FWER in the static setting, and has stronger
+  anytime-valid and always-valid FWER-controlling properties in the sequential setting.
+  Furthermore, we extend the celebrated graphical approach for FWER control (Bretz et al. 2009),
+  using the weighted average of e-values for the local test, a strictly more powerful approach
+  than weighted Bonferroni local tests with inverse e-values as p-values. In general, the
+  computational cost for closed testing can be exponential in the number of hypotheses. Although
+  the computational shortcuts for the p-value-based graphical approach are not applicable, we
+  develop an efficient polynomial-time algorithm using dynamic programming for e-value-based
+  graphical approaches with any directed acyclic graph, and tailored algorithms for the e-Holm
+  procedure previously studied by Vovk and Wang (2021) and the e-Fallback procedure.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.09015
+labels:
+- methodology
+- e-values
+- post-hoc inference
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.09015
+  arxiv: '2501.09015'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

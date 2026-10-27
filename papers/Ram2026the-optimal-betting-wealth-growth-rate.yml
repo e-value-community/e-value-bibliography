@@ -1,0 +1,35 @@
+title: The optimal betting wealth growth rate
+authors: Ashwin Ram, Aaditya Ramdas
+year: 2026
+arxiv: '2604.25280'
+abstract: >-
+  This paper characterizes the best possible rate of growth of wealth in a Kelly betting game when
+  repeatedly betting against a general i.i.d. null hypothesis $\mathscr{P}$, but the data are
+  drawn i.i.d from an arbitrary alternative $Q$. We prove that it equals $\lim_{n \to
+  \infty}n^{-1}\inf_{P \in (\mathscr P)^n)^{\circ\circ}} \mathrm{KL}(Q^n,P)$, where ${\mathscr
+  P}^n = \{P^n: P \in \mathscr{P}\}$ and $(\mathscr {P}^n)^{\circ\circ}$ is its bipolar, i.e.,
+  this rate is achievable and one cannot do better. This quantity is in general smaller than a
+  more popular quantity in the literature, $\mathrm{KL}_{\inf}(Q,\mathscr{P}) := \inf_{P \in
+  \mathscr P}\mathrm{KL}(Q,P)$. If $\mathrm{KL}_{\mathrm{inf}}(\cdot,\mathscr P)$ is weakly
+  lowersemicontinuous (w.l.s.c.) at $Q$, we show that the two quantities are equal; in particular,
+  this happens when $\mathscr P$ is weakly compact. For simple alternatives, we provide the first
+  matching necessary and sufficient condition for when power-one sequential tests exist (without
+  assumptions on $\mathscr P, Q$). We also derive the optimal worst-case growth rate against
+  composite $\mathscr Q$. We emphasize that test supermartingales on reduced filtrations suffice
+  for all i.i.d. testing problems, and more general e-processes are not required. We thus
+  completely generalize the recent results of Larsson et al.~\cite{larsson2025numeraire} to the
+  sequential setting.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.25280
+labels:
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.25280
+  arxiv: '2604.25280'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

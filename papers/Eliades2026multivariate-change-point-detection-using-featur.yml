@@ -1,0 +1,29 @@
+title: Multivariate Change-Point Detection Using Feature-Based Inductive Conformal Martingales
+authors: Charalambos Eliades, Harris Papadopoulos
+year: 2026
+abstract: >-
+  Change-point detection in sequential data can be formulated as the problem of identifying
+  violations of exchangeability as observations arrive over time. In this work, we study
+  feature-based change-point detection within the framework of Inductive Conformal Martingales,
+  which are well known for providing theoretical validity guarantees on the probability of false
+  alarms. We construct nonconformity measures that quantify how unusual the features of a test
+  instance are. In particular, our proposed nonconformity measure is based on an ellipsoidal
+  k-nearest neighbour density estimator combined with Mahalanobis distance. We evaluate the
+  proposed method on four real-world datasets in which an artificial change-point is inserted, as
+  well as on an air-quality dataset where the goal is to estimate possible sensor recalibration
+  points. We also compare our approach with two competing nonparametric multivariate
+  change-detection methods with false-alarm control mechanisms. The results illustrate the
+  potential of feature-based conformal martingales for practical sequential change-point detection
+  in multivariate data.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v329/eliades26a.html
+labels:
+- methodology
+- applications
+- e-detectors
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2026
+  url: https://raw.githubusercontent.com/mlresearch/v329/main/assets/eliades26a/eliades26a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

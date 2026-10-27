@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Submit a paper publicly
+    url: https://github.com/chblw/e-values-paper-submissions/issues/new?template=submit-paper.yml
+    about: Use the public intake repository for bibliography submissions.

@@ -1,0 +1,26 @@
+title: E-variables and tests of randomness for distribution classes
+authors: Georgii Potapov, Yuri Kalnishkan
+year: 2026
+arxiv: '2603.02492'
+abstract: >-
+  E-variables are a relatively new approach for testing statistical hypotheses that has been
+  experiencing major development during the last several years. In this paper we introduce the
+  method of e-variable-approximability and use it to develop a general approximation technique
+  allowing us to construct e-variables for popular distribution classes important for
+  applications. E-variables were originally based on a concept of Levin's (average-bounded)
+  randomness tests from Algorithmic Information Theory. We show that our construction of
+  e-variables can be used to provide an explicit construction for a randomness test with respect
+  to a class of distributions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.02492
+labels:
+- methodology
+- e-values
+- information theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.02492
+  arxiv: '2603.02492'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

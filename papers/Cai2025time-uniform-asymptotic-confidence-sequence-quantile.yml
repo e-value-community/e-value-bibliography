@@ -1,0 +1,28 @@
+title: Time-uniform and Asymptotic Confidence Sequence of Quantile under Local Differential Privacy
+authors: Leheng Cai, Qirui Hu, Juntao Sun, Shuyuan Wu
+year: 2025
+doi: 10.52202/085713-3818
+abstract: >-
+  In this paper, we develop a novel algorithm for constructing time-uniform, asymptotic confidence
+  sequences for quantiles under local differential privacy (LDP). The procedure combines
+  dynamically chained parallel stochastic gradient descent (P-SGD) with a randomized response
+  mechanism, thereby guaranteeing privacy protection while simultaneously estimating the target
+  quantile and its variance. A strong Gaussian approximation for the proposed estimator yields
+  asymptotically anytime-valid confidence sequences whose widths obey the law of the iterated
+  logarithm (LIL). Moreover, the method is fully online, offering high computational efficiency and
+  requiring only $\mathcal{O}(\kappa)$ memory, where $\kappa$ denotes the number of chains and is
+  much smaller than the sample size. Rigorous mathematical proofs and extensive numerical
+  experiments demonstrate the theoretical soundness and practical effectiveness of the algorithm.
+abstract_status: source_abstract
+abstract_source: https://proceedings.neurips.cc/paper_files/paper/2025/hash/a6645a01939c02ced2ae1a7488b30af7-Abstract-Conference.html
+labels:
+- methodology
+- applications
+- confidence sequences
+publications:
+- name: Advances in Neural Information Processing Systems
+  year: 2025
+  url: https://proceedings.neurips.cc/paper_files/paper/2025/hash/a6645a01939c02ced2ae1a7488b30af7-Abstract-Conference.html
+  doi: 10.52202/085713-3818
+database_added: '2026-10-26'
+database_updated: '2026-10-26'

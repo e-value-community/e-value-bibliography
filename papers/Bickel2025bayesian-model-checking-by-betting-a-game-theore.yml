@@ -1,0 +1,32 @@
+title: 'Bayesian Model Checking by Betting: A Game-Theoretic Alternative to Bayesian p-values and Classical
+  Bayes Factors'
+authors: David R. Bickel
+year: 2025
+doi: 10.5281/zenodo.10445864
+abstract: >-
+  A strictly Bayesian model consists of a set of possible data distributions and a prior
+  distribution over that set. If there are other models available, how well they predicted the
+  data may be compared using Bayes factors. If not, a model may be checked using a Bayesian
+  p-value such as a prior predictive p-value or a posterior predictive p-value. However, recent
+  criticisms of ordinary p-values apply with equal force against Bayesian p-values. Many of those
+  criticisms are overcome by e-values, martingales interpreted as the amount of evidence
+  discrediting a null hypothesis, measured as a payoff for betting against it. This paper proposes
+  the use of e-values to check Bayesian models by testing their prior predictive distributions as
+  null hypotheses. Two generally applicable methods for checking strictly Bayesian models are
+  provided. The first method calibrates Bayesian p-values by transforming them into Bayesian
+  e-values. The second method uses Bayes factors or their approximations as Bayesian e-values. A
+  robust Bayesian model, a set of strictly Bayesian models, may be checked using various functions
+  that use the e-values of those strictly Bayesian models. Other functions measure how much the
+  data support a Bayesian model. Relations to possibility theory are discussed.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.10445864
+labels:
+- methodology
+- e-values
+publications:
+- name: The American Statistician
+  year: 2025
+  url: https://doi.org/10.1080/00031305.2025.2507764
+  doi: 10.1080/00031305.2025.2507764
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

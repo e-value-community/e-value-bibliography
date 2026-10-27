@@ -1,0 +1,31 @@
+title: Calibration-Free Early Stopping for Chain-of-Thought Reasoning via E-processes
+authors: Dong-Jae Lee, Gyojin Han, Junmo Kim
+year: 2026
+arxiv: '2610.25212'
+abstract: >-
+  Reasoning large language models (LLMs) benefit from test-time scaling, motivating adaptive
+  policies that spend tokens when they help and stop early otherwise. Existing rules halt when a
+  confidence or stability signal crosses a threshold, but such thresholds rarely transfer across
+  models and datasets, and validation-calibrated rules lose their guarantee under shifts in
+  test-time horizon or signal dynamics. We reframe adaptive stopping as sequential evidence
+  accumulation along the reasoning trajectory rather than threshold calibration on held-out data.
+  Our framework runs two e-processes on a shared per-chunk signal: a commit stream tracks the
+  signal's position relative to its slow trend, and an abstain stream tracks its signed velocity,
+  making the two anti-correlated by construction. Under signal-level nulls on the per-chunk
+  increments, Ville's inequality yields an anytime-valid signal-level false-alarm bound at
+  user-specified significance levels, with no held-out calibration. Across various model--dataset
+  combinations, the framework matches or exceeds calibration-based stopping on the token--accuracy
+  Pareto front using zero calibration data, and the same significance level transfers unchanged
+  across cells where calibration becomes infeasible.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.25212
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.25212
+    arxiv: '2610.25212'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

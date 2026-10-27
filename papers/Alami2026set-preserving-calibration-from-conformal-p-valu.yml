@@ -1,0 +1,36 @@
+title: Set-Preserving Calibration from Conformal P-Values to E-Values
+authors: Nabil Alami, Jad Zakharia, Souhaib Ben Taieb
+year: 2026
+arxiv: '2606.03600'
+abstract: >-
+  Standard conformal prediction (CP) procedures are typically formulated in terms of p-values, but
+  reliance on p-values alone limits flexibility, for example, when combining dependent evidence
+  across models or data splits. Recent work has explored e-value formulations for conformal
+  inference, yet a direct connection between p- and e-value formulations in CP has been missing,
+  especially regarding their statistical efficiency. We first identify limitations of classical
+  p-to-e calibrators in the CP setting, showing that they are not set-preserving and can lead to
+  overly conservative prediction sets. To address this, we propose a novel P2E calibrator that
+  converts conformal p-values into e-values without altering the prediction set induced by the
+  original conformal p-value. We establish both theoretically and empirically that our calibrator
+  can yield significant efficiency gains over existing p-to-e calibrators. This e-value
+  formulation enables principled use of recent advances in e-value merging and randomization,
+  where we demonstrate its impact in two applications: cross-conformal prediction (CCP), whose
+  variants typically provide only approximate $1-2α$ coverage, and conformal aggregation (CA). In
+  both cases, our e-value-based methods satisfy the desired $1-α$ coverage guarantee while
+  improving efficiency over standard baselines. More broadly, our approach expands the flexibility
+  of CP and opens new directions for efficient, distribution-free uncertainty quantification.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.03600
+labels:
+- methodology
+- e-values
+publications:
+  - name: International Conference on Machine Learning
+    year: 2026
+    url: https://proceedings.mlr.press/v306/alami26a.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.03600
+    arxiv: '2606.03600'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

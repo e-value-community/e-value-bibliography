@@ -1,0 +1,38 @@
+title: >-
+  Optional Stopping with Bayes Factors: a categorization and extension of folklore results, with an
+  application to invariant situations
+authors: Allard Hendriksen, Rianne de Heide, Peter Grünwald
+year: 2021
+doi: 10.1214/20-ba1234
+arxiv: '1807.09077'
+abstract: >-
+  It is often claimed that Bayesian methods, in particular Bayes factor methods for hypothesis
+  testing, can deal with optional stopping. We first give an overview, using elementary
+  probability theory, of three different mathematical meanings that various authors give to this
+  claim: (1) stopping rule independence, (2) posterior calibration and (3) (semi-) frequentist
+  robustness to optional stopping. We then prove theorems to the effect that these claims do
+  indeed hold in a general measure-theoretic setting. For claims of type (2) and (3), such results
+  are new. By allowing for non-integrable measures based on improper priors, we obtain
+  particularly strong results for the practically important case of models with nuisance
+  parameters satisfying a group invariance (such as location or scale). We also discuss the
+  practical relevance of (1)--(3), and conclude that whether Bayes factor methods actually perform
+  well under optional stopping crucially depends on details of models, priors and the goal of the
+  analysis.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1807.09077
+labels:
+- methodology
+- theory
+- e-values
+- probability theory
+publications:
+  - name: Bayesian Analysis
+    year: 2020
+    url: https://doi.org/10.1214/20-BA1234
+    doi: 10.1214/20-ba1234
+  - name: arXiv
+    year: 2018
+    url: https://arxiv.org/abs/1807.09077
+    arxiv: '1807.09077'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,46 @@
+title: 'You Cannot Certify Your Way Out of Correlation: Limits of Statistical Guarantees for LLM Verifier
+  Ensembles'
+authors: Ali Serdar Çarlı
+year: 2026
+abstract: >-
+  Ensembles of LLMs are increasingly used as verifiers checking claims, code, or citations by
+  majority vote or unanimous agreement. Standard practice implicitly assumes the ensemble members
+  fail independently, which yields vanishingly small certified miss rates ($e.g. \sim 10^{-7}$ for
+  7 auditors at 90% individual recall). We show this assumption is false in practice: frontier
+  LLMs share training data and hence share blind spots, and the true miss rate under unknown
+  dependence can be four to five orders of magnitude higher than the independence estimate. We
+  give a distribution-free certification method (an anytime-valid betting confidence sequence over
+  the joint ensemble outcome, requiring no independence assumption) and use it to measure, not
+  assume, the gap: on a 58-fault legal-citation benchmark, the independence floor is $2.6 \times
+  10^{-6}$ while the honestly certified bound is $\le 0.20$, and the Fréchet worst-case ceiling is
+  $0.062$—a ~24,000× range invisible to independence-based reasoning. We further show, via a
+  latent-factor model, that certifying below the classical distribution-free rule-of-three floor
+  ($\sim 3/n$) for an unobserved rare ensemble-failure event is not possible without an
+  unverifiable tail assumption: statistically indistinguishable models disagree on the true
+  failure rate by 1000x in our data. Having established the gap, we test four standard statistical
+  remedies on the same data, and report negative or partial results for all four: (i) a structural
+  dependence bound is looser than direct estimation at our sample sizes; (ii) a
+  mutual-information-guided search for the "least correlated" audit subset looks like a free lunch
+  in-sample but provides no real improvement once evaluated honestly with a held-out split; (iii)
+  empirical-Bayes pooling of the dependence parameter across six domains demonstrates a textbook
+  bias-variance trade-off with no free lunch; (iv) a Pareto-efficiency analysis of k-out-of-K
+  voting rules shows that both unanimity and simple majority are statistically dominated by
+  intermediate thresholds. A fifth analysis stress-tests the certificate itself under adversarial
+  contamination. We state the core results as limit theorems and derive the practical architecture
+  consequence: certify against an auditable ground-truth source, use the model ensemble only to
+  widen recall.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.5281/zenodo.21510815
+labels:
+- methodology
+- applications
+- e-processes
+- confidence sequences
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.5281/zenodo.21510815
+  doi: 10.5281/zenodo.21510815
+doi: 10.5281/zenodo.21510815
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

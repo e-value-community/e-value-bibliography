@@ -1,0 +1,35 @@
+title: Risk-Limiting Audits for Parliamentary Majorities
+authors: Jack Freestone, Dennis Leung, Damjan Vukcevic
+year: 2027
+doi: 10.1007/978-3-032-39512-2_4
+arxiv: '2607.21082'
+abstract: >-
+  Existing methods for risk-limiting audits typically focus on certifying individual contests. In
+  parliamentary elections, however, the politically relevant outcome is often whether a party has
+  won enough seats to form government, not whether every reported seat outcome is correct.
+  Extending on the work of Mohanty et al. (2019), we formulate the certification of a
+  parliamentary majority as a partial conjunction testing problem: it is enough to verify that the
+  reported winning party truly won at least a majority of its reported seats. Building on the
+  SHANGRLA auditing framework, we construct a sequential audit statistic for the majority outcome
+  by combining seat-level statistics. We then propose adaptive sampling strategies that allocate
+  auditing effort across seats, including variants that learn to avoid spending excessive effort
+  on seats that appear unlikely to have been truly won. Using simulations based on synthetic and
+  real data, from the 2014 Indian Lok Sabha election, we show that auditing the parliamentary
+  majority can substantially reduce the number of ballots inspected (by almost a thousand-fold)
+  compared to certifying every reported winning seat.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2607.21082
+labels:
+- applications
+- e-processes
+publications:
+- name: Electronic Voting
+  year: 2027
+  url: https://doi.org/10.1007/978-3-032-39512-2_4
+  doi: 10.1007/978-3-032-39512-2_4
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2607.21082
+  arxiv: '2607.21082'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,35 @@
+title: 'Design-Driven Inference for Online Experiments: Jointly Optimal Evidence Collection, Testing,
+  and Estimation'
+authors: Jun Yu, Wenbiao Zhao, Lixing Zhu
+year: 2026
+arxiv: '2610.07831'
+abstract: >-
+  Online multifactorial experiments requires early stopping for practically negligible effects
+  while controlling false stopping under continuous monitoring and retaining precise
+  treatment-effect estimation. We develop a design-driven framework that chooses allocation and
+  the evidence rule jointly, treating allocation as evidence collection and testing and estimation
+  as complementary uses of the same evidence. For multifactor experiments with nuisance block
+  effects and treatment-by-block interactions, we show that block-orthogonal designs remove
+  nuisance contamination from the treatment score and form a complete class for worst-case
+  evidence growth. Under a fixed information budget, an isotropic allocation and an explicit
+  radial e-value jointly attain the minimax rate optimal for directionally unknown alternatives.
+  The same allocation is universally optimal for maximum likelihood estimation of treatment
+  effects, simultaneously achieving A-, D-, and E-optimality and establishing double optimality
+  for testing and estimation. Batchwise replication yields an anytime-valid e-process, retains
+  minimax rate optimality for cumulative conditional worst-case evidence growth, and preserves
+  universal estimation optimality for the prespecified complete experiment. Simulations and a
+  large language model prompt experiment illustrate gains in stopping efficiency and estimation
+  precision.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.07831
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.07831
+  arxiv: '2610.07831'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

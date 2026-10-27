@@ -1,0 +1,27 @@
+title: Sharp Calibration of Bounded E-value Products under Mutual Information Constraints
+authors: Masanari Kimura
+year: 2026
+doi: 10.2139/ssrn.7430112
+abstract: >-
+  We determine the exact universal denominator for the product of two bounded e-values under a
+  mutual information budget. The optimization allows arbitrarymarginal distributions subject to
+  upper bounds and mean inequalities.Separate Bernoulli randomizations saturate the means without
+  increasing mutual information or reducing the product moment, yielding an exact one-dimensional
+  reduction. For arbitrary, possibly unequal upper boundsand every information budget, we exhibit
+  an attaining law and identify the entropy threshold at which the correction for arbitrary
+  dependence becomesnecessary. We also derive the first two correction terms near independence,
+  characterize convergence to saturation, and give a Gaussian example with an analytically
+  guaranteed information budget.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7430112
+labels:
+- theory
+- e-values
+- information theory
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7430112
+  doi: 10.2139/ssrn.7430112
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

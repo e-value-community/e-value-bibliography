@@ -1,0 +1,38 @@
+title: Anytime-valid t-tests and confidence sequences for Gaussian means with unknown variance
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2025
+doi: 10.1080/07474946.2024.2428245
+abstract: >-
+  In 1976, Lai constructed a nontrivial confidence sequence for the mean $μ$ of a Gaussian
+  distribution with unknown variance $σ^2$. Curiously, he employed both an improper (right Haar)
+  mixture over $σ$ and an improper (flat) mixture over $μ$. Here, we elaborate carefully on the
+  details of his construction, which use generalized nonintegrable martingales and an extended
+  Ville's inequality. While this does yield a sequential t-test, it does not yield an "e-process"
+  (due to the nonintegrability of his martingale). In this paper, we develop two new e-processes
+  and confidence sequences for the same setting: one is a test martingale in a reduced filtration,
+  while the other is an e-process in the canonical data filtration. These are respectively
+  obtained by swapping Lai's flat mixture for a Gaussian mixture, and swapping the right Haar
+  mixture over $σ$ with the maximum likelihood estimate under the null, as done in universal
+  inference. We also analyze the width of resulting confidence sequences, which have a curious
+  polynomial dependence on the error probability $α$ that we prove to be not only unavoidable, but
+  (for universal inference) even better than the classical fixed-sample t-test. Numerical
+  experiments are provided along the way to compare and contrast the various approaches, including
+  some recent suboptimal ones.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.03722
+labels:
+- applications
+- e-processes
+- confidence sequences
+publications:
+  - name: Sequential Analysis
+    year: 2025
+    url: https://doi.org/10.1080/07474946.2024.2428245
+    doi: 10.1080/07474946.2024.2428245
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2310.03722
+    arxiv: '2310.03722'
+arxiv: '2310.03722'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

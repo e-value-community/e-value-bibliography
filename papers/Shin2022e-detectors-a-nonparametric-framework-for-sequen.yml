@@ -1,0 +1,40 @@
+title: 'E-detectors: a nonparametric framework for sequential change detection'
+authors: Jaehyeok Shin, Aaditya Ramdas, Alessandro Rinaldo
+year: 2024
+doi: 10.51387/23-nejsds51
+arxiv: '2203.03532'
+abstract: >-
+  Sequential change detection is a classical problem with a variety of applications. However, the
+  majority of prior work has been parametric, for example, focusing on exponential families. We
+  develop a fundamentally new and general framework for sequential change detection when the pre-
+  and post-change distributions are nonparametrically specified (and thus composite). Our
+  procedures come with clean, nonasymptotic bounds on the average run length (frequency of false
+  alarms). In certain nonparametric cases (like sub-Gaussian or sub-exponential), we also provide
+  near-optimal bounds on the detection delay following a changepoint. The primary technical tool
+  that we introduce is called an \emph{e-detector}, which is composed of sums of e-processes -- a
+  fundamental generalization of nonnegative supermartingales -- that are started at consecutive
+  times. We first introduce simple Shiryaev-Roberts and CUSUM-style e-detectors, and then show how
+  to design their mixtures in order to achieve both statistical and computational efficiency. Our
+  e-detector framework can be instantiated to recover classical likelihood-based procedures for
+  parametric problems, as well as yielding the first change detection method for many
+  nonparametric problems. As a running example, we tackle the problem of detecting changes in the
+  mean of a bounded random variable without i.i.d. assumptions, with an application to tracking
+  the performance of a basketball team over multiple seasons.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2203.03532
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+publications:
+- name: The New England Journal of Statistics in Data Science
+  year: 2023
+  url: https://doi.org/10.51387/23-nejsds51
+  doi: 10.51387/23-nejsds51
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2203.03532
+  arxiv: '2203.03532'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

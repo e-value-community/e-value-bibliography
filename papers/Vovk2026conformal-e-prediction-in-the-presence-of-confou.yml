@@ -1,0 +1,20 @@
+title: Conformal e-prediction in the presence of confounding
+authors: Vladimir Vovk, Ruodu Wang
+year: 2026
+arxiv: '2603.11134'
+abstract: >-
+  This note extends conformal e-prediction to cover the case where there is observed confounding
+  between the random object $X$ and its label $Y$. We consider both the case where the observed
+  data is IID and a case where some dependence between observations is permitted.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.11134
+labels:
+- methodology
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2603.11134
+    arxiv: '2603.11134'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

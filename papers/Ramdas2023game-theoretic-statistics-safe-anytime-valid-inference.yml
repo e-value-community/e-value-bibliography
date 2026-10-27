@@ -1,0 +1,33 @@
+title: Game-Theoretic Statistics and Safe Anytime-Valid Inference
+authors: Aaditya Ramdas, Peter Grünwald, Vladimir Vovk, Glenn Shafer
+year: 2023
+doi: 10.1214/23-STS894
+arxiv: '2210.01948'
+abstract: >-
+  Safe anytime-valid inference (SAVI) provides measures of statistical evidence and certainty --
+  e-processes for testing and confidence sequences for estimation -- that remain valid at all
+  stopping times, accommodating continuous monitoring and analysis of accumulating data and
+  optional stopping or continuation for any reason. These measures crucially rely on test
+  martingales, which are nonnegative martingales starting at one. Since a test martingale is the
+  wealth process of a player in a betting game, SAVI centrally employs game-theoretic intuition,
+  language and mathematics. We summarize the SAVI goals and philosophy, and report recent advances
+  in testing composite hypotheses and estimating functionals in nonparametric settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.01948
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+  - name: Statistical Science
+    year: 2023
+    url: https://doi.org/10.1214/23-STS894
+    doi: 10.1214/23-STS894
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2210.01948
+    arxiv: '2210.01948'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

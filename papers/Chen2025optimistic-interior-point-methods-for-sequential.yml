@@ -1,0 +1,31 @@
+title: Optimistic Interior Point Methods for Sequential Hypothesis Testing by Betting
+authors: Can Chen, Jun-Kun Wang
+year: 2025
+arxiv: '2502.07774'
+abstract: >-
+  The technique of ``testing by betting" frames nonparametric sequential hypothesis testing as a
+  multiple-round game, where a player bets on future observations that arrive in a streaming
+  fashion, accumulates wealth that quantifies evidence against the null hypothesis, and rejects
+  the null once the wealth exceeds a specified threshold while controlling the false positive
+  error. Designing an online learning algorithm that achieves a small regret in the game can help
+  rapidly accumulate the bettor's wealth, which in turn can shorten the time to reject the null
+  hypothesis under the alternative $H_1$. However, many of the existing works employ the Online
+  Newton Step (ONS) to update within a halved decision space to avoid a gradient explosion issue,
+  which is potentially conservative for rapid wealth accumulation. In this paper, we introduce a
+  novel strategy utilizing interior-point methods in optimization that allows updates across the
+  entire interior of the decision space without the risk of gradient explosion. Our approach not
+  only maintains strong statistical guarantees but also facilitates faster null hypothesis
+  rejection, while being as computationally lightweight as ONS thanks to its closed-form updates.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2502.07774
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2502.07774
+  arxiv: '2502.07774'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

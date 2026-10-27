@@ -1,0 +1,39 @@
+title: Anytime-Valid Evidence for Prespecified Predictive Corrections
+authors: Seungjin Choi
+year: 2026
+arxiv: '2608.08174'
+abstract: >-
+  A predictive correction is a prespecified modification of an existing predictive distribution
+  intended to reflect an anticipated change in future outcomes given their inputs, motivated, for
+  example, by instrument recalibration, assay drift, or a known intervention. We study how to
+  accumulate anytime-valid evidence that such a correction predicts incoming target outcomes
+  better than the uncorrected source predictive distribution. A fixed nonnegative tilt transforms
+  the source predictive into a corrected predictive, and the corrected-to-source predictive
+  likelihood ratio is a conditional e-value whose running product forms an e-process. This process
+  remains valid under optional stopping and arbitrary input sequences, including adaptively
+  selected ones, while its logarithm equals the cumulative predictive log-score advantage of the
+  correction. A conditional drift decomposition characterizes evidence growth under an arbitrary
+  target predictive distribution, and a correction-dependent half-space identifies misspecified
+  target distributions for which the same false-confirmation bound continues to hold. When the
+  predictive likelihood ratio is strictly positive, its reciprocal yields an anytime-valid
+  refutation boundary, while an overshoot identity explains why the realized null crossing
+  probability may fall below the nominal level. Label-shift, conditional mean and variance,
+  subgroup-specific, and exponential-family corrections arise as special cases. Prespecified
+  mixtures accommodate uncertainty over corrections, predictable tilts permit adaptive betting,
+  and beyond-tolerance comparisons target changes large enough to justify action. Cross-family
+  calculations and synthetic experiments show that a boundary crossing supports the proposed
+  correction relative to its reference but does not uniquely identify the mechanism responsible
+  for the shift.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.08174
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.08174
+    arxiv: '2608.08174'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

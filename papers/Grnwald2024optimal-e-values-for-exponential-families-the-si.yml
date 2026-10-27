@@ -1,0 +1,39 @@
+title: 'Optimal e-values for exponential families: the simple case'
+authors: Peter Grünwald, Tyron Lardy, Yunda Hao, Shaul K. Bar-Lev, Martijn de Jong
+year: 2026
+doi: null
+arxiv: '2404.19465'
+abstract: >-
+  We provide a general condition under which e-variables in the form of a simple-vs.-simple
+  likelihood ratio exist when the null hypothesis is a composite, multivariate exponential family.
+  Such `simple' e-variables are easy to compute and expected-log-optimal with respect to any
+  stopping time. Simple e-variables were previously only known to exist in quite specific
+  settings, but we offer a unifying theorem on their existence for testing exponential families.
+  We start with a simple alternative $Q$ and a regular exponential family null. Together these
+  induce a second exponential family ${\cal Q}$ containing $Q$, with the same sufficient statistic
+  as the null. Our theorem shows that simple e-variables exist whenever the covariance matrices of
+  ${\cal Q}$ and the null are in a certain relation. A prime example in which this relation holds
+  is testing whether a parameter in a linear regression is 0. Other examples include some
+  $k$-sample tests, Gaussian location- and scale tests, and tests for more general classes of
+  natural exponential families. While in all these examples, the implicit composite alternative is
+  also an exponential family, in general this is not required.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2404.19465
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- theory
+- e-values
+publications:
+  - name: >-
+      Information Theory, Probability and Statistical Learning: A Festschrift in Honor of Andrew
+      Barron
+    year: 2026
+    url: https://safestatistics.com/publications-complete-list-since-2020/
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2404.19465
+    arxiv: '2404.19465'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

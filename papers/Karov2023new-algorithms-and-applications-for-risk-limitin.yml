@@ -1,0 +1,35 @@
+title: New Algorithms and Applications for Risk-Limiting Audits
+authors: Bar Karov, Moni Naor
+year: 2023
+arxiv: '2305.04050'
+abstract: >-
+  Risk-limiting audits (RLAs) are a significant tool in increasing confidence in the accuracy of
+  elections. They consist of randomized algorithms which check that an election's vote tally, as
+  reported by a vote tabulation system, corresponds to the correct candidates winning. If an
+  initial vote count leads to the wrong election winner, an RLA guarantees to identify the error
+  with high probability over its own randomness. These audits operate by sequentially sampling and
+  examining ballots until they can either confirm the reported winner or identify the true winner.
+  The first part of this work suggests a new generic method, called ``Batchcomp", for converting
+  classical (ballot-level) RLAs into ones that operate on batches. As a concrete application of
+  the suggested method, we develop the first ballot-level RLA for the Israeli Knesset elections,
+  and convert it to one which operates on batches. We ran the suggested ``Batchcomp" procedure on
+  the results of 22nd, 23rd and 24th Knesset elections, both with and without errors. The second
+  part of this work suggests a new use-case for RLAs: verifying that a population census leads to
+  the correct allocation of political power to a nation's districts or federal-states. We present
+  an adaptation of ALPHA, an existing RLA method, to a method which applies to censuses. Our
+  census-RLA is applicable in nations where parliament seats are allocated to geographical regions
+  in proportion to their population according to a certain class of functions (highest averages).
+  It relies on data from both the census and from an additional procedure which is already
+  conducted in many countries today, called a post-enumeration survey.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.04050
+labels:
+- applications
+- e-values
+publications:
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2305.04050
+  arxiv: '2305.04050'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

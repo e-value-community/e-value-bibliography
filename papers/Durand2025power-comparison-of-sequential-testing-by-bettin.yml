@@ -1,0 +1,27 @@
+title: Power comparison of sequential testing by betting procedures
+authors: Amaury Durand, Olivier Wintenberger
+year: 2025
+arxiv: '2504.00593'
+abstract: >-
+  In this paper, we derive power guarantees of some sequential tests for bounded mean under
+  general alternatives. We focus on testing procedures using nonnegative supermartingales which
+  are anytime valid and consider alternatives which coincide asymptotically with the null (e.g.
+  vanishing mean) while still allowing to reject in finite time. Introducing variance constraints,
+  we show that the alternative can be broaden while keeping power guarantees for certain
+  second-order testing procedures. We also compare different test procedures in multidimensional
+  setting using characteristics of the rejection times. Finally, we extend our analysis to other
+  functionals as well as testing and comparing forecasters. Our results are illustrated with
+  numerical simulations including bounded mean testing and comparison of forecasters.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2504.00593
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2504.00593
+  arxiv: '2504.00593'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

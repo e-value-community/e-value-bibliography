@@ -1,0 +1,35 @@
+title: High-Dimensional Knockoffs Inference for Time Series Data
+authors: Chien-Ming Chi, Yingying Fan, Ching-Kang Ing, Jinchi Lv
+year: 2025
+doi: 10.1080/01621459.2024.2431344
+arxiv: '2112.09851'
+abstract: >-
+  We make some initial attempt to establish the theoretical and methodological foundation for the
+  model-X knockoffs inference for time series data. We suggest the method of time series knockoffs
+  inference (TSKI) by exploiting the ideas of subsampling and e-values to address the difficulty
+  caused by the serial dependence. We also generalize the robust knockoffs inference in Barber,
+  Candès, and Samworth to the time series setting to relax the assumption of known covariate
+  distribution required by model-X knockoffs, since such an assumption is overly stringent for
+  time series data. We establish sufficient conditions under which TSKI achieves the asymptotic
+  false discovery rate (FDR) control. Our technical analysis reveals the effects of serial
+  dependence and unknown covariate distribution on the FDR control. We conduct a power analysis of
+  TSKI using the Lasso coefficient difference knockoff statistic under the generalized linear time
+  series models. The finite-sample performance of TSKI is illustrated with several simulation
+  examples and an economic inflation study.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2112.09851
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Journal of the American Statistical Association
+  year: 2025
+  url: https://doi.org/10.1080/01621459.2024.2431344
+  doi: 10.1080/01621459.2024.2431344
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2112.09851
+  arxiv: '2112.09851'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

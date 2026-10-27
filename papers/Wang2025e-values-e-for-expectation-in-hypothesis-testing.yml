@@ -1,0 +1,21 @@
+title: E-values (E for Expectation) in Hypothesis Testing
+authors: Ruodu Wang
+year: 2025
+doi: 10.1007/978-3-662-69359-9_189
+abstract: >-
+  E-values (“e” for “expectation”) are an alternative to p-values (“p” for “probability”).
+abstract_status: source_abstract
+abstract_source: https://link.springer.com/referenceworkentry/10.1007/978-3-662-69359-9_189
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: International Encyclopedia of Statistical Science
+  year: 2025
+  url: https://doi.org/10.1007/978-3-662-69359-9_189
+  doi: 10.1007/978-3-662-69359-9_189
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

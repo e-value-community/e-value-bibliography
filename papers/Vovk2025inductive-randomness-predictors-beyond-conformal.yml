@@ -1,0 +1,26 @@
+title: 'Inductive randomness predictors: beyond conformal'
+authors: Vladimir Vovk
+year: 2025
+arxiv: '2503.02803'
+abstract: >-
+  This paper introduces inductive randomness predictors, which form a proper superset of inductive
+  conformal predictors but have the same principal property of validity under the assumption of
+  randomness (i.e., of IID data). It turns out that every non-trivial inductive conformal
+  predictor is strictly dominated by an inductive randomness predictor, although the improvement
+  is not great, at most a factor of $\mathrm{e}\approx2.72$ in the case of e-prediction. The
+  dominating inductive randomness predictors are more complicated and more difficult to compute;
+  besides, an improvement by a factor of $\mathrm{e}$ is rare. Therefore, this paper does not
+  suggest replacing inductive conformal predictors by inductive randomness predictors and only
+  calls for a more detailed study of the latter.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2503.02803
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2503.02803
+    arxiv: '2503.02803'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,37 @@
+title: Testing maximum entropy models with e-values
+authors: Francesca Giuffrida, Diego Garlaschelli, Peter Grünwald
+year: 2026
+doi: 10.1103/xhf5-1l7p
+arxiv: '2509.01064'
+abstract: >-
+  E-values have recently emerged as a robust and flexible alternative to p-values for hypothesis
+  testing, especially under optional continuation, i.e., when additional data from further
+  experiments are collected. In this work, we define optimal e-values for testing between maximum
+  entropy models, both in the microcanonical (hard constraints) and canonical (soft constraints)
+  settings. We show that, when testing between two hypotheses that are both microcanonical, the
+  so-called growth-rate optimal e-variable admits an exact analytical expression, which also
+  serves as a valid e-variable in the canonical case. For canonical tests, where exact solutions
+  are typically unavailable, we introduce a microcanonical approximation and verify its excellent
+  performance via both theoretical arguments and numerical simulations. We then consider
+  constrained binary models, focusing on $2 \times k$ contingency tables -- an essential framework
+  in statistics and a natural representation for various models of complex systems. Our
+  microcanonical optimal e-variable performs well in both settings, constituting a new tool that
+  remains effective even in the challenging case when the number $k$ of groups grows with the
+  sample size, as in models with growing features used for the analysis of real-world
+  heterogeneous networks and time-series.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2509.01064
+labels:
+- methodology
+- e-values
+publications:
+- name: Physical Review E
+  year: 2026
+  url: https://doi.org/10.1103/xhf5-1l7p
+  doi: 10.1103/xhf5-1l7p
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2509.01064
+  arxiv: '2509.01064'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

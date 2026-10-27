@@ -1,0 +1,33 @@
+title: Anytime-Valid Runtime Monitoring of Learned Barrier Certificates
+authors: Zhipeng Cao, Taoran Wu, Weiru Cui, Luke Ong, Bai Xue
+year: 2026
+arxiv: '2610.27726'
+abstract: >-
+  Learned barrier certificates provide a principled mechanism for establishing safety of
+  stochastic systems, but their validity may deteriorate during deployment when the underlying
+  dynamics differ from those used for training. We propose an anytime-valid runtime monitor that
+  audits a learned barrier certificate using observed closed-loop trajectories. The monitor is
+  intended to detect loss of statistical support for the deployed barrier condition; it does not
+  by itself guarantee detection before unsafe entry or safety of a subsequent intervention.
+  Specifically, the conditional barrier-drift condition is formulated as an episode-wise
+  sequential hypothesis test, and observed barrier increments are transformed into a nonnegative
+  test supermartingale, yielding finite-sample false-alarm control under arbitrary stopping times.
+  Inspired by finite-horizon safety verification, we further introduce a deterministic temporal
+  shaping of the monitoring boundary, making the monitor more conservative early in a prescribed
+  deployment horizon while preserving anytime-validity. The monitor is designed to detect
+  statistical evidence that the safety certificate is no longer consistent with the observed
+  dynamics, rather than to predict unsafe entry. To assess the monitor empirically, we evaluate
+  empirical alarm behavior under valid and invalid certificates. Code and data are available at
+  https://github.com/FormalCert-AI/runtime-barrier-monitor.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.27726
+labels:
+- applications
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.27726
+  arxiv: '2610.27726'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

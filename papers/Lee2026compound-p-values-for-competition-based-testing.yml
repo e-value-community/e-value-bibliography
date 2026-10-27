@@ -1,0 +1,31 @@
+title: Compound p-values for competition-based testing
+authors: Junu Lee, Rina Foygel Barber, Richard J. Samworth, Zhimei Ren
+year: 2026
+arxiv: '2610.20411'
+abstract: >-
+  Standard competition-based multiple testing methods -- such as the knockoff filter and the
+  target-decoy procedure -- are typically formulated as head-to-head competitions between a test
+  unit and its assigned negative control unit. Motivated by real-world applications, which
+  leverage any available negative controls, we study this competition-based framework in more
+  intricate settings where competitions vary in size and structure. We propose new methods based
+  on compound p-values -- p-values that are superuniform only on aggregate -- that enable powerful
+  multiple testing with broader competition structures, via the Bonferroni and Benjamini-Hochberg
+  procedures. The former provides exact familywise error rate control, whereas the latter may
+  incur a false discovery rate inflation factor, for which we derive upper bounds across a range
+  of settings. We showcase the performance of our general competition-based testing methodology
+  through extensive simulations and real-data applications, including analyses of virtual spatial
+  transcriptomics and CRISPR screen datasets that exhibit precisely the complex competition
+  structures that motivate our methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.20411
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.20411
+    arxiv: '2610.20411'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

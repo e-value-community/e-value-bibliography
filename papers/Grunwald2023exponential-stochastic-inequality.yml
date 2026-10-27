@@ -1,0 +1,31 @@
+title: Exponential Stochastic Inequality
+authors: Peter D. Grünwald, Muriel F. Pérez-Ortiz, Zakaria Mhammedi
+year: 2023
+arxiv: '2304.14217'
+abstract: >-
+  We develop the concept of exponential stochastic inequality (ESI), a novel notation that
+  simultaneously captures high-probability and in-expectation statements. It is especially well
+  suited to succinctly state, prove, and reason about excess-risk and generalization bounds in
+  statistical learning, specifically, but not restricted to, the PAC-Bayesian type. We show that
+  the ESI satisfies transitivity and other properties which allow us to use it like standard,
+  nonstochastic inequalities. We substantially extend the original definition from Koolen et al.
+  (2016) and show that general ESIs satisfy a host of useful additional properties, including a
+  novel Markov-like inequality. We show how ESIs relate to, and clarify, PAC-Bayesian bounds,
+  subcentered subgamma random variables and *fast-rate conditions* such as the central and
+  Bernstein conditions. We also show how the ideas can be extended to random scaling factors
+  (learning rates).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2304.14217
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- probability theory
+publications:
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2304.14217
+    arxiv: '2304.14217'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

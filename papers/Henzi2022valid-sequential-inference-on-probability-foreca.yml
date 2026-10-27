@@ -1,0 +1,36 @@
+title: Valid sequential inference on probability forecast performance
+authors: Alexander Henzi, Johanna F. Ziegel
+year: 2022
+doi: 10.1093/biomet/asab047
+arxiv: '2103.08402'
+abstract: >-
+  Probability forecasts for binary events play a central role in many applications. Their quality
+  is commonly assessed with proper scoring rules, which assign forecasts a numerical score such
+  that a correct forecast achieves a minimal expected score. In this paper, we construct e-values
+  for testing the statistical significance of score differences of competing forecasts in
+  sequential settings. E-values have been proposed as an alternative to p-values for hypothesis
+  testing, and they can easily be transformed into conservative p-values by taking the
+  multiplicative inverse. The e-values proposed in this article are valid in finite samples
+  without any assumptions on the data generating processes. They also allow optional stopping, so
+  a forecast user may decide to interrupt evaluation taking into account the available data at any
+  time and still draw statistically valid inference, which is generally not true for classical
+  p-value based tests. In a case study on postprocessing of precipitation forecasts,
+  state-of-the-art forecasts dominance tests and e-values lead to the same conclusions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2103.08402
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-processes
+publications:
+  - name: Biometrika
+    year: 2022
+    url: https://doi.org/10.1093/biomet/asab047
+    doi: 10.1093/biomet/asab047
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2103.08402
+    arxiv: '2103.08402'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,38 @@
+title: Comparing Sequential Forecasters
+authors: Yo Joong Choe, Aaditya Ramdas
+year: 2024
+doi: 10.1287/opre.2021.0792
+arxiv: '2110.00115'
+abstract: >-
+  Consider two forecasters, each making a single prediction for a sequence of events over time. We
+  ask a relatively basic question: how might we compare these forecasters, either online or
+  post-hoc, while avoiding unverifiable assumptions on how the forecasts and outcomes were
+  generated? In this paper, we present a rigorous answer to this question by designing novel
+  sequential inference procedures for estimating the time-varying difference in forecast scores.
+  To do this, we employ confidence sequences (CS), which are sequences of confidence intervals
+  that can be continuously monitored and are valid at arbitrary data-dependent stopping times
+  ("anytime-valid"). The widths of our CSs are adaptive to the underlying variance of the score
+  differences. Underlying their construction is a game-theoretic statistical framework, in which
+  we further identify e-processes and p-processes for sequentially testing a weak null hypothesis
+  -- whether one forecaster outperforms another on average (rather than always). Our methods do
+  not make distributional assumptions on the forecasts or outcomes; our main theorems apply to any
+  bounded scores, and we later provide alternative methods for unbounded scores. We empirically
+  validate our approaches by comparing real-world baseball and weather forecasters.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2110.00115
+labels:
+- applications
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: Operations Research
+  year: 2024
+  url: https://doi.org/10.1287/opre.2021.0792
+  doi: 10.1287/opre.2021.0792
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2110.00115
+  arxiv: '2110.00115'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

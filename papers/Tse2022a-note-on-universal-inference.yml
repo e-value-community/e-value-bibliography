@@ -1,0 +1,30 @@
+title: A note on universal inference
+authors: Timmy Tse, Anthony C. Davison
+year: 2022
+doi: 10.1002/sta4.501
+arxiv: null
+abstract: >-
+  Universal inference enables the construction of confidence intervals and tests without
+  regularity conditions by splitting the data into two parts and appealing to Markov's inequality.
+  Previous investigations have shown that the cost of this generality is a loss of power in
+  regular settings for testing simple hypotheses. The present paper makes three contributions. We
+  first clarify the reasons for the loss of power and use a simple illustrative example to
+  investigate how the split proportion optimizing the power depends on the nominal size of the
+  test. We then show that the presence of nuisance parameters can severely impact the power and
+  suggest a simple asymptotic improvement. Finally, we show that combining many data splits can
+  also sharply diminish power.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/sta4.501
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- applications
+- e-values
+publications:
+- name: Stat
+  year: 2022
+  url: https://doi.org/10.1002/sta4.501
+  doi: 10.1002/sta4.501
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

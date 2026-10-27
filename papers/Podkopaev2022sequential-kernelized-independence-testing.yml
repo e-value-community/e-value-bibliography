@@ -1,0 +1,34 @@
+title: Sequential Kernelized Independence Testing
+authors: Aleksandr Podkopaev, Patrick Blöbaum, Shiva Prasad Kasiviswanathan, Aaditya Ramdas
+year: 2023
+arxiv: '2212.07383'
+abstract: >-
+  Independence testing is a classical statistical problem that has been extensively studied in the
+  batch setting when one fixes the sample size before collecting data. However, practitioners
+  often prefer procedures that adapt to the complexity of a problem at hand instead of setting
+  sample size in advance. Ideally, such procedures should (a) stop earlier on easy tasks (and
+  later on harder tasks), hence making better use of available resources, and (b) continuously
+  monitor the data and efficiently incorporate statistical evidence after collecting new data,
+  while controlling the false alarm rate. Classical batch tests are not tailored for streaming
+  data: valid inference after data peeking requires correcting for multiple testing which results
+  in low power. Following the principle of testing by betting, we design sequential kernelized
+  independence tests that overcome such shortcomings. We exemplify our broad framework using bets
+  inspired by kernelized dependence measures, e.g., the Hilbert-Schmidt independence criterion.
+  Our test is also valid under non-i.i.d., time-varying settings. We demonstrate the power of our
+  approaches on both simulated and real data.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2212.07383
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+  - name: International Conference on Machine Learning
+    year: 2023
+    url: https://proceedings.mlr.press/v202/podkopaev23a.html
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2212.07383
+    arxiv: '2212.07383'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

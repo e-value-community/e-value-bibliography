@@ -1,0 +1,36 @@
+title: E-Values Multiple Testing for Conformal Prediction on Social Network Construction
+authors: Aybuke Zeliha Ozdemir, Mehmet Ali Kaygusuz, Vilda Purutcuoglu
+year: 2026
+doi: 10.22034/iss.2026.10415.1067
+abstract: >-
+  Objective: This study aims to integrate conformal prediction methods into social network
+  analysis and to investigate the effect of women’s employment status on family happiness using a
+  large national survey dataset. It also aims to combine conformal prediction and e-value
+  approaches for social network construction, to the best of our knowledge, for the first time.
+  Methods: We use the 2021 Research on Family Structure in Türkiye national survey dataset. In the
+  modeling process, conformal prediction and e-values are combined with logistic regression, which
+  is used as a benchmark approach in social modeling studies, and structural equation modeling,
+  which represents a more advanced and recent approach in this field. Results: The proposed
+  framework allows uncertainty quantification through conformal prediction, which generates valid
+  prediction regions under the assumption of data exchangeability. In addition, the use of
+  e-values addresses issues related to multiple testing, where unadjusted marginal p-values may
+  increase the probability of incorrectly rejecting true null hypotheses. The analyses
+  specifically focus on the effect of women’s working status on family happiness. Conclusion: This
+  study proposes a novel integration of conformal prediction and e-value methods within social
+  network analysis. By applying both fundamental and advanced modeling approaches to a large
+  national survey dataset, the study aims to provide a comprehensive investigation of the
+  underlying social effect of women’s employment status on family happiness.
+abstract_status: source_abstract
+abstract_source: https://msit.refconf.com/article_2939.html
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+  - name: Management Science and Information Technology
+    year: 2026
+    url: https://doi.org/10.22034/iss.2026.10415.1067
+    doi: 10.22034/iss.2026.10415.1067
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

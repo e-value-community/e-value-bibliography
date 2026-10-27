@@ -1,0 +1,32 @@
+title: Testing exchangeability in the batch mode with e-values and Markov alternatives
+authors: Vladimir Vovk
+year: 2025
+doi: 10.1007/s10994-024-06720-x
+arxiv: '2305.05284'
+abstract: >-
+  The topic of this paper is testing exchangeability using e-values in the batch mode, with the
+  Markov model as alternative. The null hypothesis of exchangeability is formalized as a
+  Kolmogorov-type compression model, and the Bayes mixture of the Markov model w.r. to the uniform
+  prior is taken as simple alternative hypothesis. Using e-values instead of p-values leads to a
+  computationally efficient testing procedure. In the appendixes I explain connections with the
+  algorithmic theory of randomness and with the traditional theory of testing statistical
+  hypotheses. In the standard statistical terminology, this paper proposes a new permutation test.
+  This test can also be interpreted as a poor man's version of Kolmogorov's deficiency of
+  randomness.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2305.05284
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: Machine Learning
+  year: 2025
+  url: https://doi.org/10.1007/s10994-024-06720-x
+  doi: 10.1007/s10994-024-06720-x
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2305.05284
+  arxiv: '2305.05284'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: Near-Optimal Confidence Sequences for Bounded Random Variables
+authors: Arun Kumar Kuchibhotla, Qinqing Zheng
+year: 2021
+arxiv: '2006.05022'
+abstract: >-
+  Many inference problems, such as sequential decision problems like A/B testing, adaptive
+  sampling schemes like bandit selection, are often online in nature. The fundamental problem for
+  online inference is to provide a sequence of confidence intervals that are valid uniformly over
+  the growing-into-infinity sample sizes. To address this question, we provide a near-optimal
+  confidence sequence for bounded random variables by utilizing Bentkus' concentration results. We
+  show that it improves on the existing approaches that use the Cram{é}r-Chernoff technique such
+  as the Hoeffding, Bernstein, and Bennett inequalities. The resulting confidence sequence is
+  confirmed to be favorable in both synthetic coverage problems and an application to adaptive
+  stopping algorithms.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2006.05022
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: International Conference on Machine Learning
+    year: 2021
+    url: https://proceedings.mlr.press/v139/kuchibhotla21a.html
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2006.05022
+    arxiv: '2006.05022'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,33 @@
+title: Anytime-valid testing with e-values and confirmatory adaptive designs
+authors: Werner Brannath, Lasse Fischer
+year: 2026
+arxiv: '2606.00878'
+abstract: >-
+  Confirmatory adaptive designs were introduced more than 30 years ago and enable for example
+  sample size re-assessments and the selection of treatments, endpoints as well as subpopulations
+  during the course of a clinical trial. Recently, sequential tests based on e-values for an
+  anytime-valid inference have been developed, promising seemingly similar or even more
+  flexibility and utility. In this note, we compare these two independently developed concepts,
+  shedding light on their formal and methodological connections and differences. Specifically, we
+  show that adaptive design tools like conditional error functions and combination tests are
+  formally equivalent to e-value based, anytime-valid sequential tests. However, in spite of their
+  common fundamental intention to bring flexibility into statistical inference, they have quite
+  different emphases: While hypothesis testing with combination tests and conditional error
+  function usually intent to exhaust type I error rates under the offered flexibility, e-value
+  based testing aims on the additional flexibility with regard to optional continuation, the
+  chosen level and, in recent extensions, in the loss functions to be controlled. We also indicate
+  how recent e-value achievements could enrich clinical trial methodology and adaptive design
+  methodology could inspire and improve e-value based testing.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.00878
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2606.00878
+  arxiv: '2606.00878'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

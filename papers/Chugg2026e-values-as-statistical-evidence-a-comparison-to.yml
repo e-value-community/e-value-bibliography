@@ -1,0 +1,34 @@
+title: 'E-values as statistical evidence: A comparison to Bayes factors, likelihoods, and p-values'
+authors: Ben Chugg, Aaditya Ramdas, Peter Grünwald
+year: 2026
+doi: 10.1007/s11229-026-05779-4
+arxiv: '2603.24421'
+abstract: >-
+  A recurring debate in the philosophy of statistics concerns what, exactly, should count as a
+  measure of evidence for or against a given hypothesis. P-values, likelihood ratios, and Bayes
+  factors all have their defenders. In this paper we add two additional candidates to this list:
+  the e-value and its sequential analogue, the e-process. E-values enjoy several desirable
+  properties as measures of evidence: they combine naturally across studies, handle composite
+  hypotheses, provide long-run error rates, and admit a useful interpretation as the wealth
+  accrued by a bettor in a game against the null distribution. E-processes additionally handle
+  optional stopping and optional continuation. This work examines the extent to which e-values and
+  e-processes satisfy the evidential desiderata of different statistical traditions, concluding
+  that they combine attractive features of p-values, likelihood ratios, and Bayes factors, and
+  merit serious consideration as interpretable and intuitive measures of statistical evidence.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.24421
+labels:
+- philosophy
+- e-values
+- e-processes
+publications:
+- name: Synthese
+  year: 2026
+  url: https://doi.org/10.1007/s11229-026-05779-4
+  doi: 10.1007/s11229-026-05779-4
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.24421
+  arxiv: '2603.24421'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

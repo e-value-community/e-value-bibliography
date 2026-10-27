@@ -1,0 +1,44 @@
+title: Derandomized Truncated D-vine Copula Knockoffs with e-values to control the false discovery rate
+authors: Alejandro Román Vásquez, José Ulises Márquez Urbina, Graciela González Farías, Gabriel Escarela
+year: 2025
+doi: 10.1007/s00180-024-01587-x
+arxiv: '2407.14002'
+abstract: >-
+  The Model-X knockoffs is a practical methodology for variable selection, which stands out from
+  other selection strategies since it allows for the control of the false discovery rate (FDR),
+  relying on finite-sample guarantees. In this article, we propose a Truncated D-vine Copula
+  Knockoffs (TDCK) algorithm for sampling approximate knockoffs from complex multivariate
+  distributions. Our algorithm enhances and improves features of previous attempts to sample
+  knockoffs under the multivariate setting, with the three main contributions being: 1) the
+  truncation of the D-vine copula, which reduces the dependence between the original variables and
+  their corresponding knockoffs, improving the statistical power; 2) the employment of a
+  straightforward non-parametric formulation for marginal transformations, eliminating the need
+  for a specific parametric family or a kernel density estimator; 3) the use of the
+  "rvinecopulib'' R package offers better flexibility than the existing fitting vine copula
+  knockoff methods. To eliminate the randomness in distinct realizations resulting in different
+  sets of selected variables, we wrap the TDCK method with an existing derandomizing procedure for
+  knockoffs, leading to a Derandomized Truncated D-vine Copula Knockoffs with e-values (DTDCKe)
+  procedure. We demonstrate the robustness of the DTDCKe procedure under various scenarios with
+  extensive simulation studies. We further illustrate its efficacy using a gene expression
+  dataset, showing it achieves a more reliable gene selection than other competing methods, when
+  the findings are compared with those of a meta-analysis. The results indicate that our Truncated
+  D-vine copula approach is robust and has superior power, representing an appealing approach for
+  variable selection in different multivariate applications, particularly in gene expression
+  analysis.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2407.14002
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Computational Statistics
+  year: 2025
+  url: https://doi.org/10.1007/s00180-024-01587-x
+  doi: 10.1007/s00180-024-01587-x
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2407.14002
+  arxiv: '2407.14002'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,28 @@
+title: Conformal test martingales for hypergraphical models
+authors: Ilia Nouretdinov
+year: 2024
+abstract: >-
+  Abstract In this work, we study applications of the Conformal Prediction machine learning
+  framework to the questions of statistical data testing. This technique is also known as
+  Conformal Test Martingales. Earlier works on this topic used it to detect deviations from
+  exchangeability assumptions (such as change points). Here we move to test popular hypergraphical
+  models. We adopt and compare two versions of Conformal Testing Martingales. First: testing the
+  data against exchangeability assumption, but using the elements of hypergraphical model for
+  setting its parameters. Second: combining Conformal Testing Martingale with Hypergraphical
+  On-Line Compression Models. The latter is an extension of the Conformal Prediction technique
+  beyond exchangeability. We show how these approaches help to accelerate the detection of data
+  deviation from i.i.d. by making use of the knowledge about relations between the features
+  embedded into a hypergraphical model.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1007/s10472-024-09951-9
+labels:
+- methodology
+- e-processes
+publications:
+- name: Annals of Mathematics and Artificial Intelligence
+  year: 2024
+  url: https://doi.org/10.1007/s10472-024-09951-9
+  doi: 10.1007/s10472-024-09951-9
+doi: 10.1007/s10472-024-09951-9
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

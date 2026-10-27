@@ -1,0 +1,32 @@
+title: Selection from Hierarchical Data with Conformal e-values
+authors: Yonghoon Lee, Zhimei Ren
+year: 2025
+arxiv: '2501.02514'
+abstract: >-
+  Distribution-free predictive inference beyond the construction of prediction sets has gained a
+  lot of interest in recent applications. One such application is the selection task, where the
+  objective is to design a reliable selection rule to pick out individuals with desired unobserved
+  outcomes while controlling the error rate. In this work, we address the selection problem in the
+  context of hierarchical data, where groups of observations may exhibit distinct within-group
+  distributions. This generalizes existing techniques beyond the standard i.i.d./exchangeable data
+  settings. As a correction, For hierarchical data, we introduce methods to construct valid
+  conformal e-values, enabling control of the false discovery rate (FDR) through the e-BH
+  procedure. In particular, we introduce and compare two approaches -- subsampling conformal
+  e-values and hierarchical conformal e-values. Empirical results demonstrate that both approaches
+  achieve valid FDR control while highlighting a tradeoff between stability and power. The
+  subsampling-based method, though random, typically offers higher power, whereas the hierarchical
+  approach, being deterministic, tends to be slightly less powerful. The effectiveness of the
+  proposed methods is illustrated in two real-world applications.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.02514
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.02514
+  arxiv: '2501.02514'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

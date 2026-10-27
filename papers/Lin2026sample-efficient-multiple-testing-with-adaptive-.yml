@@ -1,0 +1,30 @@
+title: Sample-Efficient Multiple Testing with Adaptive Data Collection
+authors: Zhanran Lin, Wanteng Ma, Zhimei Ren, Yuting Wei
+year: 2026
+arxiv: '2609.26651'
+abstract: >-
+  This paper studies adaptive experimental design for multiple testing, where an experimenter
+  sequentially chooses which hypothesis to sample. We propose the e-value-based posterior sampling
+  (e-PS) procedure, which uses the empirical average of log e-value increments to guide randomized
+  sampling and applies e-BH to construct rejection sets. Under conditionally valid e-value
+  increments, the procedure controls the false discovery rate at arbitrary stopping times and
+  produces nested rejection sets. We establish high-probability bounds on the number of samples
+  needed to discover all nonnull hypotheses in terms of the growth and concentration of the
+  underlying e-processes. We specialize these bounds to simple-versus-simple,
+  composite-versus-simple, and simple-versus-composite testing. Simulations and experiments using
+  joke ratings and watermarked text illustrate the procedure's power under limited sampling
+  budgets.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2609.26651
+labels:
+- methodology
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2609.26651
+  arxiv: '2609.26651'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

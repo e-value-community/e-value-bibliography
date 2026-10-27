@@ -1,0 +1,35 @@
+title: 'Testing with p*-values: Between p-values, mid p-values, and e-values'
+authors: Ruodu Wang
+year: 2024
+doi: 10.3150/23-bej1633
+arxiv: '2010.14010'
+abstract: >-
+  We introduce the notion of p*-values (p*-variables), which generalizes p-values (p-variables) in
+  several senses. The new notion has four natural interpretations: operational, probabilistic,
+  Bayesian, and frequentist. A main example of a p*-value is a mid p-value, which arises in the
+  presence of discrete test statistics. A unified stochastic representation for p-values, mid
+  p-values, and p*-values is obtained to illustrate the relationship between the three objects. We
+  study several ways of merging arbitrarily dependent or independent p*-values into one p-value or
+  p*-value. Admissible calibrators of p*-values to and from p-values and e-values are obtained
+  with nice mathematical forms, revealing the role of p*-values as a bridge between p-values and
+  e-values. The notion of p*-values becomes useful in many situations even if one is only
+  interested in p-values, mid p-values, or e-values. In particular, deterministic tests based on
+  p*-values can be applied to improve some classic methods for p-values and e-values.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2010.14010
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+publications:
+  - name: Bernoulli
+    year: 2024
+    url: https://doi.org/10.3150/23-BEJ1633
+    doi: 10.3150/23-bej1633
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2010.14010
+    arxiv: '2010.14010'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

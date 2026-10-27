@@ -1,0 +1,34 @@
+title: E-Backtesting Expected Shortfall without Value-at-Risk Forecasts under Time-series Models
+authors: Ruodu Wang, Jingcheng Yu
+year: 2026
+arxiv: '2610.17681'
+abstract: >-
+  Expected Shortfall (ES) measures the average size of tail losses. Its sequential backtests
+  typically also require a Value-at-Risk (VaR) forecast. We develop two e-backtesting methods
+  using only observed losses and ES forecasts: one for iid losses only and the other for time
+  series under an AR-GARCH conditional VaR structure. Under the stated assumptions, both control
+  false rejections at any stopping time. For the time-series method, validity requires a fixed
+  parameter--quantile pair representing the conditional VaR path and a positive report margin. The
+  time-series statistic takes an infimum over possible parameter and VaR values. We choose the
+  betting process $(λ_t)$ by maximizing an empirical growth rate averaged across candidate
+  parameters. We compute the statistic by continuous VaR profiling on a dense parameter grid. For
+  grid approximations, we prove convergence to the continuous infimum, together with convergence
+  of the probability of false rejection, as the grid is refined over a fixed monitoring period.
+  Lower and upper bounds for the VaR infimum on the parameter grid control the accuracy of the
+  numerical profiling. Simulations, including ES reports that change from over-reporting to
+  under-reporting, and an application to daily NASDAQ losses provide numerical comparisons with
+  VaR--ES e-processes and fixed-sample ES backtests, assessing detection frequencies and the
+  timing of rejections.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.17681
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.17681
+  arxiv: '2610.17681'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

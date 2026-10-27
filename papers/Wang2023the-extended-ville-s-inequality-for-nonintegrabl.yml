@@ -1,0 +1,34 @@
+title: The extended Ville's inequality for nonintegrable nonnegative supermartingales
+authors: Hongjian Wang, Aaditya Ramdas
+year: 2025
+doi: 10.3150/24-bej1823
+arxiv: '2304.01163'
+abstract: >-
+  Following the initial work by Robbins, we rigorously present an extended theory of nonnegative
+  supermartingales, requiring neither integrability nor finiteness. In particular, we derive a key
+  maximal inequality foreshadowed by Robbins, which we call the extended Ville's inequality, that
+  strengthens the classical Ville's inequality (for integrable nonnegative supermartingales), and
+  also applies to our nonintegrable setting. We derive an extension of the method of mixtures,
+  which applies to $σ$-finite mixtures of our extended nonnegative supermartingales. We present
+  some implications of our theory for sequential statistics, such as the use of improper mixtures
+  (priors) in deriving nonparametric confidence sequences and (extended) e-processes.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2304.01163
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+- name: Bernoulli
+  year: 2025
+  url: https://doi.org/10.3150/24-bej1823
+  doi: 10.3150/24-bej1823
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2304.01163
+  arxiv: '2304.01163'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

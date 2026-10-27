@@ -1,0 +1,29 @@
+title: True and false discoveries with independent and sequential e-values
+authors: Vladimir Vovk, Ruodu Wang
+year: 2024
+doi: 10.1002/cjs.11833
+abstract: >-
+  In this paper we use e-values in the context of multiple hypothesis testing assuming that the
+  base tests produce independent, or sequential, e-values. Our simulation and empirical studies
+  and theoretical considerations suggest that, under this assumption, our new algorithms are
+  superior to the known algorithms using independent p-values and to our recent algorithms
+  designed for e-values without the assumption of independence.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2003.00593
+labels:
+- methodology
+- e-values
+- e-processes
+- multiple testing
+publications:
+  - name: Canadian Journal of Statistics
+    year: 2024
+    url: https://doi.org/10.1002/cjs.11833
+    doi: 10.1002/cjs.11833
+  - name: arXiv
+    year: 2020
+    url: https://arxiv.org/abs/2003.00593
+    arxiv: '2003.00593'
+arxiv: '2003.00593'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

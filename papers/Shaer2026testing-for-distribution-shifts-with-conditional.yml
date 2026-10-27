@@ -1,0 +1,35 @@
+title: Testing For Distribution Shifts with Conditional Conformal Test Martingales
+authors: Shalev Shaer, Yarin Bar, Drew Prinster, Yaniv Romano
+year: 2026
+arxiv: '2602.13848'
+abstract: >-
+  We propose a sequential test for detecting arbitrary distribution shifts that allows conformal
+  test martingales (CTMs) to work under a fixed, reference-conditional setting. Existing CTM
+  detectors construct test martingales by continually growing a reference set with each incoming
+  sample, using it to assess how atypical the new sample is relative to past observations. While
+  this design yields anytime-valid type-I error control, it suffers from test-time contamination:
+  after a change, post-shift observations enter the reference set and dilute the evidence for
+  distribution shift, increasing detection delay and reducing power. In contrast, our method
+  avoids contamination by design by comparing each new sample to a fixed null reference dataset.
+  Our main technical contribution is a robust martingale construction that remains valid
+  conditional on the null reference data, achieved by explicitly accounting for the estimation
+  error in the reference distribution induced by the finite reference set. This yields
+  anytime-valid type-I error control together with guarantees of asymptotic power one and bounded
+  expected detection delay. Empirically, our method detects shifts faster than standard CTMs,
+  providing a powerful and reliable distribution-shift detector.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.13848
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/shaer26a.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2602.13848
+  arxiv: '2602.13848'
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

@@ -1,0 +1,32 @@
+title: >-
+  SPARTA: $χ^2$-calibrated, risk-controlled exploration-exploitation for variational quantum
+  algorithms
+authors: Mikhail Zubarev
+year: 2025
+arxiv: '2511.19551'
+abstract: >-
+  Variational quantum algorithms face a fundamental trainability crisis: barren plateaus render
+  optimization exponentially difficult as system size grows. While recent Lie algebraic theory
+  precisely characterizes when and why these plateaus occur, no practical optimization method
+  exists with finite-sample guarantees for navigating them. We present the sequential
+  plateau-adaptive regime-testing algorithm (SPARTA), the first measurement-frugal scheduler that
+  provides explicit, anytime-valid risk control for quantum optimization. Our approach integrates
+  three components with rigorous statistical foundations: (i) a $χ^2$-calibrated sequential test
+  that distinguishes barren plateaus from informative regions using likelihood-ratio
+  supermartingales; (ii) a probabilistic trust-region exploration strategy with one-sided
+  acceptance to prevent false improvements under shot noise; and (iii) a theoretically-optimal
+  exploitation phase that achieves the best attainable convergence rate. We prove geometric bounds
+  on plateau exit times, linear convergence in informative basins, and show how Lie-algebraic
+  variance proxies enhance test power without compromising statistical calibration.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2511.19551
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2511.19551
+    arxiv: '2511.19551'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

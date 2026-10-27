@@ -1,0 +1,28 @@
+title: Calibrating Mechanisms with Delayed Evidence
+authors: Yuchen Hu, Stephen Bates, Martin J Wainwright
+year: 2026
+abstract: >-
+  Many mechanisms are designed assuming that payoff-relevant operational characteristics are known
+  when decisions are made, although in practice they may only become assessable from post-action
+  data. We study how delayed, noisy evidence can recover the incentives of such benchmark
+  mechanisms without redesigning them. Our calibrated correction runs the benchmark mechanism
+  using agents' reports and adjusts payoffs ex post according to a statistically calibrated
+  verification score. We show that incentive loss is controlled by two interpretable features of
+  the verifier: its calibration level for truthful reports and its statistical resolution for
+  detecting deviations. This makes explicit the tradeoff between protecting truthful agents from
+  erroneous correction and detecting misreports at finer resolution. Our framework accommodates a
+  broad range of verification procedures, including concentration-based tests and sequential
+  verification via anytime-valid e-processes, and we illustrate it using standard VCG and Myerson
+  resource-allocation benchmarks.
+abstract_status: source_abstract
+abstract_source: https://neurips.cc/virtual/2026/171784
+labels:
+- methodology
+- applications
+- e-processes
+publications:
+- name: NeurIPS MLxOR Workshop
+  year: 2026
+  url: https://neurips.cc/virtual/2026/171784
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

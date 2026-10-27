@@ -1,0 +1,33 @@
+title: Early-Exit Neural Networks with Nested Prediction Sets
+authors: Metod Jazbec, Patrick Forré, Stephan Mandt, Dan Zhang, Eric Nalisnick
+year: 2024
+arxiv: '2311.05931'
+abstract: >-
+  Early-exit neural networks (EENNs) enable adaptive and efficient inference by providing
+  predictions at multiple stages during the forward pass. In safety-critical applications, these
+  predictions are meaningful only when accompanied by reliable uncertainty estimates. A popular
+  method for quantifying the uncertainty of predictive models is the use of prediction sets.
+  However, we demonstrate that standard techniques such as conformal prediction and Bayesian
+  credible sets are not suitable for EENNs. They tend to generate non-nested sets across exits,
+  meaning that labels deemed improbable at one exit may reappear in the prediction set of a
+  subsequent exit. To address this issue, we investigate anytime-valid confidence sequences
+  (AVCSs), an extension of traditional confidence intervals tailored for data-streaming scenarios.
+  These sequences are inherently nested and thus well-suited for an EENN's sequential predictions.
+  We explore the theoretical and practical challenges of using AVCSs in EENNs and show that they
+  indeed yield nested sets across exits. Thus our work presents a promising approach towards fast,
+  yet still safe, predictive modeling
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2311.05931
+labels:
+- applications
+- confidence sequences
+publications:
+  - name: Conference on Uncertainty in Artificial Intelligence
+    year: 2024
+    url: https://proceedings.mlr.press/v244/jazbec24a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2311.05931
+    arxiv: '2311.05931'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

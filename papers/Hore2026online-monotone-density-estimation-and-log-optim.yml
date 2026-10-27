@@ -1,0 +1,33 @@
+title: Online monotone density estimation and log-optimal calibration
+authors: Rohan Hore, Ruodu Wang, Aaditya Ramdas
+year: 2026
+arxiv: '2602.08927'
+abstract: >-
+  We study the problem of online monotone density estimation, where density estimators must be
+  constructed in a predictable manner from sequentially observed data. We propose two online
+  estimators: an online analogue of the classical Grenander estimator, and an expert aggregation
+  estimator inspired by exponential weighting methods from the online learning literature. In the
+  well-specified stochastic setting, where the underlying density is monotone, we show that the
+  expected cumulative log-likelihood gap between the online estimators and the true density admits
+  an $O(n^{1/3})$ bound. We further establish a $\sqrt{n\log{n}}$ pathwise regret bound for the
+  expert aggregation estimator relative to the best offline monotone estimator chosen in
+  hindsight, under minimal regularity assumptions on the observed sequence. As an application of
+  independent interest, we show that the problem of constructing log-optimal p-to-e calibrators
+  for sequential hypothesis testing can be formulated as an online monotone density estimation
+  problem. We adapt the proposed estimators to build empirically adaptive p-to-e calibrators and
+  establish their optimality. Numerical experiments illustrate the theoretical results.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.08927
+labels:
+- methodology
+- e-values
+publications:
+  - name: Symposium on Conformal and Probabilistic Prediction and Applications
+    year: 2026
+    url: https://copa-conference.com/copa2026/index.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2602.08927
+    arxiv: '2602.08927'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

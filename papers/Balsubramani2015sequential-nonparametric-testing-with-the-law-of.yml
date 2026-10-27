@@ -1,0 +1,34 @@
+title: Sequential Nonparametric Testing with the Law of the Iterated Logarithm
+authors: Akshay Balsubramani, Aaditya Ramdas
+year: 2016
+arxiv: '1506.03486'
+abstract: >-
+  We propose a new algorithmic framework for sequential hypothesis testing with i.i.d. data, which
+  includes A/B testing, nonparametric two-sample testing, and independence testing as special
+  cases. It is novel in several ways: (a) it takes linear time and constant space to compute on
+  the fly, (b) it has the same power guarantee as a non-sequential version of the test with the
+  same computational constraints up to a small factor, and (c) it accesses only as many samples as
+  are required - its stopping time adapts to the unknown difficulty of the problem. All our test
+  statistics are constructed to be zero-mean martingales under the null hypothesis, and the
+  rejection threshold is governed by a uniform non-asymptotic law of the iterated logarithm (LIL).
+  For the case of nonparametric two-sample mean testing, we also provide a finite sample power
+  analysis, and the first non-asymptotic stopping time calculations for this class of problems. We
+  verify our predictions for type I and II errors and stopping times using simulations.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1506.03486
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+- probability theory
+publications:
+  - name: Conference on Uncertainty in Artificial Intelligence
+    year: 2016
+    url: https://proceedings.mlr.press/r14/balsubramani16a.html
+  - name: arXiv
+    year: 2015
+    url: https://arxiv.org/abs/1506.03486
+    arxiv: '1506.03486'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,25 @@
+title: Boundary Crossing Probabilities for Sample Sums and Confidence Sequences
+authors: Tze Leung Lai
+year: 1976
+doi: 10.1214/aop/1176996135
+abstract: >-
+  By making use of the martingale $\int^\infty_0 \exp (yW(t) - (t/2)y^2) dF(y)$, Robbins and
+  Siegmund have evaluated the probability that the Wiener process $W(t)$ would ever cross certain
+  moving boundaries. In this paper, we study this class of boundaries and make use of certain
+  moment generating function martingales to obtain boundary crossing probabilities for sums of
+  i.i.d. random variables. Invariance theorems for these boundary crossing probabilities are
+  proved, and some applications to confidence sequences and power-one tests are also given.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1214/aop/1176996135
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: The Annals of Probability
+  year: 1976
+  url: https://doi.org/10.1214/aop/1176996135
+  doi: 10.1214/aop/1176996135
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

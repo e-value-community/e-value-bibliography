@@ -1,0 +1,30 @@
+title: On the optimality of coin-betting for mean estimation
+authors: Eugenio Clerico
+year: 2025
+doi: 10.1016/j.ijar.2025.109550
+arxiv: '2412.02640'
+abstract: >-
+  We consider the problem of testing the mean of a bounded real random variable. We introduce a
+  notion of optimal classes for e-variables and e-processes, and establish the optimality of the
+  coin-betting formulation among e-variable-based algorithmic frameworks for testing and
+  estimating the (conditional) mean. As a consequence, we provide a direct and explicit
+  characterisation of all valid e-variables and e-processes for this testing problem. In the
+  language of classical statistical decision theory, we fully describe the set of all admissible
+  e-variables and e-processes, and identify the corresponding minimal complete class.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2412.02640
+labels:
+- methodology
+- theory
+- e-values
+publications:
+- name: International Journal of Approximate Reasoning
+  year: 2025
+  url: https://doi.org/10.1016/j.ijar.2025.109550
+  doi: 10.1016/j.ijar.2025.109550
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2412.02640
+  arxiv: '2412.02640'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

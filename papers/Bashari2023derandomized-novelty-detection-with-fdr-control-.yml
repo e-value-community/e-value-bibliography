@@ -1,0 +1,38 @@
+title: Derandomized novelty detection with FDR control via conformal e-values
+authors: Meshi Bashari, Amir Epstein, Yaniv Romano, Matteo Sesia
+year: 2023
+doi: 10.52202/075280-2862
+arxiv: '2302.07294'
+abstract: >-
+  Conformal inference provides a general distribution-free method to rigorously calibrate the
+  output of any machine learning algorithm for novelty detection. While this approach has many
+  strengths, it has the limitation of being randomized, in the sense that it may lead to different
+  results when analyzing twice the same data, and this can hinder the interpretation of any
+  findings. We propose to make conformal inferences more stable by leveraging suitable conformal
+  e-values instead of p-values to quantify statistical significance. This solution allows the
+  evidence gathered from multiple analyses of the same data to be aggregated effectively while
+  provably controlling the false discovery rate. Further, we show that the proposed method can
+  reduce randomness without much loss of power compared to standard conformal inference, partly
+  thanks to an innovative way of weighting conformal e-values based on additional side information
+  carefully extracted from the same data. Simulations with synthetic and real data confirm this
+  solution can be effective at eliminating random noise in the inferences obtained with
+  state-of-the-art alternative techniques, sometimes also leading to higher power.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2302.07294
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+  - name: Advances in Neural Information Processing Systems
+    year: 2023
+    url: https://doi.org/10.52202/075280-2862
+    doi: 10.52202/075280-2862
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2302.07294
+    arxiv: '2302.07294'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

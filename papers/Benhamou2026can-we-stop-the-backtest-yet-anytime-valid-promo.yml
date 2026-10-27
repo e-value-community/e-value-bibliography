@@ -1,0 +1,32 @@
+title: Can We Stop the Backtest Yet? Anytime-Valid Promotion Tests for Adaptive Financial Research Agents
+authors: Eric Benhamou, Jean-Jacques Ohana, Beatrice Guez, Thomas Jacquot, Ethan Setrouk, Chamyl Saadi
+year: 2026
+abstract: >-
+  Adaptive research systems can generate, discard, revise, and monitor trading rules faster than
+  their selection history can be audited. We ask when such a system may promote a frozen rule to
+  governed forward evaluation. The proposed protocol assigns each candidate a predictable,
+  nonrefundable share of one lifetime testing budget and accumulates a bounded, cost-adjusted
+  e-process only from post-registration returns. Under the null that a candidate’s clipped net
+  score has nonpositive conditional mean at every scored date, a conditional Ville argument
+  controls the probability of any false promotion despite dependent rules, adaptive births, and
+  indefinite monitoring. In 3,000 shared-sign null replays of a frozen 24-rule public-market
+  library, repeated unadjusted tests cross at least once on 94.5% of paths, while the funded rule
+  records 0/3,000 crossings. A separate exact mean-zero experiment with adaptive identities and
+  births records 1.77% familywise crossings over 3,000 programs. The 2015–2026 market replay
+  promotes no rule after costs. The result is an auditable promotion primitive for agentic and
+  open-finance infrastructure: executable identity, evidence, budget, and delayed execution are
+  recorded in one append-only ledger.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.36287/setsci.25.3.001
+labels:
+- methodology
+- applications
+- e-processes
+publications:
+- name: Proceedings of the International Conference on Open Finance (ICOF 2026)
+  year: 2026
+  url: https://doi.org/10.36287/setsci.25.3.001
+  doi: 10.36287/setsci.25.3.001
+doi: 10.36287/setsci.25.3.001
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

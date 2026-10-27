@@ -1,0 +1,37 @@
+title: PAC Mode Estimation using PPR Martingale Confidence Sequences
+authors: >-
+  Shubham Anand Jain, Rohan Shah, Sanit Gupta, Denil Mehta, Inderjeet Jayakumar Nair, Jian Vora,
+  Sushil Khyalia, Sourav Das, Vinay J. Ribeiro, Shivaram Kalyanakrishnan
+year: 2022
+arxiv: '2109.05047'
+abstract: >-
+  We consider the problem of correctly identifying the \textit{mode} of a discrete distribution
+  $\mathcal{P}$ with sufficiently high probability by observing a sequence of i.i.d. samples drawn
+  from $\mathcal{P}$. This problem reduces to the estimation of a single parameter when
+  $\mathcal{P}$ has a support set of size $K = 2$. After noting that this special case is tackled
+  very well by prior-posterior-ratio (PPR) martingale confidence sequences
+  \citep{waudby-ramdas-ppr}, we propose a generalisation to mode estimation, in which
+  $\mathcal{P}$ may take $K \geq 2$ values. To begin, we show that the "one-versus-one" principle
+  to generalise from $K = 2$ to $K \geq 2$ classes is more efficient than the "one-versus-rest"
+  alternative. We then prove that our resulting stopping rule, denoted PPR-1v1, is asymptotically
+  optimal (as the mistake probability is taken to $0$). PPR-1v1 is parameter-free and
+  computationally light, and incurs significantly fewer samples than competitors even in the
+  non-asymptotic regime. We demonstrate its gains in two practical applications of sampling:
+  election forecasting and verification of smart contracts in blockchains.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2109.05047
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2022
+    url: https://proceedings.mlr.press/v151/anand-jain22a.html
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2109.05047
+    arxiv: '2109.05047'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

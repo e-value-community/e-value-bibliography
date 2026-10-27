@@ -1,0 +1,37 @@
+title: 'SCORE: A Unified Framework for Overshoot Refund in Online FDR Control'
+authors: Qi Kuang, Bowen Gang, Yin Xia
+year: 2026
+arxiv: '2601.20386'
+abstract: >-
+  We propose a unified framework to enhance the power of online multiple hypothesis testing
+  procedures based on $e$-values. While $e$-value-based methods offer robust online False
+  Discovery Rate (FDR) control under minimal assumptions, they often suffer from power loss by
+  discarding evidence that exceeds the rejection threshold. We address this inefficiency via the
+  Sequential Control with Overshoot Refund for E-values (SCORE) framework, which leverages the
+  inequality $\mathbb{I}(y \ge 1) \le y - (y-1)_+$, valid for all $y\ge 0$, to reclaim this
+  otherwise wasted evidence. This simple yet powerful insight yields a unified principle for
+  improving a broad class of online testing algorithms. Building on this framework, we develop
+  SCORE-enhanced versions of several state-of-the-art procedures, including SCORE-LOND,
+  SCORE-LORD, and SCORE-SAFFRON, all of which strictly dominate their original counterparts while
+  preserving valid finite-sample FDR control. Furthermore, under mild assumptions, SCORE permits
+  retroactive updates of alpha-wealth by using the latest decision twice: first to determine its
+  reward or loss, and then to refresh past wealth. Such a mechanism enables more aggressive
+  testing strategies while maintaining valid FDR control, thereby further improving statistical
+  power. The effectiveness of the proposed methods is validated through extensive simulation and
+  real-data experiments.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.20386
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: International Conference on Machine Learning
+  year: 2026
+  url: https://proceedings.mlr.press/v306/kuang26c.html
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2601.20386
+  arxiv: '2601.20386'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

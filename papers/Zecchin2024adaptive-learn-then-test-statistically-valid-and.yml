@@ -1,0 +1,31 @@
+title: 'Adaptive Learn-then-Test: Statistically Valid and Efficient Hyperparameter Selection'
+authors: Matteo Zecchin, Sangwoo Park, Osvaldo Simeone
+year: 2025
+arxiv: '2409.15844'
+abstract: >-
+  We introduce adaptive learn-then-test (aLTT), an efficient hyperparameter selection procedure
+  that provides finite-sample statistical guarantees on the population risk of AI models. Unlike
+  the existing learn-then-test (LTT) technique, which relies on conventional p-value-based
+  multiple hypothesis testing (MHT), aLTT implements sequential data-dependent MHT with early
+  termination by leveraging e-processes. As a result, aLTT can reduce the number of testing
+  rounds, making it particularly well-suited for scenarios in which testing is costly or presents
+  safety risks. Apart from maintaining statistical validity, in applications such as online policy
+  selection for offline reinforcement learning and prompt engineering, aLTT is shown to achieve
+  the same performance as LTT while requiring only a fraction of the testing rounds.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2409.15844
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+  - name: International Conference on Machine Learning
+    year: 2025
+    url: https://proceedings.mlr.press/v267/zecchin25a.html
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2409.15844
+    arxiv: '2409.15844'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,30 @@
+title: 'online-cp: a Python Package for Online Conformal Prediction, Conformal Predictive Systems and
+  Conformal Test Martingales'
+authors: Johan Hallberg Szabadváry, Tuwe Löfström, Rudy Matela
+year: 2025
+abstract: >-
+  Conformal prediction (CP) has gained increasing attention in machine learning owing to its
+  ability to provide reliable prediction sets with well-calibrated uncertainty estimates. While
+  most existing CP implementations focus on inductive conformal prediction (ICP), full conformal
+  prediction–also known as online or transductive CP–offers the strongest validity guarantees but
+  has been largely absent from open-source software due to its computational complexity. In this
+  paper, we introduce \texttt{online-cp}, a Python package designed for online conformal
+  prediction, conformal predictive systems (CPS), and conformal test martingales. The package
+  implements several online CP algorithms, enabling efficient and principled uncertainty
+  quantification in streaming data scenarios. Additionally, it includes tools for testing the
+  exchangeability assumption by using conformal test martingales. We demonstrate the functionality
+  of \texttt{online-cp} through classification and regression examples as well as applications to
+  predictive systems and exchangeability testing. By making online CP methods accessible,
+  \texttt{online-cp} provides a foundation for broader adoption and further development of
+  conformal prediction in real-time machine learning applications
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v266/hallberg-szabadvary25a.html
+labels:
+- methodology
+- e-processes
+publications:
+- name: Symposium on Conformal and Probabilistic Prediction and Applications
+  year: 2025
+  url: https://raw.githubusercontent.com/mlresearch/v266/main/assets/hallberg-szabadvary25a/hallberg-szabadvary25a.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

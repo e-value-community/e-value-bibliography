@@ -1,0 +1,29 @@
+title: 'E-Backtesting Expected Shortfall: What Defines a “Good” Forecasting Method for Chinese Regulators?'
+authors: Weihua Zhao
+year: 2026
+doi: 10.3390/risks14050110
+abstract: >-
+  Following the implementation of Basel IV, China’s financial regulators have replaced
+  Value-at-Risk (VaR) with Expected Shortfall (ES) as the standard market risk measure,
+  necessitating regulatory-oriented evaluation of ES forecasts. This study examines what
+  constitutes a prudent ES forecasting method using e-backtesting, a sequential and model-free
+  evaluation framework designed for regulatory monitoring. We evaluate 11 forecasting methods,
+  including parametric, semiparametric, empirical, and deep-learning models, across four asset
+  classes and four portfolio strategies in the Chinese market under Basel IV-consistent settings.
+  Results show that parametric and semiparametric candidates exhibit clustered backtesting
+  detections and increased computational burden around major market regime shifts, whereas the
+  deep-learning model demonstrates greater resilience and produces more conservative ES forecasts
+  during turbulent periods. These findings suggest that robustness to regime shifts should be
+  considered a key criterion in the regulatory evaluation of ES forecasting models in the Chinese
+  market.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.3390/risks14050110
+labels:
+- applications
+publications:
+  - name: Risks
+    year: 2026
+    url: https://doi.org/10.3390/risks14050110
+    doi: 10.3390/risks14050110
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

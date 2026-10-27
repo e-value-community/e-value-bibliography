@@ -1,0 +1,35 @@
+title: Online multiple testing with e-values
+authors: Ziyu Xu, Aaditya Ramdas
+year: 2024
+doi: null
+arxiv: '2311.06412'
+abstract: >-
+  A scientist tests a continuous stream of hypotheses over time in the course of her investigation
+  -- she does not test a predetermined, fixed number of hypotheses. The scientist wishes to make
+  as many discoveries as possible while ensuring the number of false discoveries is controlled --
+  a well recognized way for accomplishing this is to control the false discovery rate (FDR). Prior
+  methods for FDR control in the online setting have focused on formulating algorithms when
+  specific dependency structures are assumed to exist between the test statistics of each
+  hypothesis. However, in practice, these dependencies often cannot be known beforehand or tested
+  after the fact. Our algorithm, e-LOND, provides FDR control under arbitrary, possibly unknown,
+  dependence. We show that our method is more powerful than existing approaches to this problem
+  through simulations. We also formulate extensions of this algorithm to utilize randomization for
+  increased power, and for constructing confidence intervals in online selective inference.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2311.06412
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2024
+    url: https://proceedings.mlr.press/v238/xu24a.html
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2311.06412
+    arxiv: '2311.06412'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

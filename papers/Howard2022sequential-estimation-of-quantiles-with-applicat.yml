@@ -1,0 +1,36 @@
+title: Sequential estimation of quantiles with applications to A/B testing and best-arm identification
+authors: Steven R. Howard, Aaditya Ramdas
+year: 2022
+doi: 10.3150/21-bej1388
+arxiv: '1906.09712'
+abstract: >-
+  We propose confidence sequences -- sequences of confidence intervals which are valid uniformly
+  over time -- for quantiles of any distribution over a complete, fully-ordered set, based on a
+  stream of i.i.d. observations. We give methods both for tracking a fixed quantile and for
+  tracking all quantiles simultaneously. Specifically, we provide explicit expressions with small
+  constants for intervals whose widths shrink at the fastest possible $\sqrt{t^{-1} \log\log t}$
+  rate, along with a non-asymptotic concentration inequality for the empirical distribution
+  function which holds uniformly over time with the same rate. The latter strengthens Smirnov's
+  empirical process law of the iterated logarithm and extends the Dvoretzky-Kiefer-Wolfowitz
+  inequality to hold uniformly over time. We give a new algorithm and sample complexity bound for
+  selecting an arm with an approximately best quantile in a multi-armed bandit framework. In
+  simulations, our method requires fewer samples than existing methods by a factor of five to
+  fifty.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1906.09712
+openalex_id: null
+s2_id: null
+labels:
+- applications
+- confidence sequences
+publications:
+  - name: Bernoulli
+    year: 2022
+    url: https://doi.org/10.3150/21-BEJ1388
+    doi: 10.3150/21-bej1388
+  - name: arXiv
+    year: 2019
+    url: https://arxiv.org/abs/1906.09712
+    arxiv: '1906.09712'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

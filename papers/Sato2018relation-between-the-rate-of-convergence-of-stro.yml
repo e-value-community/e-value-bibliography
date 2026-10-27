@@ -1,0 +1,30 @@
+title: Relation between the rate of convergence of strong law of large numbers and the rate of concentration
+  of Bayesian prior in game-theoretic probability
+authors: Ryosuke Sato, Kenshi Miyabe, Akimichi Takemura
+year: 2018
+doi: 10.1016/j.spa.2017.07.014
+arxiv: '1604.07911'
+abstract: >-
+  We study the behavior of the capital process of a continuous Bayesian mixture of fixed
+  proportion betting strategies in the one-sided unbounded forecasting game in game-theoretic
+  probability. We establish the relation between the rate of convergence of the strong law of
+  large numbers in the self-normalized form and the rate of divergence to infinity of the prior
+  density around the origin. In particular we present prior densities ensuring the validity of
+  Erdos-Feller-Kolmogorov-Petrowsky law of the iterated logarithm.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/1604.07911
+labels:
+- methodology
+- e-values
+- probability theory
+publications:
+- name: Stochastic Processes and their Applications
+  year: 2018
+  url: https://doi.org/10.1016/j.spa.2017.07.014
+  doi: 10.1016/j.spa.2017.07.014
+- name: arXiv
+  year: 2016
+  url: https://arxiv.org/abs/1604.07911
+  arxiv: '1604.07911'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

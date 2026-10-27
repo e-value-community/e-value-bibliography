@@ -1,0 +1,44 @@
+title: 'ALL-IN meta-analysis: breathing life into living systematic reviews and prospective meta-analyses'
+authors: Judith ter Schure, Peter Grünwald
+year: 2022
+doi: 10.12688/f1000research.74223.2
+abstract: >-
+  Science is justly admired as a cumulative process ("standing on the shoulders of giants"), yet
+  scientific knowledge is typically built on a patchwork of research contributions without much
+  coordination. This lack of efficiency has specifically been addressed in clinical research by
+  recommendations against avoidable research waste and for living systematic reviews and
+  prospective meta-analysis. We propose to further those recommendations with ALL-IN
+  meta-analysis: Anytime Live and Leading INterim meta-analysis. ALL-IN provides meta-analysis
+  based on e-values and anytime-valid confidence intervals that can be updated at any time -
+  reanalyzing after each new observation while retaining type-I error and coverage guarantees,
+  live - no need to prespecify the looks, and leading - in the decisions on whether individual
+  studies should be initiated, stopped or expanded, the meta-analysis can be the leading source of
+  information without losing validity to accumulation bias. The analysis design requires no
+  information about the trial sample sizes or the number of trials eventually included. So ALL-IN
+  meta-analysis can be applied retrospectively as well as prospectively, to evaluate the evidence
+  once or sequentially. Because the intention of the analysis does not change the validity of the
+  results, the results of the analysis can change the intentions ('optional stopping' and
+  'optional continuation' based on the results so far). On the one hand: any analysis can be
+  turned into a living one, or even become prospective and real-time by updating with new trial
+  data and including interim data from trials that are still ongoing - without any changes in the
+  cut-offs for testing or the method for interval estimation. On the other hand: no stopping rule
+  needs to be enforced for the analysis to remain valid, so a prospective meta-analysis can be a
+  bottom-up collaboration [...]
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2109.12141
+labels:
+- applications
+- e-values
+- e-processes
+publications:
+  - name: F1000Research
+    year: 2025
+    url: https://doi.org/10.12688/f1000research.74223.2
+    doi: 10.12688/f1000research.74223.2
+  - name: arXiv
+    year: 2021
+    url: https://arxiv.org/abs/2109.12141
+    arxiv: '2109.12141'
+arxiv: '2109.12141'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,28 @@
+title: Vine copula knockoffs for variable selection in gene expression studies
+authors: José Ulises Márquez Urbina, Alejandro Román Vásquez, Graciela González Farías, Gabriel Escarela
+year: 2026
+doi: 10.1002/cjs.70065
+abstract: >-
+  Abstract Identifying clinical and genetic markers is essential for stratifying cancer patients
+  by survival outcomes and guiding personalized treatment strategies. However, gene expression
+  studies often involve high‐dimensional predictors with mixed data types and complex dependence,
+  which complicates reliable variable selection. We propose a vine copula–based knockoffs
+  framework that enables conditional variable selection in mixed clinical and genetic data with
+  complex dependence structures. The efficacy of the proposed method is validated through
+  extensive simulation scenarios. Its application to an ovarian cancer dataset identifies clinical
+  and genetic markers associated with patient survival, with results consistent with survival
+  meta‐analyses. This approach enhances biomarker discovery by linking methodological innovation
+  with genomic applications.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1002/cjs.70065
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Canadian Journal of Statistics
+  year: 2026
+  url: https://doi.org/10.1002/cjs.70065
+  doi: 10.1002/cjs.70065
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

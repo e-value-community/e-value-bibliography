@@ -1,0 +1,32 @@
+title: Anytime-Valid Hypothesis Testing for Sparse Autoencoder Feature Validation
+authors: Rudransh Khera
+year: 2026
+abstract: >-
+  Sparse autoencoders have become a standard tool for interpreting the internal representations of
+  neural language models, but feature validation remains largely correlational and ad hoc. We
+  introduce a sequential, anytime-valid hypothesis testing framework for validating SAE features
+  against a causal necessity criterion. For each candidate feature, we construct an e-process from
+  paired ablation interventions; across large feature dictionaries, we control the false discovery
+  rate using the e-BH procedure, which is valid under arbitrary dependence between feature-level
+  e-values, and which lets researchers stop at any sample size without inflating Type-I error. On
+  a synthetic task with oracle ground truth, our procedure controls FDR below the target level
+  (empirical FDP $= 0.000 \pm 0.000$ across 10 seeds at $\alpha = 0.05$) while recovering features
+  in proportion to their causal effect size. On GPT-2 small with publicly available
+  residual-stream SAEs, our procedure recovers six features on the indirect object identification
+  benchmark at $\alpha = 0.05$ from $K = 89$ candidates, while Model-X knockoffs with a Gaussian
+  fit recover none on the same data; five of the six recovered features have published
+  interpretations directly aligned with the task structure.
+abstract_status: source_abstract
+abstract_source: https://icml.cc/virtual/2026/80023
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: ICML 26 Workshop
+  year: 2026
+  url: https://openreview.net/forum?id=R4F3Nixhhc
+database_added: '2026-10-20'
+database_updated: '2026-10-26'

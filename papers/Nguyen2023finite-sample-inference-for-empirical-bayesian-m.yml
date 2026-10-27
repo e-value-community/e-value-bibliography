@@ -1,0 +1,33 @@
+title: Finite sample inference for empirical Bayesian methods
+authors: Hien D Nguyen, Mayetri Gupta
+year: 2023
+doi: 10.1111/sjos.12643
+arxiv: '2302.14531'
+abstract: >-
+  In recent years, empirical Bayesian (EB) inference has become an attractive approach for
+  estimation in parametric models arising in a variety of real-life problems, especially in
+  complex and high-dimensional scientific applications. However, compared to the relative
+  abundance of available general methods for computing point estimators in the EB framework, the
+  construction of confidence sets and hypothesis tests with good theoretical properties remains
+  difficult and problem specific. Motivated by the universal inference framework of Wasserman et
+  al. (2020), we propose a general and universal method, based on holdout likelihood ratios, and
+  utilizing the hierarchical structure of the specified Bayesian model for constructing confidence
+  sets and hypothesis tests that are finite sample valid. We illustrate our method through a range
+  of numerical studies and real data applications, which demonstrate that the approach is able to
+  generate useful and meaningful inferential statements in the relevant contexts.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2302.14531
+labels:
+- methodology
+- e-values
+publications:
+  - name: Scandinavian Journal of Statistics
+    year: 2023
+    url: https://doi.org/10.1111/sjos.12643
+    doi: 10.1111/sjos.12643
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2302.14531
+    arxiv: '2302.14531'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

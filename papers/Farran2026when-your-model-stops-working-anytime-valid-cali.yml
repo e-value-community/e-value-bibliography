@@ -1,0 +1,29 @@
+title: 'When Your Model Stops Working: Anytime-Valid Calibration Monitoring'
+authors: Tristan Farran
+year: 2026
+arxiv: '2603.13156'
+abstract: >-
+  Practitioners monitoring deployed probabilistic models face a fundamental trap: any fixed-sample
+  test applied repeatedly over an unbounded stream will eventually raise a false alarm, even when
+  the model remains perfectly stable. Existing methods typically lack formal error guarantees,
+  conflate alarm time with changepoint location, and monitor indirect signals that do not fully
+  characterize calibration. We present PITMonitor, an anytime-valid calibration-specific monitor
+  that detects distributional shifts in probability integral transforms via a mixture e-process,
+  providing Type I error control over an unbounded monitoring horizon as well as Bayesian
+  changepoint estimation. On river's FriedmanDrift benchmark, PITMonitor achieves detection rates
+  competitive with the strongest baselines across all three scenarios, although detection delay is
+  substantially longer under local drift.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2603.13156
+labels:
+- applications
+- e-values
+- e-processes
+- e-detectors
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2603.13156
+  arxiv: '2603.13156'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

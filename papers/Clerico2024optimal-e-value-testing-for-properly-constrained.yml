@@ -1,0 +1,29 @@
+title: Optimal e-value testing for properly constrained hypotheses
+authors: Eugenio Clerico
+year: 2024
+doi: null
+arxiv: '2412.21125'
+abstract: >-
+  Hypothesis testing via e-variables can be framed as a sequential betting game, where a player
+  each round picks an e-variable. A good player's strategy results in an effective statistical
+  test that rejects the null hypothesis as soon as sufficient evidence arises. Building on recent
+  advances, we address the question of restricting the pool of e-variables to simplify strategy
+  design without compromising effectiveness. We extend the results of Clerico(2024), by
+  characterising optimal sets of e-variables for a broad class of non-parametric hypothesis tests,
+  defined by finitely many regular constraints. As an application, we discuss this notion of
+  optimality in algorithmic mean estimation, including for heavy-tailed random variables.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2412.21125
+openalex_id: null
+s2_id: null
+labels:
+- methodology
+- theory
+- e-values
+publications:
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2412.21125
+  arxiv: '2412.21125'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

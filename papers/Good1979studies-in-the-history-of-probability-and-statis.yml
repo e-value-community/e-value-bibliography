@@ -1,0 +1,21 @@
+title: >-
+  Studies in the History of Probability and Statistics. XXXVII A. M. Turing's statistical work in
+  World War II
+authors: I. J. Good
+year: 1979
+doi: 10.1093/biomet/66.2.393
+abstract: >-
+  An account is given of A. M. Turing's unpublished contributions to statistics during 1941 or
+  1940.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1093/biomet/66.2.393
+labels:
+- methodology
+- e-values
+publications:
+  - name: Biometrika
+    year: 1979
+    url: https://doi.org/10.1093/biomet/66.2.393
+    doi: 10.1093/biomet/66.2.393
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

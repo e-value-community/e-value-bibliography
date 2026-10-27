@@ -1,0 +1,28 @@
+title: Linear Bandits with Non-i.i.d. Noise
+authors: Baptiste Abélès, Eugenio Clerico, Hamish Flynn, Gergely Neu
+year: 2025
+arxiv: '2505.20017'
+abstract: >-
+  We study the linear stochastic bandit problem, relaxing the standard i.i.d. assumption on the
+  observation noise. As an alternative to this restrictive assumption, we allow the noise terms
+  across rounds to be sub-Gaussian but interdependent, with dependencies that decay over time. To
+  address this setting, we develop new confidence sequences using a recently introduced reduction
+  scheme to sequential probability assignment, and use these to derive a bandit algorithm based on
+  the principle of optimism in the face of uncertainty. We provide regret bounds for the resulting
+  algorithm, expressed in terms of the decay rate of the strength of dependence between
+  observations. Among other results, we show that our bounds recover the standard rates up to a
+  factor of the mixing time for geometrically mixing observation noise.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2505.20017
+labels:
+- methodology
+- applications
+- confidence sequences
+- online learning
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2505.20017
+    arxiv: '2505.20017'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

@@ -1,0 +1,33 @@
+title: Randomized and Exchangeable Improvements of Markov's, Chebyshev's and Chernoff's Inequalities
+authors: Aaditya Ramdas, Tudor Manole
+year: 2026
+doi: 10.1214/24-sts952
+arxiv: '2304.02611'
+abstract: >-
+  We present simple randomized and exchangeable improvements of Markov's inequality, as well as
+  Chebyshev's inequality and Chernoff bounds. Our variants are never worse and typically strictly
+  more powerful than the original inequalities. The proofs are short and elementary, and can
+  easily yield similarly randomized or exchangeable versions of a host of other inequalities that
+  employ Markov's inequality as an intermediate step. We point out some simple statistical
+  applications involving tests that combine dependent e-values. In particular, we uniformly
+  improve the power of universal inference, and obtain tighter betting-based nonparametric
+  confidence intervals. Simulations reveal nontrivial gains in power (and no losses) in a variety
+  of settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2304.02611
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+- name: Statistical Science
+  year: 2026
+  url: https://doi.org/10.1214/24-sts952
+  doi: 10.1214/24-sts952
+- name: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2304.02611
+  arxiv: '2304.02611'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

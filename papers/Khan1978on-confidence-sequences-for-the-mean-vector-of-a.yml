@@ -1,0 +1,25 @@
+title: On confidence sequences for the mean vector of a multivariate normal distribution
+authors: Rasul A Khan
+year: 1978
+doi: 10.1016/0047-259x(78)90032-5
+abstract: >-
+  Let X₁, X₂,… be iid random vectors with a multivariate normal distribution N(μ, Σ). A sequence
+  of subsets {Rₙ(a₁, a₂,…, aₙ), n ≥ m} of the space of μ is said to be a (1 − α)-level sequence of
+  confidence sets for μ if P(μ ∈ Rₙ(X₁, X₂,…, Xₙ) for every n ≥ m) ≥ 1 − α. In this note we use
+  the ideas of Robbins Ann. Math. Statist. 41 (1970) to construct confidence sequences for the
+  mean vector μ when Σ is either known or unknown. The constructed sequence Rₙ(X₁, X₂, …, Xₙ)
+  depends on Mahalanobis' or Hotelling's according as Σ is known or unknown. Confidence sequences
+  for the vector-valued parameter in the general linear model are also given.
+abstract_status: source_abstract
+abstract_source: https://www.sciencedirect.com/science/article/pii/0047259X78900325
+labels:
+- methodology
+- e-processes
+- confidence sequences
+publications:
+  - name: Journal of Multivariate Analysis
+    year: 1978
+    url: https://doi.org/10.1016/0047-259x(78)90032-5
+    doi: 10.1016/0047-259x(78)90032-5
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

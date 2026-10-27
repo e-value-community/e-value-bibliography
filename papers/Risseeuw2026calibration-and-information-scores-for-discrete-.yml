@@ -1,0 +1,51 @@
+title: Calibration and Information Scores for Discrete Random Variables
+authors: Marijn Risseeuw
+year: 2026
+abstract: >-
+  Structured Expert Judgment (SEJ) allows decision-makers to account for uncertainty in scenarios
+  where reliable data is unavailable. To combine multiple expert opinions effectively, Cooke’s
+  Classical Model scores each expert on their calibration and informativeness. Two calibration
+  scores are available for evaluating discrete binary events, yet both have distinct limitations.
+  Cooke’s chi-squared calibration score relies on an asymptotic distribution and is dependable
+  only for impractically large numbers of calibration questions, whereas the binomial calibration
+  score of Hanea and Nane employs an exact distribution but displays anomalous behaviour whose
+  causes have not been fully established. This thesis pursues two aims. The first is to
+  characterise the binomial calibration score in detail and to explain its irregularities. The
+  second is to develop a more reliable alternative based on e-values, a modern statistical tool
+  for quantifying evidence against a null hypothesis, offering exact validity without asymptotic
+  approximations. The analysis relies on both simulated and empirical data. Simulations were used
+  to isolate the influence of the bin configuration, the information score, and the number of
+  calibration questions, while three datasets, namely SIPS, ACE IDEA, and ACE GJP, were used to
+  test whether the same patterns arise in practice. To address the binomial score’s flaws, two new
+  calibration scores were constructed, denoted CalbinE1 (restricted multiplicative) and CalbinE2
+  (restricted arithmetic mean), by combining bin-wise e-values and rescaling them via
+  min(1,1/Etotal). Finally, performance-weighted decision makers were constructed for each
+  calibration score and evaluated through cross-validation over 500 random train/test splits of
+  the empirical datasets. The binomial calibration score suffers from a masking effect and
+  actively over-penalises almost perfectly calibrated experts, which worsens as sample sizes grow.
+  Altering the bin configuration does not remedy this, as it is shown that these flaws are caused
+  by its fundamental structure: the use of the two-sided mid-p-value and the computation of the
+  score over an aggregate distribution. The proposed e-value calibration scores resolve the
+  masking effect and reward almost perfectly calibrated experts, although they frequently return
+  the maximum value and thereby lose discrimination among well-calibrated experts. When evaluating
+  the aggregated decision makers on the larger ACE GJP dataset, DMχ² achieved the highest mean
+  under the chi-squared score, whereas DMbinE2 performed best under the binomial score. However,
+  on the sparse SIPS dataset, both e-value decision makers systematically outperformed the
+  established ones across all calibration scores, with DMbinE2 performing best. It is concluded
+  that the binomial calibration score is structurally unreliable and that the e-value calibration
+  scores could provide a small-sample alternative. The restricted arithmetic mean score CalbinE2
+  is the most promising, as it alone requires no assumption of asymptotic independence between
+  bins and performs strongly on small datasets. Its principal limitation, a loss of discriminating
+  power induced by the rescaling, identifies the choice of rescaling function as the most fruitful
+  direction for further work.
+abstract_status: source_abstract
+abstract_source: https://repository.tudelft.nl/record/uuid:95ebf7bb-89fc-46aa-a195-46822e54793e
+labels:
+- methodology
+- e-values
+publications:
+- name: Bachelor's thesis
+  year: 2026
+  url: https://repository.tudelft.nl/record/uuid:95ebf7bb-89fc-46aa-a195-46822e54793e
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

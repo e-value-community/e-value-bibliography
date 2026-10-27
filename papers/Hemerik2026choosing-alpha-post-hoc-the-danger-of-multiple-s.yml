@@ -1,0 +1,34 @@
+title: 'Choosing alpha post hoc: the danger of multiple standard significance thresholds'
+authors: Jesse Hemerik, Nick W Koning
+year: 2026
+doi: 10.1214/25-sts983
+arxiv: '2410.02306'
+abstract: >-
+  A fundamental assumption of classical hypothesis testing is that the significance threshold $α$
+  is chosen independently from the data. The validity of confidence intervals likewise relies on
+  choosing $α$ beforehand. We point out that the independence of $α$ is guaranteed in practice
+  because, in most fields, there exists one standard $α$ that everyone uses -- so that $α$ is
+  automatically independent of everything. However, there have been recent calls to decrease $α$
+  from $0.05$ to $0.005$. We note that this may lead to multiple accepted standard thresholds
+  within one scientific field. For example, different journals may require different significance
+  thresholds. As a consequence, some researchers may be tempted to conveniently choose their $α$
+  based on their p-value. We use examples to illustrate that this severely invalidates hypothesis
+  tests, and mention some potential solutions.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2410.02306
+labels:
+- methodology
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+  - name: Statistical Science
+    year: 2026
+    url: https://doi.org/10.1214/25-sts983
+    doi: 10.1214/25-sts983
+  - name: arXiv
+    year: 2024
+    url: https://arxiv.org/abs/2410.02306
+    arxiv: '2410.02306'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,25 @@
+title: Universal Inference with Composite Likelihoods
+authors: Hien Duy Nguyen
+year: 2020
+arxiv: '2009.00848'
+abstract: >-
+  Wasserman et al. (2020, PNAS, vol. 117, pp. 16880-16890) constructed estimator agnostic and
+  finite-sample valid confidence sets and hypothesis tests, using split-data likelihood
+  ratio-based statistics. We demonstrate that the same approach extends to the use of split-data
+  composite likelihood ratios as well, and thus establish universal methods for conducting
+  multivariate inference when the data generating process is only known up to marginal and
+  conditional relationships between the coordinates. Always-valid sequential inference is also
+  considered.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2009.00848
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2020
+  url: https://arxiv.org/abs/2009.00848
+  arxiv: '2009.00848'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

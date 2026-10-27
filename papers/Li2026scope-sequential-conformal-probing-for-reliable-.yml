@@ -1,0 +1,28 @@
+title: 'SCOPE: Sequential Conformal Probing for Reliable OOD Rejection in LLM Services'
+authors: Zhuoyun Li, Boxuan Wang, Changshun Wu, Xiaowei Huang, Yi Dong
+year: 2026
+arxiv: '2606.21255'
+abstract: >-
+  Rejecting inputs outside the defined in-distribution (IND) service scope is critical for large
+  language model (LLM) services, where unsupported requests should be filtered before full
+  generation. Existing out-of-distribution (OOD) detectors often rely on final outputs or
+  final-layer representations, leaving unclear where service-boundary signals are most clearly
+  encoded inside the model; they also lack a theoretical guarantee for held-out inputs. In this
+  paper, we introduce SCOPE (Sequential Conformal OOD Probing and Evaluation), a framework that
+  selects a readable hidden layer, constructs a conformal gate with IND calibration, and uses a
+  supermartingale e-process to certify persistent service-boundary evidence. Experiments across
+  multiple LLM backbones and six carefully designed boundary conditions show that SCOPE improves
+  gate-level rejection over standard final-layer detectors, while revealing how different OOD
+  boundaries take different geometric forms in hidden space.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.21255
+labels:
+- applications
+- e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.21255
+    arxiv: '2606.21255'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

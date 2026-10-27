@@ -1,0 +1,40 @@
+title: Combining Evidence Across Filtrations
+authors: Yo Joong Choe, Aaditya Ramdas
+year: 2026
+doi: 10.1093/jrsssb/qkag058
+arxiv: '2402.09698'
+abstract: >-
+  In sequential anytime-valid inference, any admissible procedure must be based on e-processes:
+  generalizations of test martingales that quantify the accumulated evidence against a composite
+  null hypothesis at any stopping time. This paper proposes a method for combining e-processes
+  constructed in different filtrations but for the same null. Although e-processes in the same
+  filtration can be combined effortlessly (by averaging), e-processes in different filtrations
+  cannot because their validity in a coarser filtration does not translate to a finer filtration.
+  This issue arises in sequential tests of randomness and independence, as well as in the
+  evaluation of sequential forecasters. We establish that a class of functions called adjusters
+  can lift arbitrary e-processes across filtrations. The result yields a generally applicable
+  "adjust-then-combine" procedure, which we demonstrate on the problem of testing randomness in
+  real-world financial data. Furthermore, we prove a characterization theorem for adjusters that
+  formalizes a sense in which using adjusters is necessary. There are two major implications.
+  First, if we have a powerful e-process in a coarsened filtration, then we readily have a
+  powerful e-process in the original filtration. Second, when we coarsen the filtration to
+  construct an e-process, there is a logarithmic cost to recovering validity in the original
+  filtration.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2402.09698
+labels:
+- methodology
+- theory
+- e-values
+- e-processes
+publications:
+- name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+  year: 2026
+  url: https://doi.org/10.1093/jrsssb/qkag058
+  doi: 10.1093/jrsssb/qkag058
+- name: arXiv
+  year: 2024
+  url: https://arxiv.org/abs/2402.09698
+  arxiv: '2402.09698'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

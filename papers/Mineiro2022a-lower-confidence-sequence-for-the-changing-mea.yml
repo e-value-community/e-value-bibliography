@@ -1,0 +1,31 @@
+title: A lower confidence sequence for the changing mean of non-negative right heavy-tailed observations
+  with bounded mean
+authors: Paul Mineiro
+year: 2022
+arxiv: '2210.11133'
+abstract: >-
+  A confidence sequence (CS) is an anytime-valid sequential inference primitive which produces an
+  adapted sequence of sets for a predictable parameter sequence with a time-uniform coverage
+  guarantee. This work constructs a non-parametric non-asymptotic lower CS for the running average
+  conditional expectation whose slack converges to zero given non-negative right heavy-tailed
+  observations with bounded mean. Specifically, when the variance is finite the approach dominates
+  the empirical Bernstein supermartingale of Howard et. al.; with infinite variance, can adapt to
+  a known or unknown $(1 + δ)$-th moment bound; and can be efficiently approximated using a
+  sublinear number of sufficient statistics. In certain cases this lower CS can be converted into
+  a closed-interval CS whose width converges to zero, e.g., any bounded realization, or post
+  contextual-bandit inference with bounded rewards and unbounded importance weights. A reference
+  implementation and example simulations demonstrate the technique.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.11133
+labels:
+- methodology
+- e-values
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2022
+  url: https://arxiv.org/abs/2210.11133
+  arxiv: '2210.11133'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

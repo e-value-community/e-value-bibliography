@@ -1,0 +1,34 @@
+title: 'Combining independent p-values in replicability analysis: A comparative study'
+authors: Anh-Tuan Hoang, Thorsten Dickhaus
+year: 2022
+doi: 10.1080/00949655.2021.2022678
+arxiv: '2104.13081'
+abstract: >-
+  Given a family of null hypotheses $H_{1},\ldots,H_{s}$, we are interested in the hypothesis
+  $H_{s}^γ$ that at most $γ-1$ of these null hypotheses are false. Assuming that the corresponding
+  $p$-values are independent, we are investigating combined $p$-values that are valid for testing
+  $H_{s}^γ$. In various settings in which $H_{s}^γ$ is false, we determine which combined
+  $p$-value works well in which setting. Via simulations, we find that the Stouffer method works
+  well if the null $p$-values are uniformly distributed and the signal strength is low, and the
+  Fisher method works better if the null $p$-values are conservative, i.e. stochastically larger
+  than the uniform distribution. The minimum method works well if the evidence for the rejection
+  of $H_{s}^γ$ is focused on only a few non-null $p$-values, especially if the null $p$-values are
+  conservative. Methods that incorporate the combination of $e$-values work well if the null
+  hypotheses $H_{1},\ldots,H_{s}$ are simple.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2104.13081
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+- name: Journal of Statistical Computation and Simulation
+  year: 2022
+  url: https://doi.org/10.1080/00949655.2021.2022678
+  doi: 10.1080/00949655.2021.2022678
+- name: arXiv
+  year: 2021
+  url: https://arxiv.org/abs/2104.13081
+  arxiv: '2104.13081'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

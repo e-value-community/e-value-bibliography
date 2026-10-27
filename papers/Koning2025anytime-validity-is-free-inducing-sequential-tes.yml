@@ -1,0 +1,37 @@
+title: 'Anytime Validity is Free: Inducing Sequential Tests'
+authors: Nick W. Koning, Sam van Meer
+year: 2026
+doi: 10.1093/jrsssb/qkag050
+arxiv: '2501.03982'
+abstract: >-
+  Anytime valid sequential tests permit us to stop testing based on the current data, without
+  invalidating the inference. Given a maximum number of observations $N$, one may believe this
+  must come at the cost of power when compared to a conventional test that waits until all $N$
+  observations have arrived. Our first contribution is to show that this is false: for any valid
+  test based on $N$ observations, we show how to construct an anytime valid sequential test that
+  matches it after $N$ observations. Our second contribution is that we may continue testing by
+  using the outcome of a $[0, 1]$-valued test as a conditional significance level in subsequent
+  testing, leading to an overall procedure that is valid at the original significance level. This
+  shows that anytime validity and optional continuation are readily available in traditional
+  testing, without requiring explicit use of e-values. We illustrate this by deriving the anytime
+  valid sequentialized $z$-test and $t$-test, which at time $N$ coincide with the traditional
+  $z$-test and $t$-test. Finally, we characterize the SPRT by invariance under test induction, and
+  also show under an i.i.d. assumption that the SPRT is induced by the Neyman-Pearson test for a
+  tiny significance level and huge $N$.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2501.03982
+labels:
+- methodology
+- e-values
+- e-processes
+publications:
+- name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+  year: 2026
+  url: https://doi.org/10.1093/jrsssb/qkag050
+  doi: 10.1093/jrsssb/qkag050
+- name: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2501.03982
+  arxiv: '2501.03982'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

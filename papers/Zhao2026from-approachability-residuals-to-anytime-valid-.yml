@@ -1,0 +1,37 @@
+title: 'From Approachability Residuals to Anytime-Valid Evidence: The Online Convex Geometry of Testing
+  by Betting'
+authors: Jinze Zhao
+year: 2026
+arxiv: '2608.09450'
+abstract: >-
+  Betting-based sequential tests and Blackwell approachability are linked by a rate-explicit
+  reduction through support-function residuals. For a compact convex target $S$ and vector
+  observations $r_t$, an OCO learner selects a predictable normal $w_t$ and produces $q_t=\langle
+  w_t,r_t\rangle-h_S(w_t)$. We prove the exact pathwise identity $$ \dist(\bar r_T,S)
+  =\frac1T\sum_{t=1}^Tq_t+\frac{\Reg_T}{T}. $$ When $|q_t|\leq B$, composing this identity with
+  one-sided betting yields a finite-time transfer: if the OCO and log-wealth regrets are at most
+  $a_T$ and $\ell_T$, respectively, then a target gap exceeding \[ \frac{a_T}{T}
+  +2B\sqrt{\frac{\log(1/α)+\ell_T}{T}} \] forces rejection by time $T$, while non-rejection
+  certifies the converse radius. We then formulate a controlled stochastic experiment in which an
+  action selected after $w_t$ satisfies Blackwell's supporting-halfspace condition for every null
+  mean payoff. The resulting wealth is an e-process under adaptive nulls; sublinear OCO regret
+  gives stochastic approachability, whereas persistent mean separation under an alternative gives
+  exponential wealth at rate at least $δ^2/(4B^2)$. Deterministic Blackwell games and passive
+  tests are, respectively, the noise-free and singleton-action cases of this protocol. Bounded
+  two-sample means, kernel MMD, and active heterogeneous data sources instantiate the reduction.
+  The resulting connection is exact algebraically, quantitative at finite time, and operational
+  when experiments are controlled.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.09450
+labels:
+- methodology
+- applications
+- e-values
+- e-processes
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2608.09450
+  arxiv: '2608.09450'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

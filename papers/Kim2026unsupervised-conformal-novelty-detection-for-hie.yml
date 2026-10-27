@@ -1,0 +1,26 @@
+title: Unsupervised Conformal Novelty Detection for Hierarchical Data
+authors: Sieun Kim, Seonghun Cho
+year: 2026
+abstract: >-
+  Electric vehicle (EV) battery packs exhibit a natural pack–module–cell hierarchy, which induces
+  dependence among measurements within the same module. Such hierarchical dependence poses
+  challenges for the direct application of conventional novelty detection methods. To address
+  these challenges, we develop conformal e-value procedures for hierarchical novelty detection,
+  with the goal of controlling the false discovery rate (FDR) at both the group and unit levels.
+  We combine hierarchical conformal score construction with eBH and U-eBH multiple testing
+  procedures, and consider split conformal, full conformal, and group-wise conformal regimes. The
+  proposed methods are evaluated through simulation studies and an analysis of EV battery pack
+  data, where they provide empirical FDR control and detect localized module- and cell-level
+  irregularities.
+abstract_status: source_abstract
+abstract_source: https://siuunni.github.io/uploads/papers/Hierarchical_Conformal_Outlier_Detection.pdf
+labels:
+- applications
+- e-values
+- multiple testing
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://siuunni.github.io/uploads/papers/Hierarchical_Conformal_Outlier_Detection.pdf
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

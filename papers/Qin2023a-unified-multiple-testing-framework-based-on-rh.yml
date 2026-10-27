@@ -1,0 +1,36 @@
+title: A Unified Multiple Testing Framework based on rho-values
+authors: Shenghao Qin, Bowen Gang, Yin Xia
+year: 2023
+arxiv: '2310.17845'
+abstract: >-
+  Multiple testing is an important research area with widespread scientific applications,
+  including in biology and neuroscience. Among popularly adopted multiple testing procedures, many
+  are based on p-values or Local false discovery rate (Lfdr) statistics. However, p-values--often
+  obtained via the probability integral transform of standard test statistics--typically lack
+  information from the alternatives, resulting in suboptimal performance. In contrast, Lfdr-based
+  methods can achieve asymptotic optimality, but their ability to control the false discovery rate
+  (FDR) hinges on accurate estimation of the Lfdr, which can be challenging, especially when
+  incorporating side information. In this article, we introduce a novel and flexible class of
+  statistics, termed rho-values, and develop a corresponding multiple testing framework that
+  integrates the strengths of both p-values and Lfdr, while addressing their respective
+  limitations. Specifically, the rho-value framework unifies these two paradigms through a
+  two-step process: ranking and thresholding. The ranking induced by rho-values closely resembles
+  that of Lfdr-based methods, while the thresholding step aligns with conventional p-value
+  procedures. Therefore, the proposed framework guarantees FDR control under mild assumptions; it
+  maintains the integrity of the structural information encoded by the summary statistics and the
+  auxiliary covariates, and hence can be asymptotically optimal. We demonstrate the advantages of
+  the rho-value framework through comprehensive simulations and analyses of two real datasets: one
+  from microbiome research and another related to attention deficit hyperactivity disorder (ADHD).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2310.17845
+labels:
+- methodology
+- e-values
+- multiple testing
+publications:
+  - name: arXiv
+    year: 2023
+    url: https://arxiv.org/abs/2310.17845
+    arxiv: '2310.17845'
+database_added: '2026-10-20'
+database_updated: '2026-10-22'

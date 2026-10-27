@@ -1,0 +1,32 @@
+title: 'Honest Alpha: Agentic Anomaly Discovery'
+authors: Alejandro Lopez-Lira, Mihail Velikov
+year: 2026
+doi: 10.2139/ssrn.7608660
+abstract: >-
+  How can we trust the hundreds of return predictors agents can find? We build an autonomous
+  agentic system that searches for return predictors in arbitrary datasets. The system adheres to
+  the scientific method by proposing an economic mechanism, constructing signals, and committing
+  to hypotheses with a full set of test specifications before seeing any returns. In sample, it
+  tests each hypothesis on the median t-statistic across its specifications, with a p-value from a
+  joint block bootstrap of all the specifications, and each hypothesis that passes receives
+  exactly one test on the out-of-sample half. We also apply multiple hypothesis testing
+  corrections to the out-of-sample tests, with both a Holm correction across concurrent tests and
+  an e-value budget that charges each test against all earlier ones. We test the system on H-1B
+  and green card filings from the U.S. Department of Labor, compiled into a point-in-time dataset.
+  The system generates 98 hypotheses with 23,910 specifications in total, and only 11 of the 98
+  hypotheses survive in sample. Of the 7 out-of-sample tests that the corrections count, 2 survive
+  the Holm correction, and none survives the e-value budget.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.2139/ssrn.7608660
+labels:
+- applications
+- e-values
+- e-processes
+- multiple testing
+publications:
+- name: Manuscript
+  year: 2026
+  url: https://doi.org/10.2139/ssrn.7608660
+  doi: 10.2139/ssrn.7608660
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

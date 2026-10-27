@@ -1,0 +1,27 @@
+title: E-Values, Bayes Risk, Dual Role of Markov's Inequality
+authors: Nicholas G. Polson, Daniel Zantedeschi
+year: 2026
+arxiv: '2604.00337'
+abstract: >-
+  Two approaches to hypothesis testing, e-value testing and Bayes risk minimisation, both invoke
+  Markov's inequality to control error probabilities. They differ in which distribution certifies
+  the unit-moment condition: the null for Type I error, the alternative for Type II error. The
+  likelihood ratio is not intrinsically an e-value; it acquires that status only relative to the
+  experiment under which its expectation is certified. This note makes the resulting role-reversal
+  symmetry explicit, traces its asymptotic sharpening through the information-theoretic arguments
+  of Barron and Clarke (1994), and situates the duality within the typed evidence calculus of
+  Polson, Sokolov, and Zantedeschi (2026).
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2604.00337
+labels:
+- methodology
+- theory
+- e-values
+- information theory
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2604.00337
+  arxiv: '2604.00337'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,28 @@
+title: A Logic of Probability, with Application to the Foundations of Statistics
+authors: V. G. Vovk
+year: 1993
+doi: 10.1111/j.2517-6161.1993.tb01904.x
+abstract: >-
+  SUMMARY A simple example shows that the classical theory of probability implies more than one
+  can deduce via Kolmogorov's calculus of probability. Developing Dawid's ideas I propose a new
+  calculus of probability which is free from this drawback. This calculus naturally leads to a new
+  interpretation of probability. I argue that attempts to create a general empirical theory of
+  probability should be abandoned and we should content ourselves with the logic of probability
+  establishing relations between probabilistic theories and observations. My approach to the logic
+  of probability is based on a variant of Ville's principle of the excluded gambling strategy. In
+  addition to the classical theory of probability this approach is applied to the probabilistic
+  theories provided by the problem of testing validity of probability forecasts and by statistical
+  models.
+abstract_status: source_abstract
+abstract_source: https://doi.org/10.1111/j.2517-6161.1993.tb01904.x
+labels:
+- philosophy
+- methodology
+- e-values
+publications:
+  - name: 'Journal of the Royal Statistical Society Series B: Statistical Methodology'
+    year: 1993
+    url: https://doi.org/10.1111/j.2517-6161.1993.tb01904.x
+    doi: 10.1111/j.2517-6161.1993.tb01904.x
+database_added: '2026-10-20'
+database_updated: '2026-10-20'

@@ -1,0 +1,32 @@
+title: Bentkus-type asymptotic e-values
+authors: Diego Martinez-Taboada, Ben Chugg, Aaditya Ramdas
+year: 2026
+arxiv: '2606.06332'
+abstract: >-
+  Asymptotic e-values are emerging as a powerful alternative to asymptotic p-values, particularly
+  in post-hoc inference and multiple testing, where significance levels may be data-dependent.
+  Existing asymptotic e-values, however, suffer from the ``missing factor,'' a scaling
+  inefficiency resulting in overly conservative inference. Drawing on the framework of
+  near-optimal concentration inequalities developed by Bentkus in the 2000s, we introduce
+  Bentkus-type asymptotic e-values and prove that they successfully eliminate the missing factor.
+  We also demonstrate both theoretically and empirically that Bentkus-type e-values consistently
+  deliver sharper inference than existing alternatives, leading to tighter post-hoc confidence
+  intervals and higher rejection rates in multiple testing procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.06332
+labels:
+- methodology
+- theory
+- e-values
+- multiple testing
+- post-hoc inference
+publications:
+  - name: Advances in Neural Information Processing Systems
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/155963
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.06332
+    arxiv: '2606.06332'
+database_added: '2026-10-20'
+database_updated: '2026-10-20'
