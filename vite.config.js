@@ -5,6 +5,13 @@ import { resolve } from 'path';
 export default defineConfig({
   plugins: [react()],
   base: process.env.GITHUB_ACTIONS ? '/e-value-bibliography/' : '/',
+  define: {
+    'import.meta.env.VITE_BUILD_VERSION': JSON.stringify(
+      process.env.GITHUB_SHA ||
+        process.env.VITE_BUILD_VERSION ||
+        Date.now().toString()
+    ),
+  },
   test: {
     globals: true,
     environment: 'jsdom',

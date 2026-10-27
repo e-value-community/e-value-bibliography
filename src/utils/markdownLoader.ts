@@ -25,7 +25,10 @@ export const loadMarkdownFile = async (
   try {
     // Use Vite's base configuration
     const base = (import.meta.env?.BASE_URL as string | undefined) || '/';
-    const filePath = `${base}content/${pageName}.md`;
+    const version = encodeURIComponent(
+      import.meta.env.VITE_BUILD_VERSION || 'development'
+    );
+    const filePath = `${base}content/${pageName}.md?v=${version}`;
     const response = await fetch(filePath);
 
     if (!response.ok) {
