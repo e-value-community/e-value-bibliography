@@ -20,6 +20,7 @@ const AbstractContent: React.FC<AbstractContentProps> = ({
       mt: 0.15,
       color: 'text.secondary',
       typography: 'body2',
+      fontSize: '0.82rem',
       '& p': { m: 0 },
       '& p + p': { mt: 1 },
       '& code': {

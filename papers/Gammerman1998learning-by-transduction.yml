@@ -21,8 +21,8 @@ labels:
 - e-values
 - online learning
 publications:
-  - name: Uncertainty in Artificial Intelligence
+  - name: Conference on Uncertainty in Artificial Intelligence
     year: 1998
     url: https://mlanthology.org/uai/1998/gammerman1998uai-learning/
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-27'

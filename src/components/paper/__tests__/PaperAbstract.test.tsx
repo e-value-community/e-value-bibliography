@@ -13,8 +13,11 @@ describe('PaperAbstract', () => {
 
     expect(screen.getByText('A paper abstract.')).toBeInTheDocument();
     expect(screen.queryByText(/^Abstract:?$/)).not.toBeInTheDocument();
+    const abstract = screen.getByLabelText('Abstract');
+    expect(abstract).toHaveStyle({ marginLeft: '16px' });
     expect(container.querySelector('.paper-abstract-content')).toHaveStyle({
       WebkitLineClamp: '1',
+      fontSize: '0.82rem',
       overflow: 'hidden',
     });
   });

@@ -24,14 +24,14 @@ const PaperAbstract: React.FC<PaperAbstractProps> = ({ paper, expanded }) => {
   return (
     <>
       {paper.abstract && (
-        <Box aria-label="Abstract" sx={{ mt: 0.65 }}>
+        <Box aria-label="Abstract" sx={{ mt: 0.65, ml: 2 }}>
           <AbstractContent preview={!expanded}>
             {paper.abstract}
           </AbstractContent>
         </Box>
       )}
       <Collapse in={expanded} timeout="auto" unmountOnExit>
-        <Box aria-label="Database information" sx={{ mt: 0.8 }}>
+        <Box aria-label="Database information" sx={{ mt: 0.8, ml: 2 }}>
           {firstYear && (
             <Typography variant="caption" sx={metadataSx}>
               First appearance: {firstYear}

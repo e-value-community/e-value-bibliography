@@ -139,6 +139,23 @@ describe('calculateStats', () => {
     expect(result.venueStats[0]).toEqual({ name: 'NeurIPS', count: 2 });
   });
 
+  it('merges historical and current UAI venue names', () => {
+    const data = [
+      {
+        publications: [{ name: 'Uncertainty in Artificial Intelligence' }],
+      },
+      {
+        publications: [
+          { name: 'Conference on Uncertainty in Artificial Intelligence' },
+        ],
+      },
+      { publications: [{ name: 'UAI' }] },
+    ];
+    const result = calculateStats(data);
+    expect(result.totalVenues).toBe(1);
+    expect(result.venueStats[0]).toEqual({ name: 'UAI', count: 3 });
+  });
+
   it('limits venue stats to top 7', () => {
     const data = Array.from({ length: 10 }, (_, i) => ({
       publications: [{ name: `Venue${i}` }],

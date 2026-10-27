@@ -21,6 +21,7 @@ const VENUES: VenueDefinition[] = [
   {
     canonical: 'Conference on Uncertainty in Artificial Intelligence',
     short: 'UAI',
+    aliases: ['Uncertainty in Artificial Intelligence'],
   },
   { canonical: 'Conference on Learning Theory', short: 'COLT' },
   {

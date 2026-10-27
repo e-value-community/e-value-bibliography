@@ -31,6 +31,15 @@ describe('venueUtils', () => {
     );
   });
 
+  it('canonicalizes the historical UAI venue name', () => {
+    expect(
+      getVenueCanonicalName('Uncertainty in Artificial Intelligence')
+    ).toBe('Conference on Uncertainty in Artificial Intelligence');
+    expect(getVenueDisplayName('Uncertainty in Artificial Intelligence')).toBe(
+      'UAI'
+    );
+  });
+
   it('makes both the full name and acronym searchable', () => {
     const searchText = getVenueSearchText('The Annals of Statistics');
     expect(searchText).toContain('The Annals of Statistics');

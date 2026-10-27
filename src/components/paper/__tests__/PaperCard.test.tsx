@@ -48,6 +48,35 @@ describe('PaperCard abstract expansion', () => {
     abstract: 'The complete abstract appears only after the paper is opened.',
   };
 
+  it('makes authors more prominent than the indented abstract', () => {
+    const { container } = renderWithTheme(
+      <PaperCard paper={expandablePaper} layout="desktop" />
+    );
+
+    expect(container.querySelector('.paper-author-line')).toHaveStyle({
+      fontSize: '0.92rem',
+      fontWeight: '500',
+    });
+    expect(container.querySelector('.paper-abstract-content')).toHaveStyle({
+      fontSize: '0.82rem',
+    });
+    expect(screen.getByLabelText('Abstract')).toHaveStyle({
+      marginLeft: '16px',
+    });
+  });
+
+  it('keeps title labels in normal inline flow', () => {
+    const { container } = renderWithTheme(
+      <PaperCard paper={expandablePaper} layout="desktop" />
+    );
+
+    expect(container.querySelector('.paper-title-labels')).toBeInTheDocument();
+    expect(container.querySelector('.paper-label-inline')).toHaveStyle({
+      display: 'inline-flex',
+      verticalAlign: 'middle',
+    });
+  });
+
   it('expands and collapses the abstract by clicking the paper card', () => {
     renderWithTheme(<PaperCard paper={expandablePaper} layout="desktop" />);
 

@@ -94,12 +94,7 @@ const PaperCardDesktop: React.FC<PaperCardProps> = ({
         >
           <Box sx={{ flex: 1 }}>
             {/* Title and labels inline */}
-            <Stack
-              direction="row"
-              alignItems="center"
-              spacing={0.5}
-              sx={{ flexWrap: 'wrap', gap: 0.5, mb: 0.5 }}
-            >
+            <Box className="paper-title-labels" sx={{ mb: 0.5 }}>
               <PaperTitle
                 variant="subtitle1"
                 sx={{
@@ -113,14 +108,20 @@ const PaperCardDesktop: React.FC<PaperCardProps> = ({
               </PaperTitle>
 
               {sortedLabels.map((label: string) => (
-                <LabelChip
+                <Box
+                  component="span"
+                  className="paper-label-inline"
                   key={`label-${label}`}
-                  label={label}
-                  isSelected={selectedLabels.includes(label)}
-                  onLabelClick={onLabelClick}
-                />
+                  sx={{ display: 'inline-flex', ml: 0.5, verticalAlign: 'middle' }}
+                >
+                  <LabelChip
+                    label={label}
+                    isSelected={selectedLabels.includes(label)}
+                    onLabelClick={onLabelClick}
+                  />
+                </Box>
               ))}
-            </Stack>
+            </Box>
 
             {/* Authors on second line */}
             <AuthorLine authors={paper.authors} />

@@ -19,11 +19,13 @@ const AuthorLine: React.FC<AuthorLineProps> = ({ authors, sx = {} }) => {
 
   const authorText = (
     <Typography
+      className="paper-author-line"
       variant="caption"
       color="text.secondary"
       sx={{
-        fontSize: '0.8rem',
-        lineHeight: 1.2,
+        fontSize: '0.92rem',
+        fontWeight: 500,
+        lineHeight: 1.35,
         ...sx,
       }}
     >
