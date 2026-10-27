@@ -7,7 +7,7 @@ slug: '/about'
 
 The E-value Bibliography is a curated collection of research on statistical e-values, e-processes, and related forms of anytime-valid inference. It covers theory, methodology, foundations, and applications, including work on sequential testing, confidence sequences, multiple testing, and safe testing.
 
-Inspired by the [Algorithms with Predictions website](https://algorithms-with-predictions.github.io/), the project was conceptualized and is curated by Aaditya Ramdas and Ruodu Wang. Christopher Blier-Wong created and maintains the website. Together they lead the project, with support and contributions from the wider e-value community.
+The E-value Bibliography began as a fork of the [Algorithms with Predictions website](https://algorithms-with-predictions.github.io/) and its [open-source codebase](https://github.com/algorithms-with-predictions/algorithms-with-predictions.github.io), whose structure and design provided the starting point for this project. Building on that foundation, Aaditya Ramdas and Ruodu Wang conceptualized the bibliography and curate its scientific content. Christopher Blier-Wong adapted the website for the e-value community and maintains it. Together they lead the project, with support and contributions from the wider e-value community.
 
 ## The e-value community
 
