@@ -22,9 +22,10 @@ const PrivacyPage: React.FC = () => {
           </Typography>
 
           <Typography paragraph>
-            The E-value Bibliography uses Cloudflare Web Analytics to collect
-            aggregate usage information. This helps us understand how the
-            bibliography is used without identifying individual visitors.
+            The E-value Bibliography collects aggregate usage information
+            through its contribution service and Cloudflare Web Analytics. This
+            helps us understand how the bibliography is used without identifying
+            individual visitors.
           </Typography>
         </Box>
 
@@ -58,9 +59,10 @@ const PrivacyPage: React.FC = () => {
             Cookies and Tracking
           </Typography>
           <Typography paragraph>
-            Cloudflare Web Analytics does not use cookies, local storage, or
-            fingerprinting to identify or follow visitors. The site therefore
-            does not display an analytics cookie banner.
+            The site does not use analytics cookies or fingerprinting. It stores
+            one anonymous marker in the browser&apos;s session storage so that
+            the first page view in a tab can be counted as a visit. The marker
+            is not sent to the server and disappears when the tab session ends.
           </Typography>
         </Box>
 
@@ -80,9 +82,9 @@ const PrivacyPage: React.FC = () => {
             Your Rights
           </Typography>
           <Typography paragraph>
-            Browser privacy tools and content blockers can prevent the analytics
-            beacon from loading. For questions about data use, contact the site
-            maintainers through the Contribute page.
+            Browser privacy tools and content blockers may prevent some
+            aggregate measurements from being recorded. For questions about data
+            use, contact the site maintainers through the Contribute page.
           </Typography>
         </Box>
       </Stack>

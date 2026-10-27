@@ -4,6 +4,7 @@ import { Box, CircularProgress } from '@mui/material';
 import { ThemeContextProvider } from './contexts/ThemeContext';
 import Layout from './components/layout';
 import ErrorBoundary from './components/ErrorBoundary';
+import AnalyticsTracker from './components/AnalyticsTracker';
 
 // Lazy load route components
 const HomePage = lazy(() => import('./pages/HomePage'));
@@ -42,6 +43,7 @@ const App: React.FC = () => (
   <ThemeContextProvider>
     <ErrorBoundary>
       <Layout>
+        <AnalyticsTracker />
         <Suspense fallback={<RouteLoader />}>
           <Routes>
             <Route path="/" element={<HomePage />} />
