@@ -30,7 +30,7 @@ const SearchAndFilter: React.FC<SearchAndFilterProps> = ({
   specialLabels = [],
 }) => {
   const [localSearchQuery, setLocalSearchQuery] = useState(searchQuery);
-  const [isKeywordSelectOpen, setIsKeywordSelectOpen] = useState(false);
+  const [isKeywordSelectOpen, setIsKeywordSelectOpen] = useState(true);
 
   // Update local state when external searchQuery changes
   useEffect(() => {
