@@ -1,6 +1,9 @@
 import { Chip, Tooltip } from '@mui/material';
 import { openInNewTab } from '../../utils/paperUtils';
-import { getPublicationDisplayData } from '../../utils/publicationDisplayUtils';
+import {
+  getVenueCanonicalName,
+  getVenueDisplayName,
+} from '../../utils/venueUtils';
 import type { Publication } from '@/types/paper';
 
 interface PublicationBadgeProps {
@@ -11,10 +14,19 @@ interface PublicationBadgeProps {
  * Publication badge chip with tooltip and click handling
  */
 const PublicationBadge: React.FC<PublicationBadgeProps> = ({ publication }) => {
-  const { year, url } = publication;
-  const { displayLabel, fullName, isRepository } =
-    getPublicationDisplayData(publication);
-  const tooltipTitle = `${fullName}${year ? ' · ' + year : ''}${url ? ' — Click to view' : ''}`;
+  const { name, year, url } = publication;
+  const isManuscript = /^manuscript$/i.test(name);
+  const isRepository = isManuscript || /^arxiv$/i.test(name);
+  const displayName = isManuscript ? 'Manuscript' : getVenueDisplayName(name);
+  const fullName = isManuscript ? 'Manuscript' : getVenueCanonicalName(name);
+  const displayLabel = isManuscript
+    ? 'Manuscript'
+    : `${displayName}${year ? " '" + year.toString().slice(-2) : ''}`;
+  const tooltipTitle = isManuscript
+    ? url
+      ? 'Open manuscript'
+      : 'Manuscript'
+    : `${fullName}${year ? ' ' + year : ''}${url ? ' - Click to view' : ''}`;
 
   const handleClick = () => {
     if (url) {
