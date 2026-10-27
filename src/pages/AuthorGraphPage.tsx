@@ -16,10 +16,7 @@ import {
 } from '@mui/material';
 import type { ForceGraphMethods } from 'react-force-graph-2d';
 import { usePapersData } from '../hooks/usePapersData';
-import {
-  AUTHOR_GRAPH_START_YEAR,
-  buildAuthorGraph,
-} from '../utils/graphUtils';
+import { AUTHOR_GRAPH_START_YEAR, buildAuthorGraph } from '../utils/graphUtils';
 import { useThemeMode } from '../contexts/ThemeContext';
 import { GRAPH_CONFIG } from '../constants';
 import type { AuthorNode, CollaborationLink } from '../utils/graphUtils';
