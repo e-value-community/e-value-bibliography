@@ -3,15 +3,20 @@ import { describe, expect, it } from 'vitest';
 import PaperAbstract from '../PaperAbstract';
 
 describe('PaperAbstract', () => {
-  it('does not display the abstract while collapsed', () => {
-    render(
+  it('displays a one-line abstract preview while collapsed', () => {
+    const { container } = render(
       <PaperAbstract
         paper={{ abstract: 'A paper abstract.', year: 2024 }}
         expanded={false}
       />
     );
 
-    expect(screen.queryByText('A paper abstract.')).not.toBeInTheDocument();
+    expect(screen.getByText('A paper abstract.')).toBeInTheDocument();
+    expect(screen.queryByText(/^Abstract:?$/)).not.toBeInTheDocument();
+    expect(container.querySelector('.paper-abstract-content')).toHaveStyle({
+      WebkitLineClamp: '1',
+      overflow: 'hidden',
+    });
   });
 
   it('displays the complete abstract while expanded', () => {
@@ -28,7 +33,6 @@ describe('PaperAbstract', () => {
       />
     );
 
-    expect(screen.getByText('Abstract')).toBeInTheDocument();
     expect(screen.getByText('A complete paper abstract.')).toBeInTheDocument();
     expect(screen.getByText('First appearance: 2024')).toBeInTheDocument();
     expect(
@@ -38,6 +42,13 @@ describe('PaperAbstract', () => {
       screen.getByText('Database updated: Oct 20, 2026')
     ).toBeInTheDocument();
     expect(screen.queryByText(/Version of record:/)).not.toBeInTheDocument();
+
+    const abstract = screen.getByLabelText('Abstract');
+    const metadata = screen.getByLabelText('Database information');
+    expect(
+      abstract.compareDocumentPosition(metadata) &
+        Node.DOCUMENT_POSITION_FOLLOWING
+    ).toBeTruthy();
   });
 
   it('does not repeat the update date when it matches the addition date', () => {
@@ -76,7 +87,7 @@ describe('PaperAbstract', () => {
     expect(screen.getByText('Version of record: 2026')).toBeInTheDocument();
   });
 
-  it('labels an author-written source summary as an abstract', () => {
+  it('does not add an abstract heading to an author-written source summary', () => {
     render(
       <PaperAbstract
         paper={{
@@ -87,7 +98,7 @@ describe('PaperAbstract', () => {
       />
     );
 
-    expect(screen.getByText('Abstract')).toBeInTheDocument();
+    expect(screen.queryByText(/^Abstract:?$/)).not.toBeInTheDocument();
     expect(
       screen.getByText('A summary supplied by the author.')
     ).toBeInTheDocument();

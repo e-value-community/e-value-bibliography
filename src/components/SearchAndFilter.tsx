@@ -11,6 +11,7 @@ import {
 } from '@mui/material';
 import { Search, Clear, FilterList } from '@mui/icons-material';
 import FilterGroup from './FilterGroup';
+import SuggestLabelButton from './SuggestLabelButton';
 
 interface SearchAndFilterProps {
   searchQuery: string;
@@ -187,6 +188,7 @@ const SearchAndFilter: React.FC<SearchAndFilterProps> = ({
                     selectedLabels={selectedLabels}
                     onLabelsChange={onLabelsChange}
                     colorType="labels"
+                    trailingAction={<SuggestLabelButton />}
                   />
                 </Stack>
 

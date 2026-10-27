@@ -80,7 +80,7 @@ const PaperCardMobile: React.FC<PaperCardProps> = ({
           pt: 1,
           px: 2,
           pr: 9,
-          '&:last-child': { pb: 5 },
+          '&:last-child': { pb: 1.25 },
         }}
       >
         {/* Title */}

@@ -29,7 +29,7 @@ labels:
 - post-hoc inference
 publications:
   - name: The Annals of Statistics
-    year: 2018
+    year: 2020
     url: https://doi.org/10.1214/19-AOS1938
     doi: 10.1214/19-aos1938
   - name: arXiv
@@ -37,4 +37,4 @@ publications:
     url: https://arxiv.org/abs/1803.06790
     arxiv: '1803.06790'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-27'

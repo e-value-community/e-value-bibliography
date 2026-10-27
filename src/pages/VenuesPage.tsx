@@ -99,7 +99,7 @@ const VenuesPage: React.FC = () => {
           value={query}
           onChange={event => setQuery(event.target.value)}
           label="Find a venue"
-          placeholder="Search by venue name or abbreviation"
+          placeholder="Search by venue name"
           size="small"
           sx={{ maxWidth: 520 }}
           InputProps={{

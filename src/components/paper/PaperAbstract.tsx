@@ -22,40 +22,33 @@ const PaperAbstract: React.FC<PaperAbstractProps> = ({ paper, expanded }) => {
   } as const;
 
   return (
-    <Collapse in={expanded} timeout="auto" unmountOnExit>
-      <Box sx={{ mt: 0.8 }}>
-        {firstYear && (
-          <Typography variant="caption" sx={metadataSx}>
-            First appearance: {firstYear}
-          </Typography>
-        )}
-        <DatabaseUpdatedLine
-          addedDate={paper.database_added}
-          updatedDate={paper.database_updated}
-        />
-        {versionOfRecordYear && (
-          <Typography variant="caption" sx={metadataSx}>
-            Version of record: {versionOfRecordYear}
-          </Typography>
-        )}
-        {paper.abstract && (
-          <Box sx={{ mt: 0.75 }}>
-            <Typography
-              component="span"
-              variant="caption"
-              sx={{
-                display: 'block',
-                fontWeight: 700,
-                color: 'text.secondary',
-              }}
-            >
-              Abstract
+    <>
+      {paper.abstract && (
+        <Box aria-label="Abstract" sx={{ mt: 0.65 }}>
+          <AbstractContent preview={!expanded}>
+            {paper.abstract}
+          </AbstractContent>
+        </Box>
+      )}
+      <Collapse in={expanded} timeout="auto" unmountOnExit>
+        <Box aria-label="Database information" sx={{ mt: 0.8 }}>
+          {firstYear && (
+            <Typography variant="caption" sx={metadataSx}>
+              First appearance: {firstYear}
             </Typography>
-            <AbstractContent>{paper.abstract}</AbstractContent>
-          </Box>
-        )}
-      </Box>
-    </Collapse>
+          )}
+          <DatabaseUpdatedLine
+            addedDate={paper.database_added}
+            updatedDate={paper.database_updated}
+          />
+          {versionOfRecordYear && (
+            <Typography variant="caption" sx={metadataSx}>
+              Version of record: {versionOfRecordYear}
+            </Typography>
+          )}
+        </Box>
+      </Collapse>
+    </>
   );
 };
 

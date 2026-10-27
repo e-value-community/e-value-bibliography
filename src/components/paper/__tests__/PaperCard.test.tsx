@@ -53,9 +53,12 @@ describe('PaperCard abstract expansion', () => {
 
     const card = screen.getByLabelText('Test Paper. Show details');
     expect(
-      screen.queryByText(
+      screen.getByText(
         'The complete abstract appears only after the paper is opened.'
       )
+    ).toBeVisible();
+    expect(
+      screen.queryByText('First appearance: 2024')
     ).not.toBeInTheDocument();
 
     fireEvent.click(screen.getByText('Test Paper'));
@@ -78,9 +81,16 @@ describe('PaperCard abstract expansion', () => {
     );
 
     expect(
-      screen.queryByText(
+      screen.getByText(
         'The complete abstract appears only after the paper is opened.'
       )
+    ).toBeVisible();
+    expect(screen.getByLabelText('Test Paper. Show details')).toHaveAttribute(
+      'aria-expanded',
+      'false'
+    );
+    expect(
+      screen.queryByText('First appearance: 2024')
     ).not.toBeInTheDocument();
   });
 

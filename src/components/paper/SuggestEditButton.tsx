@@ -21,7 +21,7 @@ interface SuggestEditButtonProps {
 }
 
 const EDIT_PLACEHOLDER =
-  'Describe what should change. For example: this paper has been published and is no longer a preprint; the venue, year, DOI, title, authors, or abstract is incorrect; it uses the wrong category; or a topic tag should be added or removed. Include a supporting link when possible.';
+  'Describe what should change. For example: this paper has been published and is no longer a preprint; the venue, year, DOI, title, authors, or abstract is incorrect; it uses the wrong category; or a topic tag should be added or removed. If the paper does not seem relevant to the e-value community, say that it should be removed and briefly explain why. Include a supporting link when possible.';
 
 const paperAuthors = (paper: Paper): string =>
   Array.isArray(paper.authors)
@@ -145,6 +145,11 @@ const SuggestEditButton: React.FC<SuggestEditButtonProps> = ({ paper }) => {
           <DialogContent>
             <Box sx={{ mb: 2 }}>
               <strong>{paper.title || 'Untitled paper'}</strong>
+            </Box>
+            <Box sx={{ mb: 2, color: 'text.secondary', fontSize: '0.875rem' }}>
+              Suggest a correction, update, or classification change. If the
+              paper does not seem relevant to the e-value community, you can
+              also suggest removing it.
             </Box>
             <TextField
               autoFocus

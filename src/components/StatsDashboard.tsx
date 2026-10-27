@@ -363,7 +363,7 @@ interface YearDistributionChartProps {
   onYearBasisChange: (basis: YearBasis) => void;
 }
 
-const MIN_DISPLAY_YEAR = 2019;
+const MIN_DISPLAY_YEAR = 2018;
 
 const YearDistributionChart: React.FC<YearDistributionChartProps> = ({
   yearData,
@@ -426,7 +426,7 @@ const YearDistributionChart: React.FC<YearDistributionChartProps> = ({
               color="text.secondary"
               sx={{ fontSize: { xs: '0.65rem', sm: '0.72rem' } }}
             >
-              Since 2019
+              Since {MIN_DISPLAY_YEAR}
             </Typography>
           </Box>
           <ToggleButtonGroup

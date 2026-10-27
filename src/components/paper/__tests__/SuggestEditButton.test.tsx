@@ -31,6 +31,13 @@ describe('SuggestEditButton', () => {
         name: 'Suggest an edit for A paper on e-values',
       })
     );
+    expect(screen.getByText(/you can also suggest removing it/i)).toBeVisible();
+    expect(
+      screen.getByRole('textbox', { name: 'Suggested correction' })
+    ).toHaveAttribute(
+      'placeholder',
+      expect.stringContaining('does not seem relevant to the e-value community')
+    );
     fireEvent.change(
       screen.getByRole('textbox', { name: 'Suggested correction' }),
       {

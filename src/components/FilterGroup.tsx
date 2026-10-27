@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { Box, Typography, Stack, Chip } from '@mui/material';
 
 type ColorType =
@@ -13,6 +14,7 @@ interface FilterGroupProps {
   selectedLabels: string[];
   onLabelsChange: (labels: string[]) => void;
   colorType?: ColorType;
+  trailingAction?: ReactNode;
 }
 
 const FilterGroup: React.FC<FilterGroupProps> = ({
@@ -21,6 +23,7 @@ const FilterGroup: React.FC<FilterGroupProps> = ({
   selectedLabels,
   onLabelsChange,
   colorType = 'labels',
+  trailingAction,
 }) => {
   if (!labels || labels.length === 0) return null;
 
@@ -57,7 +60,13 @@ const FilterGroup: React.FC<FilterGroupProps> = ({
           </Box>
         )}
       </Typography>
-      <Stack direction="row" spacing={0.5} flexWrap="wrap" sx={{ gap: 0.5 }}>
+      <Stack
+        direction="row"
+        spacing={0.5}
+        flexWrap="wrap"
+        alignItems="center"
+        sx={{ gap: 0.5 }}
+      >
         {labels.map((label: string) => {
           const isSelected = selectedLabels.includes(label);
 
@@ -128,6 +137,7 @@ const FilterGroup: React.FC<FilterGroupProps> = ({
             />
           );
         })}
+        {trailingAction}
       </Stack>
     </Box>
   );

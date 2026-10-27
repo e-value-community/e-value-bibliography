@@ -7,9 +7,13 @@ import { normalizeAbstractLatex } from '@/utils/abstractLatex';
 
 interface AbstractContentProps {
   children: string;
+  preview?: boolean;
 }
 
-const AbstractContent: React.FC<AbstractContentProps> = ({ children }) => (
+const AbstractContent: React.FC<AbstractContentProps> = ({
+  children,
+  preview = false,
+}) => (
   <Box
     className="paper-abstract-content"
     sx={{
@@ -29,6 +33,20 @@ const AbstractContent: React.FC<AbstractContentProps> = ({ children }) => (
         overflowX: 'auto',
         overflowY: 'hidden',
       },
+      ...(preview && {
+        display: '-webkit-box',
+        WebkitBoxOrient: 'vertical',
+        WebkitLineClamp: 1,
+        overflow: 'hidden',
+        lineHeight: 1.45,
+        '& p': { m: 0, display: 'inline' },
+        '& p + p': { mt: 0 },
+        '& .katex-display': {
+          display: 'inline',
+          my: 0,
+          overflow: 'visible',
+        },
+      }),
     }}
   >
     <ReactMarkdown

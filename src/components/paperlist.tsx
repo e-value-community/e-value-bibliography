@@ -232,19 +232,28 @@ const PaperList: React.FC<PaperListProps> = ({
                 borderRadius: 1,
               }}
             >
-              <Typography variant="body2" color="text.secondary">
-                Showing{' '}
-                <strong>
-                  {sortedData.length} of {data?.length ?? 0}
-                </strong>{' '}
-                papers
-                {hasActiveFilters && (
-                  <>
-                    {' matching '}
-                    {activeFilterSummary}
-                  </>
-                )}
-              </Typography>
+              <Box>
+                <Typography variant="body2" color="text.secondary">
+                  Showing{' '}
+                  <strong>
+                    {sortedData.length} of {data?.length ?? 0}
+                  </strong>{' '}
+                  papers
+                  {hasActiveFilters && (
+                    <>
+                      {' matching '}
+                      {activeFilterSummary}
+                    </>
+                  )}
+                </Typography>
+                <Typography
+                  variant="caption"
+                  color="text.secondary"
+                  sx={{ display: 'block', mt: 0.1 }}
+                >
+                  Ordered by date added to the bibliography, newest first.
+                </Typography>
+              </Box>
 
               <Stack direction="row" spacing={0.5}>
                 {/* Clear filters button */}
