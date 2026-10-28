@@ -1,0 +1,28 @@
+title: Near-exact Upper Confidence Limits for Axion Haloscopes
+authors: Andrea Gallo Rosso, Jan Conrad
+year: 2026
+arxiv: '2610.34325'
+abstract: >-
+  The data acquisition of axion haloscopes commonly implements sequential adaptive frequency
+  scans. We present a method to calculate likelihood-based upper confidence limits on axion-photon
+  coupling under this circumstance. We compare the likelihood-based method conceptually and
+  quantitatively with tailor-made methods, i.e. the one proposed by Brubaker et al. (Geometric) and
+  its upgrade the Bayesian Power-Measured (BPM) framework proposed by Palken et al. We find that the
+  likelihood method yields average upper limits that are significantly more constraining than
+  those obtained from these methods. For example, expected constraints improve by a factor of 1.4
+  as compared with the current state of the art when applied to projections for the ALPHA
+  Plasma-haloscope. We further clarify the statistical basis for the Geometric and BPM methods. In
+  particular, we point out the correspondence of BPM to e-values, proposed as an alternative to
+  conventional p-values in statistics.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.34325
+labels:
+- applications
+- e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.34325
+    arxiv: '2610.34325'
+database_added: '2026-10-28'
+database_updated: '2026-10-28'

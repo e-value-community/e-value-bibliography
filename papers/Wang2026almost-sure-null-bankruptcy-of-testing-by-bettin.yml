@@ -26,9 +26,12 @@ labels:
 - methodology
 - e-values
 publications:
-- name: arXiv
-  year: 2026
-  url: https://arxiv.org/abs/2602.08888
-  arxiv: '2602.08888'
+  - name: Conference on Learning Theory
+    year: 2026
+    url: https://learningtheory.org/colt2026/accepted
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2602.08888
+    arxiv: '2602.08888'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-28'
