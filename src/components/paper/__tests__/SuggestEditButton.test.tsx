@@ -44,6 +44,10 @@ describe('SuggestEditButton', () => {
         target: { value: 'This paper is now published in JASA.' },
       }
     );
+    fireEvent.change(
+      screen.getByRole('textbox', { name: 'Your name (optional)' }),
+      { target: { value: 'Ada Researcher' } }
+    );
     fireEvent.click(screen.getByRole('button', { name: 'Submit edit' }));
 
     expect(fetchMock).toHaveBeenCalledWith('/api/site-feedback', {
@@ -60,6 +64,7 @@ describe('SuggestEditButton', () => {
           'Suggested edit:',
           'This paper is now published in JASA.',
         ].join('\n'),
+        submitter_name: 'Ada Researcher',
       }),
     });
     expect(

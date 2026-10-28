@@ -13,15 +13,19 @@ import { intakeApiUrl } from '@/utils/apiUrl';
 
 const SubmitPage: React.FC = () => {
   const [submission, setSubmission] = useState('');
+  const [paperContributorName, setPaperContributorName] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState('');
   const [error, setError] = useState('');
   const [historicalSubmission, setHistoricalSubmission] = useState('');
   const [historicalContext, setHistoricalContext] = useState('');
+  const [historicalContributorName, setHistoricalContributorName] =
+    useState('');
   const [historicalSubmitting, setHistoricalSubmitting] = useState(false);
   const [historicalSuccess, setHistoricalSuccess] = useState('');
   const [historicalError, setHistoricalError] = useState('');
   const [feedback, setFeedback] = useState('');
+  const [feedbackContributorName, setFeedbackContributorName] = useState('');
   const [feedbackSubmitting, setFeedbackSubmitting] = useState(false);
   const [feedbackSuccess, setFeedbackSuccess] = useState('');
   const [feedbackError, setFeedbackError] = useState('');
@@ -38,7 +42,12 @@ const SubmitPage: React.FC = () => {
       const response = await fetch(intakeApiUrl('/api/paper-submissions'), {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ submission: submission.trim() }),
+        body: JSON.stringify({
+          submission: submission.trim(),
+          ...(paperContributorName.trim()
+            ? { submitter_name: paperContributorName.trim() }
+            : {}),
+        }),
       });
       const result = (await response.json().catch(() => ({}))) as {
         submitted_count?: number;
@@ -60,6 +69,7 @@ const SubmitPage: React.FC = () => {
           : `Saved ${savedLabel} in the review database.`
       );
       setSubmission('');
+      setPaperContributorName('');
     } catch (submitError) {
       setError(
         submitError instanceof Error
@@ -95,6 +105,9 @@ const SubmitPage: React.FC = () => {
           body: JSON.stringify({
             submission: historicalSubmission.trim(),
             context: historicalContext.trim(),
+            ...(historicalContributorName.trim()
+              ? { submitter_name: historicalContributorName.trim() }
+              : {}),
           }),
         }
       );
@@ -116,6 +129,7 @@ const SubmitPage: React.FC = () => {
       );
       setHistoricalSubmission('');
       setHistoricalContext('');
+      setHistoricalContributorName('');
     } catch (submitError) {
       setHistoricalError(
         submitError instanceof Error
@@ -141,7 +155,12 @@ const SubmitPage: React.FC = () => {
       const response = await fetch(intakeApiUrl('/api/site-feedback'), {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ message: feedback.trim() }),
+        body: JSON.stringify({
+          message: feedback.trim(),
+          ...(feedbackContributorName.trim()
+            ? { submitter_name: feedbackContributorName.trim() }
+            : {}),
+        }),
       });
       const result = (await response.json().catch(() => ({}))) as {
         error?: string;
@@ -153,6 +172,7 @@ const SubmitPage: React.FC = () => {
 
       setFeedbackSuccess('Saved your comment for review.');
       setFeedback('');
+      setFeedbackContributorName('');
     } catch (submitError) {
       setFeedbackError(
         submitError instanceof Error
@@ -215,6 +235,15 @@ const SubmitPage: React.FC = () => {
               disabled={submitting}
               slotProps={{ htmlInput: { maxLength: 12000 } }}
             />
+            <TextField
+              label="Your name (optional)"
+              value={paperContributorName}
+              onChange={event => setPaperContributorName(event.target.value)}
+              helperText="Who are you, if you don't mind telling us?"
+              fullWidth
+              disabled={submitting}
+              slotProps={{ htmlInput: { maxLength: 120 } }}
+            />
             <Button
               type="submit"
               variant="contained"
@@ -254,6 +283,15 @@ const SubmitPage: React.FC = () => {
               required
               disabled={feedbackSubmitting}
               slotProps={{ htmlInput: { maxLength: 5000 } }}
+            />
+            <TextField
+              label="Your name (optional)"
+              value={feedbackContributorName}
+              onChange={event => setFeedbackContributorName(event.target.value)}
+              helperText="Who are you, if you don't mind telling us?"
+              fullWidth
+              disabled={feedbackSubmitting}
+              slotProps={{ htmlInput: { maxLength: 120 } }}
             />
             <Button
               type="submit"
@@ -310,6 +348,17 @@ const SubmitPage: React.FC = () => {
               required
               disabled={historicalSubmitting}
               slotProps={{ htmlInput: { maxLength: 2000 } }}
+            />
+            <TextField
+              label="Your name (optional)"
+              value={historicalContributorName}
+              onChange={event =>
+                setHistoricalContributorName(event.target.value)
+              }
+              helperText="Who are you, if you don't mind telling us?"
+              fullWidth
+              disabled={historicalSubmitting}
+              slotProps={{ htmlInput: { maxLength: 120 } }}
             />
             <Button
               type="submit"

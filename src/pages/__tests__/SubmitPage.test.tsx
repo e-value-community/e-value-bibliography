@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { fireEvent, render, screen } from '@testing-library/react';
+import { fireEvent, render, screen, within } from '@testing-library/react';
 import SubmitPage from '../SubmitPage';
 
 describe('SubmitPage', () => {
@@ -140,13 +140,25 @@ describe('SubmitPage', () => {
     render(<SubmitPage />);
 
     expect(screen.getByRole('heading', { name: 'Contribute' })).toBeVisible();
+    const feedbackForm = screen
+      .getByRole('heading', { name: 'Suggest an edit' })
+      .closest('form');
+    expect(feedbackForm).not.toBeNull();
     fireEvent.change(
-      screen.getByRole('textbox', { name: 'Comment or suggested edit' }),
+      within(feedbackForm!).getByRole('textbox', {
+        name: 'Comment or suggested edit',
+      }),
       {
         target: {
           value: 'The venue for one paper should be corrected.',
         },
       }
+    );
+    fireEvent.change(
+      within(feedbackForm!).getByRole('textbox', {
+        name: 'Your name (optional)',
+      }),
+      { target: { value: 'Ada Researcher' } }
     );
     fireEvent.click(screen.getByRole('button', { name: 'Submit comment' }));
 
@@ -155,6 +167,7 @@ describe('SubmitPage', () => {
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
         message: 'The venue for one paper should be corrected.',
+        submitter_name: 'Ada Researcher',
       }),
     });
     expect(

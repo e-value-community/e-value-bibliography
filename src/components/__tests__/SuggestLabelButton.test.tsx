@@ -28,6 +28,10 @@ describe('SuggestLabelButton', () => {
         },
       }
     );
+    fireEvent.change(
+      screen.getByRole('textbox', { name: 'Your name (optional)' }),
+      { target: { value: 'Ada Researcher' } }
+    );
     fireEvent.click(screen.getByRole('button', { name: 'Submit suggestion' }));
 
     expect(fetchMock).toHaveBeenCalledWith('/api/site-feedback', {
@@ -40,6 +44,7 @@ describe('SuggestLabelButton', () => {
           'Suggestion:',
           'Sequential design: papers about adaptive experiment design.',
         ].join('\n'),
+        submitter_name: 'Ada Researcher',
       }),
     });
     expect(

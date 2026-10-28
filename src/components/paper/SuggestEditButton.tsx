@@ -41,6 +41,7 @@ const paperArxiv = (paper: Paper): string =>
 const SuggestEditButton: React.FC<SuggestEditButtonProps> = ({ paper }) => {
   const [editOpen, setEditOpen] = useState(false);
   const [editText, setEditText] = useState('');
+  const [contributorName, setContributorName] = useState('');
   const [editSubmitting, setEditSubmitting] = useState(false);
   const [editError, setEditError] = useState('');
   const [noticeOpen, setNoticeOpen] = useState(false);
@@ -76,7 +77,12 @@ const SuggestEditButton: React.FC<SuggestEditButtonProps> = ({ paper }) => {
       const response = await fetch(intakeApiUrl('/api/site-feedback'), {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ message }),
+        body: JSON.stringify({
+          message,
+          ...(contributorName.trim()
+            ? { submitter_name: contributorName.trim() }
+            : {}),
+        }),
       });
       const result = (await response.json().catch(() => ({}))) as {
         error?: string;
@@ -89,6 +95,7 @@ const SuggestEditButton: React.FC<SuggestEditButtonProps> = ({ paper }) => {
 
       setEditOpen(false);
       setEditText('');
+      setContributorName('');
       setNoticeOpen(true);
     } catch (submitError) {
       setEditError(
@@ -163,6 +170,16 @@ const SuggestEditButton: React.FC<SuggestEditButtonProps> = ({ paper }) => {
               onChange={event => setEditText(event.target.value)}
               disabled={editSubmitting}
               slotProps={{ htmlInput: { maxLength: 3000 } }}
+            />
+            <TextField
+              fullWidth
+              label="Your name (optional)"
+              value={contributorName}
+              onChange={event => setContributorName(event.target.value)}
+              helperText="Who are you, if you don't mind telling us?"
+              disabled={editSubmitting}
+              slotProps={{ htmlInput: { maxLength: 120 } }}
+              sx={{ mt: 2 }}
             />
             {editError && (
               <Alert severity="error" sx={{ mt: 2 }}>

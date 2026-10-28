@@ -21,6 +21,7 @@ const SUGGESTION_PLACEHOLDER =
 const SuggestLabelButton: React.FC = () => {
   const [open, setOpen] = useState(false);
   const [suggestion, setSuggestion] = useState('');
+  const [contributorName, setContributorName] = useState('');
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
   const [noticeOpen, setNoticeOpen] = useState(false);
@@ -44,6 +45,9 @@ const SuggestLabelButton: React.FC = () => {
             'Suggestion:',
             proposedLabel,
           ].join('\n'),
+          ...(contributorName.trim()
+            ? { submitter_name: contributorName.trim() }
+            : {}),
         }),
       });
       const result = (await response.json().catch(() => ({}))) as {
@@ -55,6 +59,7 @@ const SuggestLabelButton: React.FC = () => {
 
       setOpen(false);
       setSuggestion('');
+      setContributorName('');
       setNoticeOpen(true);
     } catch (submitError) {
       setError(
@@ -124,6 +129,16 @@ const SuggestLabelButton: React.FC = () => {
               onChange={event => setSuggestion(event.target.value)}
               disabled={submitting}
               slotProps={{ htmlInput: { maxLength: 3000 } }}
+            />
+            <TextField
+              fullWidth
+              label="Your name (optional)"
+              value={contributorName}
+              onChange={event => setContributorName(event.target.value)}
+              helperText="Who are you, if you don't mind telling us?"
+              disabled={submitting}
+              slotProps={{ htmlInput: { maxLength: 120 } }}
+              sx={{ mt: 2 }}
             />
             {error && (
               <Alert severity="error" sx={{ mt: 2 }}>

@@ -39,6 +39,7 @@ const PrivacyPage: React.FC = () => {
             <li>Approximate location at the country level</li>
             <li>Device, browser, and operating-system information</li>
             <li>Basic page-performance measurements</li>
+            <li>Names voluntarily provided with a contribution</li>
           </Box>
         </Box>
 
@@ -47,7 +48,7 @@ const PrivacyPage: React.FC = () => {
             What We Don&apos;t Collect
           </Typography>
           <Box component="ul" sx={{ pl: 2, my: 0 }}>
-            <li>Names or email addresses</li>
+            <li>Email addresses</li>
             <li>Precise location data</li>
             <li>Cross-site browsing histories</li>
             <li>Data for advertising purposes</li>
@@ -72,8 +73,10 @@ const PrivacyPage: React.FC = () => {
           </Typography>
           <Typography paragraph>
             Text submitted through the Contribute page is stored for editorial
-            review. The forms do not ask for a name or email address. Please do
-            not include personal or confidential information in a submission.
+            review. Contributors may optionally provide a name, which is shown
+            only in the private curation workspace. The forms do not ask for an
+            email address. Please do not include personal or confidential
+            information in a submission.
           </Typography>
         </Box>
 
