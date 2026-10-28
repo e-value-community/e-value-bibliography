@@ -1,22 +1,27 @@
-title: 'N×N E-valuation: Testing Scope-Level and Unit-Matched Predictive Associations'
-authors: Bin Wang, Yan Zhong, Liang Luo, Buyun Zhang, Ellie Wen
+title: 'NxN E-valuation: Hypothesis Certification via a Conformal CRT Null'
+authors: Bin Wang, Yan Zhong, Zhengyu Zhang, Liang Luo, Buyun Zhang, Ellie Wen
 year: 2026
 arxiv: '2608.06621'
 abstract: >-
-  We propose NxN E-valuation, a handy, e-value-based hypothesis-certification algorithm that lets
-  a hypothesis be verified without building any case-specific certification procedure---such as
-  constructing a dedicated null hypothesis---as long as a large enough dataset is available. The
-  method is especially suited to LLM-based exploration systems, where LLMs are remarkably good at
-  proposing hypotheses but suffer badly from hallucination; this hallucination prevents us from
-  harvesting LLM outputs directly, and existing remedies each fall short. The most common
-  solutions include letting the LLM verify or correct itself circular verification and held-out
-  testing (where false hypotheses can still pass via spurious correlations), among other remedies
-  detailed in the introduction. To resolve this, NxN E-valuation exploits the naturally existing
-  large training set and lets different samples serve as null hypotheses for one another. This
-  design directly realizes a conditional randomization test (CRT) that certifies each hypothesis.
-  The approach can be a universally better replacement for at least LLM circular verification and
-  held-out-data testing, provided the LLM's generations are hypotheses that apply to each
-  individual sample.
+  Language models now propose hypotheses faster than anyone can check them, so the step that
+  certifies them must need nothing from the proposer but the hypothesis. We state three
+  requirements for such a step -- per-hypothesis automatable, attributable and diagnostic -- and
+  introduce NxN e-valuation, which meets them. A hypothesis names a scope, the units it is about,
+  and gives each of them a restriction that scores its outcome. The units of one scope serve as
+  nulls for one another, so no resampling model is written per hypothesis; the algorithm certifies
+  a stable, scope-level association and reports whether the scope, the restriction, or which unit
+  receives which restriction carries the prediction. For independently drawn units, betting
+  e-values bound the chance of a false certificate for each hypothesis in finite samples, under
+  stated nulls. A betting lower bound on the share of units that carry the association gates every
+  certificate, and an asymptotically valid equivalence test calls the restrictions shared only when
+  it rejects differences between them above a declared noise ceiling. We test it on planted data,
+  on randomized intervention data, and on real purchase data with 285 hypotheses that language
+  models wrote without knowing our method or our classes, labeled by human experts. Meeting all
+  three requirements costs no accuracy: NxN makes 692 correct decisions in 693 with one false
+  certificate, against 659 with four for a composite of CRT tests that returns our verdicts but
+  needs a resampling model per hypothesis, and 224 with 468 for held-out validation. Removing any
+  of our statistics merges a verdict that certifies with one that rejects. The certificates
+  concern predictive association, not causality.
 abstract_status: source_abstract
 abstract_source: https://arxiv.org/abs/2608.06621
 labels:
@@ -28,4 +33,4 @@ publications:
     url: https://arxiv.org/abs/2608.06621
     arxiv: '2608.06621'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-28'

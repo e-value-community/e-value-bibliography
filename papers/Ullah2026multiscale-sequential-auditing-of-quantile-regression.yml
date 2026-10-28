@@ -1,0 +1,34 @@
+title: Multiscale Sequential Auditing of Quantile Regression with Point Masses
+authors: Asad Ullah
+year: 2026
+arxiv: '2610.16000'
+abstract: >-
+  For discrete outcomes, a valid conditional quantile can have a hit probability different from
+  its nominal level. Errors in different covariate groups can also cancel when residual signs are
+  pooled. We study sequential audits that address both problems by testing the two inequalities
+  that define quantile-set membership. The audit records whether each response falls below, equals,
+  or exceeds its forecast. We derive the information projection for this three-outcome experiment
+  and use continuous betting mixtures within the cells of a covariate tree. Context-tree weighting
+  combines the resulting audits over all prunings, with an explicit finite-path oracle bound. Under
+  iid alternatives with uniformly positive sign probabilities, a countable mixture of refining
+  trees attains the full conditional sign-information rate. A matching upper bound shows that no
+  valid evidence sequence based on the same observations can attain a larger almost-sure
+  exponential rate. We also bound the information lost through covariate coarsening, derive a
+  recurrence for the local mixtures, and discuss quantile selection and confidence-sequence
+  inversion. Simulations show how partition resolution affects detection, and a held-out
+  count-data example illustrates the difference between quantile validity and exact-hit
+  calibration.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.16000
+labels:
+- methodology
+- theory
+- e-processes
+- confidence sequences
+publications:
+- name: arXiv
+  year: 2026
+  url: https://arxiv.org/abs/2610.16000
+  arxiv: '2610.16000'
+database_added: '2026-10-28'
+database_updated: '2026-10-28'
