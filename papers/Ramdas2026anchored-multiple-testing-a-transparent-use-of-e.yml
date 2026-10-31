@@ -21,12 +21,13 @@ abstract: >-
   and adpative variants) while preserving ordered rejection structures. All of these are
   accomplished in sorting or quadratic time. The appendix shows how to dominate Shifted-BH (for
   two-sided arbitrarily correlated Gaussians) and NDBH (for negatively dependent p-values), IndBH
-  (for graph-dependent p-values), some online FDR procedures and the support line procedure for
+  (for graph-dependent p-values), conformal multiple testing and the support line procedure for
   boundary FDR control.
 abstract_status: source_abstract
 abstract_source: https://arxiv.org/abs/2610.11279
 labels:
 - methodology
+- theory
 - e-values
 - multiple testing
 publications:
@@ -35,4 +36,4 @@ publications:
   url: https://arxiv.org/abs/2610.11279
   arxiv: '2610.11279'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-29'
