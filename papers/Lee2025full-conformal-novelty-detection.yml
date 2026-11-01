@@ -24,9 +24,6 @@ labels:
 - e-values
 - multiple testing
 publications:
-- name: JASA
-  year: 2026
-  url: https://arxiv.org/abs/2501.02703
 - name: arXiv
   year: 2025
   url: https://arxiv.org/abs/2501.02703
