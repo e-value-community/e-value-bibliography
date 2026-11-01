@@ -19,13 +19,17 @@ abstract: >-
 abstract_status: source_abstract
 abstract_source: https://arxiv.org/abs/2501.02703
 labels:
+- methodology
 - applications
 - e-values
 - multiple testing
 publications:
+- name: JASA
+  year: 2026
+  url: https://arxiv.org/abs/2501.02703
 - name: arXiv
   year: 2025
   url: https://arxiv.org/abs/2501.02703
   arxiv: '2501.02703'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-10-31'
