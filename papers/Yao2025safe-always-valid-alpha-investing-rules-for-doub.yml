@@ -1,5 +1,5 @@
 title: Safe, Always-Valid Alpha-Investing Rules For Doubly Sequential Online Inference
-authors: Zeyu Yao, Bowen Gang, Wenguang Sun
+authors: Zeyu Yao, Wenguang Sun, Bowen Gang
 year: 2026
 doi: 10.1080/01621459.2026.2700401
 arxiv: '2512.12244'
@@ -35,4 +35,4 @@ publications:
   url: https://arxiv.org/abs/2512.12244
   arxiv: '2512.12244'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-01'

@@ -1,6 +1,6 @@
 title: Differentially Private E-Values
 authors: Daniel Csillag, Diego Mesquita
-year: 2025
+year: 2026
 arxiv: '2510.18654'
 abstract: >-
   E-values have gained prominence as flexible tools for statistical inference and risk control,
@@ -16,13 +16,17 @@ abstract: >-
 abstract_status: source_abstract
 abstract_source: https://arxiv.org/abs/2510.18654
 labels:
+- methodology
 - applications
 - e-values
 - e-processes
 publications:
+- name: International Conference on Artificial Intelligence and Statistics
+  year: 2026
+  url: https://proceedings.mlr.press/v300/csillag26a.html
 - name: arXiv
   year: 2025
   url: https://arxiv.org/abs/2510.18654
   arxiv: '2510.18654'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-01'

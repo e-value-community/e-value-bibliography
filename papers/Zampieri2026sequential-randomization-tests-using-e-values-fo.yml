@@ -4,22 +4,35 @@ year: 2026
 doi: 10.1186/s12874-026-03048-z
 arxiv: '2512.04366'
 abstract: >-
-  Sequential monitoring of randomized trials traditionally relies on parametric assumptions or
-  asymptotic approximations. We discuss a family of nonparametric sequential tests - collectively
-  called e-RT - for binary, event-only, and continuous endpoints. All active variants derive
-  validity from the randomization mechanism. Using a betting framework, each test constructs a
-  test martingale by sequentially wagering on randomized assignments or observed event labels
-  before using the current label in the wealth update. Under the null hypothesis of no treatment
-  effect, the expected wealth cannot grow, guaranteeing anytime-valid Type I error control
-  regardless of stopping rule. The default e-RT posture is effect-size agnostic: monitoring can
-  begin without specifying a hypothesized treatment effect. Alternatively, fixed design-calibrated
-  wagers, including growth-rate-optimal (GROW) wagers, may be used as optional efficiency tools
-  when a clinically meaningful design alternative is credible. We present simulation studies
-  demonstrating calibration and power, and discuss the principled asymmetry in betting strategies
-  across outcome types. These methods provide a conservative, assumption-light complement to
-  model-based sequential analyses.
+  Background: In randomized trials, repeated interim analyses of accumulating data must keep the
+  Type I error controlled. Sequential analyses that use e-values allow continuous assessment of
+  evidence while controlling their own Type I error. We present e-RT, a randomization-based
+  e-value method for continuous trial monitoring, intended mainly as a non-binding ancillary
+  review trigger for data safety monitoring boards, used alongside prespecified primary stopping
+  boundaries. Methods: At each update, the endpoint data are reviewed before the current
+  randomized assignment enters the betting-martingale wealth calculation. Under the null
+  hypothesis, the assignment cannot be predicted from the observed data, so the wealth process is
+  a nonnegative martingale and Ville’s inequality controls the monitor’s Type I error at any time.
+  We describe variants for binary, event-only, and continuous endpoints. A charter prespecifies
+  the alert’s role: process-only review, standalone stopping rule, or path to an efficacy stop. We
+  evaluated operating characteristics in simulations against calibrated group-sequential designs
+  matched on sidedness and Type I error, and illustrate the method by reanalyzing two completed
+  mechanical ventilation trials. Results: The calibrated one-sided design showed 11.6 percentage
+  points higher power than the design-calibrated binary e-RT variant, although e-RT signaled
+  earlier, at a null crossing rate below the nominal 5%. Under a treatment effect, an e-RT alert
+  occurred before 91.8% of scheduled stops, at a median lead of 776 patients (in the process-only
+  role, an alert that leaves the primary analysis’s Type I error unchanged). Letting every
+  crossing stop the trial raised the null stop rate to 7.2%; a confirmation-bar repair returned it
+  to 5.6% while preserving power, and an alpha-partition repair is bounded by construction at a
+  modest power cost. Conclusions: e-RT offers a transparent surveillance method for randomized
+  trials that remains valid at any time, whatever the wager policy, as long as wagers stay
+  predictable. Under a prespecified charter, it can alert data safety monitoring boards to
+  accumulating evidence between scheduled interim analyses. Trial registration: Not applicable:
+  this manuscript describes a statistical monitoring method; reanalyses used deidentified
+  completed-trial data from the National Heart, Lung, and Blood Institute biorepository
+  (BioLINCC).
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2512.04366
+abstract_source: https://link.springer.com/article/10.1186/s12874-026-03048-z
 labels:
 - applications
 - e-values
@@ -34,4 +47,4 @@ publications:
   url: https://arxiv.org/abs/2512.04366
   arxiv: '2512.04366'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-01'
