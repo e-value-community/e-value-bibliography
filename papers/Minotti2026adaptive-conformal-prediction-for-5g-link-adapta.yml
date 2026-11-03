@@ -1,0 +1,23 @@
+title: Adaptive Conformal Prediction for 5G Link Adaptation under Distribution Shift
+authors: Emanuele Minotti, Genghua Dong, George Koudouridis
+year: 2026
+abstract: >-
+  In 5G link adaptation a modulation and coding scheme (MCS) is chosen under a 10%
+  block-error-rate (BLER) constraint that channel non-stationarity undermines by breaking
+  exchangeability. We drive the significance level $\alpha_t$ from a Conformal Test Martingale
+  (CTM) used as a continuous control signal rather than a binary alarm: a windowed mixture
+  martingale tracks non-exchangeability online and a bounded sigmoidal law maps its wealth to
+  $\alpha_t$. On real traces this restores BLER validity, matches error-counting baselines
+  and—unlike them—returns to its nominal operating point once transient drift subsides.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v329/minotti26a.html
+labels:
+  - applications
+  - e-processes
+publications:
+  - name: COPA extended abstract
+    year: 2026
+    url: https://proceedings.mlr.press/v329/minotti26a.html
+first_date: '2026-08-30'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

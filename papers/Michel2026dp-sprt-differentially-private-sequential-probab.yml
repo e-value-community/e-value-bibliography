@@ -1,0 +1,36 @@
+title: 'DP-SPRT: Differentially Private Sequential Probability Ratio Tests'
+authors: Thomas Michel, Debabrota Basu, Emilie Kaufmann
+year: 2026
+arxiv: '2508.06377'
+abstract: >-
+  We revisit Wald's celebrated Sequential Probability Ratio Test for sequential tests of two
+  simple hypotheses, under privacy constraints. We propose DP-SPRT, a wrapper that can be
+  calibrated to achieve desired error probabilities and privacy constraints, addressing a
+  significant gap in previous work. DP-SPRT relies on a private mechanism that processes a
+  sequence of queries and stops after privately determining when the query results fall outside a
+  predefined interval. This OutsideInterval mechanism improves upon naive composition of existing
+  techniques like AboveThreshold, achieving a factor-of-2 privacy improvement and thus potentially
+  benefiting other continual monitoring procedures. We prove generic upper bounds on the error and
+  sample complexity of DP-SPRT that can accommodate various noise distributions based on the
+  practitioner's privacy needs. We exemplify them in two settings: Laplace noise (pure
+  Differential Privacy) and Gaussian noise (Rényi differential privacy). In the former setting, by
+  providing a lower bound on the sample complexity of any $\varepsilon$-DP test with prescribed
+  type I and type II errors, we show that DP-SPRT is near optimal when both errors are small and
+  the two hypotheses are close. Moreover, we conduct an experimental study revealing its good
+  practical performance.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2508.06377v2
+labels:
+  - methodology
+  - e-processes
+publications:
+  - name: International Conference on Artificial Intelligence and Statistics
+    year: 2026
+    url: https://proceedings.mlr.press/v300/michel26a.html
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2508.06377
+    arxiv: '2508.06377'
+first_date: '2025-08-08'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

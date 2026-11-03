@@ -1,0 +1,28 @@
+title: Anytime Valid Confidence Bands for Distribution Functions
+authors: Bror Hultberg, Dave Zachariah, Antônio H. Ribeiro
+year: 2026
+arxiv: '2610.36149'
+abstract: >-
+  Nonparametric inference often requires characterizing an unknown function, such as a cumulative
+  distribution function (CDF), across its entire domain rather than a specific point. We develop
+  confidence bands for distribution functions of a data stream that are valid simultaneously over
+  all times and all points, even when each observation may depend arbitrarily on the past. We
+  begin by deriving such bands for the time-averaged conditional CDF and show how their widths are
+  determined by the depth of a binary search tree. We then show that this result is an instance of
+  a framework through which one can construct valid confidence bands uniformly over time and over
+  an arbitrary index set for any indexed family of time-averaged distribution functions. We
+  illustrate the framework on importance-weighted and right-censored CDFs, as well as multivariate
+  CDFs.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.36149v1
+labels:
+  - methodology
+  - confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.36149
+    arxiv: '2610.36149'
+first_date: '2026-10-26'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

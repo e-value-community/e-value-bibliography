@@ -1,0 +1,32 @@
+title: Beyond First-order Asymptotics in Sequential Mean Testing
+authors: Vikas Deep, Shubhada Agrawal
+year: 2026
+arxiv: '2606.04520'
+abstract: >-
+  We revisit the problem of sequentially testing the mean of bounded distributions in a level-$α$
+  power-one framework. We study a $\mathrm{KL_{inf}}$-based sequential test that is known to
+  attain the information-theoretic lower bound on the expected stopping time with exact constants
+  as $α\to 0$. Going beyond first-order asymptotics, we establish a central limit theorem (CLT)
+  for the stopping time of this test. Our analysis proceeds in two steps. First, we prove a novel
+  CLT for the $\mathrm{KL_{inf}}$ statistic itself, characterizing its fluctuations around its
+  deterministic limit. We then leverage this result to show that the stopping time, centered
+  appropriately and scaled by $\sqrt{\log(1/α)}$, converges in distribution to a Gaussian limit
+  with an explicit variance. This yields a second-order characterization of an asymptotically
+  optimal sequential test for bounded distributions. Finally, we present numerical experiments
+  that corroborate our theoretical findings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.04520v2
+labels:
+  - theory
+  - e-processes
+publications:
+  - name: International Conference on Machine Learning
+    year: 2026
+    url: https://proceedings.mlr.press/v306/deep26a.html
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.04520
+    arxiv: '2606.04520'
+first_date: '2026-06-03'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

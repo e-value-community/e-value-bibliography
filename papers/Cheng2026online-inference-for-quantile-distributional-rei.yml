@@ -1,0 +1,37 @@
+title: Online Inference for Quantile Distributional Reinforcement Learning
+authors: Zijie Cheng, Yang Peng, Zhihua Zhang
+year: 2026
+arxiv: '2608.12973'
+abstract: >-
+  In this paper, we study online statistical inference for quantile-based distributional policy
+  evaluation, which aims to characterize the distribution of discounted cumulative rewards under a
+  given policy. To obtain a finite-dimensional representation of the return distribution, we
+  consider the fixed point $\bmη_m$ of the quantile-projected distributional Bellman equation,
+  parameterized by the quantile vector $\bmθ_m$. We develop two online inference procedures for
+  $\bmθ_m$, covering synchronous and asynchronous sampling from a generative model as well as
+  Markovian data. The first method uses the trajectory of quantile temporal-difference learning
+  (QTD). We establish functional central limit theorems for the partial sums of QTD iterates and
+  construct a recursively computable random-scaling statistic. The resulting confidence intervals
+  have asymptotically exact coverage at deterministic horizons, with length of order $T^{-1/2}$ in
+  probability. The second method constructs anytime-valid confidence intervals directly from
+  samples. Exploiting the monotonicity of the quantile Bellman map, we develop a computationally
+  explicit coordinate-shaving algorithm with finite-sample simultaneous coverage. Under positive
+  limiting state-visit frequencies, the resulting confidence intervals have lengths of order
+  $\sqrt{\log\log T/T}$, which we establish as classwise optimal through a matching lower bound.
+  Together, these results provide complementary guarantees for online inference in quantile
+  distributional reinforcement learning, combining asymptotically exact fixed-horizon inference
+  with finite-sample anytime validity.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.12973v3
+labels:
+  - applications
+  - confidence sequences
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.12973
+    arxiv: '2608.12973'
+first_date: '2026-08-13'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

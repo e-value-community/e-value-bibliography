@@ -1,0 +1,42 @@
+title: 'Design-Based Confidence Sequences: A General Approach to Risk Mitigation in Panel Experiments'
+authors: Dae Woong Ham, Michael Lindon, Martin Tingley, Iavor Bojinov
+year: 2026
+doi: 10.1287/mnsc.2024.08235
+arxiv: '2210.08639'
+abstract: >-
+  Randomized experiments have become the standard method for companies to evaluate the performance
+  of new products or services. Beyond aiding managerial decision-making, experiments mitigate risk
+  by limiting the proportion of customers exposed to innovations. Since many experiments are
+  conducted sequentially over time, an emerging strategy to further derisk the process is to allow
+  managers to ``peek'' at the results as new data become available and stop the test if the
+  results are statistically significant. The class of statistical methods that allow managers to
+  peek and still provide valid inference are often called anytime-valid since they maintain proper
+  uniform type-1 error guarantees. In this paper, we extend existing anytime-valid approaches to
+  accommodate the more complex yet standard settings in time series, switchback, and panel
+  experiments. To achieve this, we leverage the design-based approach to focus on assumption-light
+  and managerial relevant finite-sample estimands defined on the study participants as a direct
+  measure of the risks incurred by companies. As a special case, our (asymptotic) results also
+  provide a robust method for achieving always-valid inference in A/B tests. We further provide a
+  variance reduction technique incorporating modeling assumptions and covariates. Finally, we
+  demonstrate the effectiveness of our proposed approach through a simulation study and three
+  real-world applications from Netflix. Our results show that using our confidence sequence,
+  harmful experiments could be stopped after only observing a handful of units; for instance, our
+  method would have stopped a 30,000 person Netflix experiment after the first 100 people.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2210.08639v4
+labels:
+  - methodology
+  - applications
+  - confidence sequences
+publications:
+  - name: Management Science
+    year: 2026
+    url: https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08235
+    doi: 10.1287/mnsc.2024.08235
+  - name: arXiv
+    year: 2022
+    url: https://arxiv.org/abs/2210.08639
+    arxiv: '2210.08639'
+first_date: '2022-10-16'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'

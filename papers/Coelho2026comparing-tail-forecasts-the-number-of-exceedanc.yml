@@ -1,0 +1,35 @@
+title: 'Comparing tail forecasts: the number of exceedances is the sample size'
+authors: Raphael Coelho
+year: 2026
+arxiv: '2610.40366'
+abstract: >-
+  When two forecasts of a tail, such as prediction intervals at high coverage, extreme quantiles
+  or expected shortfall (ES), are compared by a consistent score, the score difference is known in
+  advance except on the days on which the outcome falls beyond a forecast. The number of these
+  exceedances, not the number of observations, is the effective sample size. For intervals at
+  miscoverage level $α$, the number of observations a comparison needs grows like $1/α$ while the
+  number of exceedances it needs does not, and for some pairs of forecasts no test can do better.
+  A confidence sequence that is valid at all times and needs no distributional assumption attains
+  this rate; Hoeffding-type procedures, calibrated by the range of the score difference, need
+  $1/α$ times more. When exceedances are scarce, the Diebold-Mariano test declares the less
+  conservative forecaster better with at least, asymptotically, the probability of observing no
+  exceedance, whichever forecaster is actually better; the usual small-sample corrections do not
+  remove this, while a bootstrap-t version largely does. For (value-at-risk, ES) forecasts, a less
+  conservative ES can be shown without assumptions to be worse on the days on which it is less
+  conservative, but never to be better without an assumption on the loss tail. In 250-day windows
+  of 97.5% forecasts for seven stock indices, 18.4% of significant Diebold-Mariano results
+  favouring the less conservative model contradict the ranking on the remaining days, against 6.9%
+  of those favouring the more conservative one.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.40366v1
+labels:
+  - applications
+  - confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.40366
+    arxiv: '2610.40366'
+first_date: '2026-10-29'
+database_added: '2026-11-03'
+database_updated: '2026-11-03'
