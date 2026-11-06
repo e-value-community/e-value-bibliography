@@ -1,0 +1,33 @@
+title: Optimal Certified Multiple Testing with E-values
+authors: Soumyabrata Bose, Jay Bartroff
+year: 2026
+arxiv: '2611.01333'
+abstract: >-
+  We study randomized multiple testing with e-values under arbitrary dependence and introduce a
+  conditional certification constraint: Given the observed evidence, each coordinate's expected
+  rejection certificate must not exceed its e-value. Existing randomized e-BH improvements satisfy
+  this constraint but have no established optimality guarantee. We prove that the maximum
+  conditional inclusion probability for hypothesis $i$, given e-values~$x$, is $1 \wedge (α/ K)
+  \sum_j \min(x_i, x_j)$, and construct one rule attaining these bounds simultaneously. The rule
+  uses a single independent uniform variable, rejects a prefix of the ordered e-values, and has a
+  unique conditional rejection-set law among rules attaining all the bounds. It therefore
+  maximizes every nonnegative weighted sum of inclusion probabilities, including expected true
+  discoveries under any truth configuration. Under a shared uniform draw, its rejection set
+  contains those of e-BH and U-eBH. The construction extends to BY-calibrated p-values, and
+  simulations under positive and negative dependence show power gains over existing randomized
+  procedures.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.01333v1
+labels:
+  - theory
+  - methodology
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.01333
+    arxiv: '2611.01333'
+first_date: '2026-10-31'
+database_added: '2026-11-05'
+database_updated: '2026-11-05'

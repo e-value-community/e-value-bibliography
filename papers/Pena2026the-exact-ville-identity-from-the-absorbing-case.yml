@@ -1,35 +1,38 @@
-title: >-
-  The Exact Ville Identity: From the Absorbing Case to the General Law with an Application to
-  E-Values
-authors: Victor H. de la Pena, Michael J. Klass
+title: The Exact Ville Identity with Applications to E-Values
+authors: >-
+  Victor H. de la Pena, Michael J. Klass, Victor K. de la Pena, Alexander Ly, Logan Neishloss,
+  Fangyuan Lin
 year: 2026
 arxiv: '2607.04620'
 abstract: >-
-  For a nonnegative supermartingale $(M_n)$ with $M_0=1$, let $T_b$ be the first time it reaches a
-  level $b>1$. Ville's inequality gives only the bound $\mathbb P(T_b<\infty)\le 1/b$. We prove
-  the exact identity $\mathbb P(T_b<\infty)=(1-D_b-R_b)/(b+O_b)$, where $O_b$ is the expected
-  overshoot at crossing, $D_b$ is the cumulative predictable supermartingale loss before crossing,
-  and $R_b=\lim_n\mathbb E[M_n{\bf 1}\{T_b>n\}]$ is the residual mass carried by paths that never
-  cross. Thus the slack in Ville's inequality is decomposed completely into overshoot, loss, and
-  survival. The proof is given first in the absorbing case, where non-crossing paths decay to zero
-  and $R_b=0$, and then in full generality using a conservation identity for stopped martingales
-  at extended-valued stopping times. The formula yields Ville's inequality as a corollary, gives a
-  sharp tightness criterion, and is worked out in examples including double-or-absorb processes,
-  multiplicative decay, gambler's ruin, likelihood-ratio martingales, and a bounded martingale
-  with $R_b>0$. Finally, with $b=1/α$, the same identity gives the exact type-I error of a
-  sequential e-value test and identifies when threshold recalibration can safely recover unused
-  significance.
+  Let $M_n$ be a nonnegative supermartingale with $M_0=1$, and let $T_b$ be the first time $M_n$
+  crosses $b>1$. Ville's inequality gives $P(T_b<\infty)\leq 1/b$. We show that, at every finite
+  time horizon $N$, $$ 1=bP(T_b\leq N)+V_{b,N}+D_{b,N}+R_{b,N}, $$ where $V_{b,N}$ is the expected
+  overshoot at crossing, $D_{b,N}$ is the cumulative predictable decrease before crossing, and
+  $R_{b,N}$ is the expected value of paths that up to the time horizon $N$ remained below the
+  boundary $b$. The identity follows from telescoping and can be made horizon free without
+  additional integrability assumption. It gives a formula for the slack in Ville's inequality and
+  thus the conservatism of the threshold test $M_n\geq b$. For likelihood ratio martingales, the
+  same terms also describe power: $R_{b,N}$ is the probability, under the alternative, of not
+  crossing by $N$, whereas $bP(T_b\leq N)+V_{b,N}$ is the power. The identity also allows us to
+  verify horizon-free guarantees from a finite computation: $P(T_b<\infty)$ lies between
+  $P(T_b\leq N)$ and $P(T_b\leq N)+R_{b,N}/b$, so a proposed threshold test $M_n\geq b_α$ can be
+  shown to be of level $α\in(0,1)$ for every time horizon based on computations at the single
+  horizon $N$. We illustrate how Ville's identity yields sharper thresholds for Bernoulli and
+  exponential likelihood-ratio tests, and for a conformal test of exchangeability, demonstrating
+  Monte Carlo calibration under a composite, nonparametric null. Lastly, we also establish a
+  continuous-time analogue of Ville's identity.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2607.04620
+abstract_source: https://arxiv.org/abs/2607.04620v2
 labels:
-- methodology
-- theory
-- e-values
-- probability theory
+  - methodology
+  - theory
+  - e-values
+  - probability theory
 publications:
   - name: arXiv
     year: 2026
     url: https://arxiv.org/abs/2607.04620
     arxiv: '2607.04620'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-05'

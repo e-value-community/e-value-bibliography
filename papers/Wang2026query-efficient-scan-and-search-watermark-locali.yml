@@ -1,0 +1,35 @@
+title: Query-efficient scan-and-search watermark localization
+authors: Liyuan Wang, Xinsong Ma, Ziye Ma
+year: 2026
+arxiv: '2611.02030'
+abstract: >-
+  Recently, the detection of AI-generated content has been of particular importance in various
+  fields of our society. For accountability purposes, many large language models (LLMs) have
+  implicitly watermarked their outputs. Localizing such watermarks requires a piece of text to
+  undergo an additional verification process. Existing localization methods typically rely on
+  dense token-level scoring, making verification costly even when an LLM-generated watermark only
+  sparsely appears. To tackle this problem, we design a new adaptive allocation strategy that
+  first maintains broad document coverage and then progressively concentrates the detection budget
+  on regions that exhibit stronger watermark evidence or are more likely to contain watermarked
+  content. We then transform the statistical signals from the selected regions into e-values and
+  employ the proposed token-weighted e-BH procedure to determine the localized watermark regions.
+  The resulting framework is called BELL (Budgeted E-evidence Localization for LLM Watermarks).
+  Theoretically, BELL can control the token-weighted false discovery rate (FDR) without
+  independence assumptions across regions. Finally, extensive experimental results demonstrate
+  that BELL consistently outperforms competing methods across multiple LLMs, datasets, and
+  watermarking schemes.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.02030v2
+labels:
+  - methodology
+  - applications
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.02030
+    arxiv: '2611.02030'
+first_date: '2026-11-01'
+database_added: '2026-11-05'
+database_updated: '2026-11-05'

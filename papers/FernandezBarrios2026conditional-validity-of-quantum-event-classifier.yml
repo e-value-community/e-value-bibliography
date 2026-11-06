@@ -1,33 +1,37 @@
-title: >-
-  Conditional validity of quantum event classifiers under collider systematics and quantum
-  estimation uncertainty
+title: Information and reference requirements for auditing collider classifiers
 authors: Roberto Fernández-Barrios, Iker Pastor-López, Asier González-Santocildes, Pablo García Bringas
 year: 2026
 arxiv: '2609.02781'
 abstract: >-
-  Claims about a deployed quantum machine-learning classifier can fail when target data shift or
-  when finite-shot quantum evaluation randomizes the model itself. We develop an
-  information-conditional, fail-closed auditing framework that returns supported, refuted or
-  unresolved verdicts with anytime-valid per-claim error control under a declared sampling
-  protocol. On a Higgs-to-tau-tau collider benchmark, stable classifier metrics do not guarantee
-  valid signal-strength inference: at the studied finite-template statistics, the fixed-template
-  profile can lose coverage, even in shift-free controls, when its templates are estimated
-  independently and template-statistical uncertainty is not modeled explicitly. Across 30 frozen
-  finite-shot quantum-kernel deployments, every realized Gram matrix is propagated through
-  refitting, calibration and threshold selection; in the primary raw pipeline these perturbations
-  leave ranking nearly unchanged yet move thresholded target metrics by about 0.02, flipping
-  ideal-anchored claims, and the diagonal-loading sensitivity decomposes differently. Matched
-  classical controls remove apparent quantum-specific nominal-performance and sensing effects. We
-  claim no quantum advantage.
+  Assertions about collider classifiers require observable evidence and a specified deployment
+  reference. We distinguish the classification threshold that selects events from the claim
+  threshold that defines acceptable performance. For fixed nominal-weighted ratio claims on a
+  frozen finite population, we apply established assorter reductions and bounded-mean confidence
+  sequences under independent sampling with replacement and a predeclared weight bound. The
+  anytime-valid error control is per claim, not automatically simultaneous across claims, and is
+  not a new statistical guarantee. In 19,680 archived paired audit-stream comparisons, changing
+  unweighted correctness and its source reference to nominal-weighted accuracy and its own
+  reference changed 536 supported verdicts to unresolved and 226 in the reverse direction. Scores,
+  labels, weights and exact ratios were available before these simulated audits; their stopping
+  times demonstrate no operational acquisition saving. A post hoc analysis of 30 finite-shot
+  quantum-kernel realizations, with paired RAW and diagonal-loading treatments, describes
+  sensitivity to operating rules, ideal versus realized references, and fixed versus recomposed
+  margin groups. Verdict differences are not auditor error rates, and no quantum-specific
+  mechanism or quantum advantage is established. A CMS open-data example supports restricted
+  aggregate statements while event-level accuracy remains unidentified. This substantial revision
+  withdraws the previous physical-interval coverage conclusions following numerical-validation
+  problems; the available reevaluation does not reestablish them. The retained contribution is
+  mathematical exposition and descriptive evidence, without methodological-priority or calibrated
+  physical-inference claims.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2609.02781
+abstract_source: https://arxiv.org/abs/2609.02781v2
 labels:
-- applications
-- confidence sequences
+  - applications
+  - confidence sequences
 publications:
   - name: arXiv
     year: 2026
     url: https://arxiv.org/abs/2609.02781
     arxiv: '2609.02781'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-05'

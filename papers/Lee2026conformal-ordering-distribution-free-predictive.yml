@@ -1,0 +1,33 @@
+title: 'Conformal ordering: Distribution-free predictive inference for orders and ranks'
+authors: Yonghoon Lee, Zhimei Ren
+year: 2026
+arxiv: '2610.40340'
+abstract: >-
+  We study distribution-free predictive inference for the ordering and ranking of multiple
+  unobserved outcomes. Although numerous methods, such as conformal prediction, have been
+  developed for prediction and predictive inference of unobserved outcomes, extending them to
+  provide inference for the ordering of multiple outcomes with an interpretable guarantee is not
+  straightforward. To this end, we develop a framework and methodology for uncertainty
+  quantification in predictive ordering. Our approach begins by reformulating the problem of
+  determining an ordering among multiple objects as a graph inference problem. Our method adopts a
+  multiple-testing-inspired approach and constructs an uncertainty graph, where each edge
+  represents a confidently inferred pairwise ordering. We develop a distribution-free procedure
+  for constructing a consistent uncertainty graph while controlling either the family-wise error
+  rate or the false discovery rate. Moreover, we show that the resulting graphs naturally yield
+  risk-controlling prediction intervals for the ranks of the outcomes. Empirical results
+  demonstrate that the proposed procedure achieves the target guarantees tightly while maintaining
+  reasonable power and prediction-interval widths.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.40340v2
+labels:
+  - methodology
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.40340
+    arxiv: '2610.40340'
+first_date: '2026-10-29'
+database_added: '2026-11-05'
+database_updated: '2026-11-05'

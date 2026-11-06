@@ -1,0 +1,35 @@
+title: Moment-Orthogonal Quadratic-Envelope E-Processes for Anytime-Valid Location Inference
+authors: Serhii Zabolotnii
+year: 2026
+arxiv: '2611.01637'
+abstract: >-
+  E-process confidence sequences for unbounded means typically use a variance bound and a
+  first-order score, leaving skewness and kurtosis unused. We construct a quadratic-envelope
+  e-process from a conditionally centered vector score with a predictable second-moment bound.
+  Under moment information specified independently of the tested stream, it stays positive on
+  unbounded support and gives exact anytime-valid coverage under predictable strategies and fixed
+  mixtures, without score clipping. For a location family with known central moments through order
+  four, the centered observation and its centered square yield an exact confidence sequence whose
+  local width shrinks, relative to a first-order construction, by a factor determined by skewness
+  and kurtosis. At level 5%, the largest null ever-crossing rate was 4.63%; on two
+  zero-inflated-lognormal families median stopping times fell by 36.8-45.8%. When the moments are
+  calibrated on an independent reference sample, a centering-robust factor keeps exact coverage at
+  a closed-form width cost: the median gain was 21.6-30.3% for Gamma(2) and lognormal errors with
+  10^6 reference observations, and a loss of up to 9.9% with 10^4. On public Fermi gamma-ray
+  detector data with a declared stability margin, it crossed at the current location in 1.8% of
+  225 windows and stopped 30-35% earlier than the calibrated first-order method.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.01637v1
+labels:
+  - theory
+  - methodology
+  - e-processes
+  - confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.01637
+    arxiv: '2611.01637'
+first_date: '2026-11-01'
+database_added: '2026-11-05'
+database_updated: '2026-11-05'

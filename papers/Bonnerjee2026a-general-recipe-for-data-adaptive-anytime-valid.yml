@@ -4,31 +4,31 @@ year: 2026
 arxiv: '2610.23570'
 abstract: >-
   Most convergence guarantees for iterative stochastic algorithms are stated at a fixed iteration
-  count and do not justify stopping at a data-dependent time. Recent work has constructed
-  anytime-valid envelopes that do, but deterministic envelopes are typically too conservative for
-  practical stopping, and existing data-adaptive ones are derived case-by-case, each coupling a
-  specific algorithm to a specific noise model and boundary construction. This paper provides a
-  general recipe for constructing such anytime-valid data-adaptive boundaries for a large class of
-  iterative algorithms. Performance measures of many of these algorithms satisfy a one-step
-  recursion that reduces the entire error analysis to a single general requirement: time-uniform
-  concentration for predictably weighted sums of noise. We formalize this through a strongly
-  adapted sub-$ψ$ condition, and derive off-the-shelf boundary constructions via continuous and
-  discrete mixtures, stitching, and product betting martingales. We show how these boundaries can
-  be directly coupled with a separate algorithmic analysis that derives the one-step recursion to
-  provide a class of readymade anytime-valid envelopes across diverse settings including
-  stochastic gradient descent (SGD), temporal difference learning, and Bures-Wasserstein SGD. In
-  particular, for SGD, our framework either recovers or significantly sharpens every existing
-  envelope we are aware of. Our constructions come with explicit implementation details and are
-  substantiated by numerical experiments.
+  count and do not justify stopping at a data-dependent time. Recent anytime-valid envelopes do,
+  but deterministic ones are typically too conservative for practical stopping, and existing
+  data-adaptive ones are derived case-by-case, each concerned with a specific algorithm and a
+  specific noise model and boundary construction. This paper provides a general recipe for sharp,
+  data-adaptive anytime-valid envelopes for a large class of iterative algorithms. Our approach
+  has two key steps: an optimization module derives a one-step recursion that performance measures
+  of many such algorithms satisfy, reducing the error analysis to time-uniform concentration for
+  predictably weighted sums of noise. Then, a statistical module ports the sub-$ψ$ condition to
+  vector-valued processes, uniformly over predictable weights, and derives off-the-shelf
+  boundaries via mixtures, stitching, and product betting martingales. Combining the two yields
+  readymade envelopes for many iterative algoithms including but not limited to stochastic
+  gradient descent (SGD), Oja's algorithm, temporal difference learning, Q-learning, and
+  Bures-Wasserstein SGD, many with no prior data-adaptive anytime-valid guarantees. Specifically,
+  for SGD, our framework recovers, often under weaker conditions, or significantly sharpens every
+  existing envelope we are aware of. Our constructions come with explicit implementation details
+  and are substantiated by numerical experiments.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2610.23570
+abstract_source: https://arxiv.org/abs/2610.23570v2
 labels:
-- methodology
-- confidence sequences
+  - methodology
+  - confidence sequences
 publications:
   - name: arXiv
     year: 2026
     url: https://arxiv.org/abs/2610.23570
     arxiv: '2610.23570'
 database_added: '2026-10-20'
-database_updated: '2026-10-22'
+database_updated: '2026-11-05'

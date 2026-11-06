@@ -1,0 +1,42 @@
+title: >-
+  Variance-adaptive Chernoff bounds: nonasymptotically valid, asymptotically sharp confidence sets
+  for unbounded means
+authors: Aaditya Ramdas, Diego Martinez-Taboada
+year: 2026
+arxiv: '2610.42058'
+abstract: >-
+  Consider the classical statistical problem of sub-Gaussian mean estimation under martingale
+  dependence: given $n$ observations with conditional mean $μ$ and a known conditional
+  sub-Gaussian proxy $s>0$, we seek a nonasymptotically valid confidence interval for $μ$. The
+  usual Chernoff interval has half-width $s\sqrt{2\log(2/α)/n}$; it neither adapts to the actual
+  standard deviation $σ\le s$ nor attains the Gaussian quantile $z_{1-α/2}$. We construct an
+  analytically closed-form nonasymptotically-valid interval under martingale dependence whose
+  endpoints, at every iid law with $σ> 0$, agree almost surely to first order with $\bar
+  X_n\pmσz_{1-α/2}/\sqrt n$. The two new building blocks are a sub-Gaussian exponential
+  supermartingale with an \emph{empirical} quadratic variance and a cubic correction term, and a
+  sub-Gaussian continuation supermartingale, the former delivering variance adaptivity
+  ("Empirical-Bernstein'' for unbounded data), the latter also providing the Gaussian quantile
+  ("Empirical-Berry-Esseen'' for unbounded data). The same constructions yield a closed-form
+  time-uniform confidence sequence with asymptotically unimprovable half-width $σ\sqrt{2\log\log
+  n/n}$. We also give closed-form multivariate ellipsoids with the true-covariance chi-square
+  limit, and extend the scalar Gaussian and LIL constructions to handle heavy-tailed settings
+  where one only knows a bound on any absolute central moment of order greater than two.
+  Experiments show substantial width reductions when the true variance is smaller than the implied
+  variance bound, at small loss in the boundary cases. The surprising (to us) takeaway message is:
+  given any more than two moments, one can construct fully data dependent nonasymptotic confidence
+  sets for the mean that are asymptotically efficient.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.42058v1
+labels:
+  - theory
+  - methodology
+  - e-processes
+  - confidence sequences
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.42058
+    arxiv: '2610.42058'
+first_date: '2026-10-30'
+database_added: '2026-11-05'
+database_updated: '2026-11-05'

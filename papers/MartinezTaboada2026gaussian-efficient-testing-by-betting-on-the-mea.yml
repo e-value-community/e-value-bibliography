@@ -17,17 +17,19 @@ abstract: >-
   large $n$, our deterministic version beats STaR-Bets and is competitive with Gaffke, while the
   randomized improvement beats both. It thus combines finite-sample validity under martingale
   dependence, easy endpoint computation, Gaussian-efficient inference for iid data, and excellent
-  empirical performance. We also extend the construction and its efficiency theory to sampling
+  empirical performance. We further combine GE-betting with a mixture of constant-fraction bets to
+  attain both Gaussian and large-deviation efficiency under iid sampling while retaining
+  martingale validity. We also extend the construction and its efficiency theory to sampling
   without replacement, where it again achieves state-of-the-art empirical performance.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2608.21694
+abstract_source: https://arxiv.org/abs/2608.21694v2
 labels:
-- methodology
-- e-values
+  - methodology
+  - e-values
 publications:
-- name: arXiv
-  year: 2026
-  url: https://arxiv.org/abs/2608.21694
-  arxiv: '2608.21694'
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.21694
+    arxiv: '2608.21694'
 database_added: '2026-10-20'
-database_updated: '2026-10-22'
+database_updated: '2026-11-05'
