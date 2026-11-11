@@ -3,24 +3,27 @@ authors: Eugenio Clerico
 year: 2026
 arxiv: '2606.06769'
 abstract: >-
-  We explicitly characterise the full class of e-processes for testing conditional non-parametric
-  hypotheses, defined by finitely many conditional constraints. Our main result is a
-  complete-class theorem: every e-process for such a hypothesis is point-wise dominated by a
-  predictable product of affine one-step e-variables. Therefore, for a broad class of conditional
-  testing problems, arbitrary e-processes can be replaced without loss by test supermartingales.
-  This extends previous complete-class results from single-step constrained testing and bounded
+  We characterise e-processes for testing non-parametric hypotheses that require the
+  conditional mean of a finite-dimensional statistic to lie in a prescribed convex set. Our
+  main result is a complete-class theorem: every such e-process is pointwise dominated by a
+  predictable product of affine one-step e-variables. Consequently, restricting to test
+  supermartingales entails no loss: at any rejection threshold, the dominating process rejects
+  no later on any observation path. We further show that a minimal complete class exists and
+  consists of predictable products of maximal affine one-step e-variables. These results extend
+  previous complete-class results from single-step constrained testing and bounded
   one-dimensional conditional mean testing to a broader conditional sequential setting.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2606.06769
+abstract_source: https://arxiv.org/abs/2606.06769v2
 labels:
-- methodology
-- e-values
-- e-processes
-- probability theory
+  - methodology
+  - e-values
+  - e-processes
+  - probability theory
+  - theory
 publications:
-- name: arXiv
-  year: 2026
-  url: https://arxiv.org/abs/2606.06769
-  arxiv: '2606.06769'
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.06769v2
+    arxiv: '2606.06769'
 database_added: '2026-10-20'
-database_updated: '2026-10-22'
+database_updated: '2026-11-10'

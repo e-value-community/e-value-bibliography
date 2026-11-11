@@ -1,31 +1,29 @@
-title: Comparative e-backtests for general risk measures
+title: Comparative e-backtesting
 authors: Zhanyi Jiao, Qiuqi Wang, Yimiao Zhao
 year: 2025
 arxiv: '2511.05840'
 abstract: >-
-  Backtesting risk measures is a central task in financial regulation. While standard backtests
-  evaluate whether a forecasting model is statistically consistent with observed losses,
-  regulatory practice often requires assessing the performance of an internal model relative to
-  benchmark models. We develop a non-parametric sequential framework for comparative backtests of
-  general elicitable risk measures using e-values and e-processes. The proposed methods provide
-  anytime-valid inference and remain robust under dependence and model misspecification. In
-  particular, we propose a modified three-zone approach based on weak dominance, which yields more
-  informative conclusions in comparative backtesting. As a technical building block, we also
-  construct general standard e-backtests for identifiable risk measures and characterize the
-  associated e-values and e-processes. The resulting procedures apply to a broad class of commonly
-  used risk measures, including the mean, variance, Value-at-Risk, Expected Shortfall, and
-  expectiles. Simulation studies and empirical analyses illustrate the effectiveness of the
-  proposed approach.
+  Backtesting risk measures is a central task in financial regulation. While traditional
+  backtests evaluate whether a forecasting model is statistically consistent with observed
+  losses, regulatory practice often requires assessing the performance of an internal model
+  relative to standard models. In this paper, we develop a parametric anytime-valid framework
+  for comparative backtests of general risk measures using e-values and e-processes. We
+  construct likelihood-based e-processes for comparative e-backtests with validity and power
+  guarantees. As practical guidelines, we propose the e-three-zone approach based on weak
+  dominance, and introduce the overall and resetting test schemes for different practical
+  purposes. Simulation studies and empirical analyses are conducted to show practical
+  manipulations in financial regulation.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2511.05840
+abstract_source: https://arxiv.org/abs/2511.05840v3
 labels:
-- applications
-- e-values
-- e-processes
+  - applications
+  - e-values
+  - e-processes
+  - methodology
 publications:
-- name: arXiv
-  year: 2025
-  url: https://arxiv.org/abs/2511.05840
-  arxiv: '2511.05840'
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2511.05840v3
+    arxiv: '2511.05840'
 database_added: '2026-10-20'
-database_updated: '2026-10-20'
+database_updated: '2026-11-10'
