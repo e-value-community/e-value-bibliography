@@ -1,0 +1,34 @@
+title: Sequential anomaly identification with sampling constraints for composite hypotheses
+authors: Aristomenis Tsopelakos, Georgios Fellouris, Olgica Milenkovic
+year: 2026
+arxiv: '2611.10921'
+abstract: >-
+  We consider the problem of sequential anomaly identification with sampling constraints, where
+  multiple independent data sources are observed over time, but only a limited subset can be
+  sampled at each instant. The objective is to identify the anomalous sources while controlling
+  the probabilities of at least one false alarm and at least one missed detection below
+  prescribed levels. An identification policy must jointly determine when to stop sampling,
+  which sources to declare anomalous, and how to allocate observations across sources under the
+  sampling constraints. We seek policies that minimize the expected time to decision to a
+  first-order asymptotic approximation as the error probabilities vanish. The observations from
+  each source follow an unknown density belonging to one of two disjoint sets, corresponding to
+  regular and anomalous behavior. Focusing on a nonparametric framework, which allows greater
+  flexibility in modeling regular and anomalous statistical behavior, we establish general
+  conditions for asymptotic optimality and provide a unified characterization of asymptotically
+  optimal policies for composite hypothesis testing under sampling constraints. Simulation
+  results illustrate the performance of the proposed policies, and the robustness of the
+  nonparametric framework.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.10921v1
+labels:
+  - methodology
+  - e-processes
+  - sequential testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.10921v1
+    arxiv: '2611.10921'
+first_date: '2026-11-07'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

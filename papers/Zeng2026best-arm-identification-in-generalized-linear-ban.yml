@@ -1,0 +1,32 @@
+title: Best Arm Identification in Generalized Linear Bandits via Hybrid Feedback
+authors: Qirun Zeng, Xuchuang Wang, Jiayi Shen, Xutong Liu, Fang Kong, Jinhang Zuo
+year: 2026
+arxiv: '2605.05745'
+abstract: >-
+  We study fixed-confidence best arm identification in generalized linear bandits under a
+  hybrid feedback model: at each round, the learner may query either (i) absolute reward
+  feedback from a single arm or (ii) relative (dueling) feedback from an arm pair, both
+  governed by generalized linear models. We introduce a likelihood-ratio--based confidence
+  sequence that unifies heterogeneous generalized linear observations and yields an explicit
+  ellipsoidal confidence set under a self-concordance assumption. Building on this confidence
+  set, we propose a hybrid Track-and-Stop algorithm that adaptively allocates queries by
+  tracking a minimax-optimal design over a joint action space of arms and pairs. We establish
+  $\delta$-correctness and provide almost-sure asymptotic upper bounds on the stopping time. We
+  further extend the framework to a cost-aware setting that accounts for heterogeneous
+  acquisition costs across feedback modalities. Empirical experiments demonstrate that the
+  proposed algorithms significantly improve sample efficiency over baseline methods.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2605.05745v2
+labels:
+  - methodology
+  - confidence sequences
+  - sequential testing
+  - online learning
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2605.05745v2
+    arxiv: '2605.05745'
+first_date: '2026-05-07'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

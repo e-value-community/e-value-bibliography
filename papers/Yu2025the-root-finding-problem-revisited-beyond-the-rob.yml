@@ -1,0 +1,37 @@
+title: 'The Root Finding Problem Revisited: Beyond the Robbins-Monro procedure'
+authors: Yue Yu, Moulinath Banerjee, Ya'acov Ritov
+year: 2025
+arxiv: '2508.17591'
+abstract: >-
+  We study the sequential root-finding problem with repeated noisy measurements. We propose
+  sequential-test bisection STB, which uses a nonparametric sequential sign test to determine
+  when to move to a new design point. Compared with variants of stochastic approximation, STB
+  offers broader adaptivity and faster convergence. When the regression function satisfies
+  $|f(x)|\geq \textsf{c}_0|x-\theta|^\gamma$ in a neighborhood of $\theta$ for constants
+  $\textsf{c}_0,\gamma>0$ where $\theta$ is the root, i.e. $f(\theta) = 0$, we establish
+  non-asymptotic guarantees showing that STB, without using the knowledge of $\gamma$, achieves
+  the minimax adaptive optimal convergence rate $\widetilde{O}(n^{-1/(2\gamma)})$,
+  outperforming Robbins--Monro and related stochastic-approximation methods in convergence
+  rate. Under sub-Gaussian noise, STB provides finite-sample confidence sequences for the root
+  $\theta$ without estimating a derivative. In the positive-slope model, we augment STB with
+  {randomized weighted-section and a line fitted to all observations}, leading to asymptotic
+  normality and consistent variance estimation. We formalize the efficiency by a convolution
+  theorem of Hájek-Le Cam type. Furthermore, when the regression function is discontinuous at
+  the root, we show that Robbins--Monro converges at rate $1/n$, whereas STB converges
+  super-polynomially. We extend this construction to multivariate nonparametric level-set
+  estimation by sampling along rays. As a technical byproduct, we establish a new central limit
+  theorem under random stopping, with proof techniques that may be of independent interest.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2508.17591v2
+labels:
+  - methodology
+  - applications
+  - confidence sequences
+publications:
+  - name: arXiv
+    year: 2025
+    url: https://arxiv.org/abs/2508.17591v2
+    arxiv: '2508.17591'
+first_date: '2025-08-25'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

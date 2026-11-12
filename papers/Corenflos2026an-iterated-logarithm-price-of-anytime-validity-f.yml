@@ -1,0 +1,31 @@
+title: An iterated-logarithm price of anytime validity for log-optimal e-processes
+authors: Adrien Corenflos
+year: 2026
+arxiv: '2611.11874'
+abstract: >-
+  Log-optimal e-variables at fixed horizons, also called numéraires, have been conjectured to
+  ``almost'' form an e-process for exponential-family null hypotheses. A related open question
+  is whether an e-process can attain the optimal e-power at every horizon up to a bounded loss.
+  Given a final horizon, we study the minimax regret of e-processes relative to the numéraires
+  at all times up to it. For the Gaussian location null and the composite alternative of
+  Gaussian distributions with a smaller variance and an unknown location, we show that the
+  minimax regret in the worst case over the location grows like the iterated logarithm of the
+  final horizon. A single e-process attains this rate at every horizon. This growth answers the
+  question negatively. It also refutes the conjecture if ``almost'' means a regret bounded
+  uniformly over horizons. For this Gaussian location problem, we thus exhibit the frontier
+  precisely: the minimax regret is bounded if and only if the alternatives have at least the
+  variance of the null.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.11874v1
+labels:
+  - theory
+  - e-processes
+  - e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.11874v1
+    arxiv: '2611.11874'
+first_date: '2026-11-09'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

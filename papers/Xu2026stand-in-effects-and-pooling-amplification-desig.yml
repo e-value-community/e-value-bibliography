@@ -5,38 +5,37 @@ authors: Bowen Xu, Boyu Chen, Jiaying Li
 year: 2026
 arxiv: '2611.01666'
 abstract: >-
-  Whether an action-conditioned world model uses actions is usually checked by replacing or
-  removing them and measuring lost accuracy. With biological experiments as the guiding case,
-  we show that such diagnostics report action effects where there are none: under
-  autocorrelated designs, future actions stand in for history the model does not see, and a
-  better model learns the stand-in better. When the design law is known, a conditional
-  randomization test written as an e-value is valid in finite samples whatever the model,
-  provided the resampler conditions on the full state the design used; resampling from a
-  simpler law reproduces the false effect. A second failure is specific to world models: when
-  many sites share one action sequence (cells in a microscope field, pixels in a frame), the
-  pooled score turns small model errors along the action contrast into overwhelming evidence
-  against a true effect. In a pixel world, its median log e-value fell from $-17.3$ to $-6832$
-  as frames grew from 64 to 4096 pixels, while the oracle's rose. Our preregistered analysis of
-  optogenetic ERK experiments failed this way; a tempered statistic, selected on synthetic data
-  and registered before the data were obtained, then rejected the null on a never-opened field
-  ($E\approx1.1\times10^{10}$). Tempering factors estimated from residuals can err by an order
-  of magnitude, whereas a mixture over a fixed grid of factors needs no estimate and loses at
-  most the logarithm of the grid size in log e-value relative to its best member. In a
-  registered test on a diffusion world model for three Atari games released by others, the
-  pooled test rejected in 0 of 96 units in which actions mattered and Kish and contrast
-  tempering in 0 and 1, while the mixture rejected in 96; under an exact null, eight statistics
-  made 0 rejections in 1,536 tests. Every analysis is preregistered, fixed in a dated protocol,
-  or labelled exploratory.
+  Action-conditioned world models are increasingly trained on data from randomized experiments,
+  and whether their predictions respond to actions is usually checked by replacing or removing
+  the actions and measuring the loss in accuracy. Taking biological experiments as the guiding
+  case, we show that such diagnostics report action effects where there are none: under
+  autocorrelated designs, future actions stand in for history the model does not see. When the
+  design law is known, a conditional randomization test written as an e-value is valid in
+  finite samples whatever the model, provided the resampler conditions on the full state the
+  design used. A second failure arises whenever many sites share one action sequence, as in
+  world models: the pooled score turns small model errors along the action contrast into
+  overwhelming evidence against a true effect. In a pixel world, its median log e-value fell
+  from -17.3 to -6832 as frames grew from 64 to 4096 pixels, while the oracle's rose. Tempering
+  the score changes the bet, not the validity. Our own preregistered analysis of optogenetic
+  ERK experiments failed in exactly this way; a tempered statistic, registered before the data
+  were obtained, then rejected the null on a never-opened field (E = 1.1e10). Every single
+  tempering factor we tried, estimated from residuals or tuned on validation data, collapsed in
+  some setting; mixtures over a fixed grid of factors never did. In registered tests on three
+  world-model families trained by others, the pooled test rejected in 0 of 96 units of a
+  diffusion model in which actions mattered, and reached the registered power bar in 10 of 26
+  Atari games under IRIS's own token likelihood and 1 of 6 control tasks under TD-MPC2;
+  mixtures fixed in advance reached it in all 96 units, 24 of 26 games and 6 of 6 tasks. Under
+  exact nulls the statistics made 4 rejections in 22,848 tests.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2611.01666v2
+abstract_source: https://arxiv.org/abs/2611.01666v3
 labels:
   - applications
   - e-values
 publications:
   - name: arXiv
     year: 2026
-    url: https://arxiv.org/abs/2611.01666v2
+    url: https://arxiv.org/abs/2611.01666v3
     arxiv: '2611.01666'
 first_date: '2026-11-01'
 database_added: '2026-11-05'
-database_updated: '2026-11-10'
+database_updated: '2026-11-11'

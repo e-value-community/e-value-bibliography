@@ -1,0 +1,22 @@
+title: Optimal Best Arm Identification with Fixed Confidence
+authors: Aurélien Garivier, Emilie Kaufmann
+year: 2016
+abstract: >-
+  We give a complete characterization of the complexity of best-arm identification in
+  one-parameter bandit problems. We prove a new, tight lower bound on the sample complexity. We
+  propose the ‘Track-and-Stop’ strategy, which we prove to be asymptotically optimal. It
+  consists in a new sampling rule (which tracks the optimal proportions of arm draws
+  highlighted by the lower bound) and in a stopping rule named after Chernoff, for which we
+  give a new analysis.
+abstract_status: source_abstract
+abstract_source: https://proceedings.mlr.press/v49/garivier16a.html
+labels:
+  - applications
+  - e-processes
+  - online learning
+publications:
+  - name: Conference on Learning Theory
+    year: 2016
+    url: https://proceedings.mlr.press/v49/garivier16a.html
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

@@ -1,0 +1,36 @@
+title: 'You Don''t Need To Stay in The Loop: An Agentic Robotics Loop for Robot-Policy Improvement'
+authors: Hang Yu
+year: 2026
+arxiv: '2608.07555'
+abstract: >-
+  Coding agents close the software loop for training a robot policy without having a human in
+  the loop: a main agent manages the training, subagents analyze and execute, treat robot
+  policies and hardware as tools and do the work. We port this architecture to robot-policy
+  improvement, where one difference dominates the design: robotic tools such as trained
+  policies, training pipelines, and data collection fail routinely, so a tool's quality must be
+  measured, recorded at every call, and expired when the artifact behind it changes.
+  AgenticRobotics is a backend-independent control plane in which an LLM controller drives
+  disposable workers through durable train--evaluate--improve transactions: an immutable
+  objective, controller-owned measurement, commit-keyed crash recovery, an evidence-graded
+  skill library, and a tool registry with a standardized, recorded call surface. The title is
+  an operational claim, not a selection claim: the operator can leave because promotion is
+  evidence-gated, state is recoverable, and capability quality is derived from records, not
+  because the loop picks better checkpoints than a human. On the one lineage we measured, it
+  does not. The gates provide measured false-promotion control (0.001 false promotions per run
+  with the hardened margin, against 0.005--0.021 with the shipped rule), anytime-valid
+  decisions under optional stopping, zero lost or duplicate effects under kill injection, and a
+  signed verifier that caught six of six artifact-tampering classes.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2608.07555v2
+labels:
+  - applications
+  - e-processes
+  - sequential testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2608.07555v2
+    arxiv: '2608.07555'
+first_date: '2026-08-02'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'

@@ -1,0 +1,27 @@
+title: Probably Safe Sim-to-Real Transfer with Lifetime Validity
+authors: Rohan Tangri, Jan-Peter Calliess
+year: 2026
+arxiv: '2611.09344'
+abstract: >-
+  We present Dejavu, a method that makes sim-to-real transfer of reinforcement learning
+  policies in constrained Markov decision processes probably safe over an unbounded sequence of
+  policy updates. An anytime valid test using per-decision importance sampling and a betting
+  confidence sequence certifies each candidate trained in simulation before deployment using
+  only trajectories collected by a safe baseline policy operating in production. Simulation
+  quality does not affect the safety guarantee, only the production sample efficiency of the
+  method. Finally, a summable per-test failure probability yields the lifetime valid property.
+  Empirical results across three sim-to-real benchmarks support the theoretical work.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.09344v1
+labels:
+  - applications
+  - confidence sequences
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.09344v1
+    arxiv: '2611.09344'
+first_date: '2026-11-06'
+database_added: '2026-11-11'
+database_updated: '2026-11-11'
