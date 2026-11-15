@@ -1,0 +1,33 @@
+title: Power-Optimal Risk Control via Standardized Margin Calibration
+authors: Ruinan Wang, Tian Bai, Yueming Shen, Xiang Yu, Ying Yang, Archer Yi Yang
+year: 2026
+arxiv: '2611.00480'
+abstract: >-
+  Machine learning can screen far more candidates than can be experimentally validated,
+  creating a need for selection procedures that identify promising candidates while controlling
+  risk before costly experimental validation. We propose Uncertainty-Normalized Empirical
+  Calibration (UNEC), a p-value-free framework that ranks candidates by uncertainty-normalized
+  predictive margins and directly calibrates a selection cutoff using held-out losses. UNEC
+  supports flexible prediction models, general bounded losses, and diverse selection targets.
+  We study marginal discovery risk (MDR) and selective discovery risk (SDR), with SDR reducing
+  to the false discovery rate under binary loss. We establish finite-sample MDR control for an
+  adjusted rule and asymptotic SDR control with explicit limiting risk and power. Under a
+  location--scale model with a common one-sided binary target, we further show that UNEC
+  asymptotically attains the oracle power benchmark among observation-wise selection rules.
+  Simulations and molecular screening applications in solubility, toxicity, and lipophilicity
+  demonstrate favorable risk--power trade-offs and substantial computational gains across
+  binary and graded-loss settings.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.00480v1
+labels:
+  - applications
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.00480v1
+    arxiv: '2611.00480'
+first_date: '2026-10-31'
+database_added: '2026-11-15'
+database_updated: '2026-11-15'

@@ -1,0 +1,37 @@
+title: No prior over nuisance parameters is required for credible intervals and Bayes factors
+authors: Tim Ritmeester
+year: 2026
+arxiv: '2601.17621'
+abstract: >-
+  This work shows that there are procedures that maintain the subjective Bayesian property of
+  coherently informing decision making under uncertainty (i.e., if they tell you to take a
+  certain bet, you should) without needing to assign a prior distribution over nuisance
+  parameters, only over the parameter(s) of interest. We first carefully define this sense of
+  'credibility', and show that within this framework one can condition on any statistic of
+  choice rather than only on the full dataset. This relaxation of credibility is a natural
+  middle ground between Bayesian and frequentist statistics in the following sense: To a p%
+  Bayesian credible set we should assign a p% belief after observing both the dataset and the
+  interval, to p% frequentist sets we can generally only assign a p% belief before observing
+  either the data or the interval, while to the statistical sets proposed here we can assign a
+  p% belief after observing the set, but not necessarily after inspecting the full dataset
+  ourselves. We then show that choosing a conditioning statistic whose distribution we know, or
+  can bound, for each value of the parameter of interest leads to prior-free Bayes factors even
+  for composite hypotheses, and to non-parametric credible sets with priors only over the
+  parameter of interest. We derive such procedures for several (groups of) statistical
+  problems. Particularly noteworthy is that any frequentist test gives a Bayes factor of the
+  power over the size of the test, and that anytime-validity of E-process-based tests can be
+  carried over to this Bayes factor.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2601.17621v4
+labels:
+  - methodology
+  - e-values
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2601.17621v4
+    arxiv: '2601.17621'
+first_date: '2026-01-24'
+database_added: '2026-11-15'
+database_updated: '2026-11-15'
