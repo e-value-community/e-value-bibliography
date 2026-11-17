@@ -1,0 +1,34 @@
+title: What Was That Again? Certified Robustness for Automatic Speech Recognition
+authors: Andrew C. Cullen, Neil G. Marchant, Jiani Xie, Paul Montague, Benjamin I. P. Rubinstein
+year: 2026
+arxiv: '2606.27698'
+abstract: >-
+  Automatic Speech Recognition systems are notoriously both sensitive to adversarial and benign
+  perturbations. While this has been repeatedly demonstrated using reference datasets,
+  detecting such behaviors in deployed systems is incredibly challenging, due to the absence of
+  oracle knowledge of the true transcription. We demonstrate that employing a
+  certification-inspired mechanism can significantly decrease WER, increase recall, and
+  decrease the Spearman correlation between confidence and WER. We achieve this through a
+  dual-gate diagnostic pipeline: a Two-Sided Atomic Audit that accumulates statistical wealth
+  to certify both token existence and adversarial exclusion, and a Rank-Based Tournament that
+  selects the winning sequence. Our evaluations across four diverse architectures demonstrate
+  up to a 55% relative reduction in Word Error Rate, while also providing granular word- and
+  sentence-level certifications to enhance acoustic security.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2606.27698v2
+labels:
+  - applications
+  - e-values
+  - e-processes
+  - confidence sequences
+publications:
+  - name: NeurIPS
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/148192
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2606.27698v2
+    arxiv: '2606.27698'
+first_date: '2026-06-26'
+database_added: '2026-11-16'
+database_updated: '2026-11-16'

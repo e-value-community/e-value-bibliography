@@ -23,10 +23,13 @@ labels:
   - sequential testing
   - online learning
 publications:
+  - name: NeurIPS
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/151037
   - name: arXiv
     year: 2026
     url: https://arxiv.org/abs/2605.05745v2
     arxiv: '2605.05745'
 first_date: '2026-05-07'
 database_added: '2026-11-11'
-database_updated: '2026-11-11'
+database_updated: '2026-11-16'

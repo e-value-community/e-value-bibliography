@@ -26,10 +26,13 @@ labels:
   - e-processes
   - online learning
 publications:
+  - name: NeurIPS
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/155229
   - name: arXiv
     year: 2026
     url: https://arxiv.org/abs/2611.15456v1
     arxiv: '2611.15456'
 first_date: '2026-11-11'
 database_added: '2026-11-15'
-database_updated: '2026-11-15'
+database_updated: '2026-11-16'

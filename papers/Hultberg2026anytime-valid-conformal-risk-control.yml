@@ -1,0 +1,33 @@
+title: Anytime-Valid Conformal Risk Control
+authors: Bror Hultberg, Dave Zachariah, Antônio H. Ribeiro
+year: 2026
+arxiv: '2602.04364'
+abstract: >-
+  Prediction sets provide a means of quantifying the uncertainty in predictive tasks. Using
+  held out calibration data, conformal prediction and risk control can produce prediction sets
+  that exhibit statistically valid error control in a computationally efficient manner.
+  However, in the standard formulations, the error is only controlled on average over many
+  possible calibration datasets of fixed size. In this paper, we extend the control to remain
+  valid with high probability over a cumulatively growing calibration dataset at any time
+  point. We derive such guarantees using quantile-based arguments and illustrate the
+  applicability of the proposed framework to settings involving distribution shift. We further
+  establish a matching lower bound and show that our guarantees are asymptotically tight.
+  Finally, we demonstrate the practical performance of our methods through both simulations and
+  real-world numerical examples.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2602.04364v1
+labels:
+  - methodology
+  - e-processes
+  - confidence sequences
+publications:
+  - name: NeurIPS
+    year: 2026
+    url: https://neurips.cc/virtual/2026/poster/154243
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2602.04364v1
+    arxiv: '2602.04364'
+first_date: '2026-02-04'
+database_added: '2026-11-16'
+database_updated: '2026-11-16'
