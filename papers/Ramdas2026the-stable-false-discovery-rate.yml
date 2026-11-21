@@ -1,0 +1,41 @@
+title: The stable false discovery rate
+authors: Aaditya Ramdas
+year: 2026
+arxiv: '2611.19585'
+abstract: >-
+  When a discovery depends on analysis choices, a list of selected hypotheses that controls the
+  false discovery rate (FDR) gives little indication of how easily the finding could change:
+  the selected set may be very sensitive to a variety of analyst choices, like the target FDR
+  level, which machine learning algorithms are used in the pipeline, the choice of test
+  statistics, and so on. We propose that scientists should measure and control a new metric
+  called the \emph{stable FDR} (sFDR), and give methods to control it, including simple
+  wrappers around existing FDR analysis pipelines. sFDR is a natural continuous extension of
+  the FDR: we assign each hypothesis an allocation between zero and one, and the sFDR equals
+  the expected fraction of null allocation to total allocation. If one runs multiple analyses
+  of the same data by varying different reasonable choices, allocations can be determined by
+  simply dividing each run's selection indicators by its discovery count, then averaging across
+  analyses and rescaling. The resulting sFDR equals the average of the ordinary FDRs of the
+  runs, even though the runs are dependent: thus sFDR control holds under the same assumptions
+  that the original FDR control held. (In contrast, naively reporting just fractions of times
+  each variable was selected need not control the sFDR.) It is interpretable: hypotheses that
+  were always selected are allocated 1 and those never selected are allocated 0. In leukemia
+  expression and neuroimaging analyses, findings with larger allocations were more often
+  supported in separate samples. We also develop procedures that can assign stable allocations
+  directly from p-values, e-values, or knockoff statistics, resulting in stable-BH, stable e-BH
+  and stable knockoff procedures. A representation by e-values describes which allocation rules
+  control the error rate and gives ways to optimize allocations for different follow-up goals.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.19585v1
+labels:
+  - methodology
+  - theory
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.19585v1
+    arxiv: '2611.19585'
+first_date: '2026-11-14'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

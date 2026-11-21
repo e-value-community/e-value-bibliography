@@ -1,0 +1,39 @@
+title: Sequential Anytime Valid Tests for Efficient Inference-Time Alignment
+authors: Vishesh Kumar Singh, Sayak Ray Chowdhury
+year: 2026
+arxiv: '2611.26413'
+abstract: >-
+  Inference-time alignment methods, such as Best-of-N (BoN), improve language model outputs by
+  generating multiple candidates per prompt and selecting among them using a reward model. Much
+  of this cost is wasted: a fixed budget is applied to every prompt, although the computation
+  required by prompts varies widely. Adaptive methods halt once sampled answers appear settled,
+  but their thresholds are tuned heuristics with no statistical control over early-stopping
+  errors. We instead seek an anytime-valid stopping rule that takes an error tolerance $\alpha$
+  as input and halts only once an answer is certified to hold a majority ($\theta_a > 1/2$)
+  under the generator's distribution. We aggregate candidates by final answer with a
+  reward-weighted self-consistency (RWSC) score and treat stopping as a sequential test over
+  the resulting clusters. Applying Wald's sequential probability ratio test to these clusters
+  yields SPRT-RWSC, which performs well empirically, but its guarantee fails because the
+  leading answer shifts during sampling, and the run is continuously monitored. Our main
+  contribution, e-RWSC, replaces Wald's test with a betting supermartingale (an e-process) for
+  every answer the policy produces, bounding the probability of ever certifying a non-dominant
+  answer by $\alpha$, uniformly over time and across all answers. The RWSC scores drive the
+  bets, so they affect only how quickly a dominant answer $a^\star$ is certified, not validity;
+  certification takes $O(\log(1/\alpha)/d_{\mathrm{KL}}(\theta_{a^\star}\|1/2))$ samples.
+  Experiments across several language models, datasets, and reward models confirm the predicted
+  $1/d_{\mathrm{KL}}$ scaling of cost and show that accuracy improves over baselines at
+  substantially lower token cost.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.26413v1
+labels:
+  - methodology
+  - applications
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.26413v1
+    arxiv: '2611.26413'
+first_date: '2026-11-19'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

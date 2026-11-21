@@ -16,7 +16,7 @@ abstract: >-
   precisely: the minimax regret is bounded if and only if the alternatives have at least the
   variance of the null.
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2611.11874v1
+abstract_source: https://arxiv.org/abs/2611.11874v2
 labels:
   - theory
   - e-processes
@@ -24,8 +24,8 @@ labels:
 publications:
   - name: arXiv
     year: 2026
-    url: https://arxiv.org/abs/2611.11874v1
+    url: https://arxiv.org/abs/2611.11874v2
     arxiv: '2611.11874'
 first_date: '2026-11-09'
 database_added: '2026-11-11'
-database_updated: '2026-11-11'
+database_updated: '2026-11-20'

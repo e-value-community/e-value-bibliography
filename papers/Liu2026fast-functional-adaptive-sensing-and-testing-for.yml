@@ -1,0 +1,30 @@
+title: 'FAST: Functional Adaptive Sensing and Testing for Quickest Change Detection'
+authors: Peiyao Liu, Jie Guo, Zhijun Wang, Xueru Zhang, Nan Chen
+year: 2026
+arxiv: '2611.22581'
+abstract: >-
+  Quickest change detection (QCD) is studied for partially observed functional data streams. At
+  each sampling epoch, a function is realized over a continuous domain, but its values can be
+  observed at only a fixed number of locations. At an unknown change point, the functional mean
+  undergoes a shift that is assumed to admit a sparse representation in a localized basis. We
+  propose Functional Adaptive Sensing and Testing (FAST), which jointly estimates the unknown
+  post-change parameter, selects sensing locations, and performs sequential detection. A
+  minimax lower bound on the worst-case detection delay is derived under an average-run-length
+  constraint. A non-asymptotic estimation-error bound is established for the policy-dependent
+  observations induced by adaptive sensing. Under the stated regularity conditions, FAST is
+  first-order asymptotically optimal when sensing subsets are optimized exactly. Simulations
+  and a wildfire case study demonstrate the performance of the proposed procedure.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.22581v1
+labels:
+  - methodology
+  - e-detectors
+  - online learning
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.22581v1
+    arxiv: '2611.22581'
+first_date: '2026-11-17'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

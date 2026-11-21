@@ -1,0 +1,31 @@
+title: A Local False Discovery Rate Framework for Compound p-values
+authors: Jierui Zhu, Rina Foygel Barber, Nikolaos Ignatiadis
+year: 2026
+arxiv: '2611.24555'
+abstract: >-
+  Compound p-values relax individual p-value validity to an average condition across the null
+  hypotheses. This flexibility, however, need not protect particular rejections, especially
+  when paired with an average error criterion such as the false discovery rate (FDR). In this
+  work, we introduce "density-compound p-values," a concept that connects compound p-values and
+  the frequentist local FDR paradigm. Under independence, we establish boundary FDR (bFDR)
+  guarantees for the support-line (SL) procedure, with nominal-level control for weighted and
+  compound-e-weighted p-values. For general density-compound p-values, our bounds depend on a
+  tractable null-distribution parameter, and we show that without further restrictions on this
+  parameter, the bFDR can substantially exceed its nominal level. Our theory extends to
+  discrete compound p-values constructed by pooling permutation tests. Applications illustrate
+  the method in low-resolution testing problems, where individually valid permutation p-values
+  are too coarse to yield discoveries after multiplicity correction.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.24555v1
+labels:
+  - methodology
+  - e-values
+  - multiple testing
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.24555v1
+    arxiv: '2611.24555'
+first_date: '2026-11-18'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

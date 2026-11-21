@@ -1,0 +1,36 @@
+title: Anytime-valid goodness-of-fit test by $e$-spacings
+authors: Yunda Hao, Kin Wai Chan
+year: 2026
+arxiv: '2611.23775'
+abstract: >-
+  To perform an anytime-valid goodness-of-fit test, we propose spacing-based \(e\)-processes
+  that control the type-I error rate under arbitrary stopping rules. Based on the maximum
+  spacing of order statistics, we construct spacing-based \(e\)-processes for nonparametrically
+  testing distribution. The resulting procedures are simple and computationally efficient, and
+  are power-consistent. We call them $e$-spacing tests. This approach is especially powerful in
+  detecting localized discrepancy between the data-generating density and the null density.
+  Under mild conditions, the logarithm of the proposed \(e\)-process is asymptotically
+  equivalent to that of the oracle-optimal \(e\)-process. We further generalize the
+  construction from maximal spacing to maximum spacing set in the form of the \(1/k\) fraction
+  of the largest \(m\)th order spacings, as a measure of the lower-level set of density. It
+  boosts power under more global discrepancy from the null. Furthermore, we propose a greedy
+  predictable scheme, via argmax or softmax rules, to combine multiple $e$-spacing testing
+  strategies. We prove that it optimally tunes the $e$-spacing test. The proposed approach is
+  readily generalizable to multivariate testing via a coordinate-wise Rosenblatt-transform.
+  Simulation studies demonstrate that the proposed methods perform favorably relative to the
+  considered anytime-valid competitors as well as various types of multiple test-adjusted
+  Kolmogorov--Smirnov tests.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.23775v2
+labels:
+  - methodology
+  - e-values
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.23775v2
+    arxiv: '2611.23775'
+first_date: '2026-11-18'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

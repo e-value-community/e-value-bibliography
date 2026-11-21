@@ -4,26 +4,26 @@ year: 2026
 arxiv: '2610.33262'
 abstract: >-
   We study efficient, adaptive auditing of categorical labels in a fixed dataset, motivated by
-  biodiversity-credit programs in which expert verification of species records is costly and
-  downstream scores (e.g., payment) are more sensitive to errors on certain labels than on others.
-  Our proposed ATLAS framework couples anytime-valid inference with a task-aware adaptive auditing
-  policy. Representing label corrections through a confusion matrix, we prioritize which data
-  points to inspect next based on both label uncertainty and the influence of potential label
-  corrections on the downstream score function. For linear scores such as the mislabel rate, our
-  priority-aware approach certifies the overall label error rate to $\pm 2$ percentage points with
-  24% and 11% fewer audits than random sampling on biodiversity data from Kenya and a widely used
-  CIFAR-10N benchmark, respectively. For nonlinear scores such as the Hill-Shannon diversity, we
-  exploit a linear-envelope representation that reduces inference to a family of linear-score
-  audits; priority-aware sampling reaches the target precision with 36% fewer audits. When
-  distribution-free guarantees are prohibitively costly, we develop a model-based Bayesian
-  alternative that trades assumption-free validity for substantially fewer audits. Our
-  biodiversity case study highlights a gap between statistical validity and practical feasibility:
-  generic methods such as Serfling's bound and existing confidence-sequence procedures are
-  rigorous but can require prohibitively many expert reviews in practice. Together, these results
-  show task-aware auditing can significantly reduce the number of expert audits needed while
-  providing finite-sample, anytime-valid guarantees.
+  biodiversity credit programs in which expert verification of species records is costly and
+  downstream scores (e.g., payment) are more sensitive to errors on certain labels than on
+  others. Our proposed ATLAS framework couples anytime-valid inference with a task-aware
+  adaptive auditing policy. Representing label corrections through a confusion matrix, we
+  prioritize which data points to inspect next based on both label uncertainty and the
+  influence of potential label corrections on the downstream score function. In our main case
+  study on Kenyan biodiversity data, task-aware auditing reduces the expert review needed to
+  estimate both the mislabel rate and the nonlinear biodiversity score while maintaining
+  anytime-valid guarantees. We also evaluate ATLAS on public datasets for image classification
+  and named-entity recognition. Across our experiments with linear and nonlinear scores, ATLAS
+  generally reaches the same precision as competing anytime-valid methods with substantially
+  fewer audits. When distribution-free guarantees are prohibitively costly, we develop a
+  model-based Bayesian alternative that can further reduce the number of audits by relying on
+  modeling assumptions. Our biodiversity case study highlights a gap between statistical
+  validity and practical feasibility: generic methods such as Serfling's bound and existing
+  confidence-sequence procedures are rigorous but can require prohibitively many expert reviews
+  in practice. Together, these results show task-aware auditing can significantly reduce the
+  number of expert audits needed while providing finite-sample, anytime-valid guarantees
 abstract_status: source_abstract
-abstract_source: https://arxiv.org/abs/2610.33262v1
+abstract_source: https://arxiv.org/abs/2610.33262v2
 labels:
   - methodology
   - applications
@@ -32,8 +32,8 @@ labels:
 publications:
   - name: arXiv
     year: 2026
-    url: https://arxiv.org/abs/2610.33262
+    url: https://arxiv.org/abs/2610.33262v2
     arxiv: '2610.33262'
 first_date: '2026-10-23'
 database_added: '2026-11-03'
-database_updated: '2026-11-03'
+database_updated: '2026-11-20'

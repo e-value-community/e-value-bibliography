@@ -1,0 +1,37 @@
+title: Shared Models, Selective Trading, and Order Flow
+authors: Victoria Ruojie Li, Arka Prava Bandyopadhyay
+year: 2026
+arxiv: '2610.01897'
+abstract: >-
+  We study whether the diversity of language models installed in a trading population carries
+  over to the orders that reach the market. In simulated markets with five agents from each of
+  three open-weight model families, we change only how a corporate announcement is presented
+  and estimate each family's share of active orders. In two matched experiments, explanatory
+  layoff text multiplies Mistral's participation by 5.3 (from 14.0% to 74.7% of opportunities)
+  and raises its share of announcement-round orders from 17.5% to 57.4%. In a preregistered
+  study of six new events, adding one favorable and one unfavorable evaluation to identical
+  facts changes active composition in a main sample and in an independently worded replication
+  (average e-values of 6.3x10^25 and 6.7x10^40, against a threshold of 20). Within an event,
+  the change reallocates on average 21% of active decisions across families in the main sample
+  and 14% in the replication. The same reallocation appears under both wordings in three of the
+  six events; in the other three, the families that gain differ. Evaluative text also lowers
+  every family's average participation and lowers executed net flow in all twelve event-sample
+  cells, and family contributions mostly reinforce one another. In the financing event of the
+  first study, active composition changed substantially while net flow barely moved, because
+  family responses offset one another. In a stylized market-clearing benchmark, price accuracy
+  depends on both the number and the composition of active traders. The experiments do not
+  identify why the models respond to evaluations, and they do not estimate effects on price
+  accuracy.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2610.01897v2
+labels:
+  - applications
+  - e-values
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2610.01897v2
+    arxiv: '2610.01897'
+first_date: '2026-10-01'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'

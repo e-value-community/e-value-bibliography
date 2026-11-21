@@ -1,0 +1,33 @@
+title: Sequential Conditional Paired-Sample Testing with Applications to Online Monitoring
+authors: Xiaoyi Zheng, Hong Zhang
+year: 2026
+arxiv: '2611.22886'
+abstract: >-
+  We study sequential conditional paired-sample testing, where observations arrive over time
+  and the goal is to continuously assess whether two conditional distributions are equal given
+  a common set of covariates. This problem arises naturally in model monitoring, where
+  distributional changes must be detected without a prespecified terminal sample size, and in
+  online comparisons, where responses are compared conditional on subject-level
+  characteristics. We propose SCPT, an anytime-valid testing procedure for conditional
+  distributions based on sequentially constructed conditional kernel discrepancy statistics and
+  test martingales. The proposed method is nonparametric and accommodates a broad class of
+  data-generating processes beyond the i.i.d. setting. We establish time-uniform Type I error
+  control and derive asymptotic power guarantees under suitable regularity conditions. We also
+  develop several useful extensions to address different needs, including testing under broader
+  dependence structures, comparisons involving multiple auxiliary streams, and conditional
+  goodness-of-fit testing. Simulations and real-data experiments show that SCPT effectively
+  detects conditional distributional differences in streaming data, demonstrating its practical
+  utility in a wide range of real-world applications.
+abstract_status: source_abstract
+abstract_source: https://arxiv.org/abs/2611.22886v2
+labels:
+  - methodology
+  - e-processes
+publications:
+  - name: arXiv
+    year: 2026
+    url: https://arxiv.org/abs/2611.22886v2
+    arxiv: '2611.22886'
+first_date: '2026-11-17'
+database_added: '2026-11-20'
+database_updated: '2026-11-20'
